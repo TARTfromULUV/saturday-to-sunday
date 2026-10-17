@@ -4267,6 +4267,7 @@ main.has-mp { padding-bottom: 4rem; }
 .fo-w { width: 3rem; flex: none; font: 700 .7rem var(--nar); letter-spacing: .08em; text-transform: uppercase; color: var(--shell-faint); }
 .fo-m { flex: 1; min-width: 0; } .fo-m em { display: block; font-style: normal; font-size: .74rem; color: var(--shell-faint); }
 .fo-a { font-weight: 800; white-space: nowrap; } .fo-a.up { color: #1a8a4a; } .fo-a.dn { color: #c8102e; }
+.fo-a em { display: block; font-style: normal; font-size: .7rem; font-weight: 600; text-align: right; } .fo-a em.up { color: #1a8a4a; }
 .fo-h b { font: 700 1rem var(--ui); text-transform: none; letter-spacing: 0; }
 .fo-btn { border: 1px solid var(--shell-rule); background: var(--shell-card); color: var(--shell-ink); font: 700 .82rem var(--ui); padding: .45rem .9rem; border-radius: 6px; cursor: pointer; }
 .fo-btn.go { background: var(--net); border-color: var(--net); color: #fff; }
@@ -4290,3 +4291,4 @@ main.has-mp { padding-bottom: 4rem; }
 .sd-check { display: grid; gap: .2rem; font-size: .84rem; margin-top: .4rem; }
 .sd-check .ok { color: #1a8a4a; } .sd-check .no { color: #c8102e; }
 
+.fl-tag { display: inline-block; font-size: .62rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; padding: 0 .35rem; border-radius: 3px; background: var(--chrome); color: #fff; vertical-align: .1em; }

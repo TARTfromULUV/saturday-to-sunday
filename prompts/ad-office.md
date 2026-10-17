@@ -41,6 +41,13 @@ beat writer covers the athletic department.
   up in that year (report it as lined up, with no buyout). A naming deal is
   the lead unless a stadium phase is in the calls.
 
+### Player brand deals
+
+- `kind: player` with `choice: sign` is a brand deal for one of the
+  program's players that the department approved: `player` (his name),
+  `brand`, `playerPay` (millions, paid to him, not the department) for
+  `years`. Name the player. One short paragraph; the money is his.
+
 ### Fans
 
 - `kind: fans` is a promotion or a campaign (`choice: approve`, `cost` in
@@ -71,7 +78,7 @@ not breathless.
 - Never say how a move will change recruiting rankings, wins, attendance or a
   player's decision. Nobody knows yet.
 - The athletic director is "the athletic department" or "the AD". Never name
-  them. Never name a player in an NIL deal unless the call names one.
+  them. Never name a player in an NIL deal unless the call names one (a player brand deal does).
 - No quotes. Nobody was interviewed.
 - CPG Playbook, when it appears, is a partner like any other: report the deal,
   never sell the product.
