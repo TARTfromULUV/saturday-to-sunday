@@ -4192,3 +4192,49 @@ main.has-mp { padding-bottom: 4rem; }
 .br-ln.out { opacity: .5; }
 .br-ln.out .br-tm b { font-weight: inherit; }
 .br-ln:has(.br-sc) .br-rec { display: none; }
+
+/* [madden] ONE HEADER. The page title is the only big type: no desk banner,
+   no date line. Sub-tabs are an underline row; this week's piece is one
+   strip; a block's note wraps under its title instead of being cut off. */
+.sec-head { margin: .7rem 0 .7rem; }
+.sec-head h1 { font-size: 1.5rem; text-transform: none; letter-spacing: .01em; border-bottom: 0; padding-bottom: 0; }
+.sec-head p { margin-top: .2rem; font-size: .84rem; }
+.sec-head .sec-when { display: none; }
+.tabswitch { border-bottom: 1px solid var(--shell-rule); margin: .6rem 0 .7rem; display: flex; flex-wrap: wrap; gap: 0 1.2rem; }
+.tabswitch .seg { border: 0; border-radius: 0; background: none; gap: 1.1rem; }
+.tabswitch .seg button { padding: .5rem 0 .4rem; min-height: 38px; border-bottom: 3px solid transparent; }
+.tabswitch .seg button[aria-pressed="true"] { background: none; color: var(--shell-ink); border-bottom-color: var(--net); }
+.sec-strip { display: flex; align-items: center; gap: .6rem; background: var(--shell-card); border: 1px solid var(--shell-rule);
+  border-left: 4px solid var(--net); padding: .6rem .8rem; margin: 0 0 .8rem; color: inherit; text-decoration: none; cursor: pointer; }
+.sec-strip small { flex: none; font: 700 .62rem var(--nar); letter-spacing: .14em; text-transform: uppercase; color: var(--net); }
+.sec-strip b { flex: 1; min-width: 0; font-size: .92rem; line-height: 1.25; }
+.sec-strip span { color: var(--shell-faint); font-size: 1.1rem; }
+.secblock-head { flex-wrap: wrap; }
+.secblock-head i { white-space: normal; overflow: visible; text-overflow: clip; max-width: none; }
+@media (max-width: 30rem) { .secblock-head i { flex-basis: 100%; text-align: left; margin-top: .1rem; } }
+/* [madden] The Big Board: one line a prospect; tap for the scouting line. */
+.brow-d { border-bottom: 1px solid var(--shell-rule); }
+.brow-d:last-child { border-bottom: 0; }
+.brow-d > summary { list-style: none; cursor: pointer; }
+.brow-d > summary::-webkit-details-marker { display: none; }
+.brow.b1 { border-bottom: 0; flex-wrap: nowrap; align-items: center; }
+.brow.b1 .sw.logo { width: 26px; height: 26px; object-fit: contain; flex: none; }
+.brow.b1 .bgrade { font-size: 1.05rem; font-weight: 800; }
+.brow.b1 .bmove { min-width: 2.4rem; margin-right: 0; }
+.bopen { margin: 0 0 .6rem 2.9rem; padding: .5rem .65rem; background: var(--shell-hair); border: 1px solid var(--shell-rule); font-size: .82rem; }
+.bopen .bline { display: block; max-width: none; text-align: left; padding: 0 0 .3rem; font-weight: 700; }
+.bopen .plink { display: inline-block; margin-top: .35rem; color: var(--net); font-weight: 700; }
+.bnote { margin-top: .2rem; }
+/* [madden] Settings ▸ Writing budget. */
+.bud-lv { display: grid; grid-template-columns: repeat(4, 1fr); gap: .4rem; margin: .2rem 0 .5rem; }
+.bud-lv button { border: 1px solid var(--shell-rule); background: var(--shell-card); color: var(--shell-ink); padding: .55rem .2rem; font: 700 .82rem var(--ui); cursor: pointer; }
+.bud-lv button small { display: block; font-weight: 500; font-size: .7rem; color: var(--shell-soft); margin-top: .15rem; }
+.bud-lv button[aria-pressed="true"] { background: var(--shell-ink); color: var(--shell-card); border-color: var(--shell-ink); }
+.bud-lv button[aria-pressed="true"] small { color: inherit; opacity: .75; }
+.bud-custom { display: inline-flex; align-items: center; gap: .35rem; font-size: .8rem; color: var(--shell-soft); margin: 0 0 .6rem; }
+.bud-custom input { width: 4.2rem; padding: .25rem .4rem; }
+.bud-hand { display: inline-flex; align-items: center; gap: .45rem; font-size: .78rem; color: var(--shell-soft); white-space: nowrap; }
+.bud-res { background: var(--shell-hair); border: 1px solid var(--shell-rule); padding: .6rem .75rem; margin: .4rem 0 .8rem; font-size: .86rem; }
+.bud-res small { display: block; margin-top: .25rem; color: var(--shell-soft); font-size: .76rem; }
+.ew-fixed { font-size: 1.05rem; }
+.ew-half .ew-fixed { color: #fff; font-size: 1.05rem; padding: 0 .4rem; }
