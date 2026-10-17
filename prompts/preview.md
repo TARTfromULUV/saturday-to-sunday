@@ -145,3 +145,23 @@ over; win and say who is next. Build the suspense the way the round deserves:
 the first round is a door, the semifinal is one win from the title game, the
 National Championship is everything.
 
+
+## Playoff weeks and the bowls
+
+When `playoffSlate` is true, this is the College Football Playoff's week and
+the piece is about the playoff. `headline` is every game of the round
+(`playoffRoundName`), and nothing else is featured: no bowl is a featured
+entry, however highly its teams are ranked.
+
+- The open argues the round, not the bowl season.
+- Each playoff game gets the full featured treatment, under one `##` group
+  named for the round (or two groups if the round's games split naturally).
+- Then one short `## Around the bowls` section for `bowlUndercard`: each bowl
+  by its `game` name, the two teams with ranks and records, one sentence at
+  most, and the pick. The bowls are fun, and they are the undercard; the
+  whole section stays shorter than any single playoff entry.
+- There is no rest-of-slate section in a playoff week; `bowlUndercard` takes
+  its place. `smallSlate` does not apply.
+- `userGame`, if it is a bowl, is covered in `## Around the bowls` at a little
+  more depth than the others (a short paragraph), and never ahead of the
+  playoff.
