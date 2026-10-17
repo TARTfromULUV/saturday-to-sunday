@@ -3,9 +3,20 @@
 What changed in each version, newest first. The app shows this in
 **Settings ▸ Update log**.
 
+## Owner mode (owner's install only, in progress)
+
+- **Front Office on the college side too:** with a franchise linked to your dynasty and Owner mode on, the Front Office tab shows on NCAA as well and opens your club's desk.
+- **Front Office (owner mode), batch 1.** Turn it on per NFL league (Settings ▸ your league ▸ Owner mode) and a **Front Office** tab joins the top bar. You own the club:
+  - **Desk:** the treasury (opened from the club's books), the club's value and fan-base rank, then this week's two or three calls: partner offers (Kroger, CPG Playbook, Chase, Verizon, Toyota, Delta, Pepsi, a local health system), merchandise distributors and facilities projects. Sign, pass, approve or leave it for later; every call expires.
+  - **Ledger:** every call, by week, and what it cost.
+  - **The paper:** the business desk writes up your calls in the next issue.
+  - **The front page:** a Front Office box says how many calls are waiting.
+  - Calls are seeded by your league and the week, so re-generating never changes them, and Rewind takes them back. Everything lives in its own file; the save is never touched.
+  - Coming next: the calls start moving the books and the club's value, then the marketing plan, projects under way and the stadium builder.
+
 ## 1.3.0 — 2026-10-12 — Madden 27, one universe
 
-- **Updates from: Stable or Phase 2 preview** (Settings ▸ This device, on the owner's install only). Stable is the finished app; Phase 2 preview follows the owner-mode work as it lands. Switch, then Check for updates. The public download has no preview and always follows its own main.
+- **Season in review names the conference champions:** the almanac looked for the title games by a "Championship" bowl name, which the save never gives them, so it reported none. It now reads them from conference championship week.
 - **One frame on every page:** every page now wears the branded banner (your network · the league, then the page's name), not only the desk fronts. Awards, Coaches, News, Recruiting, Transfers, History, Business, Settings and the rest no longer have a plain ruled title. The order is the same everywhere: the page's tabs, the banner, the week, then the page's own buttons (Big board / By position, Of the week / Heisman, the Moves lists, a team's Season / Dynasty) as one row of buttons, then This week's piece and the blocks. Team pages wear the banner in the team's colours with its logo. Your own section artwork still replaces the drawn banner.
 - **Playoff seeds, everywhere:** the bracket is seeded the way the playoff is drawn. The four byes are 1–4, each first-round host is 5–8 and its visitor 17 minus that (5 v 12, 6 v 11, 7 v 10, 8 v 9), and the quarterfinals pair 1 with 8/9, 2 with 7/10, 3 with 6/11 and 4 with 5/12. Once the field is set, a playoff game's teams show their seed instead of their poll rank on Scores, Picks and the score ticker, so a 12 seed ranked 14th in the poll reads 12 there just as on the bracket. The writers are told each side's seed and call playoff teams by it.
 - **Tidier desk headers:** sub-tabs are a slim underlined row, the week's piece is a one-line **This week** strip, and section notes wrap under the title instead of being cut off on a phone. The desk banners (Draft Central, Expert Picks, Scoreboard…) stay.

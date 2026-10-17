@@ -4241,3 +4241,31 @@ main.has-mp { padding-bottom: 4rem; }
 .tm-head.tm-banner .sd-kick { margin-bottom: .1rem; }
 .tabswitch:not(.hub) .seg { display: flex; max-width: 100%; }
 .tabswitch:not(.hub) .seg button { flex: 0 0 auto; white-space: nowrap; }
+
+/* [madden] OWNER MODE (Phase 2): the Front Office desk and ledger. */
+.fo-kpis { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .45rem; margin: .4rem 0 .5rem; }
+.fo-kpi { background: var(--shell-hair); border-left: 3px solid var(--net); padding: .45rem .55rem; min-width: 0; }
+.fo-kpi small { display: block; font: 700 .6rem var(--nar); letter-spacing: .12em; text-transform: uppercase; color: var(--shell-faint); }
+.fo-kpi b { display: block; font-family: var(--nar); font-size: 1.35rem; line-height: 1.1; }
+.fo-kpi em { font-style: normal; font-size: .7rem; color: #1a8a4a; font-weight: 700; } .fo-kpi em.dn { color: #c8102e; }
+.fo-card { border: 1px solid var(--shell-rule); background: var(--shell-card); padding: .65rem .7rem; margin: .5rem 0; }
+.fo-card.later { border-style: dashed; }
+.fo-card small { font: 700 .62rem var(--nar); letter-spacing: .14em; text-transform: uppercase; color: var(--net); }
+.fo-h { display: flex; justify-content: space-between; gap: .6rem; align-items: baseline; margin-top: .15rem; }
+.fo-h b { font-size: 1rem; line-height: 1.25; } .fo-h span { font-weight: 800; white-space: nowrap; } .fo-h .up { color: #1a8a4a; } .fo-h .dn { color: #c8102e; }
+.fo-card p { margin: .3rem 0 .45rem; font-size: .86rem; color: var(--shell-soft); line-height: 1.4; }
+.fo-fx { display: flex; flex-wrap: wrap; gap: .3rem; margin-bottom: .55rem; }
+.fo-fx span { font-size: .68rem; font-weight: 700; padding: .12rem .45rem; border-radius: 999px; background: #eaf6ef; color: #1a8a4a; }
+.fo-fx span.soon { background: var(--shell-hair); color: var(--shell-soft); } .fo-fx span.neg { background: #fdecee; color: #c8102e; }
+.fo-btns { display: flex; gap: .4rem; align-items: center; flex-wrap: wrap; } .fo-btns i { margin-left: auto; font-style: normal; font-size: .72rem; color: var(--shell-faint); }
+.fo-done { display: flex; gap: .5rem; align-items: baseline; font-size: .86rem; padding: .5rem .6rem; margin: .4rem 0; background: #eef7f1; border: 1px solid #cfe8d8; }
+.fo-done.pass, .fo-done.expired { background: var(--shell-hair); border-color: var(--shell-rule); }
+.fo-done b { color: #1a8a4a; } .fo-done.pass b, .fo-done.expired b { color: var(--shell-soft); }
+.fo-row { display: flex; gap: .6rem; padding: .5rem 0; border-bottom: 1px solid var(--shell-hair); align-items: baseline; font-size: .88rem; }
+.fo-row:last-child { border-bottom: 0; }
+.fo-w { width: 3rem; flex: none; font: 700 .7rem var(--nar); letter-spacing: .08em; text-transform: uppercase; color: var(--shell-faint); }
+.fo-m { flex: 1; min-width: 0; } .fo-m em { display: block; font-style: normal; font-size: .74rem; color: var(--shell-faint); }
+.fo-a { font-weight: 800; white-space: nowrap; } .fo-a.up { color: #1a8a4a; } .fo-a.dn { color: #c8102e; }
+.fo-h b { font: 700 1rem var(--ui); text-transform: none; letter-spacing: 0; }
+.fo-btn { border: 1px solid var(--shell-rule); background: var(--shell-card); color: var(--shell-ink); font: 700 .82rem var(--ui); padding: .45rem .9rem; border-radius: 6px; cursor: pointer; }
+.fo-btn.go { background: var(--net); border-color: var(--net); color: #fff; }
