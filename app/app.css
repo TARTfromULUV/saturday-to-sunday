@@ -4292,3 +4292,7 @@ main.has-mp { padding-bottom: 4rem; }
 .sd-check .ok { color: #1a8a4a; } .sd-check .no { color: #c8102e; }
 
 .fl-tag { display: inline-block; font-size: .62rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; padding: 0 .35rem; border-radius: 3px; background: var(--chrome); color: #fff; vertical-align: .1em; }
+.mk-bars { display: flex; align-items: flex-end; gap: .35rem; height: 70px; margin: .4rem 0; }
+.mk-bars div { flex: 1; display: grid; gap: 2px; justify-items: center; font-size: .62rem; color: var(--shell-faint); align-content: end; }
+.mk-bars i { display: block; width: 100%; background: #c8102e; border-radius: 3px 3px 0 0; }
+.mk-bars .hot i { background: #1a8a4a; }

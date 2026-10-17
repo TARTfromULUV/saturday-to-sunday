@@ -11,7 +11,7 @@ beat writer covers the athletic department.
 - `calls`: each move, newest first. `title` names it ("Launch the Owl Nest
   Collective", "Kroger: player NIL deals", "Indoor practice facility").
   `choice` is `sign` (a deal) or `approve` (something the department pays
-  for). `kind` is collective, campaign, partner, nil, facility, community, naming or fans.
+  for). `kind` is collective, campaign, partner, nil, facility, community, naming, fans, player, marketing, retail or merch.
   - A deal carries `years` and either `perYear` (millions of dollars a year
     to the department) or `nilPerYear` (millions a year for the players'
     name, image and likeness deals, which goes to the players, not the
@@ -47,6 +47,25 @@ beat writer covers the athletic department.
   program's players that the department approved: `player` (his name),
   `brand`, `playerPay` (millions, paid to him, not the department) for
   `years`. Name the player. One short paragraph; the money is his.
+
+### Marketing and retail
+
+- `kind: marketing` (`choice: approve`) is the season's marketing plan:
+  `planAim` (local, regional or national) and `planBudget` (thousands of
+  dollars, also `cost` in millions), with the following it is expected to
+  add, `followLo` to `followHi`. A sentence or two.
+- `kind: retail` with `choice: approve` is a retail promotion: the program
+  licensed its logo to `brand` for a `product` sold at `retailer` in
+  `stores` stores for `weeks` weeks, at `price`, for a `licensingFee`
+  (millions) and a `royaltyRate` on each pack. `expectedPacks` is a forecast
+  range; say it as a forecast.
+- `kind: retail` with `choice: result` is how it went: `packsSold`, the
+  `royalty` (millions), and `homeWinWeeks`, how many weeks of the run had a
+  home win. If it beat or missed the forecast, say so plainly. The fee and
+  royalty go to the department.
+- `kind: merch` with `choice: sign` is the merchandise distributor for
+  `years` seasons: `distributor` regional or national, `perYear` its
+  estimated yearly cut (millions).
 
 ### Fans
 
