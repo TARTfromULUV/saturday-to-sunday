@@ -5,6 +5,8 @@ What changed in each version, newest first. The app shows this in
 
 ## 1.3.0 — 2026-10-12 — Madden 27, one universe
 
+- **Banner shows the game's week:** the masthead now reads the week your console is on (Week 18 when the game is in Week 18, Conf on conference championship week), while the stories still cover the week before, so nothing you haven't played leaks. Hover the week to see both. Shows up on your next Generate.
+- **Banner fits on small phones:** short stage names (Conf. Champ, or just Conf and Wk 18 on the narrowest screens), so the ESPN and S2S logos are never cut off.
 - **Leagues lined up by the calendar:** the "+N wks" badge on the NCAA | NFL switch compares where each league is on the real calendar, not the week numbers (college conference championships are early December, NFL Week 15 mid-December; the college playoff and the NFL's late weeks no longer read wrong). Tap the badge for **Where each league is**: both seasons on one calendar, each league's stage and rough date, and how many weeks to advance to line them up.
 - **Settings ▸ Features:** a new tab with everything S2S does, grouped (the paper, scores and stats, the draft, college, NFL, both leagues, your setup), each with a **Go** button to where it lives.
 - **Update log tab removed:** what changed stays in CHANGELOG.md in the app folder. Settings is now Settings · Features · Help · About.

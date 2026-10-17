@@ -4177,3 +4177,13 @@ main.has-mp { padding-bottom: 4rem; }
 .ls-where b { display: block; font: 800 .85rem var(--ui); margin-top: .15rem; }
 .ls-where small { font-size: .72rem; color: var(--shell-soft); }
 .ls-gap { margin: .8rem 0 .2rem; padding: .5rem .65rem; border-radius: 6px; background: #fff8e1; color: #6b5000; font: 700 .8rem var(--ui); }
+/* [madden] The marks keep their room; the week gives way first. */
+.mark-row .mark-img, .mark-s2s { flex: none; }
+.mark { flex: 1 0 auto; }
+@media (max-width: 26rem) {
+  .gt-pill { padding-left: .55rem; padding-right: .55rem; letter-spacing: .06em; }
+  .mast-when { margin-left: .35rem; letter-spacing: .05em; }
+  .mark { flex-grow: 0; }
+}
+.mast-when .mw-t { display: none; }
+@media (max-width: 23.5rem) { .mast-when .mw-s { display: none; } .mast-when .mw-t { display: inline; } }
