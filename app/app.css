@@ -4296,3 +4296,6 @@ main.has-mp { padding-bottom: 4rem; }
 .mk-bars div { flex: 1; display: grid; gap: 2px; justify-items: center; font-size: .62rem; color: var(--shell-faint); align-content: end; }
 .mk-bars i { display: block; width: 100%; background: #c8102e; border-radius: 3px 3px 0 0; }
 .mk-bars .hot i { background: #1a8a4a; }
+.sd-stack { display: flex; height: 18px; border-radius: 4px; overflow: hidden; margin: .2rem 0 .5rem; }
+.sd-stack span { display: block; height: 100%; }
+.sd-key { display: inline-block; width: .7rem; height: .7rem; border-radius: 2px; margin-right: .4rem; vertical-align: -.05rem; }

@@ -12,7 +12,26 @@ club, written the way a team's business reporter writes it.
   or `approve` (a project the club is paying for). A deal carries `years`
   and `perYear` (millions of dollars a year); a project carries `cost`
   (millions), `seasons` (how long it takes) and `finish` (the year it is
-  done). `kind` is partner, product, distributor, facility or community.
+  done). `kind` is partner, product, distributor, facility, community,
+  naming or stadium.
+
+### The stadium
+
+- `kind: stadium` with `choice: approve` is a stadium project the owner
+  started: `phase` (its name in the plan), `phaseKind` (renovation,
+  expansion or new), `cost` (millions), `seasons` to build, and `finance`,
+  how it is paid for, in millions: `clubCash`, `leagueLoan`, `publicMoney`
+  (0 when the state has not put money in), `namingRights`, `seatLicenses`
+  and `bonds`, repaid at `bondPerYear` over `bondYears`. Report the mix
+  plainly; never invent a vote, a lawmaker or a site.
+- `choice: open` is the ribbon cutting: the work is done and the stadium
+  seats `capacity`. When it is in the calls, it is the lead.
+- `stadiumSpot` on a deal means the partner's name goes up in the stadium
+  (`ad_boards`: a strip of the ad boards; `goal_pads`: the goal post pads).
+- `kind: naming` is the stadium's new name, `stadiumName`, for `years` at
+  `perYear`. `replaces` and `buyout` (millions) when it ended an earlier
+  deal; `startsYear` when it waits for that deal to run out (lined up, no
+  buyout). A naming deal leads unless a stadium project is in the calls.
 
 ## The shape
 
