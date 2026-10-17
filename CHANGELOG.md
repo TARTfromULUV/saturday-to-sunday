@@ -3,21 +3,6 @@
 What changed in each version, newest first. The app shows this in
 **Settings ▸ Update log**.
 
-## Owner mode (owner's install only, in progress)
-
-- **Batch 2: your calls move the money, and the AD's desk for college.**
-  - **The money moves.** A signed deal pays its yearly sum a week at a time for its years; an approved project costs its price up front and opens seasons later. On the NFL desk, deals add to the club's value while they run and projects add to it once open. Every card says, in numbers, what it will move before you decide. You can't approve what you can't pay for.
-  - **Projects tab** (both leagues): what is building with how far along it is, the deals running and what each has paid so far.
-  - **College: the athletic director's desk.** Turn on AD mode in Settings ▸ your college league. The budget opens at your program's own budget this season (the game's program points in dollars), beside the NIL pool and your facilities level and grade. The calls are a college department's: launch a booster collective (name it in Settings), local NIL partners for your players (Kroger, Chick-fil-A franchisees, area dealerships, CPG Playbook), an outfitter, pouring and media rights, donor drives, and facility projects priced for a program your size. Three facility projects open earn the next facilities tier, which you buy in the game at season recap; S2S sees it on the next read. The money desk writes each call up.
-- **Front Office on the college side too:** with a franchise linked to your dynasty and Owner mode on, the Front Office tab shows on NCAA as well and opens your club's desk.
-- **Front Office (owner mode), batch 1.** Turn it on per NFL league (Settings ▸ your league ▸ Owner mode) and a **Front Office** tab joins the top bar. You own the club:
-  - **Desk:** the treasury (opened from the club's books), the club's value and fan-base rank, then this week's two or three calls: partner offers (Kroger, CPG Playbook, Chase, Verizon, Toyota, Delta, Pepsi, a local health system), merchandise distributors and facilities projects. Sign, pass, approve or leave it for later; every call expires.
-  - **Ledger:** every call, by week, and what it cost.
-  - **The paper:** the business desk writes up your calls in the next issue.
-  - **The front page:** a Front Office box says how many calls are waiting.
-  - Calls are seeded by your league and the week, so re-generating never changes them, and Rewind takes them back. Everything lives in its own file; the save is never touched.
-  - Coming next: the calls start moving the books and the club's value, then the marketing plan, projects under way and the stadium builder.
-
 ## 1.3.0 — 2026-10-12 — Madden 27, one universe
 
 - **Your coaching tree, and where your assistants went:** Wire ▸ Coaches ▸ Carousel now shows **Your coaching tree**: every coordinator who served under your head coach and where he is now (his new job, or retired, in the NFL, out of coaching). Every coach card's tree says the same for its branches. With MyDynasty, its carousel record fills in the staffs and the moves.
