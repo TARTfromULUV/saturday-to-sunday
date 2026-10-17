@@ -5,6 +5,7 @@ What changed in each version, newest first. The app shows this in
 
 ## 1.3.0 — 2026-10-12 — Madden 27, one universe
 
+- **Leagues lined up by the calendar:** the "+N wks" badge on the NCAA | NFL switch compares where each league is on the real calendar, not the week numbers (college conference championships are early December, NFL Week 15 mid-December; the college playoff and the NFL's late weeks no longer read wrong). Tap the badge for **Where each league is**: both seasons on one calendar, each league's stage and rough date, and how many weeks to advance to line them up.
 - **Settings ▸ Features:** a new tab with everything S2S does, grouped (the paper, scores and stats, the draft, college, NFL, both leagues, your setup), each with a **Go** button to where it lives.
 - **Update log tab removed:** what changed stays in CHANGELOG.md in the app folder. Settings is now Settings · Features · Help · About.
 - **Old settings cleared out:** Watch the save (always on), Update the app automatically (Install update replaces it), the Hall of Fame bars (the defaults stand) and the Recruit-to-Pro labels switch (always shown) are gone from the code, not just hidden.

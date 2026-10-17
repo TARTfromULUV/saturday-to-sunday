@@ -4158,3 +4158,22 @@ main.has-mp { padding-bottom: 4rem; }
 .feat-row span { flex: 1; min-width: 0; }
 .feat-row b { display: block; font-weight: 700; }
 .feat-row small { display: block; margin-top: .15rem; font-size: .8rem; color: var(--shell-soft); line-height: 1.4; }
+
+/* [madden] Where each league is: both seasons on one calendar. */
+.gt-ahead { cursor: pointer; }
+.ls-months, .ls-lane { display: grid; grid-template-columns: 3rem 1fr; gap: .5rem; align-items: center; }
+.ls-months > div { position: relative; height: 1rem; }
+.ls-months i { position: absolute; transform: translateX(-50%); font: 700 .6rem var(--ui); font-style: normal; letter-spacing: .1em; text-transform: uppercase; color: var(--shell-faint); }
+.ls-lane { margin: .9rem 0 .4rem; }
+.ls-lane > b { font: 800 .72rem var(--ui); letter-spacing: .08em; }
+.ls-track { position: relative; height: 1.9rem; border-radius: 6px; background: var(--shell-hair, #eceef0); }
+.ls-seg { position: absolute; top: 0; bottom: 0; display: flex; align-items: center; justify-content: center; overflow: hidden; white-space: nowrap; font: 600 .56rem var(--ui); font-style: normal; color: #4b535c; border-right: 1px solid var(--shell-card); }
+.ls-seg.reg { background: #dfe3e8; } .ls-seg.post { background: #f6e1bf; }
+.ls-you { position: absolute; top: -.35rem; bottom: -.35rem; width: 3px; margin-left: -1px; border-radius: 2px; background: #c8102e; }
+.ls-you em { position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%); font: 800 .58rem var(--ui); font-style: normal; color: #c8102e; white-space: nowrap; }
+.ls-where { display: grid; grid-template-columns: 1fr 1fr; gap: .5rem; margin-top: .9rem; }
+.ls-where div { background: var(--shell-bg); border-radius: 8px; padding: .55rem .65rem; }
+.ls-where i { display: block; font: 800 .56rem var(--ui); font-style: normal; letter-spacing: .1em; text-transform: uppercase; color: var(--shell-faint); }
+.ls-where b { display: block; font: 800 .85rem var(--ui); margin-top: .15rem; }
+.ls-where small { font-size: .72rem; color: var(--shell-soft); }
+.ls-gap { margin: .8rem 0 .2rem; padding: .5rem .65rem; border-radius: 6px; background: #fff8e1; color: #6b5000; font: 700 .8rem var(--ui); }
