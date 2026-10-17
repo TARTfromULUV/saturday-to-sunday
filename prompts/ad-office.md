@@ -11,7 +11,7 @@ beat writer covers the athletic department.
 - `calls`: each move, newest first. `title` names it ("Launch the Owl Nest
   Collective", "Kroger: player NIL deals", "Indoor practice facility").
   `choice` is `sign` (a deal) or `approve` (something the department pays
-  for). `kind` is collective, campaign, partner, nil, facility or community.
+  for). `kind` is collective, campaign, partner, nil, facility, community, naming or fans.
   - A deal carries `years` and either `perYear` (millions of dollars a year
     to the department) or `nilPerYear` (millions a year for the players'
     name, image and likeness deals, which goes to the players, not the
@@ -30,6 +30,24 @@ beat writer covers the athletic department.
   now seats `capacity`. When it is in the calls, it is the lead.
 - `stadiumSpot` on a deal means the partner's name goes up in the stadium
   (`ad_boards`: a strip of the ad boards; `goal_pads`: the goal post pads).
+
+### Naming rights
+
+- `kind: naming` with `choice: sign` is the stadium's new name,
+  `stadiumName`, for `years` at `perYear`. When it ends an earlier deal,
+  `replaces` names the old name and `buyout` (millions) is what the
+  department paid to leave it early. When `startsYear` is set, nothing
+  changes yet: the department waited out the old deal and the new name goes
+  up in that year (report it as lined up, with no buyout). A naming deal is
+  the lead unless a stadium phase is in the calls.
+
+### Fans
+
+- `kind: fans` is a promotion or a campaign (`choice: approve`, `cost` in
+  millions, often thousands of dollars): it runs `campaignWeeks`, and may
+  carry `moodChange` (the fan base's mood) and `newFollowers` (social
+  followers). One or two sentences each, near the end; never the lead
+  unless it is the only call. Never claim it filled seats.
 
 ## The shape
 
