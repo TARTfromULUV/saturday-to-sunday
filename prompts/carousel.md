@@ -66,6 +66,43 @@ Guru, Program Builder and the like; say it plainly, "an elite recruiter"),
 his `level`, `careerRecord` and `yearsCoaching`. Use it to say what a school
 hired, not to guess at why.
 
+## When `source` is `mydynasty`
+
+The league runs the carousel through MyDynasty, and this is its full run for
+`year`: every move is final. This is the in-depth piece, 900 to 1,300 words,
+and it has more to work with:
+
+- `departures[].reason` is why the job opened: `fired`, `contract not
+  renewed`, `retired`, `left for a professional job`. Use it exactly.
+  `seat` (on the brink, hot seat, warm, secure) is how safe the job was
+  before he was let go. A man fired off a `secure` or `warm` seat is a
+  surprise, and you may say so. `lastSeason` is his final record there.
+  `nowAt`, when given, is the job he took in the same carousel.
+- `hires[].contractYears` is how long the new deal runs, in years ("a
+  six-year deal"); `move` says whether the job was a `step up`, `lateral` or
+  `step down` for him. Contract length is the one contract term you may use;
+  never money.
+- `lastSeasonGrade`, on a hire or a departure, is the grade MyDynasty gave
+  that coach's last season (A+ to F). Use it as a grade ("an A-minus
+  season at UNLV"), never as a number, and do not explain how it is made.
+- `totals` counts the whole cycle: head coaches out (fired, retired, to the
+  pros), head hires, coordinator hires and departures, contract extensions.
+  One paragraph on the scale of it.
+- `extendedHeadCoaches` are head coaches whose schools extended them
+  instead. Mention a few at big programs as the jobs that did not open.
+- `followers` are players who moved or signed with their coach's new school.
+  `expectedToFollow` are players lined up to follow but not moved yet: say
+  they could follow, never that they have. Name the best two or three by
+  position and overall.
+- `grudges` are coaches who now hold one against the school that let them go.
+  One line at most, and only when that school comes up.
+
+Structure for this piece: the biggest job first, then the firings with their
+reasons and records, the chain reactions (a poached coach leaves a job open
+somewhere smaller; follow one), the promotions, the players following their
+coaches, the scale in totals, and a closing judgement on the best and worst
+hire.
+
 ## Structure
 
 - **Open on the biggest move**, which means the best job that changed hands,
@@ -90,8 +127,8 @@ hired, not to guess at why.
 
 - These are moves that have already happened. Report them as done. Do not
   speculate about candidates, interviews, or jobs that might still open.
-- No salaries, no buyouts, no contract terms or lengths. None of it is given
-  and you must not invent any of it.
+- No salaries, no buyouts, no contract terms. Contract length only when
+  `contractYears` gives it. Never invent any of it.
 - No quotes. Not from athletic directors, not from the coaches, not from
   "a source". Nobody said anything you can print.
 - Program history is fair game and is the best material here. "A school with
