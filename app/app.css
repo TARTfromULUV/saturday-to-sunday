@@ -4193,13 +4193,8 @@ main.has-mp { padding-bottom: 4rem; }
 .br-ln.out .br-tm b { font-weight: inherit; }
 .br-ln:has(.br-sc) .br-rec { display: none; }
 
-/* [madden] ONE HEADER. The page title is the only big type: no desk banner,
-   no date line. Sub-tabs are an underline row; this week's piece is one
-   strip; a block's note wraps under its title instead of being cut off. */
-.sec-head { margin: .7rem 0 .7rem; }
-.sec-head h1 { font-size: 1.5rem; text-transform: none; letter-spacing: .01em; border-bottom: 0; padding-bottom: 0; }
-.sec-head p { margin-top: .2rem; font-size: .84rem; }
-.sec-head .sec-when { display: none; }
+/* [madden] Sub-tabs are an underline row; this week's piece is one strip;
+   a block's note wraps under its title instead of being cut off. */
 .tabswitch { border-bottom: 1px solid var(--shell-rule); margin: .6rem 0 .7rem; display: flex; flex-wrap: wrap; gap: 0 1.2rem; }
 .tabswitch .seg { border: 0; border-radius: 0; background: none; gap: 1.1rem; }
 .tabswitch .seg button { padding: .5rem 0 .4rem; min-height: 38px; border-bottom: 3px solid transparent; }
@@ -4225,16 +4220,3 @@ main.has-mp { padding-bottom: 4rem; }
 .bopen .bline { display: block; max-width: none; text-align: left; padding: 0 0 .3rem; font-weight: 700; }
 .bopen .plink { display: inline-block; margin-top: .35rem; color: var(--net); font-weight: 700; }
 .bnote { margin-top: .2rem; }
-/* [madden] Settings ▸ Writing budget. */
-.bud-lv { display: grid; grid-template-columns: repeat(4, 1fr); gap: .4rem; margin: .2rem 0 .5rem; }
-.bud-lv button { border: 1px solid var(--shell-rule); background: var(--shell-card); color: var(--shell-ink); padding: .55rem .2rem; font: 700 .82rem var(--ui); cursor: pointer; }
-.bud-lv button small { display: block; font-weight: 500; font-size: .7rem; color: var(--shell-soft); margin-top: .15rem; }
-.bud-lv button[aria-pressed="true"] { background: var(--shell-ink); color: var(--shell-card); border-color: var(--shell-ink); }
-.bud-lv button[aria-pressed="true"] small { color: inherit; opacity: .75; }
-.bud-custom { display: inline-flex; align-items: center; gap: .35rem; font-size: .8rem; color: var(--shell-soft); margin: 0 0 .6rem; }
-.bud-custom input { width: 4.2rem; padding: .25rem .4rem; }
-.bud-hand { display: inline-flex; align-items: center; gap: .45rem; font-size: .78rem; color: var(--shell-soft); white-space: nowrap; }
-.bud-res { background: var(--shell-hair); border: 1px solid var(--shell-rule); padding: .6rem .75rem; margin: .4rem 0 .8rem; font-size: .86rem; }
-.bud-res small { display: block; margin-top: .25rem; color: var(--shell-soft); font-size: .76rem; }
-.ew-fixed { font-size: 1.05rem; }
-.ew-half .ew-fixed { color: #fff; font-size: 1.05rem; padding: 0 .4rem; }
