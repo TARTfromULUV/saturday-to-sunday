@@ -1,0 +1,25 @@
+WRITER PHOTOS
+
+One image per writer, named after them. Settings prints the exact filename
+next to each name as you type it.
+
+With the writers this build ships with, that is:
+
+  Ray Halloran      ray-halloran.png
+  Dele Okafor       dele-okafor.png
+  Marco Vetrano     marco-vetrano.png
+
+Rename a writer in Settings and the expected filename changes with them.
+Square images look best - they are drawn small and round-cornered.
+A writer with no image gets a monogram instead.
+
+NFL staff (the NFL site's masthead, Settings > NFL > NFL staff):
+
+  Tom Varga      tom-varga.png
+  Nick Castellano     nick-castellano.png
+  Joe Pruitt     joe-pruitt.png
+  Sam Okafor     sam-okafor.png
+  Walt Kessler     walt-kessler.png
+
+.png, .jpg or .webp all work. Drop them here (or in your data folder's
+branding/staff) and they appear next to the bylines and in The Regulars.

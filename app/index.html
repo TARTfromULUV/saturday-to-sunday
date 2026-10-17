@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!-- viewport-fit=cover plus the safe-area insets in CSS is what makes an
+     installed PWA fill an iPhone screen without sliding under the notch. -->
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<title>S2S</title>
+<!-- Replaced by the server with a hash of the app files. The page compares it
+     against what the PC is serving, which is how a stale cached build is
+     detected no matter what the service worker is doing. -->
+<meta name="db-build" content="__BUILD__">
+
+<!-- Installability. `mobile-web-app-capable` is the current spelling; the
+     apple- one is deprecated but is still what older iOS reads, so both. -->
+<link rel="manifest" href="/manifest.webmanifest">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="S2S">
+<meta name="theme-color" content="#121926">
+<link rel="apple-touch-icon" href="/icons/icon-180.png?b=__BUILD__">
+<link rel="icon" href="/icons/icon-192.png?b=__BUILD__">
+
+<!-- Team-coloured issue styles, swapped when the dynasty changes. -->
+<link id="issue-style" rel="stylesheet" href="">
+<link rel="stylesheet" href="/app.css?b=__BUILD__">
+</head>
+<body>
+
+<div id="root">
+  <div class="boot">
+    <div class="boot-mark">VE</div>
+    <p>Connecting to your generator…</p>
+  </div>
+</div>
+
+<!-- THE PAGE SAYS WHAT WENT WRONG. Plain old script, deliberately: it has to
+     run on a browser that cannot run the app, which is exactly the case it
+     is for. If the app's script throws, fails to parse, or never gets as
+     far as drawing (older iOS, a content blocker, a request that hangs),
+     this replaces the blank page with the error, the device, and whether
+     the PC answered — one screenshot instead of a guessing game. -->
+<script>
+(function () {
+  var booted = false;
+  var shown = false;
+  window.__vespnBooted = function () { booted = true; };
+  function esc(s) { return String(s).replace(/[&<>]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]; }); }
+  function panel(title, lines) {
+    if (shown) return;
+    shown = true;
+    var root = document.getElementById('root') || document.body;
+    root.innerHTML = '<div style="font:15px/1.5 -apple-system,Segoe UI,Roboto,sans-serif;color:#eee;background:#161b22;padding:22px 18px;min-height:100vh;box-sizing:border-box">'
+      + '<div style="font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#f5a623;margin-bottom:8px">S2S</div>'
+      + '<h1 style="font-size:20px;margin:0 0 12px">' + esc(title) + '</h1>'
+      + lines.map(function (l) { return '<p style="margin:0 0 10px;overflow-wrap:anywhere;word-break:break-word">' + l + '</p>'; }).join('')
+      + '<p style="margin-top:18px;color:#9aa4b2;font-size:13px">Screenshot this page and send it to whoever runs the app.</p>'
+      + '</div>';
+  }
+  function device() { return esc(navigator.userAgent); }
+  function show(err, where) {
+    var msg = err && err.message ? err.message : String(err);
+    panel('The app hit an error on this device', [
+      '<b>Error:</b> ' + esc(msg) + (where ? ' <span style="color:#9aa4b2">(' + esc(where) + ')</span>' : ''),
+      '<b>Device:</b> ' + device(),
+      '<b>Page build:</b> ' + esc((document.querySelector('meta[name=db-build]') || {}).content || '?'),
+      // [madden] where it broke: the top of the stack, so a screenshot is enough
+      (err && err.stack ? '<b>Where:</b> <code style="font-size:12px">' + esc(String(err.stack).split('\n').slice(1, 5).map(function (l) { return l.trim().replace(/https?:\/\/[^/]+/g, ''); }).join(' ← ')) + '</code>' : ''),
+      'The PC answered, so the connection is fine; the app itself failed to run here. An older phone software version is the usual cause.'
+    ]);
+  }
+  window.addEventListener('error', function (e) {
+    if (e && e.target && e.target !== window && !e.message) {
+      // A script or stylesheet that failed to LOAD (blocked, 404), not a thrown error.
+      var src = e.target.src || e.target.href || '';
+      if (src) panel('Part of the app could not be loaded', ['<b>Blocked or missing:</b> ' + esc(src), '<b>Device:</b> ' + device(), 'A content blocker or privacy setting on this device is the usual cause. Try turning content blockers off for this site, then reload.']);
+      return;
+    }
+    // [madden] "Script error." with no file and no line is a MUTED error: the
+    // browser hides the detail because the script was not the app's (a Safari
+    // extension, a content blocker, translate). Not ours to report, and never
+    // a reason to wipe a page that is working.
+    if (!e.error && !e.filename && !e.lineno && /^script error\.?$/i.test(String(e.message || '').trim())) return;
+    show(e.error || e.message, (e.filename || '') + (e.lineno ? ':' + e.lineno : ''));
+  }, true);
+  window.addEventListener('unhandledrejection', function (e) { show(e.reason); });
+  // The watchdog: no error, but nothing drawn either.
+  setTimeout(function () {
+    if (booted || shown) return;
+    var lines = ['<b>Device:</b> ' + device()];
+    var done = function (extra) { panel('The page loaded, but the app did not start', lines.concat(extra)); };
+    try {
+      var x = new XMLHttpRequest();
+      x.open('GET', '/api/health', true);
+      x.timeout = 5000;
+      x.onload = function () { done(['<b>PC answered:</b> yes (HTTP ' + x.status + ')', 'The connection works and the PC is fine. The app script did not run on this device: check the phone software version and any content blockers, then reload.']); };
+      x.onerror = x.ontimeout = function () { done(['<b>PC answered:</b> no', 'The page came from the PC but follow-up requests are being blocked on this device. On iPhone, check Settings &rsaquo; Apps &rsaquo; Safari &rsaquo; Local Network is on, then reload.']); };
+      x.send();
+    } catch (err) { done(['<b>PC answered:</b> could not ask (' + esc(err && err.message) + ')']); }
+  }, 9000);
+})();
+</script>
+<script src="/app.js?b=__BUILD__" type="module"></script>
+</body>
+</html>

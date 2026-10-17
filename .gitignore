@@ -1,0 +1,73 @@
+# Vintage ESPN App — what never goes in the repo.
+#
+# Two things here actually matter. The rest is housekeeping.
+#
+#  1. dynasty-data/ holds server.json, and server.json holds the access key
+#     that is printed in your phone link. Anyone with it can read (and
+#     generate on) your site while the app is running. Normally this folder
+#     lives in AppData and is nowhere near the repo — but "portable mode"
+#     (a portable.txt next to the .bat) deliberately puts it inside the app
+#     folder, and that is how it would get committed by accident.
+#
+#  2. Dynasty archives are somebody's save history. Big, private, and
+#     meaningless to anyone else.
+#
+# Your API key is NOT here because the app never writes it down: it is read
+# from the ANTHROPIC_API_KEY environment variable at run time. Keep it that
+# way — don't paste a key into a file in this folder.
+
+# --- dependencies (npm install rebuilds these, and they are enormous)
+node_modules/
+package-lock.json.bak
+
+# --- the data folder, wherever it ends up
+dynasty-data/
+portable.txt
+**/server.json
+*.incomplete-*
+*.migrating
+
+# --- a dynasty's own history
+archive/
+dynasty-*/
+issues/
+weeks/
+prompts/y*/
+state.json
+.state/
+
+# --- Codex trial reports (tools/codex-trial.mjs): full prompts and replies
+codex-trial/
+
+# --- run logs and rejected replies (diagnostics, often several MB)
+*.log
+_run-log.txt
+_rejected-*.txt
+team-images-usage.json
+
+# --- local settings and editor noise
+.env
+.env.*
+config.json
+.vscode/
+.idea/
+*.swp
+
+# --- OS clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- build leftovers
+*.zip
+!branding-defaults/**/*.zip
+
+# The photo library ships WITH the app, so it is deliberately NOT ignored.
+# If the repo ever gets too heavy, uncomment the next line and hand the
+# library out as a separate download instead.
+# app/team-images-library/
+
+# --- Madden port test material: copies of real saves and weeks shared for
+# review (tools/share-week.ps1 adds review/ with -f when asked to)
+fixtures/
+review/

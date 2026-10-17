@@ -1,0 +1,20 @@
+SECTION ARTWORK
+
+One wide image per section (roughly 16:9). Drop them here and reload.
+Any of the names on a line will be picked up for that section.
+
+  Scores          scores.png  or  scoreboard.png  or  results.png
+  Top 25          poll.png  or  top-25.png  or  top25.png  or  rankings.png  or  the-top-25.png  or  staff-top-25.png
+  The Column      column.png  or  the-column.png  or  weekly-column.png
+  Game Stories    games.png  or  game-stories.png  or  game-story.png  or  recaps.png
+  Playoff         playoff.png  or  the-playoff.png  or  cfp.png  or  bracket.png
+  The Draft       draft.png  or  the-draft.png  or  nfl-draft.png  or  draft-board.png
+  Recruiting      recruiting.png  or  the-recruiting.png  or  recruits.png  or  prospects.png
+  The Carousel    carousel.png  or  the-carousel.png  or  coaching.png  or  coaches.png
+  Statistics      stats.png  or  statistics.png  or  the-statistics.png  or  leaders.png
+  Upcoming Picks  picks.png  or  upcoming-picks.png  or  the-picks.png  or  preview.png  or  looking-ahead.png
+  The Money       money.png  or  the-money.png  or  nil.png  or  budgets.png
+
+.jpg, .jpeg, .webp and .svg work too.
+A section with no image falls back to its plain desk plate, so you can
+add them one at a time.

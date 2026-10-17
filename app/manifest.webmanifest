@@ -1,0 +1,16 @@
+{
+  "name": "S2S",
+  "short_name": "S2S",
+  "description": "Weekly beat coverage of your CFB 27 dynasty.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#121926",
+  "theme_color": "#121926",
+  "icons": [
+    { "src": "/icons/icon-192.png?b=__BUILD__", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png?b=__BUILD__", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512-maskable.png?b=__BUILD__", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
