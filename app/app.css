@@ -4220,3 +4220,24 @@ main.has-mp { padding-bottom: 4rem; }
 .bopen .bline { display: block; max-width: none; text-align: left; padding: 0 0 .3rem; font-weight: 700; }
 .bopen .plink { display: inline-block; margin-top: .35rem; color: var(--net); font-weight: 700; }
 .bnote { margin-top: .2rem; }
+
+/* [madden] ONE FRAME. The page's tabs (.hub) are the underlined row; a
+   switch inside the page (Awards, Coaches, Business, a team's scope, the
+   Big board chips) sits under the banner as a row of buttons, so a page
+   never shows two rows of tabs. */
+.tabswitch:not(.hub) { border-bottom: 0; margin: .3rem 0 .7rem; gap: .4rem; }
+.tabswitch:not(.hub) .seg { gap: .4rem; flex-wrap: wrap; overflow: visible; }
+.tabswitch:not(.hub) .seg button { border: 1px solid var(--shell-rule); border-radius: 999px; background: var(--shell-card);
+  padding: .36rem .8rem; min-height: 34px; font: 600 .76rem var(--ui); letter-spacing: 0; text-transform: none; color: var(--shell-soft); }
+.tabswitch:not(.hub) .seg button[aria-pressed="true"] { background: var(--shell-ink); color: var(--shell-card); border-color: var(--shell-ink); }
+.tabswitch:not(.hub) .chips { padding-bottom: 0; }
+/* A team page's banner: the same plate, in the team's colour, with its logo. */
+.tm-head.tm-banner { position: relative; margin: .8rem 0 .2rem; padding: .8rem .9rem .95rem; color: #fff; overflow: hidden;
+  background: linear-gradient(100deg, var(--chrome-deep) 0 55%, var(--team) 100%); }
+.tm-head.tm-banner::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 5px; background: linear-gradient(90deg, var(--net) 0 38%, #fff 38% 39%, transparent 39%); }
+.tm-head.tm-banner .tm-logo { background: rgba(255,255,255,.92); border-radius: 50%; padding: .25rem; }
+.tm-head.tm-banner h2 { color: #fff; font-size: clamp(1.7rem, 7vw, 2.4rem); }
+.tm-head.tm-banner span:not(.sd-kick) { color: rgba(255,255,255,.75); }
+.tm-head.tm-banner .sd-kick { margin-bottom: .1rem; }
+.tabswitch:not(.hub) .seg { display: flex; max-width: 100%; }
+.tabswitch:not(.hub) .seg button { flex: 0 0 auto; white-space: nowrap; }
