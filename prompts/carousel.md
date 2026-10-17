@@ -97,6 +97,15 @@ and it has more to work with:
 - `grudges` are coaches who now hold one against the school that let them go.
   One line at most, and only when that school comes up.
 
+- `formerPlayer` on a hire or coordinator, and `gaHires`, mark men who
+  played in this dynasty and came up through the grad-assistant program:
+  `playedAt`, `position`, and `gaClass` (the year he left school). Say it
+  ("a former Rutgers center, back four years later as an offensive
+  coordinator"). Never invent his playing career beyond that.
+- `yourProgram` and `yourStaffMoves`: the covered program's own staff in this
+  run, who left (and where to) and who came in. Give it its own paragraph,
+  near the end: the reader runs that program.
+
 Structure for this piece: the biggest job first, then the firings with their
 reasons and records, the chain reactions (a poached coach leaves a job open
 somewhere smaller; follow one), the promotions, the players following their
