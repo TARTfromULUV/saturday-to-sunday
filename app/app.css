@@ -4269,3 +4269,12 @@ main.has-mp { padding-bottom: 4rem; }
 .fo-h b { font: 700 1rem var(--ui); text-transform: none; letter-spacing: 0; }
 .fo-btn { border: 1px solid var(--shell-rule); background: var(--shell-card); color: var(--shell-ink); font: 700 .82rem var(--ui); padding: .45rem .9rem; border-radius: 6px; cursor: pointer; }
 .fo-btn.go { background: var(--net); border-color: var(--net); color: #fff; }
+/* [madden] Front Office projects (Phase 2, batch 2) */
+.fo-proj { display: grid; gap: .3rem; padding: .55rem 0; border-bottom: 1px solid var(--shell-hair); }
+.fo-proj:last-child { border-bottom: 0; }
+.fo-proj small { font-size: .74rem; color: var(--shell-faint); }
+.fo-bar { height: .45rem; border-radius: 99px; background: var(--shell-hair); overflow: hidden; }
+.fo-bar.big { height: .65rem; margin: .3rem 0 .2rem; }
+.fo-bar i { display: block; height: 100%; background: var(--net); border-radius: 99px; }
+.fo-kpi em.flat { color: var(--shell-faint); font-weight: 600; }
+
