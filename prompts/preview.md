@@ -137,7 +137,10 @@ and a bye; lose and it's out"), always "on this week's rankings".
 
 ## Playoff games
 
-A game carrying `playoffRound` is a College Football Playoff game: the round's
+A game carrying `playoffRound` is a College Football Playoff game: `seeds`
+gives each side's playoff seed, the bracket's number. In playoff copy a team
+is its seed ("the 12 seed BYU"), never its poll rank: the bracket is what the
+reader is looking at. It also carries the round's
 name, `winsFromTitle` (how many wins the winner still needs for the national
 title, this one included) and, in the first round, `winnerFaces` (the bye team
 waiting in the quarterfinal). Write the stakes plainly: lose and the season is
