@@ -2243,6 +2243,7 @@ button.chip[aria-pressed="true"] { background: var(--shell-ink); color: var(--sh
 .phone-qr .qr { display: block; width: 180px; height: 180px; }
 .phone-how { flex: 1; min-width: 14rem; font-size: .9rem; }
 .phone-how ol { margin: 0 0 .7rem; padding-left: 1.2rem; display: grid; gap: .3rem; }
+.link-box { width: 100%; box-sizing: border-box; font: 13px ui-monospace, Menlo, Consolas, monospace; padding: .45rem .5rem; margin: .2rem 0 .5rem; border: 1px solid var(--line, #ccc); border-radius: 6px; background: transparent; color: inherit; }
 .phone-btns { display: flex; gap: .5rem; flex-wrap: wrap; margin-bottom: .4rem; }
 .setup-step .btn { flex: none; width: auto; min-width: 0; padding-left: .9rem; padding-right: .9rem; }
 @media (max-width: 40rem) { .phone-qr { margin: 0 auto; } }
