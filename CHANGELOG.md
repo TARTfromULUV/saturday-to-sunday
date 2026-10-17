@@ -5,6 +5,9 @@ What changed in each version, newest first. The app shows this in
 
 ## 1.3.0 — 2026-10-12 — Madden 27, one universe
 
+- **No more early players of the week (NFL and college):** the game names its players of the week as soon as it sims the AI games, before you've advanced past the week. Awards now never shows the week your save is on, and any that slipped in earlier are removed on the next Generate.
+- **Awards ▸ Of the week labels the postseason by name:** Conference Championships, Selection Week, First Round, Quarterfinals, Semifinals and National Championship for college; Wild Card, Divisional, Conference Championships and Super Bowl for the NFL. No more Week 17 or Week 18.
+- **Awards show the winners:** once the game gives out its season awards, the Heisman watch tab becomes **Heisman** (Award race becomes **Awards** in the NFL). The winner sits at the top with a star, and the race below is the final standings. Awards already given are starred in the award chips.
 - **Banner playoff weeks fixed:** the banner skipped Selection Week, so every playoff week read one round ahead (Bowl Week 1 said Quarters). The banner now names a playoff week from its games: Bowl Week 1 is the First Round, Bowl Week 2 the Quarterfinals. The week between the conference title games and the bowls reads Selection.
 - **Selection Week scoreboard:** a week with no games now shows the last games played (the conference championships) with a note, not an empty scoreboard.
 - **The CFP bracket is back for the playoff itself.** From Selection Week on, the seeded bracket stays on the Playoff page: seeds, byes, the first-round matchups, and each quarterfinal's bowl. It fills in with scores as the rounds are played, with the loser greyed out, through the semifinals to the national champion. Seeds are kept from week to week, so they don't shift as the poll moves.
