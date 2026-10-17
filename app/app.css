@@ -4277,4 +4277,14 @@ main.has-mp { padding-bottom: 4rem; }
 .fo-bar.big { height: .65rem; margin: .3rem 0 .2rem; }
 .fo-bar i { display: block; height: 100%; background: var(--net); border-radius: 99px; }
 .fo-kpi em.flat { color: var(--shell-faint); font-weight: 600; }
+/* [madden] the stadium builder */
+.sd-ladder { display: grid; }
+.sd-rung { display: flex; gap: .6rem; align-items: flex-start; padding: .5rem 0; border-bottom: 1px solid var(--shell-hair); }
+.sd-rung:last-child { border-bottom: 0; }
+.sd-dot { flex: none; width: 1.6rem; height: 1.6rem; border-radius: 50%; display: grid; place-items: center; font: 700 .8rem var(--nar); color: #fff; background: #b9c0c8; }
+.sd-rung.on .sd-dot { background: #1a8a4a; } .sd-rung.next .sd-dot { background: var(--net); }
+.sd-steps { margin: .2rem 0 .4rem; padding-left: 1.2rem; display: grid; gap: .45rem; font-size: .86rem; }
+.sd-code { display: block; margin-top: .25rem; padding: .35rem .5rem; background: var(--shell-hair); font: .74rem/1.4 Consolas, 'Courier New', monospace; word-break: break-all; }
+.sd-check { display: grid; gap: .2rem; font-size: .84rem; margin-top: .4rem; }
+.sd-check .ok { color: #1a8a4a; } .sd-check .no { color: #c8102e; }
 

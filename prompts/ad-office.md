@@ -20,6 +20,17 @@ beat writer covers the athletic department.
     takes; 0 means it starts now) and `finish` (the year it is done).
     `facility: true` marks a facility project.
 
+### The stadium
+
+- `kind: stadium` with `choice: approve` is a stadium phase the board
+  approved: `phase` (its size, "50K"), `cost` (millions), `seasons` to build,
+  and the bond that pays for most of it: `bond` (millions), `bondPerYear` over
+  `bondYears`. Report the down payment as `cost` less `bond`. A groundbreaking.
+- `choice: open` is the ribbon cutting: the phase is done and the stadium
+  now seats `capacity`. When it is in the calls, it is the lead.
+- `stadiumSpot` on a deal means the partner's name goes up in the stadium
+  (`ad_boards`: a strip of the ad boards; `goal_pads`: the goal post pads).
+
 ## The shape
 
 250 to 450 words, a headline that names the school and the lead move
