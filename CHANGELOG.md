@@ -5,6 +5,8 @@ What changed in each version, newest first. The app shows this in
 
 ## 1.3.0 — 2026-10-12 — Madden 27, one universe
 
+- **The CFP bracket is back for the playoff itself.** From Selection Week on, the seeded bracket stays on the Playoff page: seeds, byes, the first-round matchups, and each quarterfinal's bowl. It fills in with scores as the rounds are played, with the loser greyed out, through the semifinals to the national champion. Seeds are kept from week to week, so they don't shift as the poll moves.
+- **Selection Week front page:** the full bracket ("The field is set") sits right under the lead story, with the first four out underneath. Once the games start, the front-page box shows who's still alive.
 - **College postseason: the playoff first, the bowls after.** Expert Picks in a playoff week features every game of the round (CFP First Round, Quarterfinals, Semifinals, National Championship) and nothing else. The bowls get a short **Around the bowls** section of one-line picks, however highly their teams are ranked. On Scores and Picks, the playoff games sit in their own **CFP <round>** box above the bowls, and each card shows its bowl's name. Game stories in a bowl week cover the playoff, the New Year's Six and your own bowl, and the rest stay on the scoreboard.
 - **Banner shows the game's week:** the masthead now reads the week your console is on (Week 18 when the game is in Week 18, Conf on conference championship week), while the stories still cover the week before, so nothing you haven't played leaks. Hover the week to see both. Shows up on your next Generate.
 - **Banner fits on small phones:** short stage names (Conf. Champ, or just Conf and Wk 18 on the narrowest screens), so the ESPN and S2S logos are never cut off.

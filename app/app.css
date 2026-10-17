@@ -4187,3 +4187,8 @@ main.has-mp { padding-bottom: 4rem; }
 }
 .mast-when .mw-t { display: none; }
 @media (max-width: 23.5rem) { .mast-when .mw-s { display: none; } .mast-when .mw-t { display: inline; } }
+/* [madden] The bracket with results: the score at the line's end, the loser dimmed. */
+.br-sc { margin-left: .35rem; font-variant-numeric: tabular-nums; min-width: 1.3rem; text-align: right; }
+.br-ln.out { opacity: .5; }
+.br-ln.out .br-tm b { font-weight: inherit; }
+.br-ln:has(.br-sc) .br-rec { display: none; }
