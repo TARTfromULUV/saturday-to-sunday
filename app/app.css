@@ -4386,3 +4386,9 @@ main.has-mp { padding-bottom: 4rem; }
 .gr-l { font-weight: 800; white-space: nowrap; font-variant-numeric: tabular-nums; }
 .gr-note { display: block; font-size: .72rem; color: var(--shell-soft); margin: .15rem 0 .35rem; }
 .chip.dn { color: var(--net); }
+/* [madden] The bottom bar's first slot: your team's logo and name (its page); the masthead leaves the logo out on a phone. */
+.tab-team span { max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; padding: 0 .2rem; }
+.tab-logo { width: 1.5rem; height: 1.5rem; object-fit: contain; border-radius: 50%; background: #fff; padding: .1rem; box-sizing: border-box; box-shadow: 0 1px 2px rgba(0,0,0,.25); }
+.tab-team.on .tab-logo { outline: 2px solid var(--shell-band); outline-offset: 1px; }
+@media (max-width: 61.99rem) { .masthead .mast-home { display: none; } }
+.tab-office span { white-space: nowrap; letter-spacing: .02em; }
