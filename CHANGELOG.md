@@ -3,9 +3,9 @@
 What changed in each version, newest first. The app shows this in
 **Settings ▸ Update log**.
 
-## Unreleased — Dollars that add up
+## Unreleased — Dollars that add up, at a steady price
 
-- **One rate a season for college money.** Business ▸ Spending, player cards and the Business desk now price the game's program points at one rate for the whole season, locked at its first read: 1 point = the same dollars on every page (the page says what it is). A program's budget, its NIL and its other spending are its points at that rate, so they always add up; each player's NIL deal is his share of his team's NIL, weighted toward the stars, so a roster adds up to its team. The rate is still set so the season's biggest quarterback deal matches Settings ▸ Dollar figures; change those and the season's rate is set again. Seasons recorded before this update keep the dollars they had.
+- **A steady price for a point.** Business ▸ Spending, player cards and the Business desk price the game's program points at one price, set once in your first season (that season's biggest quarterback NIL deal is the Settings number, $12M by default) and grown 3% a year after, whatever the game's deals do. A program's budget, its NIL and its other spending are its points at that price, so they always add up; each player's NIL deal is his share of his team's NIL, weighted toward the stars, so a roster adds up to its team. The page says what a point is worth. Change Settings ▸ Dollar figures and every season is priced again from the first. Seasons recorded before this update keep the dollars they had.
 - **The economy tool at the same rate.** Zip's Economy Overhaul's donor wire and Business tabs now price its points at the paper's rate for that season, so a point is never two different amounts on one page.
 
 ## 1.3.0 — 2026-10-12 — Madden 27, one universe
