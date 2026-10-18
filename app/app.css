@@ -4466,3 +4466,21 @@ main.has-mp { padding-bottom: 4rem; }
 .ad-hint { color: var(--shell-faint); font-size: .78rem; }
 .lg-sub-h + .sgroup > h2, .sgroup > h2:empty { display: none; }
 .srow .ctl input[type=number] { font: inherit; font-size: .9rem; padding: .35rem .5rem; border: 1px solid var(--shell-rule); border-radius: 6px; background: var(--shell-card); color: var(--shell-ink); max-width: 9rem; }
+/* [madden] the College Football Economy (lib/economy.mjs) */
+.ec-bar { height: 5px; background: rgba(255,255,255,.18); border-radius: 3px; overflow: hidden; margin-top: .35rem; } .ec-bar i { display: block; height: 100%; background: var(--net); }
+.ec-next { font: 700 .72rem var(--ui); letter-spacing: .06em; text-transform: uppercase; color: color-mix(in srgb, var(--net) 45%, #fff) !important; margin-top: .2rem; }
+.ec-due { background: #fff6e0; border: 1px solid #f0d58a; border-radius: 8px; padding: .75rem .85rem; display: flex; flex-direction: column; gap: .35rem; margin: 0 0 .7rem; color: #6b4e00; font-size: .84rem; line-height: 1.45; }
+.ec-due b { font-size: .92rem; } .ec-due small { font-size: .76rem; } .ec-due small.ok { color: #1f6b3d; } .ec-due small.bad { color: #a31622; }
+.rl-acts.two { grid-template-columns: repeat(2, minmax(0, 1fr)); } .rl-acts.one { grid-template-columns: minmax(0, 1fr); }
+.ec-ck { display: flex; flex-direction: column; gap: .35rem; padding: .6rem 0; border-top: 1px solid var(--shell-hair); } .ec-ck b { font-size: .9rem; }
+.ec-steps { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .25rem; }
+.ec-steps span { border-top: 3px solid var(--shell-rule); padding-top: .25rem; font: 700 .66rem var(--ui); letter-spacing: .04em; text-transform: uppercase; color: var(--shell-faint); }
+.ec-steps span.done { border-color: #1f7a45; color: #1f7a45; } .ec-steps span.now { border-color: var(--net); color: var(--shell-ink); }
+.ec-steps i { display: block; font-style: normal; font-weight: 400; text-transform: none; letter-spacing: 0; }
+.ec-cand { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: .5rem; align-items: center; padding: .5rem 0; border-top: 1px solid var(--shell-hair); }
+.ec-cand > span:first-child { display: flex; flex-direction: column; gap: .2rem; min-width: 0; } .ec-cand small { font-size: .74rem; color: var(--shell-soft); }
+.ec-cand.on b { color: #1f7a45; } .ec-cand .fo-btn { padding: .45rem .9rem; }
+.ec-add { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; gap: .4rem; align-items: center; padding-top: .5rem; border-top: 1px solid var(--shell-hair); }
+.ec-add select { min-width: 0; font: inherit; font-size: .82rem; padding: .45rem; border: 1px solid var(--shell-rule); border-radius: 6px; background: var(--shell-card); color: var(--shell-ink); }
+:root[data-theme="dark"] .ec-due { background: #2e2610; border-color: #5c4a1a; color: #f0d58a; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .ec-due { background: #2e2610; border-color: #5c4a1a; color: #f0d58a; } }
