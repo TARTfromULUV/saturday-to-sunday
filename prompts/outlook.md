@@ -15,6 +15,9 @@ the covered program's one or two players expected to do big things.
   `gains` (ratings that rose, with how much), and `lastSeason`, his stat
   line from the season just played.
 - `yourBreakouts`: the same for the covered program's biggest risers.
+- `nationalSlides`, `yourSlides`: the players who came out of training
+  worse, with `losses` (the ratings that fell, with how much). Either can be
+  empty.
 - `team`: the covered program.
 
 ## Structure
@@ -25,9 +28,13 @@ the covered program's one or two players expected to do big things.
    each: last season (one figure), what grew (from `gains`, in plain words:
    "faster", "stronger at the point of attack"), and what that makes him
    next year.
-3. `## Ours`: the covered program's breakout candidates, one or two, with
-   the same treatment and the role they are positioned to take.
-4. One closing line on the season ahead.
+3. `## Slipped`: when `nationalSlides` is not empty, two or three names
+   who came out of training worse, from `losses` in plain words ("a step
+   slower"), and what that puts at risk next year.
+4. `## Ours`: the covered program's breakout candidates, one or two, with
+   the same treatment and the role they are positioned to take, and any
+   name in `yourSlides`, honestly.
+5. One closing line on the season ahead.
 
 ## Rules
 

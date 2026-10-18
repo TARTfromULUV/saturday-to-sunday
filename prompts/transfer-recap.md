@@ -25,15 +25,20 @@ was.
 - `byConference`: transfers in and out of each conference.
 - `byPosition`: the positions that moved most.
 - `yours`: the moves into and out of `userTeam`, when there were any.
+- `recruitingClasses`: the final recruiting class table (rank, school,
+  commits, five- and four-stars). Signing Day is both halves of the
+  offseason: the class that signed and the transfers that arrived.
 
 ## Structure
 
 1. **The open**: the biggest move, the player and the two schools, and why
    it matters (the stars he came in with, the rank of the program he left or
    joined).
-2. **The winners**: the top two or three transfer classes, with their best
-   additions by name.
-3. **The losers**: from `hardestHit`, the programs the portal emptied.
+2. **The winners**: the programs that won the offseason, weighing the
+   recruiting class (`recruitingClasses`) and the transfer class together,
+   two or three of them, with their best additions by name.
+3. **The losers**: from `hardestHit`, the programs the portal emptied,
+   and whether their recruiting class covered the loss.
 4. **The market in numbers**: one paragraph on how open the portal was:
    the total, the share of new players it supplied, the conferences that
    gained and lost, the position everyone was shopping for.
