@@ -4377,3 +4377,12 @@ main.has-mp { padding-bottom: 4rem; }
 .fb-who { display: flex; justify-content: space-between; gap: .5rem; font-size: .76rem; color: var(--shell-faint); } .fb-who b { color: var(--shell-ink); }
 .fb-trend { display: grid; grid-template-columns: 3rem 1fr 2rem; gap: .5rem; align-items: center; font-size: .78rem; }
 .fb-trend .fo-bar i { background: #d29b10; } .fb-trend b { text-align: right; font-family: var(--nar); }
+/* [madden] The boosters and your grades in the game (lib/boosters.mjs, lib/grades.mjs). */
+.bst-temp i { background: linear-gradient(90deg, #1f7a45, #b07d12 60%, var(--net)); }
+.bst-scale { display: flex; justify-content: space-between; font: 600 .7rem var(--nar); letter-spacing: .08em; text-transform: uppercase; color: var(--shell-soft); margin: .15rem 0 .4rem; }
+.bst-paper { border-top: 3px double currentColor; padding-top: .45rem; display: grid; gap: .25rem; }
+.bst-paper b { font: 700 1.05rem/1.25 Georgia, "Times New Roman", serif; text-wrap: balance; }
+.bst-paper p { margin: 0; font: .9rem/1.45 Georgia, "Times New Roman", serif; color: var(--shell-soft); }
+.gr-l { font-weight: 800; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.gr-note { display: block; font-size: .72rem; color: var(--shell-soft); margin: .15rem 0 .35rem; }
+.chip.dn { color: var(--net); }
