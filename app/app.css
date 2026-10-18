@@ -4306,3 +4306,4 @@ main.has-mp { padding-bottom: 4rem; }
 .fo-grade { display: grid; grid-template-columns: 3.4rem 1fr; gap: .6rem; align-items: center; margin-bottom: .3rem; }
 .fo-grade b { font-family: var(--nar); font-size: 2.2rem; font-weight: 800; }
 .fo-grade span { font-size: .85rem; color: var(--shell-soft); }
+.mg-row.ok .fo-m { color: var(--shell-soft); }
