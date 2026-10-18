@@ -5,6 +5,7 @@ What changed in each version, newest first. The app shows this in
 
 ## Unreleased — Dollars that add up, at a steady price
 
+- **The carousel at a glance.** Wire ▸ Coaches ▸ Carousel opens with the year in four squares (head coaches out, with fired, retired and to the NFL under it; head coaches hired; coordinator hires; extensions), then an **In | Out** toggle that shows one list at a time.
 - **Which league is ahead, in the offseason.** The badge on the NCAA | NFL toggle shows the stage when the league ahead is in its offseason (+PL, +REC 1, +NSD) instead of a count of weeks. The calendar of where each league is now opens from an ⓘ beside the toggle, so tapping the badge flips leagues like the rest of the pill.
 - **The offseason by name.** The banner, the issue labels and the archive name College Football's offseason stages the way the game does: Players Leaving, Offseason Recruiting 1 to 4, National Signing Day, Training Results, Encourage Transfers (short forms on a narrow phone: PL, Rec 1, NSD). It said "Offseason 22" before. Older issues pick up the names too. An NFL franchise's offseason stages are numbered until their names are confirmed. The CFP rounds read Quarterfinal and Semifinal in the banner.
 - **A new bottom bar.** Your team's logo and name take the first slot and open Your Team. **Home** (was Front) moves to the menu up top, first in line. Scores stays in the bar.

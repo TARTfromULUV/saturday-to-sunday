@@ -4397,3 +4397,11 @@ main.has-mp { padding-bottom: 4rem; }
   font: italic 700 .68rem/1 Georgia, "Times New Roman", serif; display: grid; place-items: center; padding: 0; cursor: pointer; }
 .gt-info:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
 .ls-you.end em { left: auto; right: 0; transform: none; } /* [madden] near the right edge: the label reads leftward */
+/* [madden] Wire ▸ Coaches ▸ Carousel: the year in four squares. */
+.car-tiles { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .5rem; }
+@media (max-width: 40rem) { .car-tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.car-tile { background: var(--shell-hair); border-radius: 8px; padding: .7rem .6rem .6rem; display: grid; gap: .15rem; align-content: start; min-width: 0; text-align: center; }
+.car-tile b { font: 800 2rem/1 var(--nar); font-variant-numeric: tabular-nums; color: var(--shell-ink, inherit); }
+.car-tile span { font: 700 .62rem var(--nar); letter-spacing: .1em; text-transform: uppercase; color: var(--shell-faint); }
+.car-tile small { font-size: .68rem; color: var(--shell-soft); line-height: 1.3; }
+.car-tile:first-child b { color: var(--net); }
