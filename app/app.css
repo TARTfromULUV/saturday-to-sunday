@@ -4161,7 +4161,7 @@ main.has-mp { padding-bottom: 4rem; }
 .feat-row small { display: block; margin-top: .15rem; font-size: .8rem; color: var(--shell-soft); line-height: 1.4; }
 
 /* [madden] Where each league is: both seasons on one calendar. */
-.gt-ahead { cursor: pointer; }
+.gt-ahead { pointer-events: none; } /* [madden] a tap on the badge is a tap on the pill; the ⓘ opens the calendar */
 .ls-months, .ls-lane { display: grid; grid-template-columns: 3rem 1fr; gap: .5rem; align-items: center; }
 .ls-months > div { position: relative; height: 1rem; }
 .ls-months i { position: absolute; transform: translateX(-50%); font: 700 .6rem var(--ui); font-style: normal; letter-spacing: .1em; text-transform: uppercase; color: var(--shell-faint); }
@@ -4392,3 +4392,8 @@ main.has-mp { padding-bottom: 4rem; }
 .tab-team.on .tab-logo { outline: 2px solid var(--shell-band); outline-offset: 1px; }
 @media (max-width: 61.99rem) { .masthead .mast-home { display: none; } }
 .tab-office span { white-space: nowrap; letter-spacing: .02em; }
+/* [madden] Beside the NCAA | NFL toggle: where each league is (the calendar sheet). */
+.gt-info { flex: none; width: 1.15rem; height: 1.15rem; margin-left: .3rem; border-radius: 50%; border: 1px solid rgba(255,255,255,.6); background: transparent; color: #fff;
+  font: italic 700 .68rem/1 Georgia, "Times New Roman", serif; display: grid; place-items: center; padding: 0; cursor: pointer; }
+.gt-info:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+.ls-you.end em { left: auto; right: 0; transform: none; } /* [madden] near the right edge: the label reads leftward */
