@@ -33,6 +33,13 @@ club, written the way a team's business reporter writes it.
   deal; `startsYear` when it waits for that deal to run out (lined up, no
   buyout). A naming deal leads unless a stadium project is in the calls.
 
+### A deal a rival took
+
+- `choice: lost` is a deal the club let wait or expire while `rival` was
+  after it, and `rival` signed it: `title`, `perYear`, `years`. One short
+  paragraph: who got it and what it was worth. Never say the club regrets
+  it or explain why they waited.
+
 ## The shape
 
 250 to 450 words, a business headline that names the club and the lead

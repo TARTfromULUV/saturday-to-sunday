@@ -75,6 +75,13 @@ beat writer covers the athletic department.
   followers). One or two sentences each, near the end; never the lead
   unless it is the only call. Never claim it filled seats.
 
+### A deal a rival took
+
+- `choice: lost` is a deal the department let wait or expire while `rival` was
+  after it, and `rival` signed it: `title`, `perYear`, `years`. One short
+  paragraph: who got it and what it was worth. Never say the department regrets
+  it or explain why they waited.
+
 ## The shape
 
 250 to 450 words, a headline that names the school and the lead move

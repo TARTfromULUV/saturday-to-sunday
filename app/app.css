@@ -4299,3 +4299,10 @@ main.has-mp { padding-bottom: 4rem; }
 .sd-stack { display: flex; height: 18px; border-radius: 4px; overflow: hidden; margin: .2rem 0 .5rem; }
 .sd-stack span { display: block; height: 100%; }
 .sd-key { display: inline-block; width: .7rem; height: .7rem; border-radius: 2px; margin-right: .4rem; vertical-align: -.05rem; }
+.fo-warn { background: #fff6e0; border: 1px solid #f0d58a; border-radius: 6px; padding: .4rem .55rem; font-size: .8rem; color: #6b4e00; margin: .3rem 0; }
+.fo-cal { display: flex; gap: .3rem; flex-wrap: wrap; margin: 0 0 .8rem; }
+.fo-cal span { font-size: .62rem; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; padding: .2rem .45rem; border-radius: 3px; background: var(--shell-hair); color: var(--shell-faint); }
+.fo-cal span.on { background: var(--chrome); color: #fff; }
+.fo-grade { display: grid; grid-template-columns: 3.4rem 1fr; gap: .6rem; align-items: center; margin-bottom: .3rem; }
+.fo-grade b { font-family: var(--nar); font-size: 2.2rem; font-weight: 800; }
+.fo-grade span { font-size: .85rem; color: var(--shell-soft); }
