@@ -3,6 +3,11 @@
 What changed in each version, newest first. The app shows this in
 **Settings ▸ Update log**.
 
+## Unreleased — Dollars that add up
+
+- **One rate a season for college money.** Business ▸ Spending, player cards and the Business desk now price the game's program points at one rate for the whole season, locked at its first read: 1 point = the same dollars on every page (the page says what it is). A program's budget, its NIL and its other spending are its points at that rate, so they always add up; each player's NIL deal is his share of his team's NIL, weighted toward the stars, so a roster adds up to its team. The rate is still set so the season's biggest quarterback deal matches Settings ▸ Dollar figures; change those and the season's rate is set again. Seasons recorded before this update keep the dollars they had.
+- **The economy tool at the same rate.** Zip's Economy Overhaul's donor wire and Business tabs now price its points at the paper's rate for that season, so a point is never two different amounts on one page.
+
 ## 1.3.0 — 2026-10-12 — Madden 27, one universe
 
 - **Your coaching tree, and where your assistants went:** Wire ▸ Coaches ▸ Carousel now shows **Your coaching tree**: every coordinator who served under your head coach and where he is now (his new job, or retired, in the NFL, out of coaching). Every coach card's tree says the same for its branches. With MyDynasty, its carousel record fills in the staffs and the moves.
