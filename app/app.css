@@ -4307,3 +4307,14 @@ main.has-mp { padding-bottom: 4rem; }
 .fo-grade b { font-family: var(--nar); font-size: 2.2rem; font-weight: 800; }
 .fo-grade span { font-size: .85rem; color: var(--shell-soft); }
 .mg-row.ok .fo-m { color: var(--shell-soft); }
+
+/* [madden] Game day (lib/gameday.mjs): the price board */
+.gd-line { align-items: center; }
+.gd-step { display: inline-flex; align-items: center; gap: .35rem; flex: none; }
+.gd-step b { min-width: 3.4rem; text-align: center; font-family: var(--nar); font-size: 1.05rem; }
+.gd-step .fo-btn { min-width: 2.2rem; min-height: 2.2rem; padding: 0; font-size: 1.1rem; line-height: 1; }
+.gd-pick { flex-wrap: wrap; }
+.gd-seg { display: inline-flex; flex-wrap: wrap; gap: .25rem; justify-content: flex-end; margin-left: auto; max-width: 100%; }
+.gd-seg button { font: 700 .7rem var(--nar); letter-spacing: .04em; text-transform: uppercase; padding: .35rem .5rem; border: 1px solid var(--shell-rule); background: none; color: var(--shell-ink); cursor: pointer; }
+.gd-seg button[aria-pressed="true"] { background: var(--shell-ink); color: var(--shell-card); }
+.gd-h { font: 800 .68rem var(--nar); letter-spacing: .12em; text-transform: uppercase; color: var(--shell-faint); margin: .9rem 0 .1rem; }
