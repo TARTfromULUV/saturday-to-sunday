@@ -4318,3 +4318,17 @@ main.has-mp { padding-bottom: 4rem; }
 .gd-seg button { font: 700 .7rem var(--nar); letter-spacing: .04em; text-transform: uppercase; padding: .35rem .5rem; border: 1px solid var(--shell-rule); background: none; color: var(--shell-ink); cursor: pointer; }
 .gd-seg button[aria-pressed="true"] { background: var(--shell-ink); color: var(--shell-card); }
 .gd-h { font: 800 .68rem var(--nar); letter-spacing: .12em; text-transform: uppercase; color: var(--shell-faint); margin: .9rem 0 .1rem; }
+
+/* [madden] Every team's front office (lib/frontoffices.mjs) */
+.fo-off[role="button"] { cursor: pointer; }
+.fo-you { background: var(--shell-hair); margin: 0 -.4rem; padding-left: .4rem; padding-right: .4rem; }
+.fo-pen { border: 0; background: none; color: var(--net); font-size: .85rem; padding: 0 .2rem; cursor: pointer; }
+.fo-ren { display: inline-flex; flex-wrap: wrap; gap: .3rem; align-items: center; }
+.fo-ren input { font: inherit; padding: .25rem .4rem; border: 1px solid var(--shell-rule); min-width: 0; width: 11rem; max-width: 100%; }
+.fo-card { border-left: 3px solid var(--net); padding: .2rem 0 .4rem .7rem; margin: 0 0 .5rem; display: grid; gap: .35rem; }
+.fo-sk { display: grid; grid-template-columns: 6.5rem 1fr 2rem; gap: .5rem; align-items: center; font-size: .78rem; }
+.fo-sk b { text-align: right; font-family: var(--nar); }
+.fo-sk.hi .fo-bar i { background: #1a8a4a; } .fo-sk.lo .fo-bar i { background: #c8102e; }
+.fo-sk .fo-bar i { background: var(--shell-ink); }
+.fo-sk.hi .fo-bar i { background: #1a8a4a; } .fo-sk.lo .fo-bar i { background: #c8102e; }
+.fo-more { border: 0; background: none; color: var(--net); font: 700 .74rem var(--nar); letter-spacing: .06em; text-transform: uppercase; padding: .35rem 0 .2rem; cursor: pointer; }
