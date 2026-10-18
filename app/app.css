@@ -4361,3 +4361,19 @@ main.has-mp { padding-bottom: 4rem; }
 .mw-box { border: 1px solid var(--shell-ink); border-radius: 6px; padding: .7rem .8rem; margin: .5rem 0; display: grid; gap: .35rem; }
 .mw-box p { margin: 0; font-size: .8rem; color: var(--shell-faint); }
 .mw-box code { font-size: .74rem; word-break: break-all; }
+
+/* [madden] The stadium map and what fans say (lib/fanboard.mjs) */
+.sm-map { background: var(--shell-hair); border-radius: 6px; padding: .5rem; }
+.sm-map svg { display: block; width: 100%; height: auto; max-height: 260px; }
+.sm-state { fill: var(--shell-card); stroke: var(--shell-ink); stroke-width: 1.4; vector-effect: non-scaling-stroke; }
+.sm-dot { fill: #c8102e; } .sm-ring { fill: none; stroke: #c8102e; stroke-width: 1.5; vector-effect: non-scaling-stroke; opacity: .5; }
+.fb-stars { color: #d29b10; letter-spacing: 1px; white-space: nowrap; } .fb-stars .off { color: var(--shell-rule); }
+.fb-overall { display: flex; align-items: baseline; gap: .6rem; flex-wrap: wrap; }
+.fb-big { font: 800 2.2rem/1 var(--nar); } .fb-overall small { color: var(--shell-faint); font-size: .74rem; }
+.fb-rate { display: grid; grid-template-columns: 1fr auto 2.2rem; gap: .5rem; align-items: center; font-size: .82rem; padding: .2rem 0; }
+.fb-rate b { text-align: right; font-family: var(--nar); }
+.fb-rev { border-top: 1px solid var(--shell-hair); padding: .5rem 0; display: grid; gap: .15rem; font-size: .84rem; }
+.fb-rev small { font-size: .7rem; color: var(--shell-faint); }
+.fb-who { display: flex; justify-content: space-between; gap: .5rem; font-size: .76rem; color: var(--shell-faint); } .fb-who b { color: var(--shell-ink); }
+.fb-trend { display: grid; grid-template-columns: 3rem 1fr 2rem; gap: .5rem; align-items: center; font-size: .78rem; }
+.fb-trend .fo-bar i { background: #d29b10; } .fb-trend b { text-align: right; font-family: var(--nar); }
