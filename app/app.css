@@ -4484,3 +4484,19 @@ main.has-mp { padding-bottom: 4rem; }
 .ec-add select { min-width: 0; font: inherit; font-size: .82rem; padding: .45rem; border: 1px solid var(--shell-rule); border-radius: 6px; background: var(--shell-card); color: var(--shell-ink); }
 :root[data-theme="dark"] .ec-due { background: #2e2610; border-color: #5c4a1a; color: #f0d58a; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .ec-due { background: #2e2610; border-color: #5c4a1a; color: #f0d58a; } }
+/* [madden] the College Football Economy, part 2: tabs, TV deals, rules, eras */
+.ec-tabs { margin: 0 0 .7rem; flex-wrap: nowrap; overflow-x: auto; }
+.ec-tv { display: grid; grid-template-columns: minmax(0, 1fr) 3.4rem 3rem; gap: .5rem; align-items: center; padding: .5rem 0; border-top: 1px solid var(--shell-hair); }
+.ec-tv > span:first-child { display: flex; flex-direction: column; min-width: 0; } .ec-tv small { font-size: .74rem; color: var(--shell-soft); }
+.ec-tv.head { font: 700 .66rem var(--ui); letter-spacing: .1em; text-transform: uppercase; color: var(--shell-faint); border-top: 0; }
+.ec-rule { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; gap: .4rem; align-items: center; padding: .5rem 0; border-top: 1px solid var(--shell-hair); }
+.ec-rule select { font: inherit; font-size: .8rem; padding: .35rem; border: 1px solid var(--shell-rule); border-radius: 6px; background: var(--shell-card); color: var(--shell-ink); }
+.ec-rule small { grid-column: 1 / -1; font-size: .74rem; color: var(--shell-soft); display: flex; gap: .5rem; align-items: center; } .ec-rule small .fo-btn { padding: .25rem .6rem; }
+.ec-rule.on b { color: var(--net); }
+.ec-era { border: 1px solid var(--shell-rule); border-radius: 8px; padding: .65rem .75rem; display: flex; flex-direction: column; gap: .35rem; margin-bottom: .5rem; font-size: .82rem; color: var(--shell-soft); }
+.ec-era > div:first-child { display: flex; gap: .5rem; align-items: baseline; } .ec-era b { color: var(--shell-ink); font-size: .95rem; } .ec-era b.yr { font-size: .78rem; color: var(--shell-faint); }
+.ec-era.now { border: 2px solid var(--net); } .ec-era.now b.yr { color: var(--net); } .ec-era.next { border-style: dashed; }
+.ec-era .rl-why { background: var(--shell-hair); color: var(--shell-ink); }
+.ec-map { display: grid; grid-template-columns: minmax(0, 1fr) 3.5rem 3.5rem; gap: .35rem .5rem; font-size: .86rem; }
+.ec-map > span:nth-child(-n+3) { font: 700 .66rem var(--ui); letter-spacing: .1em; text-transform: uppercase; color: var(--shell-faint); }
+.rl-st.bad { color: #a31622; }
