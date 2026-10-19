@@ -1,0 +1,29 @@
+# Public repo only (tools/publish-public.mjs puts it in .github/workflows/).
+# A version tag (v1.4.0) makes a GitHub Release with that version's notes from
+# CHANGELOG.md, so the repo's Releases list is the update log. No tag, no release.
+name: Release
+on:
+  push:
+    tags: ['v*']
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Notes from the update log
+        run: |
+          v="${GITHUB_REF_NAME#v}"
+          # The section whose heading starts with this version; the top section if none does.
+          awk -v v="$v" '
+            /^## / { if (found) exit; if (index($0, "## " v) == 1) found = 1; next }
+            found { print }
+          ' CHANGELOG.md > notes.md
+          if [ ! -s notes.md ]; then awk '/^## /{n++; next} n==1{print}' CHANGELOG.md > notes.md; fi
+          title=$(grep -m1 "^## $v" CHANGELOG.md | sed 's/^## //')
+          echo "TITLE=${title:-$GITHUB_REF_NAME}" >> "$GITHUB_ENV"
+      - name: Publish the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create "$GITHUB_REF_NAME" --title "$TITLE" --notes-file notes.md
