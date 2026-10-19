@@ -382,6 +382,8 @@ main { padding: 0 max(1rem, var(--safe-left)) 3.2rem max(1rem, var(--safe-right)
   border: 1px solid var(--shell-rule); background: var(--shell-card); margin-bottom: .8rem;
 }
 .banner.warn { border-color: #c4553a; }
+.sched-note { display: flex; align-items: center; gap: .7rem; }
+.sched-note .btn { margin-left: auto; flex: none; }
 
 /* The new-version banner: one line of pitch, two small actions. */
 .update-banner .update-actions { display: flex; gap: .55rem; margin-top: .6rem; }
@@ -601,6 +603,39 @@ main { max-width: 42rem; }
   text-transform: uppercase; color: #e4e7eb;
 }
 .hero-final { background: var(--net); color: #fff; padding: .13rem .4rem; font-weight: 700; }
+
+/* [madden] The cover graphic: the lead's team in its colour, when there is
+   no photo and no scoreboard (app.js coverHero). Same diagonal as the hero. */
+.hero.cover::before { clip-path: polygon(100% 0, 100% 100%, 70% 100%, 86% 0); }
+.hero.cover::after { background: rgba(255,255,255,.9); clip-path: polygon(86% 0, 87.5% 0, 71.5% 100%, 70% 100%); }
+.cv-mark {
+  position: absolute; right: -1.5rem; bottom: -2rem; height: 9rem; z-index: 1;
+  opacity: .14; filter: grayscale(1) brightness(3); pointer-events: none;
+}
+.cv-plate { position: absolute; left: 1rem; top: 1rem; right: 1rem; z-index: 2; display: flex; align-items: center; gap: .6rem; }
+.cv-plate img, .cv-side img {
+  width: 3.2rem; height: 3.2rem; object-fit: contain; flex: none;
+  background: rgba(255,255,255,.92); border-radius: 50%; padding: .25rem; box-shadow: 0 1px 0 rgba(0,0,0,.25);
+}
+.cv-plate b {
+  display: block; font-family: var(--nar); font-size: 1.5rem; line-height: 1; color: #fff;
+  text-transform: uppercase; letter-spacing: .04em; text-shadow: 0 2px 0 rgba(0,0,0,.25);
+}
+.cv-plate span {
+  display: block; margin-top: .2rem; font-family: var(--nar); font-size: .7rem;
+  letter-spacing: .2em; text-transform: uppercase; color: rgba(255,255,255,.8);
+}
+.hero.cover.two::before { clip-path: polygon(100% 0, 100% 100%, 36% 100%, 60% 0); }
+.hero.cover.two::after { clip-path: polygon(60% 0, 62% 0, 38% 100%, 36% 100%); }
+.cv-side { position: absolute; top: 1.1rem; z-index: 2; display: flex; flex-direction: column; align-items: flex-start; gap: .35rem; max-width: 40%; }
+.cv-side.l { left: 1rem; }
+.cv-side.r { right: 1rem; align-items: flex-end; text-align: right; }
+.cv-side b { font-family: var(--nar); font-size: .8rem; letter-spacing: .16em; text-transform: uppercase; color: rgba(255,255,255,.9); }
+.cv-vs {
+  position: absolute; left: 49%; top: 2.8rem; transform: translateX(-50%); z-index: 2;
+  font-family: var(--nar); font-weight: 700; font-size: 1.1rem; letter-spacing: .2em;
+  color: #fff; background: rgba(0,0,0,.35); padding: .15rem .5rem;
+}
 
 .lead-body { padding: .85rem .95rem 1rem; }
 .kicker-row { display: flex; align-items: center; gap: .5rem; margin-bottom: .45rem; }
@@ -4522,3 +4557,15 @@ main.has-mp { padding-bottom: 4rem; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .ph-rule { background: #2e2610; border-color: #5c4a1a; color: #f0d58a; } :root:not([data-theme="light"]) .ph-good { background: #16301f; color: #9fd8b2; } }
 .ph-pane .hint, .ph-help .hint { font-size: .82rem; line-height: 1.45; margin: 0; }
 .ph-steps a { color: var(--net); font-weight: 700; }
+/* [madden] AD mode: MyDynasty's buy games (lib/buygames.mjs), read only */
+.bg-card { border: 1px solid var(--shell-rule); border-left: 4px solid var(--chrome-deep, #14254a); border-radius: 8px; padding: .7rem .8rem; display: flex; flex-direction: column; gap: .45rem; margin: 0 1rem .6rem; background: var(--shell-card); }
+.bg-card.seller { border-left-color: #1f7a45; }
+.bg-k { font: 700 .66rem var(--ui); letter-spacing: .12em; text-transform: uppercase; color: var(--shell-faint); display: flex; gap: .5rem; } .bg-k em { font-style: normal; margin-left: auto; }
+.bg-card > b { font-size: .98rem; line-height: 1.3; }
+.bg-card p { margin: 0; font-size: .84rem; line-height: 1.45; color: var(--shell-soft); }
+.bg-facts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .4rem; }
+.bg-facts span { background: var(--shell-bg); border-radius: 7px; padding: .4rem .55rem; display: flex; flex-direction: column; } .bg-facts small { font: 700 .62rem var(--ui); letter-spacing: .06em; text-transform: uppercase; color: var(--shell-faint); } .bg-facts b { font-size: .95rem; font-variant-numeric: tabular-nums; }
+.bg-from { font-size: .74rem; color: var(--shell-faint); display: flex; gap: .4rem; align-items: center; }
+.bg-lock { font: 700 .66rem var(--ui); border: 1px solid var(--shell-rule); border-radius: 10px; padding: 0 .45rem; }
+.bg-row { background: var(--shell-bg); }
+.bg-tag { display: inline-block; font: 700 .6rem var(--ui); letter-spacing: .08em; text-transform: uppercase; color: #fff; background: var(--chrome-deep, #14254a); border-radius: 4px; padding: 0 .3rem; margin-right: .3rem; }
