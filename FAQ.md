@@ -120,25 +120,33 @@ then on and never takes anyone out.
 
 ### Can I turn off the reader comments?
 
-Settings ▸ Usage ▸ **Reader comments**.
+No. Comments are part of every issue, inside the week's piece count.
 
 ## Reading it on your phone
 
-### How do I add it to my iPhone?
+### How do I put it on my phone?
 
-After you run `S2S.bat`, the Settings page opens. Scroll to the
-bottom and you'll see **Copy phone link**.
+**[PHONE-SETUP.md](PHONE-SETUP.md)** has every step. In short: Settings ▸
+**On your phone**, pick **Only at home** (same Wi-Fi as the PC) or
+**Anywhere** (cellular and any Wi-Fi, with the free Tailscale app), and follow
+the numbered steps.
 
-The easiest way to get it across:
+### Why add it to my Home Screen?
 
-1. Click **Copy phone link**.
-2. Email the link to yourself.
-3. Open that email on your phone and copy the link.
-4. Paste it into **Safari** and open it.
-5. Tap the **Share** button, scroll down, tap **Add to Home Screen**.
+It puts an S2S icon next to your apps, and it opens full screen like a real
+app. **iPhone:** in Safari, Share (on newer iPhones it's in the ••• menu) ▸
+Add to Home Screen ▸ Add. **Android:** in Chrome, ⋮ ▸ Add to Home screen.
 
-It now behaves like an app you can tap. Your phone and your PC have to be on
-the same wi-fi, and the app has to be running on the PC.
+### Do I have to use Safari on iPhone?
+
+Use Safari. If the link opened in Chrome or another browser, copy it into
+Safari first. Other browsers can add an icon too, but it may open as a normal
+browser tab instead of full screen.
+
+### My phone can't connect.
+
+The checklist is at the end of [PHONE-SETUP.md](PHONE-SETUP.md). Most of the
+time the PC is asleep or the S2S window is closed.
 
 ### My phone isn't showing the week I just generated.
 
@@ -146,7 +154,7 @@ Close the app completely on your phone (swipe it away in the app switcher) and
 open it again. It'll resync.
 
 If it still doesn't, check that the PC is on and the app window is still open,
-and that both devices are on the same wi-fi.
+and that the phone can reach it (same Wi-Fi at home, or Tailscale switched on).
 
 ### How do I get dark mode?
 

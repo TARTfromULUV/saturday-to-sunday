@@ -110,11 +110,7 @@ img { max-width: 100%; }
 /* ------------------------------------------------------------------ boot */
 
 .boot { min-height: 70vh; display: grid; place-content: center; justify-items: center; gap: 1rem; padding: 2rem; }
-.boot-mark {
-  width: 3.4rem; height: 3.4rem; display: grid; place-content: center;
-  background: var(--shell-ink); color: var(--shell-bg);
-  font-family: var(--serif); font-weight: 700; font-size: 1.3rem; letter-spacing: .04em;
-}
+.boot-mark { width: 5.75rem; height: 5.75rem; border-radius: 1.25rem; display: block; } /* the S2S icon */
 .boot p { color: var(--shell-faint); font-size: .92rem; }
 
 /* ---------------------------------------------------------------- header */
@@ -4500,3 +4496,29 @@ main.has-mp { padding-bottom: 4rem; }
 .ec-map { display: grid; grid-template-columns: minmax(0, 1fr) 3.5rem 3.5rem; gap: .35rem .5rem; font-size: .86rem; }
 .ec-map > span:nth-child(-n+3) { font: 700 .66rem var(--ui); letter-spacing: .1em; text-transform: uppercase; color: var(--shell-faint); }
 .rl-st.bad { color: #a31622; }
+/* [madden] Phone setup (Settings ▸ On your phone; docs: PHONE-SETUP.md) */
+.ph-rule { margin: 0 1rem .7rem; padding: .6rem .75rem; border-radius: 8px; background: #fff6e0; border: 1px solid #f0d58a; color: #6b4e00; font-size: .84rem; line-height: 1.45; }
+.ph-choose { display: grid; gap: .5rem; padding: 0 1rem .7rem; }
+.ph-choice { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: .15rem .6rem; text-align: left; font: inherit; color: var(--shell-ink); background: var(--shell-card); border: 1px solid var(--shell-rule); border-radius: 9px; padding: .7rem .8rem; cursor: pointer; }
+.ph-choice.on { border: 2px solid var(--net); padding: calc(.7rem - 1px) calc(.8rem - 1px); }
+.ph-choice b { font-size: .98rem; } .ph-choice span { grid-column: 1; font-size: .8rem; color: var(--shell-soft); line-height: 1.4; }
+.ph-choice em { grid-row: 1 / span 2; grid-column: 2; align-self: center; font-style: normal; font: 700 .72rem var(--ui); color: var(--shell-faint); }
+.ph-pane { padding: 0 1rem .8rem; display: flex; flex-direction: column; gap: .6rem; }
+.ph-part { margin: .3rem 0 0; font: 700 .7rem var(--ui); letter-spacing: .12em; text-transform: uppercase; color: var(--shell-faint); }
+.ph-steps { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
+.ph-steps > li { display: grid; grid-template-columns: 1.6rem minmax(0, 1fr); gap: .65rem; padding: .55rem 0; border-top: 1px solid var(--shell-hair); font-size: .9rem; line-height: 1.45; }
+.ph-steps > li:first-child { border-top: 0; }
+.ph-steps small { display: block; color: var(--shell-soft); font-size: .78rem; margin-top: .2rem; }
+.ph-n { width: 1.5rem; height: 1.5rem; border-radius: 50%; background: var(--chrome-deep, #14254a); color: #fff; font: 800 .75rem var(--ui); display: grid; place-items: center; }
+.ph-n.ok { background: #1f7a45; }
+.ph-tap { display: inline-block; border: 1px solid var(--shell-rule); border-radius: 5px; padding: 0 .3rem; font-size: .78rem; font-weight: 700; background: var(--shell-bg); white-space: nowrap; }
+.ph-os { display: grid; grid-template-columns: 4.2rem minmax(0, 1fr); gap: .25rem .5rem; margin-top: .35rem; font-size: .84rem; }
+.ph-os > b { font: 700 .68rem var(--ui); letter-spacing: .08em; text-transform: uppercase; color: var(--shell-faint); padding-top: .15rem; }
+.ph-good { margin: 0; padding: .55rem .75rem; border-radius: 8px; background: #e9f5ee; color: #1f6b3d; font-weight: 700; font-size: .84rem; }
+.ph-pane .phone-qr { align-self: center; }
+.ph-help { margin: 0 1rem .8rem; }
+:root[data-theme="dark"] .ph-rule { background: #2e2610; border-color: #5c4a1a; color: #f0d58a; }
+:root[data-theme="dark"] .ph-good { background: #16301f; color: #9fd8b2; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .ph-rule { background: #2e2610; border-color: #5c4a1a; color: #f0d58a; } :root:not([data-theme="light"]) .ph-good { background: #16301f; color: #9fd8b2; } }
+.ph-pane .hint, .ph-help .hint { font-size: .82rem; line-height: 1.45; margin: 0; }
+.ph-steps a { color: var(--net); font-weight: 700; }

@@ -48,8 +48,10 @@ Sunday.
 (your program's money and the Donor Wire). Each is in Settings ▸ your league ▸
 Add-ons. **Settings ▸ About** has the why and the roadmap.
 
-**More:** [SETUP.md](SETUP.md) is the full guide (saves, writers, the phone,
-the watcher, photos); [FAQ.md](FAQ.md) answers the usual questions.
+**On your phone:** [PHONE-SETUP.md](PHONE-SETUP.md), step by step.
+
+**More:** [SETUP.md](SETUP.md) is the full guide (saves, writers, the
+watcher, photos); [FAQ.md](FAQ.md) answers the usual questions.
 
 ### NFL photos
 
@@ -62,7 +64,7 @@ photos uses team-colour art.
 
 Install the free **Tailscale** on the PC and the phone (same account) and
 Settings ▸ On your phone shows an **Anywhere** link: one link for home Wi-Fi,
-other Wi-Fi, cellular and your other computers. [SETUP.md](SETUP.md), 2d.
+other Wi-Fi, cellular and your other computers. [PHONE-SETUP.md](PHONE-SETUP.md).
 
 ---
 

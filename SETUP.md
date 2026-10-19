@@ -44,14 +44,8 @@ the same, and updates arrive with `git pull` (or automatically, below).
 
 ## 2. Put it on your phone (once)
 
-**Settings ▸ On your phone** shows a QR code. Point the phone's camera at it
-and tap the link (the phone must be on the same Wi-Fi as the PC). Then:
-
-- **iPhone:** in Safari, Share ▸ **Add to Home Screen**. It has to be Safari;
-  Chrome on iOS cannot install a home-screen app.
-- **Android:** in Chrome, ⋮ ▸ **Add to Home screen**.
-
-You now have a S2S icon that opens full screen.
+**[PHONE-SETUP.md](PHONE-SETUP.md)** has every step, for home Wi-Fi and for
+Anywhere (Tailscale), and what to check when the phone can't connect.
 
 The `?k=...` on the end of the link is your key. Open the link once and the
 phone remembers it; you never type it again. It is what stops anyone else on
@@ -87,25 +81,10 @@ just read it on the Mac, in the browser, like the phone.
 
 ## 2d. Your phone away from home (and other computers)
 
-The home link only works on the same network as the PC. **Tailscale** fixes
-that: a free private network between your own devices, with nothing opened to
-the internet.
+**Anywhere** in [PHONE-SETUP.md](PHONE-SETUP.md): Tailscale on the PC and the
+phone, same account, then scan the Anywhere code. It also works on any other
+computer signed in to the same Tailscale: open the same link in its browser.
 
-1. Install Tailscale on the PC (tailscale.com/download) and on the phone (App
-   Store / Play Store), and sign in to both with the same account.
-2. Restart the app. **Settings ▸ On your phone** now leads with **Anywhere**:
-   a QR code for the PC's Tailscale address (it starts with 100.).
-3. With Tailscale switched on, scan it, open the link in Safari (or Chrome on
-   Android) and add it to the home screen. Replace the old icon.
-
-**Once Tailscale is set up, use the Anywhere link for everything.** It works on
-home Wi-Fi, any other Wi-Fi and cellular, and on any other computer (a Mac, a
-laptop) signed in to the same Tailscale: open the same link in its browser.
-At home Tailscale connects directly, so it is no slower. The PC just has to be
-on with the app running (Settings ▸ Start with Windows).
-
-If the link will not load, allow **Node.js** through Windows Firewall
-(Start ▸ "Allow an app through Windows Firewall", tick Private and Public).
 Do not use a port-forward or a public tunnel: the key in the link is the only
 thing standing between your site and anyone who finds it.
 
