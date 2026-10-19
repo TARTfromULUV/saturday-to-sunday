@@ -4569,3 +4569,155 @@ main.has-mp { padding-bottom: 4rem; }
 .bg-lock { font: 700 .66rem var(--ui); border: 1px solid var(--shell-rule); border-radius: 10px; padding: 0 .45rem; }
 .bg-row { background: var(--shell-bg); }
 .bg-tag { display: inline-block; font: 700 .6rem var(--ui); letter-spacing: .08em; text-transform: uppercase; color: #fff; background: var(--chrome-deep, #14254a); border-radius: 4px; padding: 0 .3rem; margin-right: .3rem; }
+
+/* [madden] THE AD'S WEEK ON HOME (app.js adWeek): the big weeks open on the
+   desk, the paper under it; smaller weeks get the red bar. */
+.adw { background: var(--shell-card); border: 1px solid var(--shell-rule); border-radius: 14px; overflow: hidden; margin: .9rem 0 .8rem; }
+.adw-h { position: relative; padding: 1rem 1rem .9rem; color: #fff; background: linear-gradient(120deg, var(--team, var(--net)) 0 62%, #111 62% 100%); }
+.adw-h img { position: absolute; right: .9rem; top: .9rem; width: 2.6rem; height: 2.6rem; object-fit: contain; background: #fff; border-radius: 50%; padding: .2rem; }
+.adw-h small { display: block; font-family: var(--nar); font-size: .7rem; letter-spacing: .2em; text-transform: uppercase; opacity: .88; padding-right: 3.2rem; }
+.adw-h b { display: block; font-family: var(--nar); font-size: 1.6rem; line-height: 1.05; text-transform: uppercase; margin: .25rem 0 .35rem; text-shadow: 0 2px 0 rgba(0,0,0,.25); }
+.adw-h span { font-size: .86rem; opacity: .92; }
+.adw-prog { height: 6px; background: rgba(255,255,255,.22); margin-top: .7rem; border-radius: 3px; }
+.adw-prog i { display: block; height: 100%; background: #fff; border-radius: 3px; }
+.adw-steps { padding: .2rem .7rem .4rem; }
+.adw-step { border: 1px solid var(--shell-rule); border-left: 4px solid var(--shell-rule); border-radius: 10px; padding: .7rem .75rem; margin-top: .55rem; background: var(--shell-card); }
+.adw-step.big { border-left-color: var(--net); }
+.adw-step.done { border-left-color: #1e7a46; opacity: .8; }
+.adw-step.info { border-left-color: var(--shell-faint); }
+.adw-k { display: block; font-family: var(--nar); font-size: .66rem; letter-spacing: .16em; text-transform: uppercase; color: var(--net); }
+.adw-step.done .adw-k { color: #1e7a46; }
+.adw-step.info .adw-k { color: var(--shell-faint); }
+.adw-step > b { display: block; font-size: .98rem; margin: .15rem 0 .2rem; color: var(--shell-ink); }
+.adw-step p { margin: 0; font-size: .85rem; color: var(--shell-soft); line-height: 1.4; }
+.adw-step .ec-due { margin: .3rem 0 0; border: 0; padding: 0; background: none; }
+.adw-arcs { display: grid; grid-template-columns: 1fr 1fr; gap: .35rem; margin: .55rem 0 .1rem; }
+.adw-arc { text-align: left; font: inherit; border: 1px solid var(--shell-rule); border-radius: 8px; padding: .45rem .55rem; background: var(--shell-card); color: var(--shell-soft); font-size: .76rem; line-height: 1.3; }
+.adw-arc b { display: block; font-size: .86rem; color: var(--shell-ink); }
+.adw-arc.on { border-color: var(--net); box-shadow: 0 0 0 1px var(--net) inset; }
+.adw-arc.on b::after { content: " \2713"; color: var(--net); }
+.adw-acts { display: flex; gap: .4rem; flex-wrap: wrap; margin-top: .55rem; }
+.adw-acts .fo-btn { text-decoration: none; }
+.adw-later { display: block; width: 100%; font: inherit; font-weight: 700; color: var(--net); background: none; border: 0; border-top: 1px solid var(--shell-hair); padding: .75rem; margin-top: .5rem; }
+.adw-lock { margin: .7rem 0 .2rem; }
+.adw-bar { display: flex; align-items: center; gap: .6rem; background: var(--net); color: #fff; border-radius: 12px; padding: .65rem .75rem; margin: .9rem 0 .7rem; text-decoration: none; }
+.adw-bar .adw-n { flex: none; width: 2rem; height: 2rem; border-radius: 50%; background: #fff; color: var(--net); display: grid; place-items: center; font-weight: 800; }
+.adw-bar small { display: block; font-family: var(--nar); font-size: .66rem; letter-spacing: .16em; text-transform: uppercase; opacity: .85; }
+.adw-bar b { font-size: .9rem; line-height: 1.3; }
+.adw-bar em { margin-left: auto; font-style: normal; font-size: 1.2rem; }
+
+/* [madden] The page's tab row scrolls sideways when it doesn't fit (Front
+   Office has nine), with a fade on the right that says there's more. */
+.tabswitch.hub { flex-wrap: nowrap; }
+.tabswitch.hub .seg { display: flex; flex-wrap: nowrap; flex: 1 1 auto; min-width: 0; max-width: 100%; overflow-x: auto; overflow-y: hidden;
+  -webkit-overflow-scrolling: touch; scrollbar-width: none; overscroll-behavior-x: contain; }
+.tabswitch.hub .seg::-webkit-scrollbar { display: none; }
+.tabswitch.hub .seg button { flex: 0 0 auto; white-space: nowrap; }
+.tabswitch.hub .seg.many { padding-right: 1.6rem; -webkit-mask-image: linear-gradient(90deg, #000 calc(100% - 2rem), transparent); mask-image: linear-gradient(90deg, #000 calc(100% - 2rem), transparent); }
+
+/* [madden] THE PRESEASON SETUP (app.js arcPicker, setupTop, setupFoot): the
+   arc in its one spot, the Economy → Plan → Season steps, Save. */
+.ap { background: linear-gradient(160deg, #16191e, #0b0d10); color: #fff; border-radius: 16px; padding: .85rem; margin: .7rem 0 .9rem; }
+.ap-q { margin: 0 0 .55rem; font: 700 1.15rem var(--nar); text-transform: uppercase; letter-spacing: .04em; }
+.ap-arcs { display: grid; grid-template-columns: 1fr 1fr; gap: .4rem; }
+.ap-arc { position: relative; text-align: left; font: inherit; color: #fff; border: 1.5px solid #333a44; border-radius: 12px; padding: .55rem .6rem .55rem 1.65rem; background: #1b1f25; cursor: pointer; }
+.ap-arc i { position: absolute; left: .6rem; top: .75rem; width: .62rem; height: .62rem; border-radius: 50%; background: var(--c); }
+.ap-arc b { display: block; font-size: .88rem; }
+.ap-arc span { display: block; font-size: .72rem; color: #aab2bc; line-height: 1.3; margin-top: .1rem; }
+.ap-arc.on { border-color: var(--c); background: color-mix(in srgb, var(--c) 22%, #1b1f25); box-shadow: 0 0 0 1px var(--c); }
+.ap-arc.on b::after { content: "  \2713"; color: var(--c); }
+.ap-what { margin-top: .65rem; border-left: 4px solid var(--c); background: #1b1f25; border-radius: 10px; padding: .6rem .7rem; }
+.ap-what small { font: 700 .64rem var(--nar); letter-spacing: .16em; text-transform: uppercase; color: var(--c); }
+.ap-fx { display: grid; grid-template-columns: 1fr 1fr; gap: .3rem; margin-top: .4rem; }
+.ap-fx span { background: #232831; border-radius: 8px; padding: .3rem .45rem; font-size: .8rem; font-weight: 700; }
+.ap-fx em { display: block; font-style: normal; font-weight: 400; font-size: .62rem; color: #aab2bc; text-transform: uppercase; letter-spacing: .08em; }
+.ap-what p { margin: .45rem 0 0; font-size: .75rem; color: #aab2bc; line-height: 1.4; }
+.ap-acts { margin-top: .65rem; display: flex; }
+.ap-go { width: 100%; justify-content: center; padding: .7rem; font-size: .95rem; }
+.ap-locked { width: 100%; text-align: center; padding: .6rem; border-radius: 10px; background: color-mix(in srgb, var(--c) 30%, #1b1f25); font-weight: 700; }
+.fs { background: #0b0d10; color: #fff; border-radius: 12px; padding: .55rem .75rem; margin: .7rem 0 .4rem; }
+.fs small { display: block; font: 700 .62rem var(--nar); letter-spacing: .2em; text-transform: uppercase; color: #e0b04a; }
+.fs div { display: flex; align-items: center; gap: .4rem; margin-top: .3rem; font-size: .84rem; flex-wrap: wrap; }
+.fs em { font-style: normal; opacity: .4; }
+.fs-st { display: flex; align-items: center; gap: .3rem; opacity: .6; color: #fff; text-decoration: none; cursor: pointer; }
+.fs-st b { width: 1.35rem; height: 1.35rem; border-radius: 50%; border: 2px solid #fff; display: grid; place-items: center; font-size: .7rem; }
+.fs-st.now { opacity: 1; font-weight: 700; } .fs-st.now b { background: var(--net); border-color: var(--net); }
+.fs-st.done { opacity: 1; } .fs-st.done b { background: #00a37a; border-color: #00a37a; }
+.fs-foot { display: flex; justify-content: space-between; align-items: center; gap: .5rem; margin: 1rem 0 .4rem; }
+.fs-foot .fo-btn { text-decoration: none; }
+.fs-next { margin-left: auto; padding: .7rem 1.1rem; font-size: .95rem; box-shadow: 0 4px 0 rgba(0,0,0,.25); }
+.fs-review { background: var(--shell-card); border: 1px solid var(--shell-rule); border-radius: 14px; margin-top: .9rem; }
+.fs-review a { display: grid; grid-template-columns: 5rem 1fr auto; gap: .4rem; align-items: center; padding: .6rem .8rem; border-top: 1px solid var(--shell-hair); color: var(--shell-ink); text-decoration: none; cursor: pointer; font-size: .9rem; }
+.fs-review a:first-child { border-top: 0; }
+.fs-review small { color: var(--shell-faint); text-transform: uppercase; font-size: .66rem; letter-spacing: .1em; }
+.fs-review em { font-style: normal; color: var(--net); font-size: .8rem; font-weight: 700; }
+.adw-setup { list-style: none; margin: 0; padding: .3rem .9rem; }
+.adw-setup li { display: flex; gap: .65rem; align-items: center; padding: .55rem 0; border-top: 1px solid var(--shell-hair); }
+.adw-setup li:first-child { border-top: 0; }
+.adw-setup li > b { width: 1.85rem; height: 1.85rem; border-radius: 50%; background: var(--net); color: #fff; display: grid; place-items: center; flex: none; }
+.adw-setup li.done > b { background: #00a37a; }
+.adw-setup strong { display: block; font-size: .98rem; color: var(--shell-ink); }
+.adw-setup span { font-size: .84rem; color: var(--shell-soft); }
+.adw-start { display: block; margin: .3rem .9rem .2rem; text-align: center; background: var(--net); color: #fff; font-weight: 700; font-size: 1rem; padding: .8rem; border-radius: 12px; text-decoration: none; cursor: pointer; box-shadow: 0 4px 0 rgba(0,0,0,.25); }
+.adw-saved { display: block; background: #00a37a; color: #fff; border-radius: 14px; padding: .8rem .9rem; margin: .9rem 0 .8rem; }
+.adw-saved b { display: block; font: 700 1.15rem var(--nar); text-transform: uppercase; }
+.adw-saved span { display: block; font-size: .88rem; margin-top: .15rem; }
+.adw-saved em { display: block; font-size: .78rem; opacity: .9; margin-top: .3rem; font-style: normal; }
+.adw-saved a { color: #fff; font-weight: 700; text-decoration: underline; cursor: pointer; }
+
+/* [madden] The arc preview (app.js arcPicker): the bubbles under the cards. */
+.ap-arc em { font-style: normal; font-size: .56rem; background: #3a414b; border-radius: 4px; padding: 0 .3rem; margin-left: .35rem; letter-spacing: .08em; text-transform: uppercase; vertical-align: middle; }
+.ap-arc:disabled { cursor: default; opacity: .55; }
+.ap-arc.on:disabled { opacity: 1; }
+.ap-pv { position: relative; margin-top: .75rem; border: 1.5px solid var(--c); border-radius: 14px; background: #14181d; }
+.ap-pv::before { content: ""; position: absolute; top: -8px; left: 50%; width: 14px; height: 14px; background: #14181d; border-left: 1.5px solid var(--c); border-top: 1.5px solid var(--c); transform: rotate(45deg); }
+.ap-pv-h { padding: .6rem .75rem .35rem; border-radius: 12px 12px 0 0; background: color-mix(in srgb, var(--c) 18%, #14181d); }
+.ap-pv-h small { font: 700 .64rem var(--nar); letter-spacing: .16em; text-transform: uppercase; color: var(--c); }
+.ap-pv-h b { display: block; font-size: .92rem; }
+.ap-bub { display: flex; gap: .3rem; overflow-x: auto; padding: .5rem .65rem; scrollbar-width: none; }
+.ap-bub::-webkit-scrollbar { display: none; }
+.ap-bub button { flex: none; font: inherit; font-size: .76rem; border: 1px solid #3a414b; border-radius: 999px; padding: .32rem .7rem; background: none; color: #cfd4da; cursor: pointer; }
+.ap-bub button.on { background: #fff; color: #0b0d10; border-color: #fff; font-weight: 700; }
+.ap-pv-b { padding: 0 .75rem .3rem; }
+.ap-r { display: flex; align-items: center; gap: .5rem; padding: .48rem .15rem; border-top: 1px solid #262c34; }
+.ap-r:first-child { border-top: 0; }
+.ap-l { flex: 1; min-width: 0; } .ap-l b { display: block; font-size: .86rem; } .ap-l em { font-style: normal; font-size: .68rem; color: #8f99a4; }
+.ap-v { display: flex; align-items: center; gap: .35rem; font-size: .82rem; text-align: right; } .ap-v s { color: #6f7883; } .ap-v b { font-size: .88rem; }
+.ap-v i { font-style: normal; flex: none; font-size: .68rem; width: 1.25rem; height: 1.25rem; border-radius: 50%; display: grid; place-items: center; font-weight: 800; }
+.ap-r.up { background: linear-gradient(90deg, transparent, rgba(0,179,134,.13)); } .ap-r.up .ap-v i { background: #00B386; color: #04241b; } .ap-r.up .ap-v b { color: #5ef0c4; }
+.ap-r.dn { background: linear-gradient(90deg, transparent, rgba(255,107,53,.13)); } .ap-r.dn .ap-v i { background: #FF6B35; color: #2b1206; } .ap-r.dn .ap-v b { color: #ffab87; }
+.ap-r.same .ap-v i { background: #3a414b; color: #cfd4da; }
+.ap-fine { font-size: .72rem; color: #8f99a4; line-height: 1.4; margin: .35rem 0; }
+.ap-light { background: var(--shell-card); color: var(--shell-ink); border-radius: 10px; padding: .2rem .65rem .6rem; margin: .3rem 0 .4rem; }
+.ap-pv .ap-acts { padding: .2rem .75rem .75rem; margin: 0; }
+.ap-locked { line-height: 1.35; }
+.ap-bub { flex-wrap: wrap; overflow: visible; }
+.ap-pv .ap-go { background: var(--c); color: #0b0d10; box-shadow: 0 4px 0 rgba(0,0,0,.35); }
+
+/* [madden] The arc preview and the season recap as drop-downs (app.js arcPicker, renderRealign). */
+.ap-acc { padding: .5rem .6rem .1rem; display: grid; gap: .4rem; }
+.ap-ac { border: 1px solid #2c333c; border-radius: 10px; background: #181c22; overflow: hidden; }
+.ap-ac.open { border-color: color-mix(in srgb, var(--c) 60%, #2c333c); }
+.ap-ac-h { display: grid; grid-template-columns: 1fr auto; gap: .1rem .5rem; width: 100%; text-align: left; font: inherit; color: #fff; background: none; border: 0; padding: .55rem .7rem; cursor: pointer; }
+.ap-ac-h b { font-size: .9rem; }
+.ap-ac-h span { grid-column: 1; font-size: .72rem; color: #aab2bc; }
+.ap-ac-h i { grid-column: 2; grid-row: 1 / span 2; align-self: center; font-style: normal; font-weight: 800; font-size: 1.1rem; color: var(--c); }
+.ap-ac-b { padding: 0 .7rem .4rem; border-top: 1px solid #262c34; }
+.ec-wait { display: block; margin: .2rem 0 .9rem; padding: .8rem .9rem; border: 1px dashed var(--shell-rule); border-radius: 12px; color: var(--shell-soft); }
+.ec-wait b { display: block; color: var(--shell-ink); margin-bottom: .15rem; }
+.ec-wait span { font-size: .88rem; }
+.ec-acc-t { margin: .4rem 0 .5rem; font: 700 1.05rem var(--nar); letter-spacing: .06em; text-transform: uppercase; color: var(--shell-ink); }
+.ec-acc { display: grid; gap: .5rem; margin-bottom: .8rem; }
+.ec-ac { border: 1px solid var(--shell-rule); border-radius: 12px; background: var(--shell-card); overflow: hidden; }
+.ec-ac.open { border-color: var(--shell-ink); }
+.ec-ac-h { display: grid; grid-template-columns: 1fr auto; gap: .1rem .5rem; width: 100%; text-align: left; font: inherit; color: var(--shell-ink); background: none; border: 0; padding: .7rem .85rem; cursor: pointer; }
+.ec-ac-h b { font: 700 1rem var(--nar); letter-spacing: .04em; text-transform: uppercase; }
+.ec-ac-h span { grid-column: 1; font-size: .8rem; color: var(--shell-soft); }
+.ec-ac-h i { grid-column: 2; grid-row: 1 / span 2; align-self: center; font-style: normal; font-weight: 800; font-size: 1.2rem; color: var(--net); }
+.ec-ac-b { padding: 0 .6rem .6rem; border-top: 1px solid var(--shell-hair); }
+
+.fs-what { margin: -.1rem 0 .6rem; text-align: right; font-size: .78rem; color: var(--shell-faint); }
+.adw-quiet { display: flex; align-items: center; gap: .6rem; margin: .9rem 0 .7rem; padding: .5rem .75rem; border: 1px solid var(--shell-rule); border-radius: 10px; background: var(--shell-card); color: var(--shell-ink); text-decoration: none; cursor: pointer; }
+.adw-quiet span { font: 700 .66rem var(--nar); letter-spacing: .16em; text-transform: uppercase; color: #00a37a; }
+.adw-quiet b { font-size: .88rem; font-weight: 600; }
+.adw-quiet em { margin-left: auto; font-style: normal; color: var(--shell-faint); }

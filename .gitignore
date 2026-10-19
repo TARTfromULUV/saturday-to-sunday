@@ -71,3 +71,9 @@ desktop.ini
 # review (tools/share-week.ps1 adds review/ with -f when asked to)
 fixtures/
 review/
+
+# --- the stadium ad library (app/ad-library): thumbs and catalog ship with the
+# app; the full-size PNGs (156 MB) and the raw DDS export (1.4 GB) stay on the
+# builder's PC. tools/ad-library-build.py rebuilds everything from raw/.
+app/ad-library/png/
+app/ad-library/raw/
