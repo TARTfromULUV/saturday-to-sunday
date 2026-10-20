@@ -1,6 +1,6 @@
 {
   "name": "s2s",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "type": "module",
   "updateRepo": "TARTfromULUV/saturday-to-sunday",
   "updateBranch": "main",

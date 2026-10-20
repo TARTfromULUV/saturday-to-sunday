@@ -3,6 +3,14 @@
 What changed in each version, newest first. The app shows this in
 **Settings ▸ Update log**.
 
+## 1.4.2 — 2026-10-20 — First run
+
+- **No false update on a fresh ZIP.** A ZIP has no recorded build, and every branch commit counted as new, so a fresh install said "A new version of S2S is ready" on its first launch. An unknown build now goes by the version number; git checkouts still compare commits.
+- **Setup errors in plain words.** Add a save strips the quotes from "Copy as path", an empty box gets focus instead of an error, "No saves found" says where saves live and that console saves can't be read. If the ChatGPT sign-in window can't open, the card points to `install-chatgpt.bat`.
+- **Double-click while S2S is running** opens the running copy instead of a port error. `--help` prints usage.
+- **Empty News and Your Team** say what to do first.
+- **The docs match the app:** Install update and the Releases list instead of settings that are gone; the missing `API-KEY.md` is back; Help says the public download never needs a GitHub sign-in.
+
 ## 1.4.1 — 2026-10-20 — The hero rule, the brochure, the site
 
 - **The front page by the moment.** One cover, and a switch on it: **National** or **your team**. National is the week's lead across the sport; your team puts the beat writer's notebook on your game in the frame, with your scoreline. It remembers which you prefer, per league. The preseason reads like a season preview, Signing Day and the draft lead with their own module, Super Bowl week is the matchup; the rails that have nothing to say that week are cut.
