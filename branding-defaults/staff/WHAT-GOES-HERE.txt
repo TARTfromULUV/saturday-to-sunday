@@ -23,3 +23,7 @@ NFL staff (the NFL site's masthead, Settings > NFL > NFL staff):
 
 .png, .jpg or .webp all work. Drop them here (or in your data folder's
 branding/staff) and they appear next to the bylines and in The Regulars.
+
+Or use Settings > your league > Articles > Staff > Writer portraits >
+Add portraits: pick an image (or a .zip of several) and it goes in the right
+place for you.

@@ -10,6 +10,8 @@ cards and team pages. The writing happens on your PC; you read it on your phone.
 S2S builds on Zip's Vintage ESPN App and Economy Overhaul: his foundation, with
 the Madden side added so a college dynasty and an NFL franchise are one universe.
 
+**Two PDFs for sharing:** [the brochure](docs/S2S-Brochure.pdf) (what it is, why, how it works) and [the quick start](docs/S2S-Quick-Start.pdf) (three steps, one page).
+
 ## Start here
 
 You need a Windows PC with your CFB 27 and/or Madden 27 saves on it, a free

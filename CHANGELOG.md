@@ -3,6 +3,20 @@
 What changed in each version, newest first. The app shows this in
 **Settings ▸ Update log**.
 
+## 1.4.1 — 2026-10-20 — The hero rule, the brochure, the site
+
+- **The front page by the moment.** One cover, and a switch on it: **National** or **your team**. National is the week's lead across the sport; your team puts the beat writer's notebook on your game in the frame, with your scoreline. It remembers which you prefer, per league. The preseason reads like a season preview, Signing Day and the draft lead with their own module, Super Bowl week is the matchup; the rails that have nothing to say that week are cut.
+- **The picture owns its frame.** A real photograph on the front page never carries text: the kicker and the switch sit above it, the headline and the dek under it. Without a photo a plate drawn from the teams takes the same slot (their colours, their logos, the score). The band of numbers under the hero is gone; a game piece keeps its scoreline.
+- **Drawn thumbnails, no words.** The top five is ranks and logos, the matchup two logos and a bar, the rest a logo with a glyph for what happened: the swap arrows for a trade, the cross for an injury, the stars for a commit, the card for the draft, the bars for the money. The card prints the desk under the picture.
+- **The Championship cover** matches the game's championship week, prints the line as text with the network, and carries The year.
+- **The held class, three states.** The college board drifts a little a week, a draft file is exact, and the draft releases it.
+- **Branding packs.** Writer portraits come as a pack you add from Settings; the logo pack is an optional add-on; the stock ten writer headshots ship again.
+- **Start with Windows works.** It goes through the registry's Run key now. **Desktop shortcut** is explained where it is turned on: an S2S shortcut lands on the desktop, and S2S has to be open for the phone to read the paper.
+- **The ticker keeps rolling** until the mouse moves onto it, not the moment it passes over.
+- **About** has LinkedIn and Discord, and the brochure as a download.
+- **Two PDFs in the docs folder:** the brochure (what it is, why, how it works, where it is going) and a one-page quick start. Both linked from the README.
+- **A landing page** in the docs folder, for GitHub Pages: the paper doing the thing, how it works, the desks on both sides, get it.
+
 ## 1.4.0 — 2026-10-19 — The new look
 
 - **A new look around the paper.** The app around the newspaper is rebuilt in one design, dark first (light still works). The front page, the articles and the game stories keep their print look. Colour now means something: the league (red for college, blue for the NFL), a team, or a kind of row, never decoration.
