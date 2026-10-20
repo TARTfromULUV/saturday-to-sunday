@@ -3,7 +3,15 @@
 What changed in each version, newest first. The app shows this in
 **Settings ▸ Update log**.
 
-## Unreleased — Dollars that add up, at a steady price
+## 1.4.0 — 2026-10-19 — The new look
+
+- **A new look around the paper.** The app around the newspaper is rebuilt in one design, dark first (light still works). The front page, the articles and the game stories keep their print look. Colour now means something: the league (red for college, blue for the NFL), a team, or a kind of row, never decoration.
+  - **The top of the app:** a dark bar with a stripe in the league's colour; the tab you're on is underlined in it, and a tab's views are chips.
+  - **Every page opens on a plate** in the league's colour: the page in big condensed type, the week in its label, and up to three numbers from your save. Scores counts the finals, the thrillers (and how many went to OT) and the upsets. Standings shows your place, your record and the best record. Rankings shows No. 1, where you are and the biggest riser. Stats shows the passing, rushing and receiving leaders.
+  - **Scores:** each final is a row striped in the winner's colour, with the loser in grey and your game first and highlighted. Upset, Thriller and Runaway are tags.
+  - **Team pages:** the team's plate in its own colour, with its logo, record, streak and rank (a light colour like gold gets dark text). The scoring is in tiles, and the overview reads as rows: the staff, the leaders, injuries in red (out for the season) or orange (shorter), signings and extensions in green. The beat reporter's notebook keeps the paper's type.
+  - **Settings:** a plate with your saves, this month's usage and whether the app is current. Get set up is a progress bar that keeps only the steps left. Each save carries its league's stripe.
+  - **The Wire, Coaches and the Draft hub:** moves are striped by kind; each staff card is striped in its team's colour; filter chips match the tabs.
 
 - **The NFL draft class stays put.** Playing the two games hand in hand, the college side moves into its next year while Madden is still in the playoffs, and the NFL board swapped to next year's names. Now the class is held for the Madden season: a draft file exported from your college dynasty is the class as soon as it exists, imported into Madden or not; the college board or MyDynasty's projection still updates it week to week, but stops once the college moves on to a new year. The hold lets go when the class is drafted (its players are rookies) or the next Madden season's games start.
 - **Where the class comes from, on the Draft tab and in Settings.** One line says what the board reads (the draft file and its folder, MyDynasty's projection and its folder, or your college site's board), whether it's imported, and when it's being held, with a link to Settings, which shows the same line.
