@@ -33,11 +33,10 @@ writes the issue ([SETUP.md](SETUP.md) section 6 explains why: it's what keeps
 the app from spoiling scores the game is still hiding).
 
 Your saves are only ever read, never written. Your leagues live in your user
-folder, apart from the app, so updates never touch them. **Updates:** with
-**Settings ▸ This device ▸ Update the app automatically** ticked, new versions
-install themselves; otherwise a red dot shows on the Settings gear, and
-**Update now** at the top of Settings updates and restarts the app. What changed is in
-**Settings ▸ Update log**. Stuck on something? **Settings ▸ Help** answers the
+folder, apart from the app, so updates never touch them. **Updates:** when a
+new version is out, a red dot shows on the Settings gear; tap **Install update**
+at the top of Settings and the app updates and restarts itself. What changed is
+on this page's **Releases** list. Stuck on something? **Settings ▸ Help** answers the
 usual questions.
 
 **Linking a college dynasty and a franchise** (optional): add both saves and

@@ -59,11 +59,6 @@ the link to yourself.
 - **Write new weeks automatically:** the PC watches your save, and the moment
   you advance a week it writes the issue, so it is waiting on your phone.
   It uses your writer's plan the same as tapping Generate.
-- **Update the app automatically:** checks GitHub every few hours. When a new
-  version is out it downloads it (a git pull for a clone, the zip for a
-  download), restarts between issues, never in the middle of one, and keeps
-  your leagues and issues exactly as they were. **Settings ▸ Update log**
-  shows what changed.
 - **Desktop shortcut** and **Start with Windows.**
 
 ## 2c. On a Mac
@@ -375,12 +370,9 @@ and the preseason issue comes out the same either way.
 
 When a new version is out, a **red dot** shows on the Settings gear (and on the
 Settings tab on the phone), and a card at the top of Settings says *A new
-version of S2S is ready*. Tap **Update now**: the app downloads it, waits until
-nothing is being written, and restarts. Reload the page after a minute.
-
-To skip the tap, tick **Settings ▸ This device ▸ Update the app automatically**
-(the last set-up step, *Turn on*, ticks it too): new versions then install
-themselves the same way, once nothing is being written.
+version of S2S is ready*. Tap **Install update**: the app downloads it, waits
+until nothing is being written, and restarts. Reload the page after a minute.
+What changed is on the GitHub page's **Releases** list.
 
 Your dynasties, issues and branding are **safe**: they live in your user data
 folder (see "Where things live"), not inside the app folder, so updating never

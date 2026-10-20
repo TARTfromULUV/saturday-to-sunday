@@ -4236,6 +4236,11 @@ main.has-mp { padding-bottom: 4rem; }
   border-left: 4px solid var(--net); padding: .6rem .8rem; margin: 0 0 .8rem; color: inherit; text-decoration: none; cursor: pointer; }
 .sec-strip small { flex: none; font: 700 .62rem var(--nar); letter-spacing: .14em; text-transform: uppercase; color: var(--net); }
 .sec-strip b { flex: 1; min-width: 0; font-size: .92rem; line-height: 1.25; }
+.sec-strip.pre-held { border-style: dashed; }
+.sec-strip.pre-held b { font-weight: 500; color: var(--shell-soft); font-size: .84rem; }
+.pre-slate { display: grid; gap: .2rem; }
+.pre-g { display: flex; justify-content: space-between; gap: .5rem; padding: .35rem 0; border-bottom: 1px solid var(--shell-hair); font-size: .86rem; }
+.pre-g small { color: var(--shell-soft); font-size: .7rem; }
 .sec-strip span { color: var(--shell-faint); font-size: 1.1rem; }
 .secblock-head { flex-wrap: wrap; }
 .secblock-head i { white-space: normal; overflow: visible; text-overflow: clip; max-width: none; }
