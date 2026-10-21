@@ -3,6 +3,10 @@
 What changed in each version, newest first. The app shows this in
 **Settings ▸ Update log**.
 
+## 1.4.3 — 2026-10-21 — A page that breaks says so
+
+- **No more silent freezes.** A page that threw while S2S was drawing it used to leave the last screen on, with every tap after it doing nothing. Now the page says what broke, the rest of the app keeps working, and the error goes to the S2S window on the PC and to `client-errors.log` in the data folder, so you can send it in the thread. Home, Reload and Clear cache and reload are on the card.
+
 ## 1.4.2 — 2026-10-20 — First run
 
 - **No false update on a fresh ZIP.** A ZIP has no recorded build, and every branch commit counted as new, so a fresh install said "A new version of S2S is ready" on its first launch. An unknown build now goes by the version number; git checkouts still compare commits.
