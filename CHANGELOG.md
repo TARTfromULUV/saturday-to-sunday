@@ -3,6 +3,10 @@
 What changed in each version, newest first. The app shows this in
 **Settings ▸ Update log**.
 
+## 1.4.4 — 2026-10-22 — The Super Bowl decides the year
+
+- **The NFL year no longer ends at the conference championships.** S2S counted the season finished once twelve playoff games were final, but the bracket has twelve games before the Super Bowl; so after the conference finals it crowned the last winner as champion, and the linked leagues' yearbook foreword wrote that the NFC champion had won the Super Bowl. The year now ends with the Super Bowl itself. A yearbook piece written during the playoffs is treated as stale and written again once the season is really over.
+
 ## 1.4.3 — 2026-10-21 — A page that breaks says so
 
 - **No more silent freezes.** A page that threw while S2S was drawing it used to leave the last screen on, with every tap after it doing nothing. Now the page says what broke, the rest of the app keeps working, and the error goes to the S2S window on the PC and to `client-errors.log` in the data folder, so you can send it in the thread. Home, Reload and Clear cache and reload are on the card.
