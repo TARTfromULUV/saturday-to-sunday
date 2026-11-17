@@ -1,0 +1,9014 @@
+{
+ "about": "Every partner brand's logo, cut from the ad library art with the background cleared (keyed: false keeps the opaque crop). Built by scripts/tools/build-logo-index.py; lib/office/market.mjs reads it. Casino, lottery and sportsbook brands never appear.",
+ "counts": {
+  "regions": 761,
+  "skipped_no": 194,
+  "tiny": 5,
+  "cut_off": 0,
+  "gambling": 18,
+  "versions_seen": 562,
+  "brands": 354,
+  "versions": 447,
+  "keyed": 382,
+  "opaque": 65
+ },
+ "brands": [
+  {
+   "brand": "3B Outdoor Equipment",
+   "key": "3b outdoor equipment",
+   "slug": "3b-outdoor-equipment",
+   "category": "retail",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "3b-outdoor-equipment/1.png",
+     "from": {
+      "stadium": "louisiana_monroe",
+      "surface": "Ad board",
+      "itemId": "ULM_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 114,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "brand": "76",
+   "key": "76",
+   "slug": "76",
+   "category": "auto",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "76/1.png",
+     "from": {
+      "stadium": "nc_state",
+      "surface": "Ad board",
+      "itemId": "NCST_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 22,
+     "h": 21
+    }
+   ]
+  },
+  {
+   "brand": "AAA",
+   "key": "aaa",
+   "slug": "aaa",
+   "category": "insurance",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "aaa/1.png",
+     "from": {
+      "stadium": "ohio_state",
+      "surface": "Ad board",
+      "itemId": "OSU_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 46,
+     "h": 29
+    },
+    {
+     "file": "aaa/2.png",
+     "from": {
+      "stadium": "arizona_state",
+      "surface": "Field wall",
+      "itemId": "ASU_edgewall_decal_color"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 40,
+     "h": 25
+    }
+   ]
+  },
+  {
+   "brand": "Ace Hardware",
+   "key": "ace hardware",
+   "slug": "ace-hardware",
+   "category": "retail",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "ace-hardware/1.png",
+     "from": {
+      "stadium": "wku",
+      "surface": "Video board",
+      "itemId": "WKU_jumbotron_ad_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 95,
+     "h": 52
+    }
+   ]
+  },
+  {
+   "brand": "Acrisure Stadium",
+   "key": "acrisure stadium",
+   "slug": "acrisure-stadium",
+   "category": "insurance",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "acrisure-stadium/1.png",
+     "from": {
+      "stadium": "pittsburgh_cs",
+      "surface": "Video board",
+      "itemId": "PITT_CS_jumbotronAds_colorEM"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 133,
+     "h": 76
+    }
+   ]
+  },
+  {
+   "brand": "adidas",
+   "key": "adidas",
+   "slug": "adidas",
+   "category": "outfitter",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "adidas/1.png",
+     "from": {
+      "stadium": "central_michigan",
+      "surface": "Other",
+      "itemId": "CMU_lower_buildings_vinyl_tarp_colorAO"
+     },
+     "seen": 3,
+     "keyed": true,
+     "patch": "fits",
+     "w": 160,
+     "h": 108
+    },
+    {
+     "file": "adidas/2.png",
+     "from": {
+      "stadium": "tulsa",
+      "surface": "Other",
+      "itemId": "TLSA_details_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 119,
+     "h": 81
+    },
+    {
+     "file": "adidas/3.png",
+     "from": {
+      "stadium": "louisville",
+      "surface": "Other",
+      "itemId": "lou_atlas_decal_color"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 108,
+     "h": 55
+    },
+    {
+     "file": "adidas/4.png",
+     "from": {
+      "stadium": "texas_am",
+      "surface": "Other",
+      "itemId": "TAMU_alpha_logos_decal_color"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 106,
+     "h": 55
+    }
+   ]
+  },
+  {
+   "brand": "Advantage Specialties",
+   "key": "advantage specialties",
+   "slug": "advantage-specialties",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "advantage-specialties/1.png",
+     "from": {
+      "stadium": "sam_houston_state",
+      "surface": "Other",
+      "itemId": "SHSU_ads_colorEM"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 84,
+     "h": 42
+    },
+    {
+     "file": "advantage-specialties/2.png",
+     "from": {
+      "stadium": "sam_houston_state",
+      "surface": "Field wall",
+      "itemId": "SHSU_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 32,
+     "h": 22
+    }
+   ]
+  },
+  {
+   "brand": "AdventHealth",
+   "key": "adventhealth",
+   "slug": "adventhealth",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "adventhealth/1.png",
+     "from": {
+      "stadium": "south_florida",
+      "surface": "Video board",
+      "itemId": "USF_jumbotron_ads_01_colorEM"
+     },
+     "seen": 2,
+     "keyed": true,
+     "patch": "pad",
+     "w": 192,
+     "h": 55
+    }
+   ]
+  },
+  {
+   "brand": "AECOM",
+   "key": "aecom",
+   "slug": "aecom",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "aecom/1.png",
+     "from": {
+      "stadium": "air_force",
+      "surface": "Other",
+      "itemId": "AFA_atlas_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 145,
+     "h": 37
+    }
+   ]
+  },
+  {
+   "brand": "Aflac",
+   "key": "aflac",
+   "slug": "aflac",
+   "category": "insurance",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "aflac/1.png",
+     "from": {
+      "stadium": "colorado",
+      "surface": "Ad board",
+      "itemId": "COLO_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 66,
+     "h": 23
+    }
+   ]
+  },
+  {
+   "brand": "Air National Guard",
+   "key": "air national guard",
+   "slug": "air-national-guard",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "air-national-guard/1.png",
+     "from": {
+      "stadium": "jacksonville_state",
+      "surface": "Ad board",
+      "itemId": "JVST_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 210,
+     "h": 51
+    }
+   ]
+  },
+  {
+   "brand": "Aisling Hotel & Spa",
+   "key": "aisling hotel & spa",
+   "slug": "aisling-hotel-spa",
+   "category": "generic",
+   "fictional": true,
+   "versions": [
+    {
+     "file": "aisling-hotel-spa/1.png",
+     "from": {
+      "stadium": "akron",
+      "surface": "Ad board",
+      "itemId": "akr_advertising_colorEM"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 102,
+     "h": 27
+    }
+   ]
+  },
+  {
+   "brand": "Allstate",
+   "key": "allstate",
+   "slug": "allstate",
+   "category": "insurance",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "allstate/1.png",
+     "from": {
+      "stadium": "ohio_state",
+      "surface": "Ad board",
+      "itemId": "OSU_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 72,
+     "h": 15
+    }
+   ]
+  },
+  {
+   "brand": "Ambetter Health",
+   "key": "ambetter health",
+   "slug": "ambetter-health",
+   "category": "insurance",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "ambetter-health/1.png",
+     "from": {
+      "stadium": "missouri",
+      "surface": "Ad board",
+      "itemId": "MIZZ_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 136,
+     "h": 49
+    }
+   ]
+  },
+  {
+   "brand": "America First Credit Union",
+   "key": "america first credit union",
+   "slug": "america-first-credit-union",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "america-first-credit-union/1.png",
+     "from": {
+      "stadium": "utah",
+      "surface": "Field wall",
+      "itemId": "UTAH_edgewall_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 64,
+     "h": 22
+    }
+   ]
+  },
+  {
+   "brand": "America's Mattress",
+   "key": "america's mattress",
+   "slug": "america-s-mattress",
+   "category": "retail",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "america-s-mattress/1.png",
+     "from": {
+      "stadium": "louisiana_monroe",
+      "surface": "Ad board",
+      "itemId": "ULM_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 100,
+     "h": 36
+    }
+   ]
+  },
+  {
+   "brand": "America's Thrift Stores",
+   "key": "america's thrift stores",
+   "slug": "america-s-thrift-stores",
+   "category": "retail",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "america-s-thrift-stores/1.png",
+     "from": {
+      "stadium": "middle_tennessee",
+      "surface": "Field wall",
+      "itemId": "MTSU_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 93,
+     "h": 30
+    }
+   ]
+  },
+  {
+   "brand": "Anchor Fence of Delmarva",
+   "key": "anchor fence of delmarva",
+   "slug": "anchor-fence-of-delmarva",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "anchor-fence-of-delmarva/1.png",
+     "from": {
+      "stadium": "delaware",
+      "surface": "Ad board",
+      "itemId": "DEL_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 69,
+     "h": 20
+    }
+   ]
+  },
+  {
+   "brand": "Anduril",
+   "key": "anduril",
+   "slug": "anduril",
+   "category": "tech",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "anduril/1.png",
+     "from": {
+      "stadium": "ohio_state",
+      "surface": "Other",
+      "itemId": "OSU_env_logo_02_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 112,
+     "h": 33
+    },
+    {
+     "file": "anduril/2.png",
+     "from": {
+      "stadium": "ohio_state",
+      "surface": "Ad board",
+      "itemId": "OSU_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 83,
+     "h": 22
+    }
+   ]
+  },
+  {
+   "brand": "Anidjar & Levine",
+   "key": "anidjar & levine",
+   "slug": "anidjar-levine",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "anidjar-levine/1.png",
+     "from": {
+      "stadium": "miami_fl",
+      "surface": "Field wall",
+      "itemId": "MIA_edgeWall_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 35,
+     "h": 26
+    }
+   ]
+  },
+  {
+   "brand": "Anthem",
+   "key": "anthem",
+   "slug": "anthem",
+   "category": "insurance",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "anthem/1.png",
+     "from": {
+      "stadium": "colorado",
+      "surface": "Ad board",
+      "itemId": "COLO_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 100,
+     "h": 25
+    }
+   ]
+  },
+  {
+   "brand": "Aquafina",
+   "key": "aquafina",
+   "slug": "aquafina",
+   "category": "drink",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "aquafina/1.png",
+     "from": {
+      "stadium": "florida",
+      "surface": "Ad board",
+      "itemId": "FLA_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 153,
+     "h": 73
+    }
+   ]
+  },
+  {
+   "brand": "Arbor",
+   "key": "arbor",
+   "slug": "arbor",
+   "category": "tech",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "arbor/1.png",
+     "from": {
+      "stadium": "western_michigan",
+      "surface": "Ad board",
+      "itemId": "WMU_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 135,
+     "h": 35
+    }
+   ]
+  },
+  {
+   "brand": "Ascend Federal Credit Union",
+   "key": "ascend federal credit union",
+   "slug": "ascend-federal-credit-union",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "ascend-federal-credit-union/1.png",
+     "from": {
+      "stadium": "middle_tennessee",
+      "surface": "Field wall",
+      "itemId": "MTSU_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 65,
+     "h": 31
+    }
+   ]
+  },
+  {
+   "brand": "Ascension",
+   "key": "ascension",
+   "slug": "ascension",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "ascension/1.png",
+     "from": {
+      "stadium": "middle_tennessee",
+      "surface": "Field wall",
+      "itemId": "MTSU_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 80,
+     "h": 18
+    }
+   ]
+  },
+  {
+   "brand": "AT&T",
+   "key": "at&t",
+   "slug": "at-t",
+   "category": "telecom",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "at-t/1.png",
+     "from": {
+      "stadium": "foxborough_b",
+      "surface": "Other",
+      "itemId": "FOX_B_ad_02_colorEM"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 112,
+     "h": 34
+    }
+   ]
+  },
+  {
+   "brand": "AutoNation DRV PNK",
+   "key": "autonation drv pnk",
+   "slug": "autonation-drv-pnk",
+   "category": "auto",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "autonation-drv-pnk/1.png",
+     "from": {
+      "stadium": "miami_fl",
+      "surface": "Video board",
+      "itemId": "MIA_jumbotronAd_colorAO"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 65,
+     "h": 55
+    }
+   ]
+  },
+  {
+   "brand": "Bacardi",
+   "key": "bacardi",
+   "slug": "bacardi",
+   "category": "drink",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "bacardi/1.png",
+     "from": {
+      "stadium": "miami_fl",
+      "surface": "Field wall",
+      "itemId": "MIA_edgeWall_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 49,
+     "h": 12
+    }
+   ]
+  },
+  {
+   "brand": "Baptist Health",
+   "key": "baptist health",
+   "slug": "baptist-health",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "baptist-health/1.png",
+     "from": {
+      "stadium": "fau",
+      "surface": "Video board",
+      "itemId": "FAU_jumbotron_ad_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 131,
+     "h": 46
+    },
+    {
+     "file": "baptist-health/2.png",
+     "from": {
+      "stadium": "fiu",
+      "surface": "Field wall",
+      "itemId": "FIU_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 49,
+     "h": 19
+    }
+   ]
+  },
+  {
+   "brand": "Barton's",
+   "key": "barton's",
+   "slug": "barton-s",
+   "category": "retail",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "barton-s/1.png",
+     "from": {
+      "stadium": "arkansas_state",
+      "surface": "Ad board",
+      "itemId": "ARST_advertising_colorAO"
+     },
+     "seen": 2,
+     "keyed": true,
+     "patch": "pad",
+     "w": 105,
+     "h": 26
+    }
+   ]
+  },
+  {
+   "brand": "Bayou Outdoor",
+   "key": "bayou outdoor",
+   "slug": "bayou-outdoor",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "bayou-outdoor/1.png",
+     "from": {
+      "stadium": "louisiana_monroe",
+      "surface": "Field wall",
+      "itemId": "ULM_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "fits",
+     "w": 36,
+     "h": 26
+    }
+   ]
+  },
+  {
+   "brand": "BECU",
+   "key": "becu",
+   "slug": "becu",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "becu/1.png",
+     "from": {
+      "stadium": "oregon_state",
+      "surface": "Field wall",
+      "itemId": "ORST_edgewall_colorA"
+     },
+     "seen": 2,
+     "keyed": false,
+     "patch": "pad",
+     "w": 57,
+     "h": 21
+    }
+   ]
+  },
+  {
+   "brand": "Belfor Property Restoration",
+   "key": "belfor property restoration",
+   "slug": "belfor-property-restoration",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "belfor-property-restoration/1.png",
+     "from": {
+      "stadium": "oregon_state",
+      "surface": "Ad board",
+      "itemId": "ORST_advertising_colorAO"
+     },
+     "seen": 2,
+     "keyed": true,
+     "patch": "pad",
+     "w": 80,
+     "h": 23
+    }
+   ]
+  },
+  {
+   "brand": "Benjamin Moore",
+   "key": "benjamin moore",
+   "slug": "benjamin-moore",
+   "category": "retail",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "benjamin-moore/1.png",
+     "from": {
+      "stadium": "northern_illinois",
+      "surface": "Ad board",
+      "itemId": "NIU_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 101,
+     "h": 39
+    }
+   ]
+  },
+  {
+   "brand": "Best in Texas",
+   "key": "best in texas",
+   "slug": "best-in-texas",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "best-in-texas/1.png",
+     "from": {
+      "stadium": "utsa",
+      "surface": "Field wall",
+      "itemId": "UTSA_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 51,
+     "h": 25
+    }
+   ]
+  },
+  {
+   "brand": "BJ's Trophy",
+   "key": "bj's trophy",
+   "slug": "bj-s-trophy",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "bj-s-trophy/1.png",
+     "from": {
+      "stadium": "missouri_state",
+      "surface": "Ad board",
+      "itemId": "MOST_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 52,
+     "h": 28
+    }
+   ]
+  },
+  {
+   "brand": "Blue Cross Blue Shield of Arkansas",
+   "key": "blue cross blue shield of arkansas",
+   "slug": "blue-cross-blue-shield-of-arkansas",
+   "category": "insurance",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "blue-cross-blue-shield-of-arkansas/1.png",
+     "from": {
+      "stadium": "arkansas_state",
+      "surface": "Ad board",
+      "itemId": "ARST_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 38,
+     "h": 31
+    },
+    {
+     "file": "blue-cross-blue-shield-of-arkansas/2.png",
+     "from": {
+      "stadium": "arkansas_state",
+      "surface": "Field wall",
+      "itemId": "ARST_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 31,
+     "h": 25
+    }
+   ]
+  },
+  {
+   "brand": "Blue Cross Blue Shield of Wyoming",
+   "key": "blue cross blue shield of wyoming",
+   "slug": "blue-cross-blue-shield-of-wyoming",
+   "category": "insurance",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "blue-cross-blue-shield-of-wyoming/1.png",
+     "from": {
+      "stadium": "wyoming",
+      "surface": "Ad board",
+      "itemId": "WYO_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 127,
+     "h": 78
+    }
+   ]
+  },
+  {
+   "brand": "BMO",
+   "key": "bmo",
+   "slug": "bmo",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "bmo/1.png",
+     "from": {
+      "stadium": "cal",
+      "surface": "Ad board",
+      "itemId": "CAL_advertising_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 150,
+     "h": 53
+    }
+   ]
+  },
+  {
+   "brand": "Bojangles",
+   "key": "bojangles",
+   "slug": "bojangles",
+   "category": "food",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "bojangles/1.png",
+     "from": {
+      "stadium": "louisiana_monroe",
+      "surface": "Field wall",
+      "itemId": "ULM_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 66,
+     "h": 20
+    }
+   ]
+  },
+  {
+   "brand": "Boost Mobile",
+   "key": "boost mobile",
+   "slug": "boost-mobile",
+   "category": "telecom",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "boost-mobile/1.png",
+     "from": {
+      "stadium": "colorado",
+      "surface": "Ad board",
+      "itemId": "COLO_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 68,
+     "h": 27
+    }
+   ]
+  },
+  {
+   "brand": "Boston Landing",
+   "key": "boston landing",
+   "slug": "boston-landing",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "boston-landing/1.png",
+     "from": {
+      "stadium": "boston_college",
+      "surface": "Field wall",
+      "itemId": "BC_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 47,
+     "h": 15
+    }
+   ]
+  },
+  {
+   "brand": "Boston Scientific",
+   "key": "boston scientific",
+   "slug": "boston-scientific",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "boston-scientific/1.png",
+     "from": {
+      "stadium": "boston_college",
+      "surface": "Ad board",
+      "itemId": "BC_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 163,
+     "h": 56
+    }
+   ]
+  },
+  {
+   "brand": "Bromberg's",
+   "key": "bromberg's",
+   "slug": "bromberg-s",
+   "category": "retail",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "bromberg-s/1.png",
+     "from": {
+      "stadium": "uab",
+      "surface": "Field wall",
+      "itemId": "UAB_edgeWall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 59,
+     "h": 14
+    }
+   ]
+  },
+  {
+   "brand": "Bryant Heating & Cooling",
+   "key": "bryant heating & cooling",
+   "slug": "bryant-heating-cooling",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "bryant-heating-cooling/1.png",
+     "from": {
+      "stadium": "kent_state",
+      "surface": "Other",
+      "itemId": "KENT_details_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 61,
+     "h": 46
+    }
+   ]
+  },
+  {
+   "brand": "Buckeye Vodka",
+   "key": "buckeye vodka",
+   "slug": "buckeye-vodka",
+   "category": "drink",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "buckeye-vodka/1.png",
+     "from": {
+      "stadium": "ohio_state",
+      "surface": "Ad board",
+      "itemId": "OSU_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 55,
+     "h": 32
+    }
+   ]
+  },
+  {
+   "brand": "Bud Light",
+   "key": "bud light",
+   "slug": "bud-light",
+   "category": "drink",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "bud-light/1.png",
+     "from": {
+      "stadium": "sam_houston_state",
+      "surface": "Other",
+      "itemId": "SHSU_ads_colorEM"
+     },
+     "seen": 5,
+     "keyed": true,
+     "patch": "fits",
+     "w": 80,
+     "h": 46
+    },
+    {
+     "file": "bud-light/2.png",
+     "from": {
+      "stadium": "louisville",
+      "surface": "Other",
+      "itemId": "lou_atlas_colorEM"
+     },
+     "seen": 3,
+     "keyed": false,
+     "patch": "fits",
+     "w": 113,
+     "h": 77
+    },
+    {
+     "file": "bud-light/3.png",
+     "from": {
+      "stadium": "utsa",
+      "surface": "Other",
+      "itemId": "UTSA_env_logo_01_colorA"
+     },
+     "seen": 2,
+     "keyed": true,
+     "patch": "fits",
+     "w": 143,
+     "h": 102
+    },
+    {
+     "file": "bud-light/4.png",
+     "from": {
+      "stadium": "pittsburgh_cs",
+      "surface": "Video board",
+      "itemId": "PITT_CS_jumbotronAds_colorEM"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 118,
+     "h": 27
+    }
+   ]
+  },
+  {
+   "brand": "Buffalo Wild Wings",
+   "key": "buffalo wild wings",
+   "slug": "buffalo-wild-wings",
+   "category": "food",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "buffalo-wild-wings/1.png",
+     "from": {
+      "stadium": "north_dakota_state",
+      "surface": "Ad board",
+      "itemId": "NDSU_advertising_colorA"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 216,
+     "h": 61
+    }
+   ]
+  },
+  {
+   "brand": "Cadence Bank",
+   "key": "cadence bank",
+   "slug": "cadence-bank",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "cadence-bank/1.png",
+     "from": {
+      "stadium": "louisiana_monroe",
+      "surface": "Ad board",
+      "itemId": "ULM_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 121,
+     "h": 36
+    },
+    {
+     "file": "cadence-bank/2.png",
+     "from": {
+      "stadium": "louisiana_monroe",
+      "surface": "Scoreboard",
+      "itemId": "ULM_scoreboard_details_colorAO"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "fits",
+     "w": 103,
+     "h": 103
+    }
+   ]
+  },
+  {
+   "brand": "Calabrese",
+   "key": "calabrese",
+   "slug": "calabrese",
+   "category": "food",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "calabrese/1.png",
+     "from": {
+      "stadium": "north_texas",
+      "surface": "Other",
+      "itemId": "UNT_atlas_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 105,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "brand": "CalHOPE",
+   "key": "calhope",
+   "slug": "calhope",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "calhope/1.png",
+     "from": {
+      "stadium": "cal",
+      "surface": "Ad board",
+      "itemId": "CAL_advertising_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 136,
+     "h": 36
+    }
+   ]
+  },
+  {
+   "brand": "Caliente",
+   "key": "caliente",
+   "slug": "caliente",
+   "category": "food",
+   "fictional": true,
+   "versions": [
+    {
+     "file": "caliente/1.png",
+     "from": {
+      "stadium": "pittsburgh_cs",
+      "surface": "Other",
+      "itemId": "PITT_CS_concessionAds_colorEM"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 113,
+     "h": 41
+    }
+   ]
+  },
+  {
+   "brand": "Cavender's",
+   "key": "cavender's",
+   "slug": "cavender-s",
+   "category": "retail",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "cavender-s/1.png",
+     "from": {
+      "stadium": "texas_am",
+      "surface": "Field wall",
+      "itemId": "TAMU_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 82,
+     "h": 20
+    }
+   ]
+  },
+  {
+   "brand": "CEFCU",
+   "key": "cefcu",
+   "slug": "cefcu",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "cefcu/1.png",
+     "from": {
+      "stadium": "san_jose_state",
+      "surface": "Ad board",
+      "itemId": "SJSU_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 71,
+     "h": 15
+    }
+   ]
+  },
+  {
+   "brand": "Centennial Bank",
+   "key": "centennial bank",
+   "slug": "centennial-bank",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "centennial-bank/1.png",
+     "from": {
+      "stadium": "arkansas_state",
+      "surface": "Field wall",
+      "itemId": "ARST_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 53,
+     "h": 34
+    }
+   ]
+  },
+  {
+   "brand": "Central Bank",
+   "key": "central bank",
+   "slug": "central-bank",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "central-bank/1.png",
+     "from": {
+      "stadium": "kentucky",
+      "surface": "Ad board",
+      "itemId": "UK_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 301,
+     "h": 86
+    }
+   ]
+  },
+  {
+   "brand": "CGS Imaging",
+   "key": "cgs imaging",
+   "slug": "cgs-imaging",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "cgs-imaging/1.png",
+     "from": {
+      "stadium": "toledo",
+      "surface": "Ad board",
+      "itemId": "tol_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 104,
+     "h": 39
+    }
+   ]
+  },
+  {
+   "brand": "Champion Chevrolet",
+   "key": "champion chevrolet",
+   "slug": "champion-chevrolet",
+   "category": "auto",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "champion-chevrolet/1.png",
+     "from": {
+      "stadium": "nevada",
+      "surface": "Field wall",
+      "itemId": "NEV_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 93,
+     "h": 27
+    }
+   ]
+  },
+  {
+   "brand": "Chestnut Hill",
+   "key": "chestnut hill",
+   "slug": "chestnut-hill",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "chestnut-hill/1.png",
+     "from": {
+      "stadium": "boston_college",
+      "surface": "Field wall",
+      "itemId": "BC_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 42,
+     "h": 14
+    }
+   ]
+  },
+  {
+   "brand": "Chevrolet",
+   "key": "chevrolet",
+   "slug": "chevrolet",
+   "category": "auto",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "chevrolet/1.png",
+     "from": {
+      "stadium": "utep",
+      "surface": "Field wall",
+      "itemId": "UTEP_edgewall_colorA"
+     },
+     "seen": 2,
+     "keyed": true,
+     "patch": "pad",
+     "w": 48,
+     "h": 23
+    },
+    {
+     "file": "chevrolet/2.png",
+     "from": {
+      "stadium": "uab",
+      "surface": "Field wall",
+      "itemId": "UAB_edgeWall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 40,
+     "h": 19
+    }
+   ]
+  },
+  {
+   "brand": "Chevron",
+   "key": "chevron",
+   "slug": "chevron",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "chevron/1.png",
+     "from": {
+      "stadium": "iowa_state",
+      "surface": "Ad board",
+      "itemId": "ISU_advertising_alpha_decal_color"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 160,
+     "h": 41
+    },
+    {
+     "file": "chevron/2.png",
+     "from": {
+      "stadium": "arizona_state",
+      "surface": "Field wall",
+      "itemId": "ASU_edgewall_decal_color"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 128,
+     "h": 43
+    }
+   ]
+  },
+  {
+   "brand": "Chick-fil-A",
+   "key": "chick-fil-a",
+   "slug": "chick-fil-a",
+   "category": "food",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "chick-fil-a/1.png",
+     "from": {
+      "stadium": "ucf",
+      "surface": "Ad board",
+      "itemId": "UCF_edgewall_tarp_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 176,
+     "h": 74
+    },
+    {
+     "file": "chick-fil-a/2.png",
+     "from": {
+      "stadium": "auburn",
+      "surface": "Other",
+      "itemId": "AUB_logos_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 56,
+     "h": 21
+    },
+    {
+     "file": "chick-fil-a/3.png",
+     "from": {
+      "stadium": "auburn",
+      "surface": "Ad board",
+      "itemId": "AUB_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 68,
+     "h": 16
+    },
+    {
+     "file": "chick-fil-a/4.png",
+     "from": {
+      "stadium": "atlanta_b",
+      "surface": "Concourse",
+      "itemId": "ATL_B_concourses_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 42,
+     "h": 16
+    }
+   ]
+  },
+  {
+   "brand": "Cintas",
+   "key": "cintas",
+   "slug": "cintas",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "cintas/1.png",
+     "from": {
+      "stadium": "louisiana_monroe",
+      "surface": "Field wall",
+      "itemId": "ULM_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 57,
+     "h": 14
+    }
+   ]
+  },
+  {
+   "brand": "Circle K",
+   "key": "circle k",
+   "slug": "circle-k",
+   "category": "retail",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "circle-k/1.png",
+     "from": {
+      "stadium": "new_mexico_state",
+      "surface": "Video board",
+      "itemId": "NMSU_jumbotron_ad_colorAO"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 120,
+     "h": 46
+    }
+   ]
+  },
+  {
+   "brand": "Cleveland Hopkins International Airport",
+   "key": "cleveland hopkins international airport",
+   "slug": "cleveland-hopkins-international-airport",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "cleveland-hopkins-international-airport/1.png",
+     "from": {
+      "stadium": "kent_state",
+      "surface": "Other",
+      "itemId": "KENT_details_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 83,
+     "h": 32
+    }
+   ]
+  },
+  {
+   "brand": "Coca-Cola",
+   "key": "coca-cola",
+   "slug": "coca-cola",
+   "category": "drink",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "coca-cola/1.png",
+     "from": {
+      "stadium": "arizona",
+      "surface": "Ad board",
+      "itemId": "ARIZ_advertising_colorAO"
+     },
+     "seen": 10,
+     "keyed": true,
+     "patch": "pad",
+     "w": 219,
+     "h": 83
+    },
+    {
+     "file": "coca-cola/2.png",
+     "from": {
+      "stadium": "umass",
+      "surface": "Ad board",
+      "itemId": "UMASS_advertising_colorAO"
+     },
+     "seen": 3,
+     "keyed": true,
+     "patch": "pad",
+     "w": 216,
+     "h": 80
+    },
+    {
+     "file": "coca-cola/3.png",
+     "from": {
+      "stadium": "south_florida",
+      "surface": "Video board",
+      "itemId": "USF_jumbotron_ads_01_colorEM"
+     },
+     "seen": 2,
+     "keyed": true,
+     "patch": "pad",
+     "w": 161,
+     "h": 59
+    },
+    {
+     "file": "coca-cola/4.png",
+     "from": {
+      "stadium": "georgia_state",
+      "surface": "Ad board",
+      "itemId": "GSU_advertising_colorAO"
+     },
+     "seen": 2,
+     "keyed": true,
+     "patch": "fits",
+     "w": 107,
+     "h": 54
+    }
+   ]
+  },
+  {
+   "brand": "Coldwell Banker Select",
+   "key": "coldwell banker select",
+   "slug": "coldwell-banker-select",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "coldwell-banker-select/1.png",
+     "from": {
+      "stadium": "nevada",
+      "surface": "Field wall",
+      "itemId": "NEV_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 63,
+     "h": 34
+    }
+   ]
+  },
+  {
+   "brand": "Colossus Burgers",
+   "key": "colossus burgers",
+   "slug": "colossus-burgers",
+   "category": "food",
+   "fictional": true,
+   "versions": [
+    {
+     "file": "colossus-burgers/1.png",
+     "from": {
+      "stadium": "foxborough_b",
+      "surface": "Other",
+      "itemId": "FOX_B_ad_02_colorEM"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 214,
+     "h": 110
+    }
+   ]
+  },
+  {
+   "brand": "Columbia Regional Airport",
+   "key": "columbia regional airport",
+   "slug": "columbia-regional-airport",
+   "category": "airline",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "columbia-regional-airport/1.png",
+     "from": {
+      "stadium": "missouri",
+      "surface": "Ad board",
+      "itemId": "MIZZ_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 76,
+     "h": 40
+    }
+   ]
+  },
+  {
+   "brand": "Coors Light",
+   "key": "coors light",
+   "slug": "coors-light",
+   "category": "drink",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "coors-light/1.png",
+     "from": {
+      "stadium": "louisville",
+      "surface": "Other",
+      "itemId": "lou_atlas_colorEM"
+     },
+     "seen": 2,
+     "keyed": true,
+     "patch": "fits",
+     "w": 86,
+     "h": 72
+    },
+    {
+     "file": "coors-light/2.png",
+     "from": {
+      "stadium": "north_texas",
+      "surface": "Other",
+      "itemId": "UNT_atlas_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 74,
+     "h": 23
+    }
+   ]
+  },
+  {
+   "brand": "Costco Wholesale",
+   "key": "costco wholesale",
+   "slug": "costco-wholesale",
+   "category": "retail",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "costco-wholesale/1.png",
+     "from": {
+      "stadium": "vanderbilt",
+      "surface": "Ad board",
+      "itemId": "VAN_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 120,
+     "h": 30
+    }
+   ]
+  },
+  {
+   "brand": "Cotality",
+   "key": "cotality",
+   "slug": "cotality",
+   "category": "tech",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "cotality/1.png",
+     "from": {
+      "stadium": "ole_miss",
+      "surface": "Ad board",
+      "itemId": "MISS_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 338,
+     "h": 95
+    },
+    {
+     "file": "cotality/2.png",
+     "from": {
+      "stadium": "ole_miss",
+      "surface": "Logo sheet",
+      "itemId": "MISS_env_logosheet_decal_color"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 71,
+     "h": 25
+    }
+   ]
+  },
+  {
+   "brand": "Cotton",
+   "key": "cotton",
+   "slug": "cotton",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "cotton/1.png",
+     "from": {
+      "stadium": "texas_am",
+      "surface": "Field wall",
+      "itemId": "TAMU_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "fits",
+     "w": 43,
+     "h": 26
+    }
+   ]
+  },
+  {
+   "brand": "CPG Playbook",
+   "key": "cpg playbook",
+   "slug": "cpg-playbook",
+   "category": "tech",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "cpg-playbook/1.png",
+     "from": {
+      "stadium": "any",
+      "surface": "Ad board",
+      "itemId": "CPG_icon"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 468,
+     "h": 431
+    }
+   ]
+  },
+  {
+   "brand": "Crowe Law, LLC",
+   "key": "crowe law, llc",
+   "slug": "crowe-law-llc",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "crowe-law-llc/1.png",
+     "from": {
+      "stadium": "west_virginia",
+      "surface": "Ad board",
+      "itemId": "WVU_advertising_colorEM"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 77,
+     "h": 41
+    }
+   ]
+  },
+  {
+   "brand": "Crystal Clinic Orthopaedic Center",
+   "key": "crystal clinic orthopaedic center",
+   "slug": "crystal-clinic-orthopaedic-center",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "crystal-clinic-orthopaedic-center/1.png",
+     "from": {
+      "stadium": "kent_state",
+      "surface": "Other",
+      "itemId": "KENT_details_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 133,
+     "h": 44
+    }
+   ]
+  },
+  {
+   "brand": "Daddy's Dogs",
+   "key": "daddy's dogs",
+   "slug": "daddy-s-dogs",
+   "category": "food",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "daddy-s-dogs/1.png",
+     "from": {
+      "stadium": "vanderbilt",
+      "surface": "Ad board",
+      "itemId": "VAN_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 47,
+     "h": 27
+    }
+   ]
+  },
+  {
+   "brand": "Dasani",
+   "key": "dasani",
+   "slug": "dasani",
+   "category": "drink",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "dasani/1.png",
+     "from": {
+      "stadium": "louisiana_monroe",
+      "surface": "Ad board",
+      "itemId": "ULM_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 100,
+     "h": 36
+    },
+    {
+     "file": "dasani/2.png",
+     "from": {
+      "stadium": "louisiana_monroe",
+      "surface": "Scoreboard",
+      "itemId": "ULM_scoreboard_details_colorAO"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 164,
+     "h": 77
+    }
+   ]
+  },
+  {
+   "brand": "Daspit Law Firm",
+   "key": "daspit law firm",
+   "slug": "daspit-law-firm",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "daspit-law-firm/1.png",
+     "from": {
+      "stadium": "temple",
+      "surface": "Field wall",
+      "itemId": "TEM_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 33,
+     "h": 17
+    }
+   ]
+  },
+  {
+   "brand": "DATCU",
+   "key": "datcu",
+   "slug": "datcu",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "datcu/1.png",
+     "from": {
+      "stadium": "north_texas",
+      "surface": "Other",
+      "itemId": "UNT_atlas_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 108,
+     "h": 35
+    }
+   ]
+  },
+  {
+   "brand": "Dave's Hot Chicken",
+   "key": "dave's hot chicken",
+   "slug": "dave-s-hot-chicken",
+   "category": "food",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "dave-s-hot-chicken/1.png",
+     "from": {
+      "stadium": "north_texas",
+      "surface": "Other",
+      "itemId": "UNT_atlas_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 63,
+     "h": 64
+    }
+   ]
+  },
+  {
+   "brand": "Delray Hyundai",
+   "key": "delray hyundai",
+   "slug": "delray-hyundai",
+   "category": "auto",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "delray-hyundai/1.png",
+     "from": {
+      "stadium": "fau",
+      "surface": "Video board",
+      "itemId": "FAU_jumbotron_ad_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 102,
+     "h": 53
+    }
+   ]
+  },
+  {
+   "brand": "Delta",
+   "key": "delta",
+   "slug": "delta",
+   "category": "airline",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "delta/1.png",
+     "from": {
+      "stadium": "georgia",
+      "surface": "Other",
+      "itemId": "UGA_details_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 100,
+     "h": 25
+    }
+   ]
+  },
+  {
+   "brand": "Dialpad",
+   "key": "dialpad",
+   "slug": "dialpad",
+   "category": "tech",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "dialpad/1.png",
+     "from": {
+      "stadium": "cal",
+      "surface": "Field art",
+      "itemId": "CAL_fieldLines_color"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 46,
+     "h": 16
+    }
+   ]
+  },
+  {
+   "brand": "DirecTV",
+   "key": "directv",
+   "slug": "directv",
+   "category": "telecom",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "directv/1.png",
+     "from": {
+      "stadium": "oregon",
+      "surface": "Other",
+      "itemId": "ORE_logos_decal_color"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 108,
+     "h": 31
+    }
+   ]
+  },
+  {
+   "brand": "Documation",
+   "key": "documation",
+   "slug": "documation",
+   "category": "tech",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "documation/1.png",
+     "from": {
+      "stadium": "rice",
+      "surface": "Video board",
+      "itemId": "RICE_jumbotron_ad_colorEM"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 100,
+     "h": 22
+    }
+   ]
+  },
+  {
+   "brand": "Dolan Auto Group",
+   "key": "dolan auto group",
+   "slug": "dolan-auto-group",
+   "category": "auto",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "dolan-auto-group/1.png",
+     "from": {
+      "stadium": "nevada",
+      "surface": "Field wall",
+      "itemId": "NEV_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 40,
+     "h": 18
+    }
+   ]
+  },
+  {
+   "brand": "Domino's",
+   "key": "domino's",
+   "slug": "domino-s",
+   "category": "food",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "domino-s/1.png",
+     "from": {
+      "stadium": "sam_houston_state",
+      "surface": "Other",
+      "itemId": "SHSU_ads_colorEM"
+     },
+     "seen": 2,
+     "keyed": true,
+     "patch": "pad",
+     "w": 87,
+     "h": 29
+    },
+    {
+     "file": "domino-s/2.png",
+     "from": {
+      "stadium": "toledo",
+      "surface": "Ad board",
+      "itemId": "tol_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 106,
+     "h": 44
+    }
+   ]
+  },
+  {
+   "brand": "Don Franklin",
+   "key": "don franklin",
+   "slug": "don-franklin",
+   "category": "auto",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "don-franklin/1.png",
+     "from": {
+      "stadium": "wku",
+      "surface": "Field wall",
+      "itemId": "WKU_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 75,
+     "h": 25
+    }
+   ]
+  },
+  {
+   "brand": "Double Dip Donuts",
+   "key": "double dip donuts",
+   "slug": "double-dip-donuts",
+   "category": "food",
+   "fictional": true,
+   "versions": [
+    {
+     "file": "double-dip-donuts/1.png",
+     "from": {
+      "stadium": "akron",
+      "surface": "Ad board",
+      "itemId": "akr_advertising_colorEM"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "fits",
+     "w": 149,
+     "h": 96
+    }
+   ]
+  },
+  {
+   "brand": "DoubleDave's Pizzaworks",
+   "key": "doubledave's pizzaworks",
+   "slug": "doubledave-s-pizzaworks",
+   "category": "food",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "doubledave-s-pizzaworks/1.png",
+     "from": {
+      "stadium": "sam_houston_state",
+      "surface": "Field wall",
+      "itemId": "SHSU_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 58,
+     "h": 22
+    }
+   ]
+  },
+  {
+   "brand": "DoubleTree by Hilton",
+   "key": "doubletree by hilton",
+   "slug": "doubletree-by-hilton",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "doubletree-by-hilton/1.png",
+     "from": {
+      "stadium": "middle_tennessee",
+      "surface": "Field wall",
+      "itemId": "MTSU_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 33,
+     "h": 27
+    }
+   ]
+  },
+  {
+   "brand": "Doug Smith",
+   "key": "doug smith",
+   "slug": "doug-smith",
+   "category": "auto",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "doug-smith/1.png",
+     "from": {
+      "stadium": "byu",
+      "surface": "Field wall",
+      "itemId": "BYU_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 48,
+     "h": 26
+    }
+   ]
+  },
+  {
+   "brand": "Downtown",
+   "key": "downtown",
+   "slug": "downtown",
+   "category": "generic",
+   "fictional": true,
+   "versions": [
+    {
+     "file": "downtown/1.png",
+     "from": {
+      "stadium": "pittsburgh_cs",
+      "surface": "Other",
+      "itemId": "PITT_CS_concessionAds_colorEM"
+     },
+     "seen": 2,
+     "keyed": false,
+     "patch": "pad",
+     "w": 102,
+     "h": 36
+    }
+   ]
+  },
+  {
+   "brand": "Dragonfly Health",
+   "key": "dragonfly health",
+   "slug": "dragonfly-health",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "dragonfly-health/1.png",
+     "from": {
+      "stadium": "nevada",
+      "surface": "Field wall",
+      "itemId": "NEV_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 91,
+     "h": 24
+    }
+   ]
+  },
+  {
+   "brand": "Drive Sober or Get Pulled Over",
+   "key": "drive sober or get pulled over",
+   "slug": "drive-sober-or-get-pulled-over",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "drive-sober-or-get-pulled-over/1.png",
+     "from": {
+      "stadium": "florida_state",
+      "surface": "Video board",
+      "itemId": "FSU_jumbotron_ads_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 136,
+     "h": 100
+    }
+   ]
+  },
+  {
+   "brand": "Dunkin'",
+   "key": "dunkin'",
+   "slug": "dunkin",
+   "category": "food",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "dunkin/1.png",
+     "from": {
+      "stadium": "penn_state",
+      "surface": "Ad board",
+      "itemId": "PSU_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 75,
+     "h": 19
+    }
+   ]
+  },
+  {
+   "brand": "El Camino Health",
+   "key": "el camino health",
+   "slug": "el-camino-health",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "el-camino-health/1.png",
+     "from": {
+      "stadium": "san_jose_state",
+      "surface": "Ad board",
+      "itemId": "SJSU_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 79,
+     "h": 24
+    }
+   ]
+  },
+  {
+   "brand": "Electronic Caregiver",
+   "key": "electronic caregiver",
+   "slug": "electronic-caregiver",
+   "category": "tech",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "electronic-caregiver/1.png",
+     "from": {
+      "stadium": "new_mexico_state",
+      "surface": "Video board",
+      "itemId": "NMSU_jumbotron_ad_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 148,
+     "h": 34
+    }
+   ]
+  },
+  {
+   "brand": "Embassy Suites",
+   "key": "embassy suites",
+   "slug": "embassy-suites",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "embassy-suites/1.png",
+     "from": {
+      "stadium": "north_texas",
+      "surface": "Other",
+      "itemId": "UNT_atlas_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 53,
+     "h": 40
+    }
+   ]
+  },
+  {
+   "brand": "Emblem Properties Group",
+   "key": "emblem properties group",
+   "slug": "emblem-properties-group",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "emblem-properties-group/1.png",
+     "from": {
+      "stadium": "sam_houston_state",
+      "surface": "Other",
+      "itemId": "SHSU_ads_colorEM"
+     },
+     "seen": 2,
+     "keyed": true,
+     "patch": "pad",
+     "w": 89,
+     "h": 34
+    }
+   ]
+  },
+  {
+   "brand": "EMC2",
+   "key": "emc2",
+   "slug": "emc2",
+   "category": "tech",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "emc2/1.png",
+     "from": {
+      "stadium": "boston_college",
+      "surface": "Ad board",
+      "itemId": "BC_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 125,
+     "h": 43
+    }
+   ]
+  },
+  {
+   "brand": "Emory Healthcare",
+   "key": "emory healthcare",
+   "slug": "emory-healthcare",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "emory-healthcare/1.png",
+     "from": {
+      "stadium": "georgia_tech",
+      "surface": "Ad board",
+      "itemId": "GT_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 83,
+     "h": 30
+    }
+   ]
+  },
+  {
+   "brand": "Empower",
+   "key": "empower",
+   "slug": "empower",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "empower/1.png",
+     "from": {
+      "stadium": "boston_college",
+      "surface": "Field wall",
+      "itemId": "BC_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 42,
+     "h": 19
+    }
+   ]
+  },
+  {
+   "brand": "Equinox Wireless",
+   "key": "equinox wireless",
+   "slug": "equinox-wireless",
+   "category": "telecom",
+   "fictional": true,
+   "versions": [
+    {
+     "file": "equinox-wireless/1.png",
+     "from": {
+      "stadium": "auburn",
+      "surface": "Ad board",
+      "itemId": "AUB_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 60,
+     "h": 20
+    }
+   ]
+  },
+  {
+   "brand": "Expedition Truck and Car Rental",
+   "key": "expedition truck and car rental",
+   "slug": "expedition-truck-and-car-rental",
+   "category": "auto",
+   "fictional": true,
+   "versions": [
+    {
+     "file": "expedition-truck-and-car-rental/1.png",
+     "from": {
+      "stadium": "pittsburgh_cs",
+      "surface": "Other",
+      "itemId": "PITT_CS_concessionAds_colorEM"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 104,
+     "h": 22
+    }
+   ]
+  },
+  {
+   "brand": "Extra",
+   "key": "extra",
+   "slug": "extra",
+   "category": "food",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "extra/1.png",
+     "from": {
+      "stadium": "rutgers",
+      "surface": "Other",
+      "itemId": "RUTG_ads_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 53,
+     "h": 27
+    }
+   ]
+  },
+  {
+   "brand": "Fanatics",
+   "key": "fanatics",
+   "slug": "fanatics",
+   "category": "retail",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "fanatics/1.png",
+     "from": {
+      "stadium": "auburn",
+      "surface": "Other",
+      "itemId": "AUB_logos_colorAO"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 60,
+     "h": 16
+    }
+   ]
+  },
+  {
+   "brand": "Farm Bureau Insurance",
+   "key": "farm bureau insurance",
+   "slug": "farm-bureau-insurance",
+   "category": "insurance",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "farm-bureau-insurance/1.png",
+     "from": {
+      "stadium": "florida",
+      "surface": "Ad board",
+      "itemId": "FLA_advertising_colorAO"
+     },
+     "seen": 3,
+     "keyed": true,
+     "patch": "fits",
+     "w": 97,
+     "h": 68
+    }
+   ]
+  },
+  {
+   "brand": "Fifth Third Bank",
+   "key": "fifth third bank",
+   "slug": "fifth-third-bank",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "fifth-third-bank/1.png",
+     "from": {
+      "stadium": "south_florida",
+      "surface": "Video board",
+      "itemId": "USF_jumbotron_ads_01_colorEM"
+     },
+     "seen": 2,
+     "keyed": true,
+     "patch": "pad",
+     "w": 189,
+     "h": 77
+    }
+   ]
+  },
+  {
+   "brand": "First Bank",
+   "key": "first bank",
+   "slug": "first-bank",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "first-bank/1.png",
+     "from": {
+      "stadium": "vanderbilt",
+      "surface": "Ad board",
+      "itemId": "VAN_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 64,
+     "h": 20
+    }
+   ]
+  },
+  {
+   "brand": "First Financial Bank",
+   "key": "first financial bank",
+   "slug": "first-financial-bank",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "first-financial-bank/1.png",
+     "from": {
+      "stadium": "sam_houston_state",
+      "surface": "Other",
+      "itemId": "SHSU_ads_colorEM"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 72,
+     "h": 33
+    }
+   ]
+  },
+  {
+   "brand": "First Horizon Bank",
+   "key": "first horizon bank",
+   "slug": "first-horizon-bank",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "first-horizon-bank/1.png",
+     "from": {
+      "stadium": "louisiana_monroe",
+      "surface": "Ad board",
+      "itemId": "ULM_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 107,
+     "h": 32
+    },
+    {
+     "file": "first-horizon-bank/2.png",
+     "from": {
+      "stadium": "louisiana_lafayette",
+      "surface": "Field wall",
+      "itemId": "ULL_edgewall_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 88,
+     "h": 28
+    }
+   ]
+  },
+  {
+   "brand": "First Interstate Bank",
+   "key": "first interstate bank",
+   "slug": "first-interstate-bank",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "first-interstate-bank/1.png",
+     "from": {
+      "stadium": "oregon_state",
+      "surface": "Ad board",
+      "itemId": "ORST_advertising_colorAO"
+     },
+     "seen": 2,
+     "keyed": true,
+     "patch": "pad",
+     "w": 63,
+     "h": 27
+    }
+   ]
+  },
+  {
+   "brand": "First National Bank",
+   "key": "first national bank",
+   "slug": "first-national-bank",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "first-national-bank/1.png",
+     "from": {
+      "stadium": "northern_illinois",
+      "surface": "Video board",
+      "itemId": "NIU_jumbotron_ad_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 130,
+     "h": 68
+    }
+   ]
+  },
+  {
+   "brand": "First State Bank",
+   "key": "first state bank",
+   "slug": "first-state-bank",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "first-state-bank/1.png",
+     "from": {
+      "stadium": "north_texas",
+      "surface": "Other",
+      "itemId": "UNT_atlas_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 68,
+     "h": 27
+    }
+   ]
+  },
+  {
+   "brand": "FNBO",
+   "key": "fnbo",
+   "slug": "fnbo",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "fnbo/1.png",
+     "from": {
+      "stadium": "wyoming",
+      "surface": "Ad board",
+      "itemId": "WYO_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 188,
+     "h": 56
+    }
+   ]
+  },
+  {
+   "brand": "Ford",
+   "key": "ford",
+   "slug": "ford",
+   "category": "auto",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "ford/1.png",
+     "from": {
+      "stadium": "florida_state",
+      "surface": "Video board",
+      "itemId": "FSU_jumbotron_ads_colorAO"
+     },
+     "seen": 5,
+     "keyed": true,
+     "patch": "fits",
+     "w": 169,
+     "h": 64
+    },
+    {
+     "file": "ford/2.png",
+     "from": {
+      "stadium": "south_florida",
+      "surface": "Video board",
+      "itemId": "USF_jumbotron_ads_01_colorEM"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 166,
+     "h": 56
+    },
+    {
+     "file": "ford/3.png",
+     "from": {
+      "stadium": "arizona_state",
+      "surface": "Field wall",
+      "itemId": "ASU_edgewall_decal_color"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 94,
+     "h": 42
+    },
+    {
+     "file": "ford/4.png",
+     "from": {
+      "stadium": "louisiana_lafayette",
+      "surface": "Field wall",
+      "itemId": "ULL_edgewall_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 55,
+     "h": 42
+    }
+   ]
+  },
+  {
+   "brand": "Founders Federal Credit Union",
+   "key": "founders federal credit union",
+   "slug": "founders-federal-credit-union",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "founders-federal-credit-union/1.png",
+     "from": {
+      "stadium": "south_carolina",
+      "surface": "Field wall",
+      "itemId": "SC_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 62,
+     "h": 17
+    }
+   ]
+  },
+  {
+   "brand": "Frost",
+   "key": "frost",
+   "slug": "frost",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "frost/1.png",
+     "from": {
+      "stadium": "tcu",
+      "surface": "Other",
+      "itemId": "TCU_details_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 100,
+     "h": 26
+    },
+    {
+     "file": "frost/2.png",
+     "from": {
+      "stadium": "north_texas",
+      "surface": "Other",
+      "itemId": "UNT_atlas_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 75,
+     "h": 21
+    }
+   ]
+  },
+  {
+   "brand": "FYZICAL",
+   "key": "fyzical",
+   "slug": "fyzical",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "fyzical/1.png",
+     "from": {
+      "stadium": "new_mexico_state",
+      "surface": "Video board",
+      "itemId": "NMSU_jumbotron_ad_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 130,
+     "h": 29
+    }
+   ]
+  },
+  {
+   "brand": "Gatorade",
+   "key": "gatorade",
+   "slug": "gatorade",
+   "category": "drink",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "gatorade/1.png",
+     "from": {
+      "stadium": "coastal_carolina",
+      "surface": "Other",
+      "itemId": "CCAR_Atlas_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 89,
+     "h": 86
+    }
+   ]
+  },
+  {
+   "brand": "GBU Life",
+   "key": "gbu life",
+   "slug": "gbu-life",
+   "category": "insurance",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "gbu-life/1.png",
+     "from": {
+      "stadium": "pittsburgh",
+      "surface": "Field wall",
+      "itemId": "PITT_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 61,
+     "h": 14
+    }
+   ]
+  },
+  {
+   "brand": "GECU",
+   "key": "gecu",
+   "slug": "gecu",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "gecu/1.png",
+     "from": {
+      "stadium": "utep",
+      "surface": "Field wall",
+      "itemId": "UTEP_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 95,
+     "h": 22
+    }
+   ]
+  },
+  {
+   "brand": "GEICO",
+   "key": "geico",
+   "slug": "geico",
+   "category": "insurance",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "geico/1.png",
+     "from": {
+      "stadium": "arizona",
+      "surface": "Ad board",
+      "itemId": "ARIZ_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 219,
+     "h": 55
+    }
+   ]
+  },
+  {
+   "brand": "Georgia Natural Gas",
+   "key": "georgia natural gas",
+   "slug": "georgia-natural-gas",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "georgia-natural-gas/1.png",
+     "from": {
+      "stadium": "georgia_state",
+      "surface": "Ad board",
+      "itemId": "GSU_advertising_colorAO"
+     },
+     "seen": 2,
+     "keyed": true,
+     "patch": "fits",
+     "w": 122,
+     "h": 79
+    },
+    {
+     "file": "georgia-natural-gas/2.png",
+     "from": {
+      "stadium": "georgia_tech",
+      "surface": "Ad board",
+      "itemId": "GT_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 96,
+     "h": 43
+    },
+    {
+     "file": "georgia-natural-gas/3.png",
+     "from": {
+      "stadium": "kennesaw_state",
+      "surface": "Ad board",
+      "itemId": "KENN_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 69,
+     "h": 20
+    }
+   ]
+  },
+  {
+   "brand": "Georgia Power",
+   "key": "georgia power",
+   "slug": "georgia-power",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "georgia-power/1.png",
+     "from": {
+      "stadium": "georgia_tech",
+      "surface": "Ad board",
+      "itemId": "GT_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 78,
+     "h": 89
+    }
+   ]
+  },
+  {
+   "brand": "Glasshouse Insurance",
+   "key": "glasshouse insurance",
+   "slug": "glasshouse-insurance",
+   "category": "insurance",
+   "fictional": true,
+   "versions": [
+    {
+     "file": "glasshouse-insurance/1.png",
+     "from": {
+      "stadium": "toledo",
+      "surface": "Ad board",
+      "itemId": "tol_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 90,
+     "h": 72
+    },
+    {
+     "file": "glasshouse-insurance/2.png",
+     "from": {
+      "stadium": "akron",
+      "surface": "Ad board",
+      "itemId": "akr_advertising_colorEM"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "fits",
+     "w": 148,
+     "h": 96
+    }
+   ]
+  },
+  {
+   "brand": "Graves Gilbert Clinic",
+   "key": "graves gilbert clinic",
+   "slug": "graves-gilbert-clinic",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "graves-gilbert-clinic/1.png",
+     "from": {
+      "stadium": "wku",
+      "surface": "Field wall",
+      "itemId": "WKU_edgewall_box_ads_colorEM"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 250,
+     "h": 91
+    },
+    {
+     "file": "graves-gilbert-clinic/2.png",
+     "from": {
+      "stadium": "wku",
+      "surface": "Field wall",
+      "itemId": "WKU_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 79,
+     "h": 28
+    }
+   ]
+  },
+  {
+   "brand": "Greasy Biscuit",
+   "key": "greasy biscuit",
+   "slug": "greasy-biscuit",
+   "category": "food",
+   "fictional": true,
+   "versions": [
+    {
+     "file": "greasy-biscuit/1.png",
+     "from": {
+      "stadium": "wku",
+      "surface": "Video board",
+      "itemId": "WKU_jumbotron_ad_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 127,
+     "h": 122
+    }
+   ]
+  },
+  {
+   "brand": "Great Southern Bank",
+   "key": "great southern bank",
+   "slug": "great-southern-bank",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "great-southern-bank/1.png",
+     "from": {
+      "stadium": "missouri",
+      "surface": "Ad board",
+      "itemId": "MIZZ_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 112,
+     "h": 53
+    },
+    {
+     "file": "great-southern-bank/2.png",
+     "from": {
+      "stadium": "missouri_state",
+      "surface": "Ad board",
+      "itemId": "MOST_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 92,
+     "h": 34
+    }
+   ]
+  },
+  {
+   "brand": "Gregg's Home & Garden Warehouse",
+   "key": "gregg's home & garden warehouse",
+   "slug": "gregg-s-home-garden-warehouse",
+   "category": "retail",
+   "fictional": true,
+   "versions": [
+    {
+     "file": "gregg-s-home-garden-warehouse/1.png",
+     "from": {
+      "stadium": "miami_oh",
+      "surface": "Ad board",
+      "itemId": "MIAOH_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 101,
+     "h": 62
+    }
+   ]
+  },
+  {
+   "brand": "Grotto Pizza",
+   "key": "grotto pizza",
+   "slug": "grotto-pizza",
+   "category": "food",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "grotto-pizza/1.png",
+     "from": {
+      "stadium": "delaware",
+      "surface": "Ad board",
+      "itemId": "DEL_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 90,
+     "h": 33
+    }
+   ]
+  },
+  {
+   "brand": "GSL",
+   "key": "gsl",
+   "slug": "gsl",
+   "category": "generic",
+   "fictional": true,
+   "versions": [
+    {
+     "file": "gsl/1.png",
+     "from": {
+      "stadium": "pittsburgh_cs",
+      "surface": "Other",
+      "itemId": "PITT_CS_concessionAds_colorEM"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 59,
+     "h": 44
+    }
+   ]
+  },
+  {
+   "brand": "H-E-B",
+   "key": "h-e-b",
+   "slug": "h-e-b",
+   "category": "retail",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "h-e-b/1.png",
+     "from": {
+      "stadium": "sam_houston_state",
+      "surface": "Field wall",
+      "itemId": "SHSU_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 55,
+     "h": 20
+    },
+    {
+     "file": "h-e-b/2.png",
+     "from": {
+      "stadium": "rice",
+      "surface": "Video board",
+      "itemId": "RICE_jumbotron_ad_colorEM"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 189,
+     "h": 56
+    },
+    {
+     "file": "h-e-b/3.png",
+     "from": {
+      "stadium": "baylor",
+      "surface": "Field wall",
+      "itemId": "BAY_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 72,
+     "h": 35
+    },
+    {
+     "file": "h-e-b/4.png",
+     "from": {
+      "stadium": "houston",
+      "surface": "Wall wrap",
+      "itemId": "HOU_edgewall_tarp_colorA"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 77,
+     "h": 23
+    }
+   ]
+  },
+  {
+   "brand": "Habbas Law",
+   "key": "habbas law",
+   "slug": "habbas-law",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "habbas-law/1.png",
+     "from": {
+      "stadium": "san_jose_state",
+      "surface": "Ad board",
+      "itemId": "SJSU_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 78,
+     "h": 15
+    }
+   ]
+  },
+  {
+   "brand": "Hancock Whitney",
+   "key": "hancock whitney",
+   "slug": "hancock-whitney",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "hancock-whitney/1.png",
+     "from": {
+      "stadium": "louisiana_lafayette",
+      "surface": "Other",
+      "itemId": "ULL_ads_01_colorEM"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 229,
+     "h": 59
+    }
+   ]
+  },
+  {
+   "brand": "Hattie B's",
+   "key": "hattie b's",
+   "slug": "hattie-b-s",
+   "category": "food",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "hattie-b-s/1.png",
+     "from": {
+      "stadium": "vanderbilt",
+      "surface": "Ad board",
+      "itemId": "VAN_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 63,
+     "h": 25
+    }
+   ]
+  },
+  {
+   "brand": "Heineken",
+   "key": "heineken",
+   "slug": "heineken",
+   "category": "drink",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "heineken/1.png",
+     "from": {
+      "stadium": "miami_fl",
+      "surface": "Other",
+      "itemId": "MIA_concessions_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 52,
+     "h": 23
+    }
+   ]
+  },
+  {
+   "brand": "High Noon",
+   "key": "high noon",
+   "slug": "high-noon",
+   "category": "drink",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "high-noon/1.png",
+     "from": {
+      "stadium": "ucf",
+      "surface": "Ad board",
+      "itemId": "UCF_edgewall_tarp_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 109,
+     "h": 108
+    }
+   ]
+  },
+  {
+   "brand": "Highmark Blue Cross Blue Shield",
+   "key": "highmark blue cross blue shield",
+   "slug": "highmark-blue-cross-blue-shield",
+   "category": "insurance",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "highmark-blue-cross-blue-shield/1.png",
+     "from": {
+      "stadium": "penn_state",
+      "surface": "Ad board",
+      "itemId": "PSU_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 88,
+     "h": 35
+    }
+   ]
+  },
+  {
+   "brand": "Homeland Bank",
+   "key": "homeland bank",
+   "slug": "homeland-bank",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "homeland-bank/1.png",
+     "from": {
+      "stadium": "louisiana_monroe",
+      "surface": "Ad board",
+      "itemId": "ULM_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 115,
+     "h": 52
+    }
+   ]
+  },
+  {
+   "brand": "HoneyBaked Ham",
+   "key": "honeybaked ham",
+   "slug": "honeybaked-ham",
+   "category": "food",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "honeybaked-ham/1.png",
+     "from": {
+      "stadium": "utep",
+      "surface": "Ad board",
+      "itemId": "UTEP_advertising_colorEM"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 65,
+     "h": 29
+    }
+   ]
+  },
+  {
+   "brand": "Honolulu Ford",
+   "key": "honolulu ford",
+   "slug": "honolulu-ford",
+   "category": "auto",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "honolulu-ford/1.png",
+     "from": {
+      "stadium": "hawaii",
+      "surface": "Field wall",
+      "itemId": "HAW_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 27,
+     "h": 24
+    }
+   ]
+  },
+  {
+   "brand": "Horizon Blue Cross Blue Shield",
+   "key": "horizon blue cross blue shield",
+   "slug": "horizon-blue-cross-blue-shield",
+   "category": "insurance",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "horizon-blue-cross-blue-shield/1.png",
+     "from": {
+      "stadium": "rutgers",
+      "surface": "Other",
+      "itemId": "RUTG_ads_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 53,
+     "h": 20
+    }
+   ]
+  },
+  {
+   "brand": "Houlihan's",
+   "key": "houlihan's",
+   "slug": "houlihan-s",
+   "category": "food",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "houlihan-s/1.png",
+     "from": {
+      "stadium": "north_texas",
+      "surface": "Other",
+      "itemId": "UNT_atlas_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 73,
+     "h": 32
+    }
+   ]
+  },
+  {
+   "brand": "Houston Methodist",
+   "key": "houston methodist",
+   "slug": "houston-methodist",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "houston-methodist/1.png",
+     "from": {
+      "stadium": "rice",
+      "surface": "Video board",
+      "itemId": "RICE_jumbotron_ad_colorEM"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 92,
+     "h": 43
+    }
+   ]
+  },
+  {
+   "brand": "Hungry Howie's",
+   "key": "hungry howie's",
+   "slug": "hungry-howie-s",
+   "category": "food",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "hungry-howie-s/1.png",
+     "from": {
+      "stadium": "western_michigan",
+      "surface": "Ad board",
+      "itemId": "WMU_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 61,
+     "h": 61
+    },
+    {
+     "file": "hungry-howie-s/2.png",
+     "from": {
+      "stadium": "kent_state",
+      "surface": "Other",
+      "itemId": "KENT_details_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 64,
+     "h": 54
+    }
+   ]
+  },
+  {
+   "brand": "Huntington Bank Stadium",
+   "key": "huntington bank stadium",
+   "slug": "huntington-bank-stadium",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "huntington-bank-stadium/1.png",
+     "from": {
+      "stadium": "minnesota",
+      "surface": "Ad board",
+      "itemId": "MINN_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 153,
+     "h": 85
+    }
+   ]
+  },
+  {
+   "brand": "Hy-Vee",
+   "key": "hy-vee",
+   "slug": "hy-vee",
+   "category": "retail",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "hy-vee/1.png",
+     "from": {
+      "stadium": "northern_illinois",
+      "surface": "Ad board",
+      "itemId": "NIU_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 72,
+     "h": 25
+    }
+   ]
+  },
+  {
+   "brand": "Hyundai",
+   "key": "hyundai",
+   "slug": "hyundai",
+   "category": "auto",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "hyundai/1.png",
+     "from": {
+      "stadium": "sam_houston_state",
+      "surface": "Other",
+      "itemId": "SHSU_ads_colorEM"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 62,
+     "h": 64
+    },
+    {
+     "file": "hyundai/2.png",
+     "from": {
+      "stadium": "sam_houston_state",
+      "surface": "Field wall",
+      "itemId": "SHSU_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 62,
+     "h": 17
+    },
+    {
+     "file": "hyundai/3.png",
+     "from": {
+      "stadium": "georgia_tech",
+      "surface": "Field art",
+      "itemId": "GT_fieldLines_color"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 16,
+     "h": 36
+    }
+   ]
+  },
+  {
+   "brand": "IBEW",
+   "key": "ibew",
+   "slug": "ibew",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "ibew/1.png",
+     "from": {
+      "stadium": "rice",
+      "surface": "Video board",
+      "itemId": "RICE_jumbotron_ad_colorEM"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 101,
+     "h": 33
+    }
+   ]
+  },
+  {
+   "brand": "Intermountain Healthcare",
+   "key": "intermountain healthcare",
+   "slug": "intermountain-healthcare",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "intermountain-healthcare/1.png",
+     "from": {
+      "stadium": "byu",
+      "surface": "Other",
+      "itemId": "BYU_Adversiting_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 129,
+     "h": 54
+    }
+   ]
+  },
+  {
+   "brand": "J.B. Hunt",
+   "key": "j.b. hunt",
+   "slug": "j-b-hunt",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "j-b-hunt/1.png",
+     "from": {
+      "stadium": "arkansas",
+      "surface": "Other",
+      "itemId": "ARK_details_colorAO"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 71,
+     "h": 246
+    }
+   ]
+  },
+  {
+   "brand": "J.T.M.",
+   "key": "j.t.m.",
+   "slug": "j-t-m",
+   "category": "food",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "j-t-m/1.png",
+     "from": {
+      "stadium": "cincinnati",
+      "surface": "Field wall",
+      "itemId": "CIN_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 82,
+     "h": 26
+    }
+   ]
+  },
+  {
+   "brand": "Jack's",
+   "key": "jack's",
+   "slug": "jack-s",
+   "category": "food",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "jack-s/1.png",
+     "from": {
+      "stadium": "jacksonville_state",
+      "surface": "Ad board",
+      "itemId": "JVST_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "fits",
+     "w": 138,
+     "h": 87
+    }
+   ]
+  },
+  {
+   "brand": "Jacksons",
+   "key": "jacksons",
+   "slug": "jacksons",
+   "category": "retail",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "jacksons/1.png",
+     "from": {
+      "stadium": "boise_state",
+      "surface": "Ad board",
+      "itemId": "BSU_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 103,
+     "h": 21
+    }
+   ]
+  },
+  {
+   "brand": "Jersey Mike's",
+   "key": "jersey mike's",
+   "slug": "jersey-mike-s",
+   "category": "food",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "jersey-mike-s/1.png",
+     "from": {
+      "stadium": "northern_illinois",
+      "surface": "Ad board",
+      "itemId": "NIU_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 75,
+     "h": 71
+    }
+   ]
+  },
+  {
+   "brand": "Jewelers Mutual",
+   "key": "jewelers mutual",
+   "slug": "jewelers-mutual",
+   "category": "insurance",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "jewelers-mutual/1.png",
+     "from": {
+      "stadium": "nc_state",
+      "surface": "Ad board",
+      "itemId": "NCST_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 63,
+     "h": 14
+    }
+   ]
+  },
+  {
+   "brand": "John Deere",
+   "key": "john deere",
+   "slug": "john-deere",
+   "category": "auto",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "john-deere/1.png",
+     "from": {
+      "stadium": "iowa",
+      "surface": "Field art",
+      "itemId": "IOWA_fieldLines_color"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 16,
+     "h": 29
+    }
+   ]
+  },
+  {
+   "brand": "John Morrell",
+   "key": "john morrell",
+   "slug": "john-morrell",
+   "category": "food",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "john-morrell/1.png",
+     "from": {
+      "stadium": "cincinnati",
+      "surface": "Field wall",
+      "itemId": "CIN_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 62,
+     "h": 31
+    }
+   ]
+  },
+  {
+   "brand": "Johnny's Pizza House",
+   "key": "johnny's pizza house",
+   "slug": "johnny-s-pizza-house",
+   "category": "food",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "johnny-s-pizza-house/1.png",
+     "from": {
+      "stadium": "louisiana_monroe",
+      "surface": "Ad board",
+      "itemId": "ULM_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 94,
+     "h": 46
+    }
+   ]
+  },
+  {
+   "brand": "Jordan",
+   "key": "jordan",
+   "slug": "jordan",
+   "category": "outfitter",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "jordan/1.png",
+     "from": {
+      "stadium": "ucla",
+      "surface": "Field wall",
+      "itemId": "UCLA_edgewall_pads_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 94,
+     "h": 99
+    },
+    {
+     "file": "jordan/2.png",
+     "from": {
+      "stadium": "florida",
+      "surface": "Ad board",
+      "itemId": "FLA_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 141,
+     "h": 42
+    },
+    {
+     "file": "jordan/3.png",
+     "from": {
+      "stadium": "oklahoma",
+      "surface": "Ad board",
+      "itemId": "OU_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 50,
+     "h": 51
+    },
+    {
+     "file": "jordan/4.png",
+     "from": {
+      "stadium": "ucla",
+      "surface": "Banner",
+      "itemId": "UCLA_banner_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 40,
+     "h": 47
+    }
+   ]
+  },
+  {
+   "brand": "Katachi",
+   "key": "katachi",
+   "slug": "katachi",
+   "category": "auto",
+   "fictional": true,
+   "versions": [
+    {
+     "file": "katachi/1.png",
+     "from": {
+      "stadium": "wku",
+      "surface": "Video board",
+      "itemId": "WKU_jumbotron_ad_colorAO"
+     },
+     "seen": 2,
+     "keyed": true,
+     "patch": "fits",
+     "w": 145,
+     "h": 122
+    },
+    {
+     "file": "katachi/2.png",
+     "from": {
+      "stadium": "louisville",
+      "surface": "Other",
+      "itemId": "lou_atlas_decal_color"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 108,
+     "h": 69
+    },
+    {
+     "file": "katachi/3.png",
+     "from": {
+      "stadium": "akron",
+      "surface": "Ad board",
+      "itemId": "akr_advertising_colorEM"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "fits",
+     "w": 148,
+     "h": 96
+    }
+   ]
+  },
+  {
+   "brand": "KBTX",
+   "key": "kbtx",
+   "slug": "kbtx",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "kbtx/1.png",
+     "from": {
+      "stadium": "sam_houston_state",
+      "surface": "Other",
+      "itemId": "SHSU_ads_colorEM"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 81,
+     "h": 24
+    }
+   ]
+  },
+  {
+   "brand": "Kenyon",
+   "key": "kenyon",
+   "slug": "kenyon",
+   "category": "retail",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "kenyon/1.png",
+     "from": {
+      "stadium": "boston_college",
+      "surface": "Ad board",
+      "itemId": "BC_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 150,
+     "h": 39
+    }
+   ]
+  },
+  {
+   "brand": "Kia",
+   "key": "kia",
+   "slug": "kia",
+   "category": "auto",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "kia/1.png",
+     "from": {
+      "stadium": "byu",
+      "surface": "Field wall",
+      "itemId": "BYU_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 74,
+     "h": 19
+    }
+   ]
+  },
+  {
+   "brand": "Krazy Bins",
+   "key": "krazy bins",
+   "slug": "krazy-bins",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "krazy-bins/1.png",
+     "from": {
+      "stadium": "kent_state",
+      "surface": "Other",
+      "itemId": "KENT_details_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 67,
+     "h": 39
+    }
+   ]
+  },
+  {
+   "brand": "Kroger",
+   "key": "kroger",
+   "slug": "kroger",
+   "category": "retail",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "kroger/1.png",
+     "from": {
+      "stadium": "louisville",
+      "surface": "Other",
+      "itemId": "lou_atlas_decal_color"
+     },
+     "seen": 2,
+     "keyed": true,
+     "patch": "pad",
+     "w": 88,
+     "h": 25
+    },
+    {
+     "file": "kroger/2.png",
+     "from": {
+      "stadium": "georgia_tech",
+      "surface": "Field wall",
+      "itemId": "GT_edgewall_colorA"
+     },
+     "seen": 2,
+     "keyed": true,
+     "patch": "pad",
+     "w": 72,
+     "h": 26
+    },
+    {
+     "file": "kroger/3.png",
+     "from": {
+      "stadium": "louisville",
+      "surface": "Other",
+      "itemId": "lou_atlas_colorEM"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 90,
+     "h": 30
+    },
+    {
+     "file": "kroger/4.png",
+     "from": {
+      "stadium": "ohio_state",
+      "surface": "Field wall",
+      "itemId": "OSU_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 92,
+     "h": 22
+    }
+   ]
+  },
+  {
+   "brand": "LAZ Fly Airport Parking",
+   "key": "laz fly airport parking",
+   "slug": "laz-fly-airport-parking",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "laz-fly-airport-parking/1.png",
+     "from": {
+      "stadium": "uconn",
+      "surface": "Field wall",
+      "itemId": "CONN_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 80,
+     "h": 27
+    }
+   ]
+  },
+  {
+   "brand": "LAZ Parking",
+   "key": "laz parking",
+   "slug": "laz-parking",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "laz-parking/1.png",
+     "from": {
+      "stadium": "uconn",
+      "surface": "Field wall",
+      "itemId": "CONN_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 41,
+     "h": 18
+    }
+   ]
+  },
+  {
+   "brand": "Legacy Community Federal Credit Union",
+   "key": "legacy community federal credit union",
+   "slug": "legacy-community-federal-credit-union",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "legacy-community-federal-credit-union/1.png",
+     "from": {
+      "stadium": "uab",
+      "surface": "Field wall",
+      "itemId": "UAB_edgeWall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 77,
+     "h": 21
+    }
+   ]
+  },
+  {
+   "brand": "Lenovo",
+   "key": "lenovo",
+   "slug": "lenovo",
+   "category": "tech",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "lenovo/1.png",
+     "from": {
+      "stadium": "nc_state",
+      "surface": "Ad board",
+      "itemId": "NCST_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 52,
+     "h": 21
+    }
+   ]
+  },
+  {
+   "brand": "Liberty Federal Credit Union",
+   "key": "liberty federal credit union",
+   "slug": "liberty-federal-credit-union",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "liberty-federal-credit-union/1.png",
+     "from": {
+      "stadium": "wku",
+      "surface": "Field wall",
+      "itemId": "WKU_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 104,
+     "h": 25
+    }
+   ]
+  },
+  {
+   "brand": "Little Caesars",
+   "key": "little caesars",
+   "slug": "little-caesars",
+   "category": "food",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "little-caesars/1.png",
+     "from": {
+      "stadium": "michigan_state",
+      "surface": "Ad board",
+      "itemId": "MSU_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 117,
+     "h": 60
+    }
+   ]
+  },
+  {
+   "brand": "Lockstop Self Storage",
+   "key": "lockstop self storage",
+   "slug": "lockstop-self-storage",
+   "category": "generic",
+   "fictional": true,
+   "versions": [
+    {
+     "file": "lockstop-self-storage/1.png",
+     "from": {
+      "stadium": "ohio",
+      "surface": "Field wall",
+      "itemId": "OHIO_edgewall_ad_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 118,
+     "h": 72
+    }
+   ]
+  },
+  {
+   "brand": "Logan Aluminum",
+   "key": "logan aluminum",
+   "slug": "logan-aluminum",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "logan-aluminum/1.png",
+     "from": {
+      "stadium": "wku",
+      "surface": "Field wall",
+      "itemId": "WKU_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 96,
+     "h": 30
+    }
+   ]
+  },
+  {
+   "brand": "Louisiana National Bank",
+   "key": "louisiana national bank",
+   "slug": "louisiana-national-bank",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "louisiana-national-bank/1.png",
+     "from": {
+      "stadium": "louisiana_monroe",
+      "surface": "Video board",
+      "itemId": "ULM_jumbotron_ad_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 101,
+     "h": 60
+    }
+   ]
+  },
+  {
+   "brand": "Lucchese",
+   "key": "lucchese",
+   "slug": "lucchese",
+   "category": "outfitter",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "lucchese/1.png",
+     "from": {
+      "stadium": "texas_am",
+      "surface": "Field wall",
+      "itemId": "TAMU_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 67,
+     "h": 16
+    }
+   ]
+  },
+  {
+   "brand": "Marco's Pizza",
+   "key": "marco's pizza",
+   "slug": "marco-s-pizza",
+   "category": "food",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "marco-s-pizza/1.png",
+     "from": {
+      "stadium": "utep",
+      "surface": "Ad board",
+      "itemId": "UTEP_advertising_colorEM"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 112,
+     "h": 74
+    },
+    {
+     "file": "marco-s-pizza/2.png",
+     "from": {
+      "stadium": "utep",
+      "surface": "Ad board",
+      "itemId": "UTEP_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 103,
+     "h": 67
+    }
+   ]
+  },
+  {
+   "brand": "Marriott Bonvoy",
+   "key": "marriott bonvoy",
+   "slug": "marriott-bonvoy",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "marriott-bonvoy/1.png",
+     "from": {
+      "stadium": "georgia",
+      "surface": "Other",
+      "itemId": "UGA_details_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 76,
+     "h": 46
+    }
+   ]
+  },
+  {
+   "brand": "Marshall Health Network",
+   "key": "marshall health network",
+   "slug": "marshall-health-network",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "marshall-health-network/1.png",
+     "from": {
+      "stadium": "marshall",
+      "surface": "Field wall",
+      "itemId": "MRSH_edgewall_ads_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 93,
+     "h": 24
+    }
+   ]
+  },
+  {
+   "brand": "Mayan Spring",
+   "key": "mayan spring",
+   "slug": "mayan-spring",
+   "category": "drink",
+   "fictional": true,
+   "versions": [
+    {
+     "file": "mayan-spring/1.png",
+     "from": {
+      "stadium": "ohio",
+      "surface": "Field wall",
+      "itemId": "OHIO_edgewall_ad_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 113,
+     "h": 80
+    }
+   ]
+  },
+  {
+   "brand": "Medicone",
+   "key": "medicone",
+   "slug": "medicone",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "medicone/1.png",
+     "from": {
+      "stadium": "arkansas_state",
+      "surface": "Field wall",
+      "itemId": "ARST_edgewall_colorA"
+     },
+     "seen": 2,
+     "keyed": true,
+     "patch": "pad",
+     "w": 62,
+     "h": 27
+    }
+   ]
+  },
+  {
+   "brand": "MegaVault",
+   "key": "megavault",
+   "slug": "megavault",
+   "category": "generic",
+   "fictional": true,
+   "versions": [
+    {
+     "file": "megavault/1.png",
+     "from": {
+      "stadium": "miami_oh",
+      "surface": "Ad board",
+      "itemId": "MIAOH_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 76,
+     "h": 62
+    }
+   ]
+  },
+  {
+   "brand": "MegaVault Self Storage",
+   "key": "megavault self storage",
+   "slug": "megavault-self-storage",
+   "category": "generic",
+   "fictional": true,
+   "versions": [
+    {
+     "file": "megavault-self-storage/1.png",
+     "from": {
+      "stadium": "akron",
+      "surface": "Ad board",
+      "itemId": "akr_advertising_colorEM"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 117,
+     "h": 28
+    },
+    {
+     "file": "megavault-self-storage/2.png",
+     "from": {
+      "stadium": "toledo",
+      "surface": "Ad board",
+      "itemId": "tol_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 117,
+     "h": 28
+    }
+   ]
+  },
+  {
+   "brand": "Meijer",
+   "key": "meijer",
+   "slug": "meijer",
+   "category": "retail",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "meijer/1.png",
+     "from": {
+      "stadium": "ohio_state",
+      "surface": "Field wall",
+      "itemId": "OSU_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 163,
+     "h": 46
+    },
+    {
+     "file": "meijer/2.png",
+     "from": {
+      "stadium": "miami_oh",
+      "surface": "Ad board",
+      "itemId": "MIAOH_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 146,
+     "h": 48
+    },
+    {
+     "file": "meijer/3.png",
+     "from": {
+      "stadium": "northern_illinois",
+      "surface": "Ad board",
+      "itemId": "NIU_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 103,
+     "h": 36
+    },
+    {
+     "file": "meijer/4.png",
+     "from": {
+      "stadium": "cincinnati",
+      "surface": "Field wall",
+      "itemId": "CIN_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 56,
+     "h": 19
+    }
+   ]
+  },
+  {
+   "brand": "Memorial Hermann",
+   "key": "memorial hermann",
+   "slug": "memorial-hermann",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "memorial-hermann/1.png",
+     "from": {
+      "stadium": "sam_houston_state",
+      "surface": "Other",
+      "itemId": "SHSU_ads_colorEM"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 81,
+     "h": 38
+    },
+    {
+     "file": "memorial-hermann/2.png",
+     "from": {
+      "stadium": "sam_houston_state",
+      "surface": "Field wall",
+      "itemId": "SHSU_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 41,
+     "h": 19
+    }
+   ]
+  },
+  {
+   "brand": "Memorial Medical Center",
+   "key": "memorial medical center",
+   "slug": "memorial-medical-center",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "memorial-medical-center/1.png",
+     "from": {
+      "stadium": "new_mexico_state",
+      "surface": "Video board",
+      "itemId": "NMSU_jumbotron_ad_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 61,
+     "h": 146
+    }
+   ]
+  },
+  {
+   "brand": "Mercedes-Benz",
+   "key": "mercedes-benz",
+   "slug": "mercedes-benz",
+   "category": "auto",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "mercedes-benz/1.png",
+     "from": {
+      "stadium": "atlanta_b",
+      "surface": "Signage",
+      "itemId": "ATL_B_emissive_tall_sign_colorEM"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 489,
+     "h": 476
+    }
+   ]
+  },
+  {
+   "brand": "Mercedes-Benz Stadium",
+   "key": "mercedes-benz stadium",
+   "slug": "mercedes-benz-stadium",
+   "category": "auto",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "mercedes-benz-stadium/1.png",
+     "from": {
+      "stadium": "atlanta_b",
+      "surface": "Concourse",
+      "itemId": "ATL_B_concourses_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 165,
+     "h": 83
+    }
+   ]
+  },
+  {
+   "brand": "Mercy",
+   "key": "mercy",
+   "slug": "mercy",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "mercy/1.png",
+     "from": {
+      "stadium": "missouri_state",
+      "surface": "Ad board",
+      "itemId": "MOST_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 102,
+     "h": 48
+    }
+   ]
+  },
+  {
+   "brand": "Mint Mobile",
+   "key": "mint mobile",
+   "slug": "mint-mobile",
+   "category": "telecom",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "mint-mobile/1.png",
+     "from": {
+      "stadium": "wku",
+      "surface": "Video board",
+      "itemId": "WKU_jumbotron_ad_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 88,
+     "h": 19
+    }
+   ]
+  },
+  {
+   "brand": "MMC Spine, Joint and Pain Center",
+   "key": "mmc spine, joint and pain center",
+   "slug": "mmc-spine-joint-and-pain-center",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "mmc-spine-joint-and-pain-center/1.png",
+     "from": {
+      "stadium": "middle_tennessee",
+      "surface": "Field wall",
+      "itemId": "MTSU_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 54,
+     "h": 37
+    }
+   ]
+  },
+  {
+   "brand": "Modelo Especial",
+   "key": "modelo especial",
+   "slug": "modelo-especial",
+   "category": "drink",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "modelo-especial/1.png",
+     "from": {
+      "stadium": "miami_fl",
+      "surface": "Field wall",
+      "itemId": "MIA_edgeWall_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 38,
+     "h": 24
+    }
+   ]
+  },
+  {
+   "brand": "Mohr Air Conditioning",
+   "key": "mohr air conditioning",
+   "slug": "mohr-air-conditioning",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "mohr-air-conditioning/1.png",
+     "from": {
+      "stadium": "arkansas_state",
+      "surface": "Ad board",
+      "itemId": "ARST_advertising_colorAO"
+     },
+     "seen": 2,
+     "keyed": true,
+     "patch": "pad",
+     "w": 42,
+     "h": 26
+    }
+   ]
+  },
+  {
+   "brand": "Moreton & Company",
+   "key": "moreton & company",
+   "slug": "moreton-company",
+   "category": "insurance",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "moreton-company/1.png",
+     "from": {
+      "stadium": "boise_state",
+      "surface": "Wall wrap",
+      "itemId": "BSU_edgewall_tarp_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 50,
+     "h": 31
+    }
+   ]
+  },
+  {
+   "brand": "Motorola",
+   "key": "motorola",
+   "slug": "motorola",
+   "category": "telecom",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "motorola/1.png",
+     "from": {
+      "stadium": "alabama",
+      "surface": "Field wall",
+      "itemId": "ALA_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 34,
+     "h": 33
+    }
+   ]
+  },
+  {
+   "brand": "Mountain America Credit Union",
+   "key": "mountain america credit union",
+   "slug": "mountain-america-credit-union",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "mountain-america-credit-union/1.png",
+     "from": {
+      "stadium": "boise_state",
+      "surface": "Ad board",
+      "itemId": "BSU_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 101,
+     "h": 46
+    },
+    {
+     "file": "mountain-america-credit-union/2.png",
+     "from": {
+      "stadium": "byu",
+      "surface": "Field wall",
+      "itemId": "BYU_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 114,
+     "h": 33
+    },
+    {
+     "file": "mountain-america-credit-union/3.png",
+     "from": {
+      "stadium": "arizona_state",
+      "surface": "Other",
+      "itemId": "ASU_walls_art_decal_color"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 93,
+     "h": 26
+    },
+    {
+     "file": "mountain-america-credit-union/4.png",
+     "from": {
+      "stadium": "arizona_state",
+      "surface": "Field wall",
+      "itemId": "ASU_edgewall_decal_color"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 75,
+     "h": 20
+    }
+   ]
+  },
+  {
+   "brand": "Mr Fizz",
+   "key": "mr fizz",
+   "slug": "mr-fizz",
+   "category": "drink",
+   "fictional": true,
+   "versions": [
+    {
+     "file": "mr-fizz/1.png",
+     "from": {
+      "stadium": "akron",
+      "surface": "Ad board",
+      "itemId": "akr_advertising_colorEM"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 104,
+     "h": 96
+    },
+    {
+     "file": "mr-fizz/2.png",
+     "from": {
+      "stadium": "miami_oh",
+      "surface": "Ad board",
+      "itemId": "MIAOH_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 70,
+     "h": 65
+    }
+   ]
+  },
+  {
+   "brand": "Much Burger",
+   "key": "much burger",
+   "slug": "much-burger",
+   "category": "food",
+   "fictional": true,
+   "versions": [
+    {
+     "file": "much-burger/1.png",
+     "from": {
+      "stadium": "akron",
+      "surface": "Ad board",
+      "itemId": "akr_advertising_colorEM"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 133,
+     "h": 96
+    },
+    {
+     "file": "much-burger/2.png",
+     "from": {
+      "stadium": "pittsburgh_cs",
+      "surface": "Other",
+      "itemId": "PITT_CS_concessionAds_colorEM"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 92,
+     "h": 39
+    },
+    {
+     "file": "much-burger/3.png",
+     "from": {
+      "stadium": "miami_oh",
+      "surface": "Ad board",
+      "itemId": "MIAOH_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 60,
+     "h": 26
+    }
+   ]
+  },
+  {
+   "brand": "Multipli Credit Union",
+   "key": "multipli credit union",
+   "slug": "multipli-credit-union",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "multipli-credit-union/1.png",
+     "from": {
+      "stadium": "missouri",
+      "surface": "Ad board",
+      "itemId": "MIZZ_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 117,
+     "h": 41
+    }
+   ]
+  },
+  {
+   "brand": "National Guard",
+   "key": "national guard",
+   "slug": "national-guard",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "national-guard/1.png",
+     "from": {
+      "stadium": "colorado_state",
+      "surface": "Field wall",
+      "itemId": "csu_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 70,
+     "h": 34
+    }
+   ]
+  },
+  {
+   "brand": "NBC Boston 10",
+   "key": "nbc boston 10",
+   "slug": "nbc-boston-10",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "nbc-boston-10/1.png",
+     "from": {
+      "stadium": "foxborough_b",
+      "surface": "Other",
+      "itemId": "FOX_B_ad_02_colorEM"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 66,
+     "h": 33
+    }
+   ]
+  },
+  {
+   "brand": "Neighborhood Ford Store",
+   "key": "neighborhood ford store",
+   "slug": "neighborhood-ford-store",
+   "category": "auto",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "neighborhood-ford-store/1.png",
+     "from": {
+      "stadium": "pittsburgh_cs",
+      "surface": "Other",
+      "itemId": "PITT_CS_concessionAds_colorEM"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 80,
+     "h": 25
+    }
+   ]
+  },
+  {
+   "brand": "NELA Dental",
+   "key": "nela dental",
+   "slug": "nela-dental",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "nela-dental/1.png",
+     "from": {
+      "stadium": "louisiana_monroe",
+      "surface": "Field wall",
+      "itemId": "ULM_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 76,
+     "h": 20
+    }
+   ]
+  },
+  {
+   "brand": "NetJets",
+   "key": "netjets",
+   "slug": "netjets",
+   "category": "airline",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "netjets/1.png",
+     "from": {
+      "stadium": "ohio_state",
+      "surface": "Ad board",
+      "itemId": "OSU_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 75,
+     "h": 27
+    }
+   ]
+  },
+  {
+   "brand": "Nevada Donor Network",
+   "key": "nevada donor network",
+   "slug": "nevada-donor-network",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "nevada-donor-network/1.png",
+     "from": {
+      "stadium": "nevada",
+      "surface": "Video board",
+      "itemId": "NEV_jumbotron_ad_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 287,
+     "h": 114
+    }
+   ]
+  },
+  {
+   "brand": "New Balance",
+   "key": "new balance",
+   "slug": "new-balance",
+   "category": "outfitter",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "new-balance/1.png",
+     "from": {
+      "stadium": "boston_college",
+      "surface": "Field wall",
+      "itemId": "BC_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 30,
+     "h": 17
+    }
+   ]
+  },
+  {
+   "brand": "New Belgium Brewing",
+   "key": "new belgium brewing",
+   "slug": "new-belgium-brewing",
+   "category": "drink",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "new-belgium-brewing/1.png",
+     "from": {
+      "stadium": "colorado_state",
+      "surface": "Field wall",
+      "itemId": "csu_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 145,
+     "h": 50
+    }
+   ]
+  },
+  {
+   "brand": "Nike",
+   "key": "nike",
+   "slug": "nike",
+   "category": "outfitter",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "nike/1.png",
+     "from": {
+      "stadium": "tcu",
+      "surface": "Other",
+      "itemId": "TCU_details_colorAO"
+     },
+     "seen": 12,
+     "keyed": true,
+     "patch": "pad",
+     "w": 87,
+     "h": 32
+    },
+    {
+     "file": "nike/2.png",
+     "from": {
+      "stadium": "cal",
+      "surface": "Ad board",
+      "itemId": "CAL_advertising_colorA"
+     },
+     "seen": 6,
+     "keyed": true,
+     "patch": "pad",
+     "w": 110,
+     "h": 40
+    },
+    {
+     "file": "nike/3.png",
+     "from": {
+      "stadium": "ucf",
+      "surface": "Ad board",
+      "itemId": "UCF_edgewall_tarp_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 168,
+     "h": 61
+    }
+   ]
+  },
+  {
+   "brand": "Nissan",
+   "key": "nissan",
+   "slug": "nissan",
+   "category": "auto",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "nissan/1.png",
+     "from": {
+      "stadium": "cal",
+      "surface": "Ad board",
+      "itemId": "CAL_advertising_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 150,
+     "h": 32
+    },
+    {
+     "file": "nissan/2.png",
+     "from": {
+      "stadium": "vanderbilt",
+      "surface": "Ad board",
+      "itemId": "VAN_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 43,
+     "h": 28
+    }
+   ]
+  },
+  {
+   "brand": "Northside Hospital",
+   "key": "northside hospital",
+   "slug": "northside-hospital",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "northside-hospital/1.png",
+     "from": {
+      "stadium": "georgia_state",
+      "surface": "Ad board",
+      "itemId": "GSU_advertising_colorEM"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 286,
+     "h": 102
+    },
+    {
+     "file": "northside-hospital/2.png",
+     "from": {
+      "stadium": "georgia_state",
+      "surface": "Ad board",
+      "itemId": "GSU_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 287,
+     "h": 108
+    }
+   ]
+  },
+  {
+   "brand": "NovaCare Rehabilitation",
+   "key": "novacare rehabilitation",
+   "slug": "novacare-rehabilitation",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "novacare-rehabilitation/1.png",
+     "from": {
+      "stadium": "cincinnati",
+      "surface": "Field wall",
+      "itemId": "CIN_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 76,
+     "h": 22
+    }
+   ]
+  },
+  {
+   "brand": "NTCE National Trust and Currency Exchange",
+   "key": "ntce national trust and currency exchange",
+   "slug": "ntce-national-trust-and-currency-exchange",
+   "category": "bank",
+   "fictional": true,
+   "versions": [
+    {
+     "file": "ntce-national-trust-and-currency-exchange/1.png",
+     "from": {
+      "stadium": "wku",
+      "surface": "Video board",
+      "itemId": "WKU_jumbotron_ad_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 155,
+     "h": 50
+    }
+   ]
+  },
+  {
+   "brand": "Nu Skin",
+   "key": "nu skin",
+   "slug": "nu-skin",
+   "category": "retail",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "nu-skin/1.png",
+     "from": {
+      "stadium": "byu",
+      "surface": "Other",
+      "itemId": "BYU_Adversiting_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 156,
+     "h": 55
+    },
+    {
+     "file": "nu-skin/2.png",
+     "from": {
+      "stadium": "byu",
+      "surface": "Field wall",
+      "itemId": "BYU_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 54,
+     "h": 13
+    }
+   ]
+  },
+  {
+   "brand": "Nusenda Credit Union",
+   "key": "nusenda credit union",
+   "slug": "nusenda-credit-union",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "nusenda-credit-union/1.png",
+     "from": {
+      "stadium": "new_mexico_state",
+      "surface": "Video board",
+      "itemId": "NMSU_jumbotron_ad_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 148,
+     "h": 37
+    }
+   ]
+  },
+  {
+   "brand": "NUTRL",
+   "key": "nutrl",
+   "slug": "nutrl",
+   "category": "drink",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "nutrl/1.png",
+     "from": {
+      "stadium": "delaware",
+      "surface": "Ad board",
+      "itemId": "DEL_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 32,
+     "h": 10
+    }
+   ]
+  },
+  {
+   "brand": "Oak View Group",
+   "key": "oak view group",
+   "slug": "oak-view-group",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "oak-view-group/1.png",
+     "from": {
+      "stadium": "vanderbilt",
+      "surface": "Ad board",
+      "itemId": "VAN_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 63,
+     "h": 27
+    }
+   ]
+  },
+  {
+   "brand": "OCCU",
+   "key": "occu",
+   "slug": "occu",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "occu/1.png",
+     "from": {
+      "stadium": "oregon",
+      "surface": "Other",
+      "itemId": "ORE_logos_decal_color"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 87,
+     "h": 41
+    }
+   ]
+  },
+  {
+   "brand": "Ochsner Lafayette General",
+   "key": "ochsner lafayette general",
+   "slug": "ochsner-lafayette-general",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "ochsner-lafayette-general/1.png",
+     "from": {
+      "stadium": "louisiana_lafayette",
+      "surface": "Field art",
+      "itemId": "ULL_fieldLines_color"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 18,
+     "h": 31
+    }
+   ]
+  },
+  {
+   "brand": "Old Dominion Freight Line",
+   "key": "old dominion freight line",
+   "slug": "old-dominion-freight-line",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "old-dominion-freight-line/1.png",
+     "from": {
+      "stadium": "ole_miss",
+      "surface": "Ad board",
+      "itemId": "MISS_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 148,
+     "h": 52
+    }
+   ]
+  },
+  {
+   "brand": "OnPoint",
+   "key": "onpoint",
+   "slug": "onpoint",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "onpoint/1.png",
+     "from": {
+      "stadium": "oregon_state",
+      "surface": "Field wall",
+      "itemId": "ORST_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 72,
+     "h": 25
+    }
+   ]
+  },
+  {
+   "brand": "OnPoint Community Credit Union",
+   "key": "onpoint community credit union",
+   "slug": "onpoint-community-credit-union",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "onpoint-community-credit-union/1.png",
+     "from": {
+      "stadium": "oregon_state",
+      "surface": "Ad board",
+      "itemId": "ORST_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 72,
+     "h": 23
+    }
+   ]
+  },
+  {
+   "brand": "Optimum",
+   "key": "optimum",
+   "slug": "optimum",
+   "category": "telecom",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "optimum/1.png",
+     "from": {
+      "stadium": "sam_houston_state",
+      "surface": "Other",
+      "itemId": "SHSU_ads_colorEM"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 77,
+     "h": 25
+    }
+   ]
+  },
+  {
+   "brand": "Origin Bank",
+   "key": "origin bank",
+   "slug": "origin-bank",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "origin-bank/1.png",
+     "from": {
+      "stadium": "louisiana_monroe",
+      "surface": "Ad board",
+      "itemId": "ULM_advertising_colorAO"
+     },
+     "seen": 2,
+     "keyed": true,
+     "patch": "pad",
+     "w": 116,
+     "h": 64
+    }
+   ]
+  },
+  {
+   "brand": "Orlando Health Jewett Orthopedic Institute",
+   "key": "orlando health jewett orthopedic institute",
+   "slug": "orlando-health-jewett-orthopedic-institute",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "orlando-health-jewett-orthopedic-institute/1.png",
+     "from": {
+      "stadium": "ucf",
+      "surface": "Other",
+      "itemId": "ucf_canvas_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 267,
+     "h": 222
+    }
+   ]
+  },
+  {
+   "brand": "Orlando International Airport",
+   "key": "orlando international airport",
+   "slug": "orlando-international-airport",
+   "category": "airline",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "orlando-international-airport/1.png",
+     "from": {
+      "stadium": "ucf",
+      "surface": "Ad board",
+      "itemId": "UCF_edgewall_tarp_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 168,
+     "h": 94
+    }
+   ]
+  },
+  {
+   "brand": "Oscar's Pizza",
+   "key": "oscar's pizza",
+   "slug": "oscar-s-pizza",
+   "category": "food",
+   "fictional": true,
+   "versions": [
+    {
+     "file": "oscar-s-pizza/1.png",
+     "from": {
+      "stadium": "pittsburgh_cs",
+      "surface": "Other",
+      "itemId": "PITT_CS_concessionAds_colorEM"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "fits",
+     "w": 82,
+     "h": 78
+    }
+   ]
+  },
+  {
+   "brand": "Out of Sight",
+   "key": "out of sight",
+   "slug": "out-of-sight",
+   "category": "generic",
+   "fictional": true,
+   "versions": [
+    {
+     "file": "out-of-sight/1.png",
+     "from": {
+      "stadium": "toledo",
+      "surface": "Ad board",
+      "itemId": "tol_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 48,
+     "h": 41
+    }
+   ]
+  },
+  {
+   "brand": "Out of Sight Travel Agency",
+   "key": "out of sight travel agency",
+   "slug": "out-of-sight-travel-agency",
+   "category": "generic",
+   "fictional": true,
+   "versions": [
+    {
+     "file": "out-of-sight-travel-agency/1.png",
+     "from": {
+      "stadium": "akron",
+      "surface": "Ad board",
+      "itemId": "akr_advertising_colorEM"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 215,
+     "h": 96
+    }
+   ]
+  },
+  {
+   "brand": "OVP Health Care",
+   "key": "ovp health care",
+   "slug": "ovp-health-care",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "ovp-health-care/1.png",
+     "from": {
+      "stadium": "marshall",
+      "surface": "Field wall",
+      "itemId": "MRSH_edgewall_ads_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 70,
+     "h": 28
+    }
+   ]
+  },
+  {
+   "brand": "P3 Health Partners Oregon",
+   "key": "p3 health partners oregon",
+   "slug": "p3-health-partners-oregon",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "p3-health-partners-oregon/1.png",
+     "from": {
+      "stadium": "oregon_state",
+      "surface": "Ad board",
+      "itemId": "ORST_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 76,
+     "h": 19
+    }
+   ]
+  },
+  {
+   "brand": "Papa John's",
+   "key": "papa john's",
+   "slug": "papa-john-s",
+   "category": "food",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "papa-john-s/1.png",
+     "from": {
+      "stadium": "northern_illinois",
+      "surface": "Ad board",
+      "itemId": "NIU_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 81,
+     "h": 16
+    }
+   ]
+  },
+  {
+   "brand": "PayPal",
+   "key": "paypal",
+   "slug": "paypal",
+   "category": "tech",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "paypal/1.png",
+     "from": {
+      "stadium": "utah",
+      "surface": "Field wall",
+      "itemId": "UTAH_edgewall_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 76,
+     "h": 19
+    }
+   ]
+  },
+  {
+   "brand": "Penn State Health",
+   "key": "penn state health",
+   "slug": "penn-state-health",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "penn-state-health/1.png",
+     "from": {
+      "stadium": "penn_state",
+      "surface": "Ad board",
+      "itemId": "PSU_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 71,
+     "h": 85
+    }
+   ]
+  },
+  {
+   "brand": "Pepsi",
+   "key": "pepsi",
+   "slug": "pepsi",
+   "category": "drink",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "pepsi/1.png",
+     "from": {
+      "stadium": "louisville",
+      "surface": "Other",
+      "itemId": "lou_atlas_decal_color"
+     },
+     "seen": 5,
+     "keyed": true,
+     "patch": "fits",
+     "w": 80,
+     "h": 79
+    },
+    {
+     "file": "pepsi/2.png",
+     "from": {
+      "stadium": "new_mexico",
+      "surface": "Other",
+      "itemId": "UNM_Atlas_colorAO"
+     },
+     "seen": 4,
+     "keyed": true,
+     "patch": "fits",
+     "w": 148,
+     "h": 154
+    },
+    {
+     "file": "pepsi/3.png",
+     "from": {
+      "stadium": "tulsa",
+      "surface": "Other",
+      "itemId": "TLSA_details_colorAO"
+     },
+     "seen": 2,
+     "keyed": true,
+     "patch": "fits",
+     "w": 114,
+     "h": 101
+    },
+    {
+     "file": "pepsi/4.png",
+     "from": {
+      "stadium": "east_carolina",
+      "surface": "Ad board",
+      "itemId": "ECU_advertising_colorEM"
+     },
+     "seen": 2,
+     "keyed": true,
+     "patch": "pad",
+     "w": 181,
+     "h": 50
+    }
+   ]
+  },
+  {
+   "brand": "Perfect Painters",
+   "key": "perfect painters",
+   "slug": "perfect-painters",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "perfect-painters/1.png",
+     "from": {
+      "stadium": "rice",
+      "surface": "Video board",
+      "itemId": "RICE_jumbotron_ad_colorEM"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 83,
+     "h": 33
+    }
+   ]
+  },
+  {
+   "brand": "Piedmont Healthcare",
+   "key": "piedmont healthcare",
+   "slug": "piedmont-healthcare",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "piedmont-healthcare/1.png",
+     "from": {
+      "stadium": "auburn",
+      "surface": "Other",
+      "itemId": "AUB_logos_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 149,
+     "h": 40
+    }
+   ]
+  },
+  {
+   "brand": "Pitbull Stadium",
+   "key": "pitbull stadium",
+   "slug": "pitbull-stadium",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "pitbull-stadium/1.png",
+     "from": {
+      "stadium": "fiu",
+      "surface": "Field wall",
+      "itemId": "FIU_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 62,
+     "h": 18
+    }
+   ]
+  },
+  {
+   "brand": "Planet Fitness",
+   "key": "planet fitness",
+   "slug": "planet-fitness",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "planet-fitness/1.png",
+     "from": {
+      "stadium": "umass",
+      "surface": "Ad board",
+      "itemId": "UMASS_advertising_colorAO"
+     },
+     "seen": 2,
+     "keyed": true,
+     "patch": "pad",
+     "w": 159,
+     "h": 53
+    },
+    {
+     "file": "planet-fitness/2.png",
+     "from": {
+      "stadium": "louisville",
+      "surface": "Other",
+      "itemId": "lou_atlas_decal_color"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 115,
+     "h": 46
+    },
+    {
+     "file": "planet-fitness/3.png",
+     "from": {
+      "stadium": "louisville",
+      "surface": "Field wall",
+      "itemId": "lou_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 68,
+     "h": 28
+    }
+   ]
+  },
+  {
+   "brand": "PNC",
+   "key": "pnc",
+   "slug": "pnc",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "pnc/1.png",
+     "from": {
+      "stadium": "pittsburgh",
+      "surface": "Field wall",
+      "itemId": "PITT_edgewall_colorA"
+     },
+     "seen": 3,
+     "keyed": true,
+     "patch": "pad",
+     "w": 106,
+     "h": 30
+    },
+    {
+     "file": "pnc/2.png",
+     "from": {
+      "stadium": "louisville",
+      "surface": "Other",
+      "itemId": "lou_atlas_colorEM"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 162,
+     "h": 47
+    },
+    {
+     "file": "pnc/3.png",
+     "from": {
+      "stadium": "louisville",
+      "surface": "Other",
+      "itemId": "lou_atlas_decal_color"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 160,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "brand": "PNC Bank",
+   "key": "pnc bank",
+   "slug": "pnc-bank",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "pnc-bank/1.png",
+     "from": {
+      "stadium": "pittsburgh_cs",
+      "surface": "Video board",
+      "itemId": "PITT_CS_jumbotronAds_colorEM"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 85,
+     "h": 28
+    },
+    {
+     "file": "pnc-bank/2.png",
+     "from": {
+      "stadium": "cincinnati",
+      "surface": "Ad board",
+      "itemId": "CIN_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 72,
+     "h": 19
+    }
+   ]
+  },
+  {
+   "brand": "Porsche River Oaks",
+   "key": "porsche river oaks",
+   "slug": "porsche-river-oaks",
+   "category": "auto",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "porsche-river-oaks/1.png",
+     "from": {
+      "stadium": "rice",
+      "surface": "Video board",
+      "itemId": "RICE_jumbotron_ad_colorEM"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 139,
+     "h": 34
+    }
+   ]
+  },
+  {
+   "brand": "Powerade",
+   "key": "powerade",
+   "slug": "powerade",
+   "category": "drink",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "powerade/1.png",
+     "from": {
+      "stadium": "south_florida",
+      "surface": "Field wall",
+      "itemId": "usf_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 70,
+     "h": 20
+    },
+    {
+     "file": "powerade/2.png",
+     "from": {
+      "stadium": "louisiana_monroe",
+      "surface": "Scoreboard",
+      "itemId": "ULM_scoreboard_details_colorAO"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 164,
+     "h": 77
+    }
+   ]
+  },
+  {
+   "brand": "Protective Stadium",
+   "key": "protective stadium",
+   "slug": "protective-stadium",
+   "category": "insurance",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "protective-stadium/1.png",
+     "from": {
+      "stadium": "uab",
+      "surface": "Ad board",
+      "itemId": "UAB_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 119,
+     "h": 83
+    }
+   ]
+  },
+  {
+   "brand": "Provident Bank",
+   "key": "provident bank",
+   "slug": "provident-bank",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "provident-bank/1.png",
+     "from": {
+      "stadium": "rutgers",
+      "surface": "Other",
+      "itemId": "RUTG_ads_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 82,
+     "h": 12
+    }
+   ]
+  },
+  {
+   "brand": "PSECU",
+   "key": "psecu",
+   "slug": "psecu",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "psecu/1.png",
+     "from": {
+      "stadium": "penn_state",
+      "surface": "Ad board",
+      "itemId": "PSU_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 76,
+     "h": 33
+    }
+   ]
+  },
+  {
+   "brand": "Publix",
+   "key": "publix",
+   "slug": "publix",
+   "category": "retail",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "publix/1.png",
+     "from": {
+      "stadium": "south_florida",
+      "surface": "Video board",
+      "itemId": "USF_jumbotron_ads_01_colorEM"
+     },
+     "seen": 2,
+     "keyed": true,
+     "patch": "pad",
+     "w": 166,
+     "h": 48
+    },
+    {
+     "file": "publix/2.png",
+     "from": {
+      "stadium": "uab",
+      "surface": "Field wall",
+      "itemId": "UAB_edgeWall_colorA"
+     },
+     "seen": 2,
+     "keyed": true,
+     "patch": "pad",
+     "w": 72,
+     "h": 16
+    }
+   ]
+  },
+  {
+   "brand": "Q105",
+   "key": "q105",
+   "slug": "q105",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "q105/1.png",
+     "from": {
+      "stadium": "south_florida",
+      "surface": "Field wall",
+      "itemId": "usf_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 103,
+     "h": 28
+    }
+   ]
+  },
+  {
+   "brand": "QuikTrip",
+   "key": "quiktrip",
+   "slug": "quiktrip",
+   "category": "retail",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "quiktrip/1.png",
+     "from": {
+      "stadium": "georgia",
+      "surface": "Logo sheet",
+      "itemId": "UGA_env_logosheet_decal_color"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 134,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "brand": "Radisson",
+   "key": "radisson",
+   "slug": "radisson",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "radisson/1.png",
+     "from": {
+      "stadium": "western_michigan",
+      "surface": "Ad board",
+      "itemId": "WMU_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 173,
+     "h": 62
+    }
+   ]
+  },
+  {
+   "brand": "Raising Cane's",
+   "key": "raising cane's",
+   "slug": "raising-cane-s",
+   "category": "food",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "raising-cane-s/1.png",
+     "from": {
+      "stadium": "louisiana_monroe",
+      "surface": "Video board",
+      "itemId": "ULM_jumbotron_ad_colorAO"
+     },
+     "seen": 2,
+     "keyed": true,
+     "patch": "pad",
+     "w": 116,
+     "h": 57
+    },
+    {
+     "file": "raising-cane-s/2.png",
+     "from": {
+      "stadium": "rice",
+      "surface": "Video board",
+      "itemId": "RICE_jumbotron_ad_colorEM"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 88,
+     "h": 46
+    }
+   ]
+  },
+  {
+   "brand": "rapidSIGNS",
+   "key": "rapidsigns",
+   "slug": "rapidsigns",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "rapidsigns/1.png",
+     "from": {
+      "stadium": "louisiana_tech",
+      "surface": "Ad board",
+      "itemId": "LT_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 120,
+     "h": 56
+    }
+   ]
+  },
+  {
+   "brand": "Rebecca Creek",
+   "key": "rebecca creek",
+   "slug": "rebecca-creek",
+   "category": "drink",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "rebecca-creek/1.png",
+     "from": {
+      "stadium": "utsa",
+      "surface": "Field wall",
+      "itemId": "UTSA_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 73,
+     "h": 24
+    }
+   ]
+  },
+  {
+   "brand": "Regions Bank",
+   "key": "regions bank",
+   "slug": "regions-bank",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "regions-bank/1.png",
+     "from": {
+      "stadium": "alabama",
+      "surface": "Field wall",
+      "itemId": "ALA_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 91,
+     "h": 24
+    }
+   ]
+  },
+  {
+   "brand": "RelaySports",
+   "key": "relaysports",
+   "slug": "relaysports",
+   "category": "generic",
+   "fictional": true,
+   "versions": [
+    {
+     "file": "relaysports/1.png",
+     "from": {
+      "stadium": "miami_oh",
+      "surface": "Ad board",
+      "itemId": "MIAOH_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 92,
+     "h": 34
+    }
+   ]
+  },
+  {
+   "brand": "Reno Truckee Carson Paint Mart",
+   "key": "reno truckee carson paint mart",
+   "slug": "reno-truckee-carson-paint-mart",
+   "category": "retail",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "reno-truckee-carson-paint-mart/1.png",
+     "from": {
+      "stadium": "nevada",
+      "surface": "Field wall",
+      "itemId": "NEV_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 99,
+     "h": 27
+    }
+   ]
+  },
+  {
+   "brand": "Renown Health",
+   "key": "renown health",
+   "slug": "renown-health",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "renown-health/1.png",
+     "from": {
+      "stadium": "nevada",
+      "surface": "Field wall",
+      "itemId": "NEV_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 85,
+     "h": 23
+    }
+   ]
+  },
+  {
+   "brand": "Ricky Slick's Barber Shop",
+   "key": "ricky slick's barber shop",
+   "slug": "ricky-slick-s-barber-shop",
+   "category": "generic",
+   "fictional": true,
+   "versions": [
+    {
+     "file": "ricky-slick-s-barber-shop/1.png",
+     "from": {
+      "stadium": "michigan_state",
+      "surface": "Ad board",
+      "itemId": "MSU_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 390,
+     "h": 97
+    }
+   ]
+  },
+  {
+   "brand": "Rock Valley Credit Union",
+   "key": "rock valley credit union",
+   "slug": "rock-valley-credit-union",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "rock-valley-credit-union/1.png",
+     "from": {
+      "stadium": "northern_illinois",
+      "surface": "Video board",
+      "itemId": "NIU_jumbotron_ad_colorAO"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "fits",
+     "w": 53,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "brand": "Rocket Mortgage",
+   "key": "rocket mortgage",
+   "slug": "rocket-mortgage",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "rocket-mortgage/1.png",
+     "from": {
+      "stadium": "penn_state",
+      "surface": "Ad board",
+      "itemId": "PSU_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 59,
+     "h": 19
+    }
+   ]
+  },
+  {
+   "brand": "Roscoe Brown",
+   "key": "roscoe brown",
+   "slug": "roscoe-brown",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "roscoe-brown/1.png",
+     "from": {
+      "stadium": "middle_tennessee",
+      "surface": "Field wall",
+      "itemId": "MTSU_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 84,
+     "h": 28
+    }
+   ]
+  },
+  {
+   "brand": "Rubenstein Supply Company",
+   "key": "rubenstein supply company",
+   "slug": "rubenstein-supply-company",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "rubenstein-supply-company/1.png",
+     "from": {
+      "stadium": "san_jose_state",
+      "surface": "Ad board",
+      "itemId": "SJSU_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 49,
+     "h": 36
+    }
+   ]
+  },
+  {
+   "brand": "Safeway",
+   "key": "safeway",
+   "slug": "safeway",
+   "category": "retail",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "safeway/1.png",
+     "from": {
+      "stadium": "colorado",
+      "surface": "Ad board",
+      "itemId": "COLO_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 73,
+     "h": 16
+    }
+   ]
+  },
+  {
+   "brand": "SCANA Energy",
+   "key": "scana energy",
+   "slug": "scana-energy",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "scana-energy/1.png",
+     "from": {
+      "stadium": "georgia_tech",
+      "surface": "Field wall",
+      "itemId": "GT_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 63,
+     "h": 18
+    }
+   ]
+  },
+  {
+   "brand": "SeatGeek",
+   "key": "seatgeek",
+   "slug": "seatgeek",
+   "category": "retail",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "seatgeek/1.png",
+     "from": {
+      "stadium": "uconn",
+      "surface": "Field wall",
+      "itemId": "CONN_edgewall_colorA"
+     },
+     "seen": 2,
+     "keyed": true,
+     "patch": "fits",
+     "w": 39,
+     "h": 29
+    },
+    {
+     "file": "seatgeek/2.png",
+     "from": {
+      "stadium": "west_virginia",
+      "surface": "Ad board",
+      "itemId": "WVU_advertising_colorEM"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 71,
+     "h": 51
+    }
+   ]
+  },
+  {
+   "brand": "Sentara",
+   "key": "sentara",
+   "slug": "sentara",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "sentara/1.png",
+     "from": {
+      "stadium": "james_madison",
+      "surface": "Video board",
+      "itemId": "JMU_jumbotron_ad_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 134,
+     "h": 24
+    }
+   ]
+  },
+  {
+   "brand": "Servpro",
+   "key": "servpro",
+   "slug": "servpro",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "servpro/1.png",
+     "from": {
+      "stadium": "east_carolina",
+      "surface": "Ad board",
+      "itemId": "ECU_advertising_colorEM"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 114,
+     "h": 24
+    }
+   ]
+  },
+  {
+   "brand": "Shamrock Farms Rockin' Protein",
+   "key": "shamrock farms rockin' protein",
+   "slug": "shamrock-farms-rockin-protein",
+   "category": "drink",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "shamrock-farms-rockin-protein/1.png",
+     "from": {
+      "stadium": "arizona",
+      "surface": "Wall wrap",
+      "itemId": "ARIZ_edgewall_tarp_colorA"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 97,
+     "h": 25
+    }
+   ]
+  },
+  {
+   "brand": "Shelter Insurance",
+   "key": "shelter insurance",
+   "slug": "shelter-insurance",
+   "category": "insurance",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "shelter-insurance/1.png",
+     "from": {
+      "stadium": "missouri_state",
+      "surface": "Ad board",
+      "itemId": "MOST_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 41,
+     "h": 46
+    }
+   ]
+  },
+  {
+   "brand": "SHI",
+   "key": "shi",
+   "slug": "shi",
+   "category": "tech",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "shi/1.png",
+     "from": {
+      "stadium": "rutgers",
+      "surface": "Other",
+      "itemId": "RUTG_ads_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 41,
+     "h": 26
+    }
+   ]
+  },
+  {
+   "brand": "Shift",
+   "key": "shift",
+   "slug": "shift",
+   "category": "auto",
+   "fictional": true,
+   "versions": [
+    {
+     "file": "shift/1.png",
+     "from": {
+      "stadium": "ohio",
+      "surface": "Field wall",
+      "itemId": "OHIO_edgewall_ad_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 76,
+     "h": 145
+    }
+   ]
+  },
+  {
+   "brand": "Shiner Law Group",
+   "key": "shiner law group",
+   "slug": "shiner-law-group",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "shiner-law-group/1.png",
+     "from": {
+      "stadium": "fau",
+      "surface": "Video board",
+      "itemId": "FAU_jumbotron_ad_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 91,
+     "h": 47
+    }
+   ]
+  },
+  {
+   "brand": "Shula Burger",
+   "key": "shula burger",
+   "slug": "shula-burger",
+   "category": "food",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "shula-burger/1.png",
+     "from": {
+      "stadium": "miami_fl",
+      "surface": "Other",
+      "itemId": "MIA_concessions_colorAO"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 66,
+     "h": 31
+    }
+   ]
+  },
+  {
+   "brand": "Sierra Neurosurgery Group",
+   "key": "sierra neurosurgery group",
+   "slug": "sierra-neurosurgery-group",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "sierra-neurosurgery-group/1.png",
+     "from": {
+      "stadium": "nevada",
+      "surface": "Field wall",
+      "itemId": "NEV_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 92,
+     "h": 22
+    }
+   ]
+  },
+  {
+   "brand": "Signature Aspen",
+   "key": "signature aspen",
+   "slug": "signature-aspen",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "signature-aspen/1.png",
+     "from": {
+      "stadium": "rice",
+      "surface": "Video board",
+      "itemId": "RICE_jumbotron_ad_colorEM"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 111,
+     "h": 38
+    }
+   ]
+  },
+  {
+   "brand": "Simmons Bank",
+   "key": "simmons bank",
+   "slug": "simmons-bank",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "simmons-bank/1.png",
+     "from": {
+      "stadium": "arkansas_state",
+      "surface": "Field wall",
+      "itemId": "ARST_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 69,
+     "h": 18
+    }
+   ]
+  },
+  {
+   "brand": "Simplot",
+   "key": "simplot",
+   "slug": "simplot",
+   "category": "food",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "simplot/1.png",
+     "from": {
+      "stadium": "boise_state",
+      "surface": "Ad board",
+      "itemId": "BSU_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 76,
+     "h": 32
+    }
+   ]
+  },
+  {
+   "brand": "SMITH",
+   "key": "smith",
+   "slug": "smith",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "smith/1.png",
+     "from": {
+      "stadium": "kansas",
+      "surface": "Field art",
+      "itemId": "KU_fieldLines_color"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 16,
+     "h": 20
+    }
+   ]
+  },
+  {
+   "brand": "Someburros",
+   "key": "someburros",
+   "slug": "someburros",
+   "category": "food",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "someburros/1.png",
+     "from": {
+      "stadium": "arizona_state",
+      "surface": "Field wall",
+      "itemId": "ASU_edgewall_decal_color"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 114,
+     "h": 42
+    }
+   ]
+  },
+  {
+   "brand": "Sonic",
+   "key": "sonic",
+   "slug": "sonic",
+   "category": "food",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "sonic/1.png",
+     "from": {
+      "stadium": "wku",
+      "surface": "Video board",
+      "itemId": "WKU_jumbotron_ad_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 101,
+     "h": 50
+    }
+   ]
+  },
+  {
+   "brand": "Sonwil",
+   "key": "sonwil",
+   "slug": "sonwil",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "sonwil/1.png",
+     "from": {
+      "stadium": "buffalo",
+      "surface": "Field wall",
+      "itemId": "BUFF_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 86,
+     "h": 29
+    }
+   ]
+  },
+  {
+   "brand": "Southeast Mortgage",
+   "key": "southeast mortgage",
+   "slug": "southeast-mortgage",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "southeast-mortgage/1.png",
+     "from": {
+      "stadium": "georgia_tech",
+      "surface": "Ad board",
+      "itemId": "GT_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 107,
+     "h": 41
+    }
+   ]
+  },
+  {
+   "brand": "Southern States Equipment",
+   "key": "southern states equipment",
+   "slug": "southern-states-equipment",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "southern-states-equipment/1.png",
+     "from": {
+      "stadium": "louisiana_tech",
+      "surface": "Ad board",
+      "itemId": "LT_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 71,
+     "h": 42
+    }
+   ]
+  },
+  {
+   "brand": "Sparks Toyota",
+   "key": "sparks toyota",
+   "slug": "sparks-toyota",
+   "category": "auto",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "sparks-toyota/1.png",
+     "from": {
+      "stadium": "coastal_carolina",
+      "surface": "Other",
+      "itemId": "CCAR_Atlas_colorAO"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 143,
+     "h": 57
+    }
+   ]
+  },
+  {
+   "brand": "SRM Concrete",
+   "key": "srm concrete",
+   "slug": "srm-concrete",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "srm-concrete/1.png",
+     "from": {
+      "stadium": "vanderbilt",
+      "surface": "Ad board",
+      "itemId": "VAN_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 41,
+     "h": 27
+    },
+    {
+     "file": "srm-concrete/2.png",
+     "from": {
+      "stadium": "middle_tennessee",
+      "surface": "Field wall",
+      "itemId": "MTSU_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 49,
+     "h": 20
+    }
+   ]
+  },
+  {
+   "brand": "SRS Distribution",
+   "key": "srs distribution",
+   "slug": "srs-distribution",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "srs-distribution/1.png",
+     "from": {
+      "stadium": "texas_am",
+      "surface": "Field wall",
+      "itemId": "TAMU_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 54,
+     "h": 26
+    }
+   ]
+  },
+  {
+   "brand": "St. Bernards Healthcare",
+   "key": "st. bernards healthcare",
+   "slug": "st-bernards-healthcare",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "st-bernards-healthcare/1.png",
+     "from": {
+      "stadium": "arkansas_state",
+      "surface": "Ad board",
+      "itemId": "ARST_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 88,
+     "h": 31
+    }
+   ]
+  },
+  {
+   "brand": "St. Francis Health",
+   "key": "st. francis health",
+   "slug": "st-francis-health",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "st-francis-health/1.png",
+     "from": {
+      "stadium": "louisiana_monroe",
+      "surface": "Video board",
+      "itemId": "ULM_jumbotron_ad_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 100,
+     "h": 40
+    }
+   ]
+  },
+  {
+   "brand": "StorageMart",
+   "key": "storagemart",
+   "slug": "storagemart",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "storagemart/1.png",
+     "from": {
+      "stadium": "missouri",
+      "surface": "Ad board",
+      "itemId": "MIZZ_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 144,
+     "h": 37
+    }
+   ]
+  },
+  {
+   "brand": "Sun Stop",
+   "key": "sun stop",
+   "slug": "sun-stop",
+   "category": "retail",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "sun-stop/1.png",
+     "from": {
+      "stadium": "florida_state",
+      "surface": "Video board",
+      "itemId": "FSU_jumbotron_ads_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 164,
+     "h": 41
+    }
+   ]
+  },
+  {
+   "brand": "Sunnyside Chicken",
+   "key": "sunnyside chicken",
+   "slug": "sunnyside-chicken",
+   "category": "food",
+   "fictional": true,
+   "versions": [
+    {
+     "file": "sunnyside-chicken/1.png",
+     "from": {
+      "stadium": "akron",
+      "surface": "Ad board",
+      "itemId": "akr_advertising_colorEM"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 119,
+     "h": 96
+    },
+    {
+     "file": "sunnyside-chicken/2.png",
+     "from": {
+      "stadium": "toledo",
+      "surface": "Ad board",
+      "itemId": "tol_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 79,
+     "h": 67
+    }
+   ]
+  },
+  {
+   "brand": "SunPeak",
+   "key": "sunpeak",
+   "slug": "sunpeak",
+   "category": "generic",
+   "fictional": true,
+   "versions": [
+    {
+     "file": "sunpeak/1.png",
+     "from": {
+      "stadium": "louisville",
+      "surface": "Other",
+      "itemId": "lou_atlas_decal_color"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 70,
+     "h": 58
+    }
+   ]
+  },
+  {
+   "brand": "Sunshine",
+   "key": "sunshine",
+   "slug": "sunshine",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "sunshine/1.png",
+     "from": {
+      "stadium": "south_florida",
+      "surface": "Field wall",
+      "itemId": "usf_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 56,
+     "h": 25
+    }
+   ]
+  },
+  {
+   "brand": "Super Home Surplus",
+   "key": "super home surplus",
+   "slug": "super-home-surplus",
+   "category": "retail",
+   "fictional": true,
+   "versions": [
+    {
+     "file": "super-home-surplus/1.png",
+     "from": {
+      "stadium": "wku",
+      "surface": "Video board",
+      "itemId": "WKU_jumbotron_ad_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 87,
+     "h": 30
+    }
+   ]
+  },
+  {
+   "brand": "Superior Plumbing",
+   "key": "superior plumbing",
+   "slug": "superior-plumbing",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "superior-plumbing/1.png",
+     "from": {
+      "stadium": "kennesaw_state",
+      "surface": "Logo sheet",
+      "itemId": "KENN_env_logosheet_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 21,
+     "h": 23
+    }
+   ]
+  },
+  {
+   "brand": "T4 Tire",
+   "key": "t4 tire",
+   "slug": "t4-tire",
+   "category": "auto",
+   "fictional": true,
+   "versions": [
+    {
+     "file": "t4-tire/1.png",
+     "from": {
+      "stadium": "akron",
+      "surface": "Ad board",
+      "itemId": "akr_advertising_colorEM"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "fits",
+     "w": 149,
+     "h": 96
+    }
+   ]
+  },
+  {
+   "brand": "Taco Bell",
+   "key": "taco bell",
+   "slug": "taco-bell",
+   "category": "food",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "taco-bell/1.png",
+     "from": {
+      "stadium": "louisiana_monroe",
+      "surface": "Ad board",
+      "itemId": "ULM_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 111,
+     "h": 36
+    }
+   ]
+  },
+  {
+   "brand": "Tamarack Resort",
+   "key": "tamarack resort",
+   "slug": "tamarack-resort",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "tamarack-resort/1.png",
+     "from": {
+      "stadium": "boise_state",
+      "surface": "Ad board",
+      "itemId": "BSU_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 74,
+     "h": 18
+    }
+   ]
+  },
+  {
+   "brand": "Tampa General Hospital",
+   "key": "tampa general hospital",
+   "slug": "tampa-general-hospital",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "tampa-general-hospital/1.png",
+     "from": {
+      "stadium": "south_florida",
+      "surface": "Other",
+      "itemId": "usf_tarp_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 94,
+     "h": 26
+    },
+    {
+     "file": "tampa-general-hospital/2.png",
+     "from": {
+      "stadium": "south_florida",
+      "surface": "Field wall",
+      "itemId": "usf_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "fits",
+     "w": 51,
+     "h": 30
+    }
+   ]
+  },
+  {
+   "brand": "Tedford Insurance",
+   "key": "tedford insurance",
+   "slug": "tedford-insurance",
+   "category": "insurance",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "tedford-insurance/1.png",
+     "from": {
+      "stadium": "tulsa",
+      "surface": "Other",
+      "itemId": "TLSA_details_logos_decal_color"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 96,
+     "h": 258
+    }
+   ]
+  },
+  {
+   "brand": "TEP",
+   "key": "tep",
+   "slug": "tep",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "tep/1.png",
+     "from": {
+      "stadium": "arizona",
+      "surface": "Ad board",
+      "itemId": "ARIZ_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 133,
+     "h": 76
+    }
+   ]
+  },
+  {
+   "brand": "The Hair Brigade Barber Shop",
+   "key": "the hair brigade barber shop",
+   "slug": "the-hair-brigade-barber-shop",
+   "category": "generic",
+   "fictional": true,
+   "versions": [
+    {
+     "file": "the-hair-brigade-barber-shop/1.png",
+     "from": {
+      "stadium": "ohio",
+      "surface": "Field wall",
+      "itemId": "OHIO_edgewall_ad_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 101,
+     "h": 54
+    }
+   ]
+  },
+  {
+   "brand": "The Honey Baked Ham Co.",
+   "key": "the honey baked ham co.",
+   "slug": "the-honey-baked-ham-co",
+   "category": "food",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "the-honey-baked-ham-co/1.png",
+     "from": {
+      "stadium": "utep",
+      "surface": "Ad board",
+      "itemId": "UTEP_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 65,
+     "h": 29
+    }
+   ]
+  },
+  {
+   "brand": "Tidelands Health",
+   "key": "tidelands health",
+   "slug": "tidelands-health",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "tidelands-health/1.png",
+     "from": {
+      "stadium": "coastal_carolina",
+      "surface": "Other",
+      "itemId": "CCAR_Atlas_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 170,
+     "h": 66
+    }
+   ]
+  },
+  {
+   "brand": "Tobacco Free Louisiana",
+   "key": "tobacco free louisiana",
+   "slug": "tobacco-free-louisiana",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "tobacco-free-louisiana/1.png",
+     "from": {
+      "stadium": "louisiana_tech",
+      "surface": "Ad board",
+      "itemId": "LT_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 72,
+     "h": 39
+    }
+   ]
+  },
+  {
+   "brand": "Toyota",
+   "key": "toyota",
+   "slug": "toyota",
+   "category": "auto",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "toyota/1.png",
+     "from": {
+      "stadium": "oregon",
+      "surface": "Other",
+      "itemId": "ORE_logos_decal_color"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 230,
+     "h": 82
+    },
+    {
+     "file": "toyota/2.png",
+     "from": {
+      "stadium": "colorado_state",
+      "surface": "Other",
+      "itemId": "csu_tarps_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 15,
+     "h": 70
+    }
+   ]
+  },
+  {
+   "brand": "Triple Tacos",
+   "key": "triple tacos",
+   "slug": "triple-tacos",
+   "category": "food",
+   "fictional": true,
+   "versions": [
+    {
+     "file": "triple-tacos/1.png",
+     "from": {
+      "stadium": "wku",
+      "surface": "Video board",
+      "itemId": "WKU_jumbotron_ad_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 150,
+     "h": 124
+    }
+   ]
+  },
+  {
+   "brand": "Truist",
+   "key": "truist",
+   "slug": "truist",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "truist/1.png",
+     "from": {
+      "stadium": "florida",
+      "surface": "Ad board",
+      "itemId": "FLA_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 155,
+     "h": 40
+    }
+   ]
+  },
+  {
+   "brand": "U-LUV Foods",
+   "key": "u-luv foods",
+   "slug": "u-luv-foods",
+   "category": "food",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "u-luv-foods/1.png",
+     "from": {
+      "stadium": "any",
+      "surface": "Ad board",
+      "itemId": "ULUV_logo"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 512,
+     "h": 234
+    }
+   ]
+  },
+  {
+   "brand": "U.S. Bank",
+   "key": "u.s. bank",
+   "slug": "u-s-bank",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "u-s-bank/1.png",
+     "from": {
+      "stadium": "wku",
+      "surface": "Video board",
+      "itemId": "WKU_jumbotron_ad_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 138,
+     "h": 36
+    }
+   ]
+  },
+  {
+   "brand": "UC Health",
+   "key": "uc health",
+   "slug": "uc-health",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "uc-health/1.png",
+     "from": {
+      "stadium": "cincinnati",
+      "surface": "Field wall",
+      "itemId": "CIN_edgewall_colorA"
+     },
+     "seen": 2,
+     "keyed": true,
+     "patch": "pad",
+     "w": 94,
+     "h": 23
+    }
+   ]
+  },
+  {
+   "brand": "UCHealth",
+   "key": "uchealth",
+   "slug": "uchealth",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "uchealth/1.png",
+     "from": {
+      "stadium": "colorado",
+      "surface": "Ad board",
+      "itemId": "COLO_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 102,
+     "h": 25
+    }
+   ]
+  },
+  {
+   "brand": "UF Health",
+   "key": "uf health",
+   "slug": "uf-health",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "uf-health/1.png",
+     "from": {
+      "stadium": "florida",
+      "surface": "Ad board",
+      "itemId": "FLA_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 133,
+     "h": 43
+    }
+   ]
+  },
+  {
+   "brand": "UHealth University of Miami Health System",
+   "key": "uhealth university of miami health system",
+   "slug": "uhealth-university-of-miami-health-system",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "uhealth-university-of-miami-health-system/1.png",
+     "from": {
+      "stadium": "miami_fl",
+      "surface": "Field wall",
+      "itemId": "MIA_edgeWall_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 54,
+     "h": 19
+    }
+   ]
+  },
+  {
+   "brand": "UMCU",
+   "key": "umcu",
+   "slug": "umcu",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "umcu/1.png",
+     "from": {
+      "stadium": "western_michigan",
+      "surface": "Ad board",
+      "itemId": "WMU_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 168,
+     "h": 43
+    }
+   ]
+  },
+  {
+   "brand": "Under Armour",
+   "key": "under armour",
+   "slug": "under-armour",
+   "category": "outfitter",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "under-armour/1.png",
+     "from": {
+      "stadium": "coastal_carolina",
+      "surface": "Other",
+      "itemId": "CCAR_Atlas_colorAO"
+     },
+     "seen": 3,
+     "keyed": true,
+     "patch": "fits",
+     "w": 119,
+     "h": 97
+    },
+    {
+     "file": "under-armour/2.png",
+     "from": {
+      "stadium": "georgia_state",
+      "surface": "Other",
+      "itemId": "GSU_atlas_colorAO"
+     },
+     "seen": 2,
+     "keyed": true,
+     "patch": "pad",
+     "w": 57,
+     "h": 34
+    },
+    {
+     "file": "under-armour/3.png",
+     "from": {
+      "stadium": "uab",
+      "surface": "Field wall",
+      "itemId": "UAB_edgeWall_colorA"
+     },
+     "seen": 2,
+     "keyed": true,
+     "patch": "pad",
+     "w": 50,
+     "h": 28
+    },
+    {
+     "file": "under-armour/4.png",
+     "from": {
+      "stadium": "new_mexico_state",
+      "surface": "Video board",
+      "itemId": "NMSU_jumbotron_ad_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 143,
+     "h": 101
+    }
+   ]
+  },
+  {
+   "brand": "Union Bank",
+   "key": "union bank",
+   "slug": "union-bank",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "union-bank/1.png",
+     "from": {
+      "stadium": "arkansas_state",
+      "surface": "Field wall",
+      "itemId": "ARST_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 64,
+     "h": 14
+    }
+   ]
+  },
+  {
+   "brand": "United Bank",
+   "key": "united bank",
+   "slug": "united-bank",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "united-bank/1.png",
+     "from": {
+      "stadium": "james_madison",
+      "surface": "Video board",
+      "itemId": "JMU_jumbotron_ad_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 126,
+     "h": 43
+    }
+   ]
+  },
+  {
+   "brand": "United Rentals",
+   "key": "united rentals",
+   "slug": "united-rentals",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "united-rentals/1.png",
+     "from": {
+      "stadium": "louisiana_monroe",
+      "surface": "Ad board",
+      "itemId": "ULM_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 100,
+     "h": 37
+    },
+    {
+     "file": "united-rentals/2.png",
+     "from": {
+      "stadium": "louisiana_monroe",
+      "surface": "Scoreboard",
+      "itemId": "ULM_scoreboard_details_colorAO"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "fits",
+     "w": 97,
+     "h": 103
+    }
+   ]
+  },
+  {
+   "brand": "UnitedHealthcare",
+   "key": "unitedhealthcare",
+   "slug": "unitedhealthcare",
+   "category": "insurance",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "unitedhealthcare/1.png",
+     "from": {
+      "stadium": "minnesota",
+      "surface": "Ad board",
+      "itemId": "MINN_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 100,
+     "h": 30
+    }
+   ]
+  },
+  {
+   "brand": "University Ford",
+   "key": "university ford",
+   "slug": "university-ford",
+   "category": "auto",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "university-ford/1.png",
+     "from": {
+      "stadium": "marshall",
+      "surface": "Field wall",
+      "itemId": "MRSH_edgewall_ads_colorA"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 72,
+     "h": 28
+    }
+   ]
+  },
+  {
+   "brand": "University of Colorado Hospital",
+   "key": "university of colorado hospital",
+   "slug": "university-of-colorado-hospital",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "university-of-colorado-hospital/1.png",
+     "from": {
+      "stadium": "colorado",
+      "surface": "Ad board",
+      "itemId": "COLO_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 42,
+     "h": 13
+    }
+   ]
+  },
+  {
+   "brand": "UniWyo Credit Union",
+   "key": "uniwyo credit union",
+   "slug": "uniwyo-credit-union",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "uniwyo-credit-union/1.png",
+     "from": {
+      "stadium": "wyoming",
+      "surface": "Ad board",
+      "itemId": "WYO_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 161,
+     "h": 51
+    }
+   ]
+  },
+  {
+   "brand": "UofL Health",
+   "key": "uofl health",
+   "slug": "uofl-health",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "uofl-health/1.png",
+     "from": {
+      "stadium": "louisville",
+      "surface": "Other",
+      "itemId": "lou_atlas_colorEM"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 112,
+     "h": 23
+    }
+   ]
+  },
+  {
+   "brand": "UPMC",
+   "key": "upmc",
+   "slug": "upmc",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "upmc/1.png",
+     "from": {
+      "stadium": "pittsburgh",
+      "surface": "Field wall",
+      "itemId": "PITT_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 92,
+     "h": 33
+    },
+    {
+     "file": "upmc/2.png",
+     "from": {
+      "stadium": "pittsburgh_cs",
+      "surface": "Video board",
+      "itemId": "PITT_CS_jumbotronAds_colorEM"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 58,
+     "h": 155
+    }
+   ]
+  },
+  {
+   "brand": "UPS",
+   "key": "ups",
+   "slug": "ups",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "ups/1.png",
+     "from": {
+      "stadium": "louisville",
+      "surface": "Other",
+      "itemId": "lou_atlas_decal_color"
+     },
+     "seen": 2,
+     "keyed": true,
+     "patch": "fits",
+     "w": 75,
+     "h": 81
+    },
+    {
+     "file": "ups/2.png",
+     "from": {
+      "stadium": "uconn",
+      "surface": "Field wall",
+      "itemId": "CONN_edgewall_colorA"
+     },
+     "seen": 2,
+     "keyed": true,
+     "patch": "fits",
+     "w": 22,
+     "h": 25
+    },
+    {
+     "file": "ups/3.png",
+     "from": {
+      "stadium": "uconn",
+      "surface": "Video board",
+      "itemId": "CONN_jumbotron_ad_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 125,
+     "h": 150
+    },
+    {
+     "file": "ups/4.png",
+     "from": {
+      "stadium": "oregon",
+      "surface": "Other",
+      "itemId": "ORE_logos_decal_color"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "fits",
+     "w": 51,
+     "h": 56
+    }
+   ]
+  },
+  {
+   "brand": "USAA",
+   "key": "usaa",
+   "slug": "usaa",
+   "category": "insurance",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "usaa/1.png",
+     "from": {
+      "stadium": "air_force",
+      "surface": "Field art",
+      "itemId": "AFA_fieldLines_color"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "fits",
+     "w": 36,
+     "h": 36
+    }
+   ]
+  },
+  {
+   "brand": "USF Credit Union",
+   "key": "usf credit union",
+   "slug": "usf-credit-union",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "usf-credit-union/1.png",
+     "from": {
+      "stadium": "south_florida",
+      "surface": "Field wall",
+      "itemId": "usf_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 58,
+     "h": 31
+    }
+   ]
+  },
+  {
+   "brand": "UT Health San Antonio",
+   "key": "ut health san antonio",
+   "slug": "ut-health-san-antonio",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "ut-health-san-antonio/1.png",
+     "from": {
+      "stadium": "utsa",
+      "surface": "Field wall",
+      "itemId": "UTSA_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 65,
+     "h": 21
+    }
+   ]
+  },
+  {
+   "brand": "Utz Brands",
+   "key": "utz brands",
+   "slug": "utz-brands",
+   "category": "food",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "utz-brands/1.png",
+     "from": {
+      "stadium": "west_virginia",
+      "surface": "Ad board",
+      "itemId": "WVU_advertising_colorEM"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 69,
+     "h": 34
+    }
+   ]
+  },
+  {
+   "brand": "Van Wagner",
+   "key": "van wagner",
+   "slug": "van-wagner",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "van-wagner/1.png",
+     "from": {
+      "stadium": "kent_state",
+      "surface": "Other",
+      "itemId": "KENT_details_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 89,
+     "h": 20
+    }
+   ]
+  },
+  {
+   "brand": "VCOM",
+   "key": "vcom",
+   "slug": "vcom",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "vcom/1.png",
+     "from": {
+      "stadium": "louisiana_monroe",
+      "surface": "Video board",
+      "itemId": "ULM_jumbotron_ad_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 35,
+     "h": 40
+    }
+   ]
+  },
+  {
+   "brand": "Venmo",
+   "key": "venmo",
+   "slug": "venmo",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "venmo/1.png",
+     "from": {
+      "stadium": "arizona_state",
+      "surface": "Field wall",
+      "itemId": "ASU_edgewall_decal_color"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 102,
+     "h": 43
+    },
+    {
+     "file": "venmo/2.png",
+     "from": {
+      "stadium": "cincinnati",
+      "surface": "Field wall",
+      "itemId": "CIN_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 79,
+     "h": 15
+    }
+   ]
+  },
+  {
+   "brand": "Verratti",
+   "key": "verratti",
+   "slug": "verratti",
+   "category": "generic",
+   "fictional": true,
+   "versions": [
+    {
+     "file": "verratti/1.png",
+     "from": {
+      "stadium": "ohio",
+      "surface": "Field wall",
+      "itemId": "OHIO_edgewall_ad_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 97,
+     "h": 113
+    },
+    {
+     "file": "verratti/2.png",
+     "from": {
+      "stadium": "akron",
+      "surface": "Ad board",
+      "itemId": "akr_advertising_colorEM"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 110,
+     "h": 96
+    },
+    {
+     "file": "verratti/3.png",
+     "from": {
+      "stadium": "louisville",
+      "surface": "Other",
+      "itemId": "lou_atlas_decal_color"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 75,
+     "h": 84
+    },
+    {
+     "file": "verratti/4.png",
+     "from": {
+      "stadium": "toledo",
+      "surface": "Ad board",
+      "itemId": "tol_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 63,
+     "h": 65
+    }
+   ]
+  },
+  {
+   "brand": "Verratti Club",
+   "key": "verratti club",
+   "slug": "verratti-club",
+   "category": "generic",
+   "fictional": true,
+   "versions": [
+    {
+     "file": "verratti-club/1.png",
+     "from": {
+      "stadium": "pittsburgh_cs",
+      "surface": "Other",
+      "itemId": "PITT_CS_concessionAds_colorEM"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "fits",
+     "w": 102,
+     "h": 103
+    }
+   ]
+  },
+  {
+   "brand": "Visa",
+   "key": "visa",
+   "slug": "visa",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "visa/1.png",
+     "from": {
+      "stadium": "foxborough_b",
+      "surface": "Other",
+      "itemId": "FOX_B_ad_02_colorEM"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 111,
+     "h": 33
+    }
+   ]
+  },
+  {
+   "brand": "Voyles Automotive",
+   "key": "voyles automotive",
+   "slug": "voyles-automotive",
+   "category": "auto",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "voyles-automotive/1.png",
+     "from": {
+      "stadium": "kennesaw_state",
+      "surface": "Ad board",
+      "itemId": "KENN_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 74,
+     "h": 28
+    }
+   ]
+  },
+  {
+   "brand": "Walmart",
+   "key": "walmart",
+   "slug": "walmart",
+   "category": "retail",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "walmart/1.png",
+     "from": {
+      "stadium": "arkansas",
+      "surface": "Field art",
+      "itemId": "ARK_fieldLines_color"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 18,
+     "h": 16
+    }
+   ]
+  },
+  {
+   "brand": "Wells Fargo",
+   "key": "wells fargo",
+   "slug": "wells-fargo",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "wells-fargo/1.png",
+     "from": {
+      "stadium": "north_carolina",
+      "surface": "Other",
+      "itemId": "UNC_alpha_door_decal_color"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "fits",
+     "w": 40,
+     "h": 41
+    }
+   ]
+  },
+  {
+   "brand": "Wendy's",
+   "key": "wendy's",
+   "slug": "wendy-s",
+   "category": "food",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "wendy-s/1.png",
+     "from": {
+      "stadium": "south_florida",
+      "surface": "Field wall",
+      "itemId": "usf_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 70,
+     "h": 29
+    }
+   ]
+  },
+  {
+   "brand": "Wescom Financial",
+   "key": "wescom financial",
+   "slug": "wescom-financial",
+   "category": "bank",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "wescom-financial/1.png",
+     "from": {
+      "stadium": "ucla",
+      "surface": "Tunnel",
+      "itemId": "UCLA_tunnel_banner_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 162,
+     "h": 42
+    }
+   ]
+  },
+  {
+   "brand": "Whataburger",
+   "key": "whataburger",
+   "slug": "whataburger",
+   "category": "food",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "whataburger/1.png",
+     "from": {
+      "stadium": "north_texas",
+      "surface": "Other",
+      "itemId": "UNT_atlas_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "fits",
+     "w": 38,
+     "h": 42
+    }
+   ]
+  },
+  {
+   "brand": "Wilson Equipment Rentals & Sales",
+   "key": "wilson equipment rentals & sales",
+   "slug": "wilson-equipment-rentals-sales",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "wilson-equipment-rentals-sales/1.png",
+     "from": {
+      "stadium": "oregon_state",
+      "surface": "Ad board",
+      "itemId": "ORST_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 82,
+     "h": 21
+    }
+   ]
+  },
+  {
+   "brand": "Window Nation",
+   "key": "window nation",
+   "slug": "window-nation",
+   "category": "retail",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "window-nation/1.png",
+     "from": {
+      "stadium": "ohio_state",
+      "surface": "Ad board",
+      "itemId": "OSU_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 67,
+     "h": 36
+    }
+   ]
+  },
+  {
+   "brand": "Window World",
+   "key": "window world",
+   "slug": "window-world",
+   "category": "retail",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "window-world/1.png",
+     "from": {
+      "stadium": "middle_tennessee",
+      "surface": "Field wall",
+      "itemId": "MTSU_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 76,
+     "h": 30
+    }
+   ]
+  },
+  {
+   "brand": "WVU Medicine",
+   "key": "wvu medicine",
+   "slug": "wvu-medicine",
+   "category": "generic",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "wvu-medicine/1.png",
+     "from": {
+      "stadium": "west_virginia",
+      "surface": "Ad board",
+      "itemId": "WVU_advertising_colorEM"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 75,
+     "h": 19
+    }
+   ]
+  },
+  {
+   "brand": "Xerox",
+   "key": "xerox",
+   "slug": "xerox",
+   "category": "tech",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "xerox/1.png",
+     "from": {
+      "stadium": "uconn",
+      "surface": "Field wall",
+      "itemId": "CONN_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 114,
+     "h": 26
+    }
+   ]
+  },
+  {
+   "brand": "Xfinity Live!",
+   "key": "xfinity live!",
+   "slug": "xfinity-live",
+   "category": "telecom",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "xfinity-live/1.png",
+     "from": {
+      "stadium": "temple",
+      "surface": "Other",
+      "itemId": "TEM_XfinityLive_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 66,
+     "h": 51
+    }
+   ]
+  },
+  {
+   "brand": "YellaWood",
+   "key": "yellawood",
+   "slug": "yellawood",
+   "category": "retail",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "yellawood/1.png",
+     "from": {
+      "stadium": "auburn",
+      "surface": "Ad board",
+      "itemId": "AUB_advertising_colorAO"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 71,
+     "h": 14
+    }
+   ]
+  },
+  {
+   "brand": "YETI",
+   "key": "yeti",
+   "slug": "yeti",
+   "category": "retail",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "yeti/1.png",
+     "from": {
+      "stadium": "alabama",
+      "surface": "Field wall",
+      "itemId": "ALA_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 102,
+     "h": 34
+    }
+   ]
+  },
+  {
+   "brand": "Yuengling",
+   "key": "yuengling",
+   "slug": "yuengling",
+   "category": "drink",
+   "fictional": false,
+   "versions": [
+    {
+     "file": "yuengling/1.png",
+     "from": {
+      "stadium": "south_florida",
+      "surface": "Field wall",
+      "itemId": "usf_edgewall_colorA"
+     },
+     "seen": 1,
+     "keyed": true,
+     "patch": "pad",
+     "w": 52,
+     "h": 30
+    }
+   ]
+  },
+  {
+   "brand": "Zippy's",
+   "key": "zippy's",
+   "slug": "zippy-s",
+   "category": "food",
+   "fictional": true,
+   "versions": [
+    {
+     "file": "zippy-s/1.png",
+     "from": {
+      "stadium": "akron",
+      "surface": "Ad board",
+      "itemId": "akr_advertising_colorEM"
+     },
+     "seen": 1,
+     "keyed": false,
+     "patch": "pad",
+     "w": 215,
+     "h": 96
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+  "_note": "The NFL's TV deals as reported in public, approximate, per year. Edit when the real deals change. Read by lib/nfl/tv.mjs for Wire > Business > TV.",
+  "asOf": 2025,
+  "optOut": { "after": 2029, "line": "The league can reopen every deal after the 2029 season." },
+  "deals": [
+    { "net": "CBS", "window": "Sunday afternoons, the AFC road games", "through": 2033, "perYear": 2100 },
+    { "net": "FOX", "window": "Sunday afternoons, the NFC road games", "through": 2033, "perYear": 2250 },
+    { "net": "NBC", "window": "Sunday Night Football, Thanksgiving night", "through": 2033, "perYear": 2000 },
+    { "net": "ESPN", "window": "Monday Night Football", "through": 2033, "perYear": 2700 },
+    { "net": "Prime Video", "window": "Thursday Night Football", "through": 2033, "perYear": 1000 },
+    { "net": "Netflix", "window": "Christmas Day", "through": 2026, "perYear": 150 },
+    { "net": "NFL Network", "window": "late-season Saturdays", "through": null, "perYear": null },
+    { "net": "YouTube", "window": "Sunday Ticket, every out-of-market game", "through": 2029, "perYear": 2000 }
+  ]
+}

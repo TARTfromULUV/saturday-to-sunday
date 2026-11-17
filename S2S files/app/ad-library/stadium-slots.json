@@ -1,0 +1,97 @@
+{
+  "about": "How many sellable slots each stadium surface has (the Marketplace's Pick your slots; lib/office/slots.mjs reads it). A slot is one logo on one panel: the whole-texture surfaces (the field walls, the wall wrap, the tunnel) are split into panels, so one brand's logo sits on the school's own colours. `defaults` apply to every stadium; `stadiums.<key>` (matched by the Story desk's stadium name, or the school) overrides a count, the slot names or the colours. A surface left out here (the club row's logo sheet, the video board's panels) is sold whole, as one slot. `sold: false` is shown but not sold yet, with `why`. Every count is a guess until it's checked on the PC against the real meshes (`checkOnPc`).",
+  "version": 1,
+  "defaults": {
+    "ad_boards": {
+      "label": "Ad boards",
+      "count": 8,
+      "art": "logo",
+      "shape": "strip",
+      "names": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ]
+    },
+    "field_walls": {
+      "label": "Field walls",
+      "count": 8,
+      "art": "panel",
+      "shape": "panel",
+      "names": [
+        "Home 1",
+        "Home 2",
+        "Home 3",
+        "Home 4",
+        "Away 1",
+        "Away 2",
+        "Away 3",
+        "Away 4"
+      ]
+    },
+    "wall_wrap": {
+      "label": "Wall wrap",
+      "count": 4,
+      "art": "panel",
+      "shape": "panel",
+      "names": [
+        "N",
+        "E",
+        "S",
+        "W"
+      ]
+    },
+    "tunnel_wrap": {
+      "label": "The tunnel",
+      "count": 2,
+      "art": "panel",
+      "shape": "tarp",
+      "names": [
+        "Left",
+        "Right"
+      ]
+    },
+    "goal_pads": {
+      "label": "Goal pads",
+      "count": 2,
+      "art": "logo",
+      "shape": "pad",
+      "names": [
+        "North",
+        "South"
+      ],
+      "exclusive": true,
+      "sold": false,
+      "why": "Not sold yet: the pads need a check on the PC that the stadium has a mesh to put a logo on",
+      "proposedValue": {
+        "lo": 16000,
+        "hi": 29000
+      }
+    },
+    "jersey_patch": {
+      "label": "The jersey patch",
+      "count": 1,
+      "art": "logo",
+      "shape": "patch",
+      "names": [
+        "Chest"
+      ]
+    },
+    "field": {
+      "label": "The field logo",
+      "count": 2,
+      "art": "logo",
+      "shape": "field",
+      "names": [
+        "Home 25",
+        "Away 25"
+      ]
+    }
+  },
+  "stadiums": {}
+}

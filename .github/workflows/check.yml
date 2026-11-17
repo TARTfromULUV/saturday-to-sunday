@@ -1,0 +1,24 @@
+# The public repo's check (tools/publish-public.mjs): the app lives in "S2S files/".
+name: check
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: S2S files
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci --omit=optional --no-audit --no-fund
+      - run: npm install --no-save playwright@1.56.1
+      - run: npx playwright install --with-deps chromium || npx playwright install chromium
+      - run: node scripts/check.mjs --browser
