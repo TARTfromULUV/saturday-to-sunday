@@ -1,0 +1,18 @@
+{
+  "_note": "Real single-season records as reported, for the pace watch (lib/stories.mjs). Edit when one falls. NFL: regular season. FBS: the NCAA's official single-season marks (bowl games count from 2002).",
+  "asOf": 2025,
+  "nfl": {
+    "passing": { "value": 5477, "holder": "Peyton Manning", "year": 2013 },
+    "rushing": { "value": 2105, "holder": "Eric Dickerson", "year": 1984 },
+    "receiving": { "value": 1964, "holder": "Calvin Johnson", "year": 2012 },
+    "sacks": { "value": 22.5, "holder": "Michael Strahan and T.J. Watt", "year": "2001 and 2021" },
+    "interceptions": { "value": 14, "holder": "Dick \"Night Train\" Lane", "year": 1952 }
+  },
+  "fbs": {
+    "passing": { "value": 5967, "holder": "Bailey Zappe", "year": 2021 },
+    "rushing": { "value": 2628, "holder": "Barry Sanders", "year": 1988 },
+    "receiving": { "value": 2060, "holder": "Trevor Insley", "year": 1999 },
+    "sacks": { "value": 24, "holder": "Terrell Suggs", "year": 2002 },
+    "interceptions": { "value": 14, "holder": "Al Worley", "year": 1968 }
+  }
+}

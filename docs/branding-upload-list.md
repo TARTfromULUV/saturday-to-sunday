@@ -35,7 +35,7 @@ College desk:
 
 ```
 staff/ray-halloran.png
-staff/dana-whitcomb.png
+staff/laura-kincaid.png
 staff/marcus-bell.png
 staff/theo-marsh.png
 staff/jack-pellegrino.png

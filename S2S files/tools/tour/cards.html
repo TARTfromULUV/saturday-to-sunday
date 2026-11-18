@@ -1,0 +1,141 @@
+<!doctype html>
+<!-- tools/tour/cards.html — [madden] the six tour cards (the onboarding's quick tour; the owner, November 10: "sell the
+     vision, and how easy it is"), one per ?n=1..6, drawn at 1080x1350 and saved as app/tour/<n>.jpg by
+     tools/tour/render.mjs. The paper's screenshots are the public site's (docs/site/img); the office's come from a
+     fixture league (tools/tour/img); the lock screen and the setup are drawn here. Edit the words in CARDS below. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>S2S tour card</title>
+<style>
+  :root { --bg: #0b0d10; --ink: #f4f4f4; --soft: rgba(255,255,255,.78); --red: #c8102e; --gold: #ffd166; --ok: #30d158; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; width: 1080px; height: 1350px; background: var(--bg); overflow: hidden; }
+  body { font-family: "Inter", system-ui, sans-serif; color: var(--ink); -webkit-font-smoothing: antialiased; }
+  .card { position: relative; width: 1080px; height: 1350px; overflow: hidden; display: flex; flex-direction: column; padding: 72px 84px 0;
+    background: radial-gradient(900px 620px at 85% 105%, rgba(200,16,46,.30), transparent 70%), radial-gradient(700px 520px at 0% 0%, rgba(255,209,102,.10), transparent 70%), var(--bg); }
+  .card > * { flex: none; }
+  .card::before { content: ''; position: absolute; inset: 0; background: repeating-linear-gradient(135deg, rgba(255,255,255,.018) 0 2px, transparent 2px 22px); }
+  .top { position: relative; display: flex; align-items: center; justify-content: space-between; }
+  .brand { display: flex; align-items: center; gap: 16px; font: 900 34px/1 "Inter Display", "Inter", sans-serif; letter-spacing: .02em; }
+  .brand img { width: 56px; height: 56px; border-radius: 14px; }
+  .dots { display: flex; gap: 10px; }
+  .dots i { width: 14px; height: 14px; border-radius: 50%; background: rgba(255,255,255,.22); }
+  .dots i.on { background: var(--gold); width: 40px; border-radius: 7px; }
+  .copy { position: relative; margin-top: 26px; }
+  .kick { display: flex; align-items: center; gap: 14px; font: 800 26px/1 "Inter", sans-serif; letter-spacing: .22em; text-transform: uppercase; color: var(--gold); }
+  .beta { font: 900 20px/1 "Inter", sans-serif; letter-spacing: .14em; color: #fff; background: var(--red); border-radius: 6px; padding: 8px 12px; }
+  h1 { margin: 24px 0 20px; font: 900 80px/.98 "Inter Display", "Inter", sans-serif; letter-spacing: -.02em; text-transform: uppercase; }
+  h1 em { font-style: normal; color: var(--gold); }
+  p { margin: 0; max-width: 880px; font: 500 34px/1.38 "Inter", sans-serif; color: var(--soft); }
+  .bar { position: relative; margin-top: 44px; width: 120px; height: 8px; background: var(--red); border-radius: 4px; }
+  .phones { position: relative; margin: 56px -84px 0; display: flex; justify-content: center; align-items: flex-start; gap: 44px; flex: none; }
+  .phone { position: relative; width: 470px; aspect-ratio: 390 / 844; border-radius: 64px; background: #000; padding: 18px; box-shadow: 0 50px 120px rgba(0,0,0,.65), 0 0 0 2px rgba(255,255,255,.09); }
+  .phone img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: top; border-radius: 48px; }
+  .two .phone { width: 400px; }
+  .two .phone:first-child { transform: translateY(70px) rotate(-3deg); }
+  .two .phone:last-child { transform: rotate(3deg); }
+  .tag { position: absolute; bottom: 36px; left: 50%; transform: translateX(-50%); font: 700 22px/1 "Inter", sans-serif; letter-spacing: .18em; text-transform: uppercase; color: #fff; background: rgba(11,13,16,.82); border: 1.5px solid rgba(255,255,255,.18); border-radius: 999px; padding: 14px 24px; white-space: nowrap; }
+
+  /* a drawn screen inside the phone (the lock screen, the setup) */
+  .scr { width: 100%; height: 100%; border-radius: 48px; overflow: hidden; position: relative; }
+
+  /* 1 · the lock screen at 12:13 */
+  .lock { background: radial-gradient(420px 520px at 20% 10%, rgba(200,16,46,.75), transparent 70%), radial-gradient(420px 520px at 90% 90%, rgba(1,51,105,.9), transparent 70%), linear-gradient(160deg, #3a0a14, #0a1a3a); padding: 64px 22px 0; text-align: center; }
+  .lock .date { font: 600 22px/1 "Inter", sans-serif; color: rgba(255,255,255,.85); }
+  .lock .time { font: 700 118px/1 "Inter Display", "Inter", sans-serif; letter-spacing: -.03em; margin: 6px 0 34px; color: #fff; }
+  .note { display: flex; gap: 14px; align-items: flex-start; text-align: left; background: rgba(28,28,32,.72); backdrop-filter: blur(10px); border-radius: 22px; padding: 16px 16px 18px; margin-bottom: 12px; }
+  .note img { width: 42px; height: 42px; border-radius: 10px; flex: none; }
+  .note b { display: flex; justify-content: space-between; font: 700 18px/1.25 "Inter", sans-serif; color: #fff; }
+  .note b small { font: 500 15px/1.25 "Inter", sans-serif; color: rgba(255,255,255,.55); }
+  .note span { display: block; margin-top: 4px; font: 500 17px/1.35 "Inter", sans-serif; color: rgba(255,255,255,.85); }
+
+  /* 2 · the setup, three steps and what it found */
+  .setup { background: linear-gradient(180deg, #1a1c21, #0e0f12); padding: 46px 20px 0; }
+  .setup .sh { font: 800 15px/1 "Inter", sans-serif; letter-spacing: .16em; text-transform: uppercase; color: rgba(255,255,255,.5); }
+  .setup h2 { margin: 8px 0 14px; font: 800 36px/1.05 "Inter Display", "Inter", sans-serif; color: #fff; }
+  .steps { display: flex; gap: 8px; margin-bottom: 14px; }
+  .steps i { flex: 1; height: 6px; border-radius: 3px; background: var(--ok); }
+  .grp { background: #23252b; border-radius: 20px; padding: 2px 16px; margin-bottom: 10px; }
+  .row { display: flex; align-items: center; gap: 12px; padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,.07); }
+  .row:last-child { border-bottom: 0; }
+  .row .ck { width: 30px; height: 30px; border-radius: 50%; background: var(--ok); display: grid; place-items: center; flex: none; color: #04210d; font: 900 18px/1 "Inter", sans-serif; }
+  .row .ck.n { background: #0a84ff; color: #fff; font-size: 16px; }
+  .row b { font: 700 19px/1.2 "Inter", sans-serif; color: #fff; }
+  .row small { display: block; font: 500 15px/1.3 "Inter", sans-serif; color: rgba(255,255,255,.55); margin-top: 2px; }
+  .gl { margin: 4px 4px 10px; font: 800 14px/1 "Inter", sans-serif; letter-spacing: .14em; text-transform: uppercase; color: rgba(255,255,255,.45); }
+  .go { margin-top: 6px; text-align: center; background: var(--ok); color: #04210d; border-radius: 16px; padding: 18px; font: 800 22px/1 "Inter", sans-serif; }
+
+  /* 5 · AD mode: the phone and the snippets around it */
+  .ad .phone { width: 420px; }
+  .snip { position: absolute; width: 380px; border-radius: 26px; overflow: hidden; background: #111; box-shadow: 0 30px 70px rgba(0,0,0,.6), 0 0 0 2px rgba(255,255,255,.10); }
+  .snip .lbl { display: block; font: 800 16px/1 "Inter", sans-serif; letter-spacing: .16em; text-transform: uppercase; color: #111; background: var(--gold); padding: 11px 16px; }
+  .snip .im { width: 100%; background-repeat: no-repeat; }
+
+  /* 7 · the closer: three phones fanned, the fine print like a TV spot's */
+  .close h1 { font-size: 92px; margin-top: 30px; }
+  .fan { position: relative; margin: 70px -84px 0; height: 760px; }
+  .fan .phone { position: absolute; width: 360px; top: 0; }
+  .fan .phone:nth-child(1) { left: 90px; top: 90px; transform: rotate(-9deg); }
+  .fan .phone:nth-child(2) { left: 360px; z-index: 2; }
+  .fan .phone:nth-child(3) { right: 90px; top: 90px; transform: rotate(9deg); }
+  .fine { position: absolute; left: 84px; right: 84px; bottom: 30px; z-index: 3; font: 500 17px/1.4 "Inter", sans-serif; color: rgba(255,255,255,.55); text-align: center; text-shadow: 0 1px 8px #000; }
+  /* 8 · coming soon: four tiles */
+  .soon { position: relative; margin-top: 40px; display: grid; grid-template-columns: 1fr 1fr; gap: 26px; }
+  .tile { position: relative; background: linear-gradient(160deg, rgba(255,255,255,.07), rgba(255,255,255,.025)); border: 1.5px solid rgba(255,255,255,.12); border-radius: 30px; padding: 30px 32px 32px; min-height: 270px; }
+  .tile .ic { width: 64px; height: 64px; border-radius: 18px; display: grid; place-items: center; font-size: 34px; margin-bottom: 22px; }
+  .tile b { display: block; font: 900 38px/1.05 "Inter Display", "Inter", sans-serif; text-transform: uppercase; letter-spacing: -.01em; color: #fff; }
+  .tile b em { font-style: normal; color: var(--gold); }
+  .tile span { display: block; margin-top: 14px; font: 500 25px/1.38 "Inter", sans-serif; color: var(--soft); }
+  .soon-foot { position: relative; margin-top: 30px; font: 700 22px/1 "Inter", sans-serif; letter-spacing: .18em; text-transform: uppercase; color: rgba(255,255,255,.45); text-align: center; }
+  .close-fade { position: absolute; left: 0; right: 0; bottom: 0; height: 260px; z-index: 3; background: linear-gradient(transparent, rgba(11,13,16,.96) 70%); }
+</style>
+</head>
+<body>
+<div class="card" id="card"></div>
+<script>
+  // a crop of a fixture screenshot (585x1266): x, y, w, h in its pixels, drawn at `w` css pixels wide
+  const crop = (src, x, y, w, h, width) => { const s = width / w; return `<div class="im" style="height:${Math.round(h * s)}px;background-image:url(${src});background-size:${Math.round(585 * s)}px auto;background-position:-${Math.round(x * s)}px -${Math.round(y * s)}px"></div>`; };
+  const ICON = '../../docs/site/img/icon.png';
+  const LOCK = `<div class="scr lock"><div class="date">Tuesday, November 10</div><div class="time">12:13</div>
+    <div class="note"><img src="${ICON}" alt=""><div><b>S2S <small>now</small></b><span><strong>Week 7 is out.</strong> Kennesaw St. 31, Jacksonville St. 17: the column, the poll, the recap.</span></div></div>
+    <div class="note"><img src="${ICON}" alt=""><div><b>The Front Office <small>12m ago</small></b><span>Darnell: “Dante’s people have been calling around.” 2 calls before Saturday.</span></div></div>
+    <div class="note"><img src="${ICON}" alt=""><div><b>Recruiting <small>1h ago</small></b><span>40 hours left on the board this week. Your 4-star visits Saturday.</span></div></div></div>`;
+  const ok = (t, s) => `<div class="row"><span class="ck">✓</span><span><b>${t}</b>${s ? `<small>${s}</small>` : ''}</span></div>`;
+  const SETUP = `<div class="scr setup"><div class="sh">Setting up S2S</div><h2>You’re ready.</h2><div class="steps"><i></i><i></i><i></i></div>
+    <div class="gl">Three steps</div><div class="grp">${ok('ChatGPT connected', 'your free account writes the paper')}${ok('Phone added', 'scanned the code · on your Home Screen')}${ok('Your save picked', 'the autosave, found for you')}</div>
+    <div class="gl">S2S found</div><div class="grp">${ok('Kennesaw St. · CFB 27', 'your dynasty, 2029, week 7')}${ok('New Orleans · Madden 27', 'your franchise, linked: one universe')}${ok('MyDynasty', 'faces, real drafts')}${ok('Zip’s All in One', 'the Booster Club and the mod’s economy')}</div>
+</div>`;
+  const AD = `<div class="snip" style="left:24px;top:40px;transform:rotate(-4deg)"><span class="lbl">Sponsors</span>${crop('img/office-market.jpg', 20, 270, 545, 340, 380)}</div>
+    <div class="snip" style="left:40px;top:430px;transform:rotate(3deg)"><span class="lbl">Booster Club</span>${crop('img/office-club.jpg', 20, 690, 545, 140, 380)}</div>
+    <div class="snip" style="right:24px;top:110px;transform:rotate(4deg)"><span class="lbl">Payroll</span>${crop('img/office-call.jpg', 20, 528, 545, 345, 380)}</div>
+    <div class="snip" style="right:40px;top:480px;transform:rotate(-3deg)"><span class="lbl">Your staff</span>${crop('img/office-staff.jpg', 20, 600, 545, 290, 380)}</div>`;
+  const CARDS = [
+    { kick: 'In your pocket', h: 'Your dynasty.<br><em>In your pocket.</em>', p: '12:13 on a Tuesday. Set the recruiting board, answer the AD’s calls, read what your league is saying. Tonight, it’s all in your save.', screen: LOCK },
+    { kick: 'Set up in minutes', h: 'Three steps.<br><em>That’s it.</em>', p: 'Connect your free ChatGPT and scan a code with your phone. S2S finds the rest: your dynasty, your franchise, MyDynasty, Zip’s economy.', screen: SETUP },
+    { kick: 'The paper', h: 'Your league.<br><em>A paper</em> every week.', p: 'Play a week. S2S reads your save and writes the issue: the column, the scores, the polls, your team.', img: ['../../docs/site/img/cfb-front.jpg'] },
+    { kick: 'One universe', h: 'Saturday’s recruit.<br><em>Sunday’s</em> rookie.', p: 'Add your dynasty and your franchise. They link up, and your players follow you to the NFL.', img: ['../../docs/site/img/cfb-draft.jpg', '../../docs/site/img/nfl-front.jpg'], tag: 'Saturday · Sunday' },
+    { kick: 'AD mode', beta: true, h: 'Run the<br><em>whole</em> program.', p: 'Sign the sponsors, work the Booster Club, pay your players, back your staff, price game day. A few calls after each game.', img: ['img/office.jpg'], around: AD, cls: 'ad' },
+    { kick: 'Into your save', beta: true, h: 'Send it<br><em>into</em> the game.', p: 'One Send writes your week into your dynasty file: a backup first, every change read back. Load up, and it’s there.', img: ['img/office-call.jpg', 'img/office-program.jpg'] },
+    { kick: 'The point', h: 'All while<br>doom-scrolling<br><em>on your lunch break.</em>', p: '', fan: ['../../docs/site/img/cfb-front.jpg', 'img/office.jpg', 'img/office-call.jpg'], cls: 'close',
+      fine: '*S2S runs on your gaming PC, so leave it on. Your phone reaches it from anywhere with Tailscale (free). Recruiting in a meeting is between you and your boss.' },
+    { kick: 'Coming soon', h: 'What’s<br><em>next.</em>', p: '', soon: [
+      ['🏈', '#c8102e', 'Coach mode<br><em>NCAA</em>', 'Set the recruiting board, the depth chart and practice from your phone. Your staff brings the calls.'],
+      ['🛡️', '#013369', 'Coach mode<br><em>NFL</em>', 'Scouting, the draft board, contracts and the weekly game plan, on the same phone.'],
+      ['🧩', '#e0a800', 'Order<br><em>Builder</em>', 'Sign a sponsor, see it in the game: stadium signage, jersey patches, field logos, through the MMC editor plug-in.'],
+      ['🤝', '#2f9e44', 'Co-op<br><em>leagues</em>', 'Your whole league on one paper. Every coach with their own office.'],
+    ], foot: 'Built in the open · say what you want next' },
+  ];
+  const n = Math.min(CARDS.length, Math.max(1, Number(new URLSearchParams(location.search).get('n')) || 1));
+  const c = CARDS[n - 1];
+  const phones = c.screen ? `<div class="phone">${c.screen}</div>` : (c.img ?? []).map((s) => `<div class="phone"><img src="${s}" alt=""></div>`).join('');
+  document.getElementById('card').innerHTML = `
+    <div class="top"><div class="brand"><img src="${ICON}" alt="">Saturday to Sunday</div><div class="dots">${CARDS.map((_, i) => `<i class="${i === n - 1 ? 'on' : ''}"></i>`).join('')}</div></div>
+    <div class="bar"></div>
+    <div class="copy"><div class="kick">${n} · ${c.kick}${c.beta ? '<span class="beta">BETA</span>' : ''}</div><h1>${c.h}</h1>${c.p ? `<p>${c.p}</p>` : ''}</div>
+    ${c.soon ? `<div class="soon">${c.soon.map(([ic, bg, t, d]) => `<div class="tile"><div class="ic" style="background:${bg}">${ic}</div><b>${t}</b><span>${d}</span></div>`).join('')}</div><div class="soon-foot">${c.foot ?? ''}</div>` : c.fan ? `<div class="fan">${c.fan.map((s) => `<div class="phone"><img src="${s}" alt=""></div>`).join('')}</div><div class="close-fade"></div>` : `<div class="phones${c.img?.length > 1 ? ' two' : ''}${c.cls ? ` ${c.cls}` : ''}">${phones}${c.around ?? ''}</div>`}
+    ${c.tag ? `<div class="tag">${c.tag}</div>` : ''}${c.fine ? `<div class="fine">${c.fine}</div>` : ''}`;
+  if (c.cls) document.getElementById('card').classList.add(c.cls);
+</script>
+</body>
+</html>

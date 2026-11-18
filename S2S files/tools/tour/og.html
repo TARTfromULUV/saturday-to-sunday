@@ -1,0 +1,37 @@
+<!doctype html>
+<!-- tools/tour/og.html — [madden] the landing page's share image (docs/site/og.png, 1200x630), in the tour cards' look.
+     Drawn by tools/tour/render.mjs with the cards. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>S2S share image</title>
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; width: 1200px; height: 630px; overflow: hidden; background: #0b0d10; }
+  body { font-family: "Inter", system-ui, sans-serif; color: #f4f4f4; -webkit-font-smoothing: antialiased; }
+  .og { position: relative; width: 1200px; height: 630px; overflow: hidden; padding: 64px 72px;
+    background: radial-gradient(700px 500px at 95% 110%, rgba(200,16,46,.35), transparent 70%), radial-gradient(600px 420px at 0% 0%, rgba(255,209,102,.10), transparent 70%), #0b0d10; }
+  .brand { display: flex; align-items: center; gap: 14px; font: 900 30px/1 "Inter Display", "Inter", sans-serif; }
+  .brand img { width: 50px; height: 50px; border-radius: 12px; }
+  .bar { width: 100px; height: 7px; border-radius: 4px; background: #c8102e; margin: 40px 0 22px; }
+  .kick { font: 800 20px/1 "Inter", sans-serif; letter-spacing: .22em; text-transform: uppercase; color: #ffd166; }
+  h1 { margin: 18px 0 18px; font: 900 68px/.98 "Inter Display", "Inter", sans-serif; letter-spacing: -.02em; text-transform: uppercase; max-width: 560px; }
+  h1 em { font-style: normal; color: #ffd166; }
+  p { margin: 0; max-width: 540px; font: 500 24px/1.4 "Inter", sans-serif; color: rgba(255,255,255,.78); }
+  .phones { position: absolute; right: 40px; top: 70px; display: flex; gap: 26px; }
+  .phone { width: 220px; aspect-ratio: 390 / 844; border-radius: 34px; background: #000; padding: 9px; box-shadow: 0 30px 70px rgba(0,0,0,.6), 0 0 0 1.5px rgba(255,255,255,.09); }
+  .phone img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: top; border-radius: 26px; }
+  .phone:first-child { transform: translateY(40px) rotate(-3deg); } .phone:last-child { transform: rotate(3deg); }
+</style>
+</head>
+<body>
+<div class="og">
+  <div class="brand"><img src="../../docs/site/img/icon.png" alt="">S2S · Saturday to Sunday</div>
+  <div class="bar"></div>
+  <div class="kick">CFB 27 · Madden 27 · free</div>
+  <h1>Your whole universe. <em>One paper</em> a week.</h1>
+  <p>Your dynasty and your franchise, written up like a real sports page. Now with AD mode and Coach mode, in beta.</p>
+  <div class="phones"><div class="phone"><img src="../../docs/site/img/cfb-front.jpg" alt=""></div><div class="phone"><img src="img/office.jpg" alt=""></div></div>
+</div>
+</body>
+</html>

@@ -5,11 +5,15 @@
 # macOS asks about any script downloaded from the internet.
 
 cd "$(dirname "$0")" || exit 1
+HERE="$(pwd)"; SELF="$HERE/$(basename "$0")" # the launcher, wherever the app folder is (START HERE.html's one-folder download)
 
 # A self-update leaves a new launcher beside this one; take it first.
 if [ -f launcher.command.new ]; then
-  mv -f launcher.command.new "$0" && chmod +x "$0" && exec "$0" "$@"
+  mv -f launcher.command.new "$SELF" && chmod +x "$SELF" && exec "$SELF" "$@"
 fi
+
+# The public download keeps the app in "S2S files" beside this launcher (START HERE.html explains).
+if [ -f "S2S files/start.mjs" ]; then cd "S2S files" || exit 1; fi
 
 if ! command -v node >/dev/null 2>&1; then
   echo
@@ -30,21 +34,23 @@ if [ ! -d "node_modules/madden-franchise" ]; then
   echo
   echo "  First run - installing what's needed. This takes a minute."
   echo
-  npm install --no-audit --no-fund || { echo "  That failed. Check your internet connection and try again."; read -r _; exit 1; }
+  # The optional packages (the Claude writer, about 480 MB) are skipped: S2S writes with ChatGPT for now.
+  npm install --no-audit --no-fund --omit=optional || { echo "  That failed. Check your internet connection and try again."; read -r _; exit 1; }
 fi
 
 OPENARG=--open
 [ "$1" = "--restarted" ] && OPENARG=
 while true; do
-  node tools/deps-current.mjs || npm install --no-audit --no-fund
+  # Keeps the Claude writer only where it is already installed.
+  node tools/deps-current.mjs || { if [ -d node_modules/@anthropic-ai/claude-agent-sdk ]; then npm install --no-audit --no-fund; else npm install --no-audit --no-fund --omit=optional; fi; }
   node start.mjs $OPENARG "$@"
   code=$?
   # 75: the app updated itself; start again on the new version.
   if [ "$code" -eq 75 ]; then
-    rm -f launcher.new
+    rm -f "$HERE/launcher.new"
     echo; echo "  Updated. Starting again."; echo
-    if [ -f launcher.command.new ]; then
-      mv -f launcher.command.new "$0" && chmod +x "$0" && exec "$0" --restarted
+    if [ -f "$HERE/launcher.command.new" ]; then
+      mv -f "$HERE/launcher.command.new" "$SELF" && chmod +x "$SELF" && exec "$SELF" --restarted
     fi
     OPENARG=
     continue

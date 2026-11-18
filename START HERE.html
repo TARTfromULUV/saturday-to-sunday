@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+<title>S2S Start Here</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap">
+<style>
+/* Layout: the download's front door. The words on the left, a phone on the right that walks the five steps; on a real phone the frame drops. S2S's own AD-phone look: black ground, team gold, the S2S red and navy. */
+:root {
+  --ink: #0b0c10; --panel: #15171d; --panel2: #1f2229; --line: #2a2d35; --text: #f2f3f5; --muted: #9aa0aa;
+  --gold: #ffd23f; --red: #c8102e; --navy: #1b2a6b; --ok: #30d158; --bezel: #050608;
+  --display: "Space Grotesk", "Segoe UI", system-ui, sans-serif;
+  --body: Inter, "Segoe UI", system-ui, -apple-system, sans-serif;
+  --mono: ui-monospace, Consolas, Menlo, monospace;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html, body { background: var(--ink); color: var(--text); margin: 0; }
+body { font-family: var(--body); font-size: 16px; line-height: 1.5; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 28px 48px; }
+.wrap { max-width: 1040px; margin: 0 auto; display: grid; gap: 36px; }
+.top { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+.logo { display: flex; align-items: center; gap: 10px; font: 700 18px var(--display); }
+.logo i { font-style: normal; width: 34px; height: 34px; border-radius: 9px; display: grid; place-items: center; font: 700 13px var(--display); color: #fff; background: linear-gradient(135deg, var(--red) 50%, var(--navy) 50%); }
+.live { font-size: 13px; color: var(--muted); display: flex; align-items: center; gap: 8px; }
+.live b { width: 9px; height: 9px; border-radius: 50%; background: var(--line); }
+.live.on b { background: var(--ok); box-shadow: 0 0 0 4px rgba(48,209,88,.18); }
+.stage { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 56px; align-items: center; }
+.pitch { display: grid; gap: 18px; min-width: 0; }
+.eyebrow { font: 600 12px var(--body); letter-spacing: .1em; text-transform: uppercase; color: var(--gold); }
+h1 { font: 700 clamp(34px, 5.4vw, 58px)/1.02 var(--display); letter-spacing: -.03em; margin: 0; text-wrap: balance; }
+.lede { margin: 0; font-size: 18px; color: var(--muted); max-width: 48ch; }
+.lede b { color: var(--text); font-weight: 600; }
+.list { margin: 0; padding: 0; list-style: none; display: grid; gap: 8px; max-width: 46ch; }
+.list li { display: grid; grid-template-columns: 28px minmax(0,1fr); gap: 10px; align-items: center; font-size: 15px; }
+.list li span { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; font: 600 13px var(--body); background: var(--panel2); border: 1px solid var(--line); color: var(--muted); }
+.list li.done span { background: var(--ok); border-color: var(--ok); color: #06180f; }
+.list li.done { color: var(--muted); }
+.small { font-size: 13.5px; color: var(--muted); margin: 0; max-width: 52ch; }
+.small a, .lede a { color: var(--gold); }
+
+/* the phone */
+.phone { width: 372px; max-width: 100%; height: 770px; border-radius: 54px; background: var(--bezel); padding: 11px; box-shadow: 0 0 0 2px #2a2d35, 0 40px 80px -30px rgba(200,16,46,.45); }
+.screen { position: relative; height: 100%; border-radius: 44px; overflow: hidden; background: radial-gradient(90% 50% at 0% 0%, rgba(27,42,107,.75), transparent 70%), radial-gradient(80% 45% at 100% 100%, rgba(200,16,46,.35), transparent 65%), var(--ink); }
+.island { position: absolute; top: 11px; left: 50%; transform: translateX(-50%); width: 106px; height: 30px; border-radius: 20px; background: #000; z-index: 9; }
+.status { position: absolute; top: 0; left: 0; right: 0; height: 48px; display: flex; justify-content: space-between; align-items: center; padding: 6px 30px 0; font: 600 15px var(--body); z-index: 8; }
+.view { position: absolute; inset: 48px 0 0; display: flex; flex-direction: column; overflow: hidden; }
+.bar { position: absolute; bottom: 8px; left: 50%; transform: translateX(-50%); width: 128px; height: 5px; border-radius: 3px; background: rgba(255,255,255,.7); z-index: 9; }
+.fade { animation: fade .25s ease both; }
+@keyframes fade { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+
+.lock { align-items: center; padding: 26px 16px 40px; gap: 4px; cursor: pointer; }
+.lock .date { font: 500 16px var(--body); color: #c4c8cf; }
+.lock .time { font: 700 84px/1 var(--display); letter-spacing: -.04em; }
+.note { margin-top: auto; width: 100%; background: rgba(255,255,255,.09); border: 1px solid rgba(255,255,255,.14); border-radius: 22px; padding: 12px 14px; display: grid; grid-template-columns: 38px minmax(0,1fr); gap: 10px; text-align: left; color: inherit; font: inherit; cursor: pointer; }
+.note .ic { width: 38px; height: 38px; border-radius: 10px; display: grid; place-items: center; font: 700 12px var(--display); color: #fff; background: linear-gradient(135deg, var(--red) 50%, var(--navy) 50%); }
+.note .h { display: flex; justify-content: space-between; font-size: 12.5px; color: #c4c8cf; }
+.note b { display: block; font-size: 14.5px; }
+.note p { margin: 0; font-size: 14px; line-height: 1.4; }
+.hint { font-size: 13px; color: #c4c8cf; margin-top: 12px; }
+
+.home { padding: 10px 16px 14px; gap: 16px; }
+.homelogo { display: flex; align-items: center; gap: 9px; font: 700 16px var(--display); }
+.homelogo i { font-style: normal; width: 30px; height: 30px; border-radius: 8px; display: grid; place-items: center; font: 700 11px var(--display); color: #fff; background: linear-gradient(135deg, var(--red) 50%, var(--navy) 50%); }
+.widget { background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.12); border-radius: 22px; padding: 13px 15px; display: grid; gap: 9px; }
+.widget .wh { display: flex; justify-content: space-between; align-items: baseline; font-size: 11.5px; letter-spacing: .08em; text-transform: uppercase; font-weight: 700; }
+.widget .wh b { color: var(--gold); }
+.widget .wh span { color: var(--muted); font-weight: 600; }
+.meter { display: grid; grid-template-columns: repeat(5, 1fr); gap: 5px; }
+.meter i { height: 6px; border-radius: 9px; background: var(--line); }
+.meter i.on { background: var(--gold); }
+.widget p { margin: 0; font-size: 14px; }
+.grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px 6px; }
+.app { position: relative; display: grid; justify-items: center; gap: 6px; background: none; border: 0; padding: 0; color: var(--text); font: 500 11.5px var(--body); cursor: pointer; text-decoration: none; text-align: center; }
+.ico { width: 60px; height: 60px; border-radius: 16px; display: grid; place-items: center; box-shadow: inset 0 1px 0 rgba(255,255,255,.22), 0 8px 16px -8px rgba(0,0,0,.8); }
+.ico svg { width: 28px; height: 28px; }
+.app em { position: absolute; top: -5px; right: 4px; min-width: 21px; height: 21px; border-radius: 11px; display: grid; place-items: center; font: 700 11px var(--body); font-style: normal; background: var(--red); color: #fff; padding: 0 5px; }
+.app em.ok { background: var(--ok); color: #06180f; }
+.app:active .ico { transform: scale(.9); }
+.app:focus-visible { outline: none; }
+.app:focus-visible .ico { outline: 2px solid var(--gold); outline-offset: 3px; }
+.spacer { flex: 1; }
+.dock { background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.12); border-radius: 28px; padding: 11px 14px; display: flex; justify-content: space-around; }
+.dock .app > span:last-child { display: none; }
+
+.appv { background: var(--ink); border-radius: 0 0 44px 44px; }
+.ah { display: flex; justify-content: space-between; align-items: center; padding: 6px 16px 2px; }
+.ah button { background: none; border: 0; color: var(--gold); font: 600 15px var(--body); cursor: pointer; padding: 6px 0; }
+.ah .tag { font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
+.at { padding: 0 16px; font: 700 27px var(--display); letter-spacing: -.02em; margin: 0; }
+.as { padding: 2px 16px 10px; font-size: 13.5px; color: var(--muted); margin: 0; }
+.body { flex: 1; overflow-y: auto; overflow-x: hidden; padding: 4px 14px 30px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 9px; align-content: start; }
+.card { min-width: 0; background: var(--panel); border: 1px solid var(--line); border-radius: 16px; padding: 12px 13px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 6px; font-size: 14px; }
+.card .k { font-size: 10.5px; letter-spacing: .09em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
+.card ol, .card ul { margin: 0; padding-left: 18px; display: grid; gap: 5px; }
+.card b { font-weight: 600; }
+.code { display: flex; gap: 6px; align-items: stretch; min-width: 0; }
+.code code { flex: 1; min-width: 0; overflow-x: auto; white-space: nowrap; font: 12.5px var(--mono); background: #0b0c10; border: 1px solid var(--line); border-radius: 10px; padding: 9px 10px; color: #e6e6e6; }
+.code button { font: 600 13px var(--body); background: var(--panel2); color: var(--text); border: 1px solid var(--line); border-radius: 10px; padding: 0 12px; cursor: pointer; }
+.pill { display: inline-flex; align-items: center; gap: 7px; font: 600 13px var(--body); padding: 6px 11px; border-radius: 999px; background: var(--panel2); color: var(--muted); border: 1px solid var(--line); justify-self: start; }
+.pill b { width: 8px; height: 8px; border-radius: 50%; background: var(--muted); }
+.pill.ok { color: var(--ok); border-color: rgba(48,209,88,.4); }
+.pill.ok b { background: var(--ok); }
+.cta { display: block; text-align: center; background: var(--gold); color: #111; font: 700 15px var(--display); border-radius: 14px; padding: 13px; text-decoration: none; border: 0; cursor: pointer; width: 100%; }
+.cta.ghost { background: transparent; color: var(--text); border: 1px solid var(--line); font: 500 15px var(--body); }
+.cta:focus-visible, .code button:focus-visible, .ah button:focus-visible, .note:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+a.lnk { color: var(--gold); }
+
+footer { font-size: 12.5px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 14px; }
+
+@media (max-width: 860px) { .stage { grid-template-columns: minmax(0, 1fr); gap: 28px; justify-items: center; } .pitch { justify-self: stretch; } }
+@media (max-width: 430px) {
+  .phone { width: 100%; height: 720px; padding: 0; border-radius: 30px; box-shadow: 0 0 0 1px var(--line); }
+  .screen { border-radius: 30px; } .island { display: none; } .ico { width: 54px; height: 54px; } .lock .time { font-size: 72px; }
+}
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="logo"><i>S2S</i>Saturday to Sunday</div>
+    <div class="live" id="live"><b></b><span>S2S isn't running yet</span></div>
+  </header>
+
+  <main class="stage">
+    <section class="pitch">
+      <span class="eyebrow">Start here</span>
+      <h1>Your dynasty gets its own paper. Five steps.</h1>
+      <p class="lede">Tap through the phone. Each step ticks itself the moment S2S sees it done, so you always know where you are. <b>About ten minutes</b>, most of it the first install.</p>
+      <ol class="list" id="list"></ol>
+      <p class="small">Stuck? Every step has a fix on its screen. Still stuck: <a href="https://discord.com/channels/1479669373244407929/1562241150407151727" target="_blank" rel="noopener">post in the S2S thread on Discord</a>, and paste Settings ▸ Support ▸ Copy diagnostics.</p>
+    </section>
+    <div class="phone" aria-label="S2S setup, on a phone">
+      <div class="screen">
+        <div class="island"></div>
+        <div class="status"><span id="clock">9:41</span><span aria-hidden="true">●●●● ▮</span></div>
+        <div id="view"></div>
+        <div class="bar"></div>
+      </div>
+    </div>
+  </main>
+
+  <footer>This page lives in your S2S folder. Open it any time to see where setup stands. It reads only whether S2S is running and which steps are done, on this PC.</footer>
+</div>
+
+<script>
+(function () {
+  var PORT = 7717;
+  try { var q = /[?&]port=(\d+)/.exec(location.search); if (q) PORT = +q[1]; } catch (e) {}
+  var BASE = 'http://localhost:' + PORT;
+  var W = 'fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"';
+  var STEPS = [
+    { id: 'start', name: 'Start S2S', short: 'Start S2S on this PC', bg: 'linear-gradient(160deg,#ff4d6a,#c8102e)', fg: '#fff', svg: '<svg viewBox="0 0 24 24" ' + W + '><path d="M12 3v9"/><path d="M6.3 7.5a8 8 0 1 0 11.4 0"/></svg>' },
+    { id: 'save', name: 'Your save', short: 'Pick your dynasty save', bg: 'linear-gradient(160deg,#ffe27a,#e0a800)', fg: '#111', svg: '<svg viewBox="0 0 24 24" ' + W + '><path d="M5 4h11l3 3v13H5z"/><path d="M8 4v5h7V4M8 20v-6h8v6"/></svg>' },
+    { id: 'writer', name: 'ChatGPT', short: 'Connect ChatGPT, your writers', bg: 'linear-gradient(160deg,#7ef0a8,#10a37f)', fg: '#06180f', svg: '<svg viewBox="0 0 24 24" ' + W + '><path d="M4 5h16v11H9l-5 4z"/><path d="M8 9h8M8 12h5"/></svg>' },
+    { id: 'phone', name: 'Your phone', short: 'Put it on your phone', bg: 'linear-gradient(160deg,#8fb3ff,#2a4bd1)', fg: '#fff', svg: '<svg viewBox="0 0 24 24" ' + W + '><rect x="7" y="2" width="10" height="20" rx="2.5"/><path d="M11 18h2"/></svg>' },
+    { id: 'program', name: 'AD mode', short: 'Run the program (AD mode)', bg: 'linear-gradient(160deg,#3a3f4b,#1a1d24)', fg: '#ffd23f', svg: '<svg viewBox="0 0 24 24" ' + W + '><path d="M3 20h18M5 20V10l7-5 7 5v10M9 20v-5h6v5"/></svg>' }
+  ];
+  var ui = { screen: 'lock', copied: false };
+  var live = { up: false, setup: {}, version: null };
+
+  function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
+  function done(id) { return id === 'start' ? live.up : !!live.setup[id]; }
+  function nDone() { return STEPS.filter(function (s) { return done(s.id); }).length; }
+  function next() { for (var i = 0; i < STEPS.length; i++) if (!done(STEPS[i].id)) return STEPS[i]; return null; }
+  // the folder this page sits in, from its own address (file:///C:/S2S/START%20HERE.html → C:\S2S)
+  function folder() {
+    try { if (location.protocol !== 'file:') return 'C:\\S2S'; var p = decodeURIComponent(location.pathname).replace(/\/[^/]*$/, ''); return /^\/[A-Za-z]:/.test(p) ? p.slice(1).replace(/\//g, '\\') : p; } catch (e) { return 'C:\\S2S'; }
+  }
+  var isMac = /Mac/.test(navigator.platform || '');
+
+  function icon(s) {
+    var badge = done(s.id) ? '<em class="ok">✓</em>' : (next() && next().id === s.id ? '<em>1</em>' : '');
+    return '<button class="app" data-go="' + s.id + '" aria-label="' + esc(s.name) + '">' + badge + '<span class="ico" style="background:' + s.bg + ';color:' + s.fg + '">' + s.svg + '</span><span>' + esc(s.name) + '</span></button>';
+  }
+  function head(title, sub, step) {
+    return '<div class="ah"><button data-go="home">‹ Home</button><span class="tag">' + (step ? 'Step ' + step + ' of 5' : 'S2S') + '</span></div><h2 class="at">' + esc(title) + '</h2>' + (sub ? '<p class="as">' + esc(sub) + '</p>' : '');
+  }
+  function pill(id, yes, no) { return '<span class="pill' + (done(id) ? ' ok' : '') + '"><b></b>' + esc(done(id) ? yes : no) + '</span>'; }
+  function openBtn(label, hash) { return live.up ? '<button class="cta" data-open="' + esc(hash || '') + '">' + esc(label) + '</button>' : '<button class="cta ghost" data-go="start">Start S2S first</button>'; }
+  function nextBtn(id) { var i = STEPS.findIndex(function (s) { return s.id === id; }); var n = STEPS[i + 1]; return n ? '<button class="cta ghost" data-go="' + n.id + '">Next: ' + esc(n.name) + ' ›</button>' : '<button class="cta ghost" data-go="done">Finish ›</button>'; }
+
+  var SCREENS = {
+    lock: function () {
+      var d = new Date();
+      return '<div class="view lock fade" data-go="home"><span class="date">' + d.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' }) + '</span><span class="time" id="bigclock"></span>' +
+        '<button class="note" data-go="home"><span class="ic">S2S</span><span><span class="h"><span>S2S · KICKOFF</span><span>now</span></span><b>Your paper is ready to set up</b><p>Five steps. Each one ticks itself when it\'s done. Tap to start.</p></span></button>' +
+        '<span class="hint">Tap anywhere to open</span></div>';
+    },
+    home: function () {
+      var n = nDone(), nx = next();
+      return '<div class="view home fade"><div class="homelogo"><i>S2S</i><b>Saturday to Sunday</b></div><div class="widget"><div class="wh"><b>Setup</b><span>' + n + ' of 5 done</span></div><div class="meter">' + STEPS.map(function (s) { return '<i class="' + (done(s.id) ? 'on' : '') + '"></i>'; }).join('') + '</div><p>' + (nx ? 'Next: <b>' + esc(nx.short) + '</b>' : 'All done. Open S2S and play your week.') + '</p></div>' +
+        '<div class="grid">' + STEPS.map(icon).join('') + '</div><div class="spacer"></div>' +
+        '<div class="dock"><button class="app" ' + (live.up && nx && nx.id !== 'start' ? 'data-open="#setup"' : 'data-go="' + (nx ? nx.id : 'done') + '"') + ' aria-label="Continue"><span class="ico" style="background:linear-gradient(160deg,#ffe27a,#ffd23f);color:#111"><svg viewBox="0 0 24 24" ' + W + '><path d="M5 12h14M13 6l6 6-6 6"/></svg></span><span>Continue</span></button>' +
+        '<button class="app" data-open="" aria-label="Open S2S"><span class="ico" style="background:linear-gradient(135deg,#c8102e 50%,#1b2a6b 50%);color:#fff;font:700 14px var(--display)">S2S</span><span>Open S2S</span></button>' +
+        '<button class="app" data-go="done" aria-label="After setup"><span class="ico" style="background:#1f2229;color:#f2f3f5"><svg viewBox="0 0 24 24" ' + W + '><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16h.01"/></svg></span><span>After setup</span></button></div></div>';
+    },
+    start: function () {
+      var dir = folder();
+      var cmd = isMac ? 'cd "' + dir + '" && ./S2S.command' : 'cd "' + dir + '"; .\\S2S.bat';
+      return '<div class="view appv fade">' + head('Start S2S', 'S2S runs on this PC. Your phone reads it.', 1) + '<div class="body">' + pill('start', 'S2S is running' + (live.version ? ' · v' + live.version : ''), 'Waiting for S2S…') +
+        '<div class="card"><span class="k">Do this</span><ol><li>Double-click <b>' + (isMac ? 'S2S.command' : 'S2S') + '</b>. It\'s the file next to this one.</li><li>First time only: it asks to install Node.js. Press <b>Y</b>. It then sets itself up for about a minute.</li><li>A black S2S window stays open. <b>Leave it open.</b> S2S runs while it\'s open.</li></ol></div>' +
+        '<div class="card"><span class="k">Or paste it</span><span>Open ' + (isMac ? 'Terminal' : 'PowerShell') + ', paste this, press Enter.</span><div class="code"><code id="cmd">' + esc(cmd) + '</code><button data-copy="cmd">' + (ui.copied ? 'Copied' : 'Copy') + '</button></div></div>' +
+        '<div class="card"><span class="k">If it doesn\'t start</span><ul><li>Windows says "protected your PC": tap <b>More info ▸ Run anyway</b>.</li><li>It asked for Node and closed: double-click S2S again.</li><li>A firewall prompt: tick both boxes, <b>Allow</b>. That\'s how your phone reaches it.</li></ul></div>' +
+        (live.up ? '<button class="cta" data-open="#setup">Continue setup in S2S ›</button><p class="as" style="padding:0">S2S opens its own setup phone: it picks your save, connects ChatGPT and shows your phone\'s code for real.</p>' : nextBtn('start')) + '</div></div>';
+    },
+    save: function () {
+      return '<div class="view appv fade">' + head('Your save', 'S2S reads your dynasty and writes the paper from it.', 2) + '<div class="body">' + pill('save', 'Your save is in', 'No save yet') +
+        '<div class="card"><span class="k">In S2S</span><ol><li>S2S looks for your College Football and Madden saves on its own.</li><li>Pick the <b>AUTOSAVE</b> of the dynasty you play. It\'s marked Recommended.</li><li>Got the other game too? Add it. S2S links the two into one universe: your college players turn pro in your Madden league.</li></ol></div>' +
+        '<div class="card"><span class="k">Good to know</span><span>S2S reads the save after you play and save in the game. It only writes when you Send from AD mode, and it backs the save up first.</span></div>' +
+        openBtn('Pick my save in S2S', '#setup') + nextBtn('save') + '</div></div>';
+    },
+    writer: function () {
+      return '<div class="view appv fade">' + head('ChatGPT', 'Your writers run on your own ChatGPT account.', 3) + '<div class="body">' + pill('writer', 'ChatGPT is connected', 'Not connected yet') +
+        '<div class="card"><span class="k">In S2S</span><ol><li>Tap <b>Connect ChatGPT</b>.</li><li>A sign-in window opens. Sign in with your ChatGPT account. The free plan works.</li><li>When it says you\'re signed in, close that window. S2S checks it and ticks this step.</li></ol></div>' +
+        '<div class="card"><span class="k">What it costs</span><span>Nothing extra. Each week\'s paper uses your account\'s own allowance. Settings ▸ Writer ▸ Usage shows how much is left.</span></div>' +
+        openBtn('Connect ChatGPT in S2S', '#setup') + nextBtn('writer') + '</div></div>';
+    },
+    phone: function () {
+      return '<div class="view appv fade">' + head('Your phone', 'Read the paper and run AD mode from the couch.', 4) + '<div class="body">' + pill('phone', 'Your phone is connected', 'No phone yet') +
+        '<div class="card"><span class="k">At home · 2 minutes</span><ol><li>Phone on the same Wi-Fi as this PC.</li><li>Scan the code S2S shows.</li><li>Add it to your Home Screen. iPhone: Safari ▸ Share ▸ Add to Home Screen. Android: Chrome ▸ ⋮ ▸ Add to Home screen.</li></ol></div>' +
+        '<div class="card"><span class="k">Anywhere · 5 minutes, with Tailscale</span><ol><li>Install Tailscale on this PC and sign in: <a class="lnk" href="https://tailscale.com/download" target="_blank" rel="noopener">tailscale.com/download</a>.</li><li>Install Tailscale on your phone. Sign in with the <b>same account</b>. Switch it on.</li><li>Scan S2S\'s <b>Anywhere</b> code and add it to your Home Screen.</li></ol><span>It\'s private: only your own devices can reach S2S. Nothing goes on the internet.</span></div>' +
+        openBtn('Show my phone code', '#setup') + nextBtn('phone') + '</div></div>';
+    },
+    program: function () {
+      return '<div class="view appv fade">' + head('AD mode', 'Run the program between games. Optional.', 5) + '<div class="body">' + pill('program', 'Your choice is in', 'Not chosen yet') +
+        '<div class="card"><span class="k">How a week goes</span><ol><li>Your staff text you a few things that need a call.</li><li>Answer them: NIL, staff, the facility, boosters, the money.</li><li>Tap <b>Send</b> before you load the game.</li></ol></div>' +
+        '<div class="card"><span class="k">What Send does</span><ul><li><b>Send</b> writes into your save: pay, staff, facility upgrades. A backup first, every change read back.</li><li><b>Profit</b> is S2S\'s own money, added as points at the Recap.</li><li><b>Orders</b> wait for the editor or another tool.</li></ul></div>' +
+        openBtn('Turn on AD mode in S2S', '#setup') + nextBtn('program') + '</div></div>';
+    },
+    done: function () {
+      var all = nDone() === 5;
+      return '<div class="view appv fade">' + head(all ? 'You\'re in' : 'After setup', all ? 'S2S is set up. Here\'s your week from now on.' : 'What happens once the five steps are done.', null) + '<div class="body">' +
+        '<div class="card"><span class="k">Every week</span><ol><li>Play your week in the game and save.</li><li>On your phone: <b>Up to date</b> reads it and writes the paper.</li><li>AD mode: answer your staff, then <b>Send</b> before you play the next game.</li></ol></div>' +
+        '<div class="card"><span class="k">Where it lives</span><ul><li>An <b>S2S</b> icon on your desktop opens it.</li><li>Settings ▸ <b>Start with Windows</b> keeps it running for your phone.</li><li>S2S updates itself. A red dot on Settings means a new version: tap <b>Update now</b>.</li></ul></div>' +
+        openBtn('Open S2S', '') + '</div></div>';
+    }
+  };
+
+  function draw() { document.getElementById('view').innerHTML = (SCREENS[ui.screen] || SCREENS.home)(); drawList(); tick(); }
+  function drawList() {
+    document.getElementById('list').innerHTML = STEPS.map(function (s, i) { return '<li class="' + (done(s.id) ? 'done' : '') + '"><span>' + (done(s.id) ? '✓' : i + 1) + '</span>' + esc(s.short) + '</li>'; }).join('');
+    var L = document.getElementById('live'); L.className = 'live' + (live.up ? ' on' : '');
+    L.querySelector('span').textContent = live.up ? 'S2S is running on this PC' : 'S2S isn\'t running yet';
+  }
+  function tick() {
+    var d = new Date(), t = (d.getHours() % 12 || 12) + ':' + String(d.getMinutes()).padStart(2, '0');
+    document.getElementById('clock').textContent = t; var b = document.getElementById('bigclock'); if (b) b.textContent = t;
+  }
+  // S2S's open health check (it answers on this PC only): running or not, and which steps are done. Never the key.
+  function poll() {
+    var ctl = window.AbortController ? new AbortController() : null; var to = setTimeout(function () { if (ctl) ctl.abort(); }, 2500);
+    fetch(BASE + '/api/health?setup=1', ctl ? { signal: ctl.signal } : {}).then(function (r) { return r.json(); }).then(function (h) {
+      var was = JSON.stringify(live); live = { up: !!h.ok, setup: h.setup || {}, version: h.appVersion || null };
+      if (JSON.stringify(live) !== was) draw();
+    }).catch(function () { if (live.up) { live = { up: false, setup: {}, version: null }; draw(); } }).then(function () { clearTimeout(to); });
+  }
+  // Open S2S: the running app opens its own window, signed in (the key never comes through this page)
+  function openApp(hash) {
+    fetch(BASE + '/api/open-app', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ hash: hash || '' }) }).catch(function () { ui.screen = 'start'; draw(); });
+  }
+
+  document.addEventListener('click', function (ev) {
+    var t = ev.target.closest('[data-go],[data-copy],[data-open]'); if (!t) return;
+    if (t.dataset.copy) {
+      var el = document.getElementById(t.dataset.copy), txt = el ? el.textContent : '';
+      var ok = function () { ui.copied = true; draw(); setTimeout(function () { ui.copied = false; draw(); }, 1800); };
+      try { navigator.clipboard.writeText(txt).then(ok, function () { var r = document.createRange(); r.selectNodeContents(el); var s = getSelection(); s.removeAllRanges(); s.addRange(r); }); } catch (e) { var r2 = document.createRange(); r2.selectNodeContents(el); var s2 = getSelection(); s2.removeAllRanges(); s2.addRange(r2); }
+      return;
+    }
+    if (t.dataset.open != null) { openApp(t.dataset.open); return; }
+    ui.screen = t.dataset.go; draw();
+  });
+  draw(); poll(); setInterval(poll, 3000); setInterval(tick, 20000);
+})();
+</script>
+
+</html>

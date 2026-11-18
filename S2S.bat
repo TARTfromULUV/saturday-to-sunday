@@ -15,6 +15,9 @@ if exist "launcher.new" (
   exit /b
 )
 
+REM The public download keeps the app in "S2S files" beside this launcher (START HERE.html explains).
+if exist "S2S files\start.mjs" cd /d "%~dp0S2S files"
+
 where node >nul 2>nul
 if errorlevel 1 (
   echo.
@@ -44,7 +47,8 @@ if not exist "node_modules\madden-franchise" (
   echo.
   echo   First run - installing what's needed. This takes a minute.
   echo.
-  call npm install --no-audit --no-fund
+  REM The optional packages (the Claude writer, about 480 MB) are skipped: S2S writes with ChatGPT for now.
+  call npm install --no-audit --no-fund --omit=optional
   if errorlevel 1 (
     echo.
     echo   That failed. Check your internet connection and try again.
@@ -67,7 +71,12 @@ node tools\deps-current.mjs
 if errorlevel 1 (
   echo   Updating packages for this version. This takes a minute.
   echo.
-  call npm install --no-audit --no-fund
+  REM Keeps the Claude writer only where it is already installed (install-writing.bat adds it).
+  if exist "node_modules\@anthropic-ai\claude-agent-sdk" (
+    call npm install --no-audit --no-fund
+  ) else (
+    call npm install --no-audit --no-fund --omit=optional
+  )
 )
 
 node start.mjs %OPENARG% %*
@@ -77,8 +86,8 @@ if %errorlevel%==75 (
   echo.
   echo   Updated. Starting again.
   echo.
-  if exist "launcher.new" (
-    move /y "launcher.new" "%~f0" >nul
+  if exist "%~dp0launcher.new" (
+    move /y "%~dp0launcher.new" "%~f0" >nul
     start "" "%~f0" --restarted
     exit /b
   )

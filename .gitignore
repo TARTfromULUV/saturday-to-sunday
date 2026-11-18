@@ -77,3 +77,4 @@ review/
 # builder's PC. tools/ad-library-build.py rebuilds everything from raw/.
 app/ad-library/png/
 app/ad-library/raw/
+probe-recruits.json
