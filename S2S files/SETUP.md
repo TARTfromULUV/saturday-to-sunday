@@ -10,6 +10,9 @@ reader, and the Generate button on it just tells the PC to go.
 
 ## 1. Install (once)
 
+> **Rather have Claude do it?** The [online setup guide](https://claude.ai/artifact/4vVuuA7xvhePyAzawgriRN) has a prompt for
+> Claude Code that does this section for you, and every step with its fixes.
+
 1. On the GitHub page, click **Code ▸ Download ZIP**. Right-click the zip ▸
    **Extract All**, somewhere you will keep it (Documents is fine).
 2. Double-click **`S2S.bat`** in the unzipped folder.

@@ -4600,7 +4600,7 @@ p.ybk-lede.dropcap::first-letter { font: 800 2.6rem/.8 var(--nar); float: left; 
 .arc-row { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 10px; padding: 10px 12px; border-top: 1px solid var(--shell-rule); color: inherit; text-decoration: none; cursor: pointer; }
 .arc-list .arc-row:first-child { border-top: 0; }
 .arc-k { align-self: start; font: 800 .56rem/1 var(--nar); letter-spacing: .12em; text-transform: uppercase; padding: 4px 6px; border-radius: 5px; background: #c8102e; color: #fff; white-space: nowrap; }
-.arc-k.k-t { background: #4A9EFF; color: #111; } .arc-k.k-r { background: #3a3d43; color: #e5e5ea; } .arc-k.k-o { background: #30d158; color: #111; } .arc-k.k-x { background: #ff6b6b; color: #111; } .arc-k.k-e { background: #ffd166; color: #111; }
+.arc-k.k-t { background: #4A9EFF; color: #111; } .arc-k.k-r { background: #3a3d43; color: #e5e5ea; } .arc-k.k-o { background: #30d158; color: #111; } .arc-k.k-x { background: #ff6b6b; color: #111; } .arc-k.k-e { background: #ffd166; color: #111; } .arc-k.k-b { background: #1f6f54; color: #fff; }
 .arc-m { display: grid; gap: 3px; min-width: 0; } .arc-m b { font: 700 .95rem/1.3 var(--ui); } .arc-m b .conf-logo { width: 1.1rem; height: 1.1rem; }
 .arc-m small { font: 500 .8rem/1.35 var(--ui); color: var(--shell-soft, #a1a1aa); }
 .arc-pin { margin: .4rem 0 1rem; border: 1px solid var(--shell-rule); border-radius: 14px; overflow: hidden; background: var(--shell-card); }
@@ -6585,6 +6585,7 @@ html[data-bare] main.bare { background: transparent; }
 /* Phase C (the owner's save): a target's face from the portrait pack over his initials */
 .of5-rface { position: relative; overflow: hidden; }
 .of5-rface .mk-face { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: top; border-radius: inherit; }
+.of5-rface:has(.mk-face) { background: #000; color: transparent; } /* [madden] his photo sits on plain black, no initials behind it (the owner, November 17); no photo in the pack: the initials stay */
 /* the Recruiting Board (the owner, November 10): Recruit · Motivators on each card; the game's 14 motivations */
 .of6-rbseg { display: grid; grid-template-columns: 1fr 1fr; gap: 3px; background: var(--of-widget-2); border-radius: 10px; padding: 3px; margin: .6rem 0 .2rem; }
 .of6-rbseg button { border: 0; background: none; color: var(--of-sub); font: 600 .84rem var(--ui, system-ui); padding: 7px 4px; border-radius: 8px; cursor: pointer; }
@@ -6903,6 +6904,11 @@ html[data-bare] main.bare:has(.ofm-home) { background: radial-gradient(140% 60% 
 .lg-vs > b { font-size: 1.02rem; font-variant-numeric: tabular-nums; min-width: 0; overflow-wrap: anywhere; } .lg-vs .l { text-align: right; }
 .lg-vs .m { font-size: .62rem; letter-spacing: .07em; text-transform: uppercase; opacity: .65; font-weight: 700; text-align: center; }
 .lg-vs .h { font-size: .74rem; font-weight: 700; color: var(--ofm-gold, #f2c641); }
+/* [madden] the League's school search and Follow (November 17) */
+.k-page .lg-search { margin: .2rem 0 .5rem; }
+.lg-hits { margin-bottom: .5rem; }
+.lg-follow { display: flex; align-items: center; gap: .6rem; flex-wrap: wrap; margin: .2rem 0 .4rem; }
+.lg-follow small { font-size: .78rem; opacity: .7; min-width: 0; }
 .lg-s2s { font-style: normal; font-size: .56rem; border: 1px solid currentColor; border-radius: 4px; padding: 0 .25rem; margin-left: .3rem; }
 .lg-week { margin-top: .7rem; }
 /* Game day's prices and crews: a row of choices a setting */
@@ -7758,3 +7764,52 @@ html[data-bare] main.bare:has(.s5) { max-width: none; width: 100%; margin: 0; pa
 .of-cu-quick { display: flex; flex-direction: column; gap: .45rem; margin: .6rem 0 1rem; }
 .of-cu-quick .of-cu-quickb { width: 100%; }
 .of-cu-quick small { color: var(--of-sub); font-size: .78rem; line-height: 1.35; margin-bottom: .35rem; }
+
+/* [madden] MONEY, TWO YEARS (docs/dev/AD-MODE-LOOP.md; app/office-v5.js program): the sentence, two tabs that are tiles, the
+   share's five stops, a row's page name under its number. */
+.mn-what { margin: -.15rem .2rem 0; font-size: .82rem; line-height: 1.35; color: var(--of-sub); }
+.mn-tabs { display: grid; grid-template-columns: 1fr 1fr; gap: .45rem; }
+.mn-tab { display: flex; flex-direction: column; gap: .1rem; padding: .65rem .7rem; border-radius: var(--of-r-s); background: var(--of-widget); border: 2px solid transparent; color: var(--of-ink); text-decoration: none; min-width: 0; }
+.mn-tab small { font: 700 .62rem/1 var(--of-num); letter-spacing: .12em; text-transform: uppercase; color: var(--of-sub); }
+.mn-tab b { font-size: 1.6rem; line-height: 1.05; }
+.mn-tab em { font-style: normal; font-size: .7rem; color: var(--of-sub); line-height: 1.25; }
+.mn-tab.on { border-color: var(--ofm-gold); }
+.mn-tab.on small { color: var(--ofm-gold-text); }
+.mn-lead { padding-top: .7rem; }
+.mn-pg { display: block; font: 500 .7rem/1.2 var(--ui); color: var(--of-sub); white-space: nowrap; }
+.mn-share .k-sub { padding-top: .2rem; }
+.mn-stops { display: grid; grid-template-columns: repeat(5, 1fr); gap: .35rem; padding: .6rem 0 .2rem; }
+.mn-stop { display: flex; flex-direction: column; align-items: center; gap: .15rem; padding: .5rem .2rem; border-radius: var(--of-r-s); border: 2px solid transparent; background: var(--of-widget-2); color: var(--of-ink); font: inherit; cursor: pointer; }
+.mn-stop b { font-size: 1.15rem; line-height: 1; }
+.mn-stop small { font-size: .62rem; color: var(--of-sub); }
+.mn-stop.on { border-color: var(--ofm-gold); }
+.mn-chips { display: flex; flex-wrap: wrap; gap: .35rem; padding: .55rem 0 .2rem; }
+.mn-chips .k-pill { text-decoration: none; }
+.mn-goal .k-feel { margin: .45rem 0 .3rem; }
+
+/* [madden] HOME IS THE LOOP (docs/dev/AD-MODE-LOOP.md; app/office-v5.js home): a small heading over Money's two years and
+   over the three places the money is raised */
+.ofm-sect { margin: .9rem .25rem .35rem; font: 700 .68rem/1.2 var(--of-num); letter-spacing: .12em; text-transform: uppercase; color: var(--of-sub); }
+.ofm-raise .ofm-abadge { position: static; display: inline-block; margin-left: .35rem; vertical-align: middle; }
+
+/* [madden] HOURS ON BOOSTERS (docs/dev/AD-MODE-LOOP.md; app/office-v5.js clubPage): the week's hours, a booster's interest
+   under his name, three things to spend hours on */
+.bo-hours { padding: .7rem .9rem .8rem; }
+.bo-pts { display: flex; flex-wrap: wrap; gap: .4rem 1rem; margin-top: .45rem; font: 600 .78rem/1 var(--ui); color: var(--of-sub); }
+.bo-pts b { font-size: 1.05rem; color: var(--of-ink); margin-right: .2rem; }
+.k-row-l .k-feel { display: block; max-width: 11rem; margin: .35rem 0 .1rem; }
+.bo-acts { display: grid; grid-template-columns: repeat(3, 1fr); gap: .4rem; padding: .6rem 0 .3rem; }
+.bo-act { display: flex; flex-direction: column; gap: .15rem; align-items: flex-start; text-align: left; padding: .55rem .6rem; height: auto; }
+.bo-act b { font-size: .84rem; line-height: 1.15; }
+.bo-act small { font-size: .66rem; color: var(--of-sub); line-height: 1.25; }
+.bo-act[disabled] { opacity: .45; }
+
+/* [madden] THE MARKETPLACE'S THREE TABS (docs/dev/MARKETPLACE-AUDIT.md; app/office-v5.js museum) */
+.mn-tabs.three { grid-template-columns: repeat(3, 1fr); }
+.mn-tabs.three .mn-tab b { font-size: 1.45rem; }
+
+/* [madden] THE DEAL BOARD (docs/dev/AD-MODE-LOOP.md; app/office-v5.js museum): a company's shortlist as a ladder, four actions */
+.db-ladder { display: flex; gap: 3px; margin: .35rem 0 .1rem; }
+.db-ladder i { font: 700 .6rem/1 var(--of-num); font-style: normal; letter-spacing: .04em; padding: .2rem .4rem; border-radius: 4px; background: var(--of-widget-2); color: var(--of-sub); }
+.db-ladder i.at { background: var(--ofm-gold); color: #111; }
+.bo-acts.four { grid-template-columns: repeat(2, 1fr); }

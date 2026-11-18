@@ -29,6 +29,11 @@ ChatGPT account, and a phone on the same Wi-Fi.
    a minute. Everything else lives in the **S2S files** folder; you never need
    to open it.
 
+**Rather have Claude do it?** The [online setup guide](https://claude.ai/artifact/4vVuuA7xvhePyAzawgriRN) has a prompt for
+Claude Code that does the PC part for you (backs up your saves, downloads S2S,
+checks Node.js, starts it), every step with its fixes, and an Ask Claude box if
+you get stuck. No Claude account? The steps above are all you need.
+
 Then play. Sim a week and the paper is waiting on your phone. The first
 Generate only files the week; from your next advance on, every Generate
 writes the issue ([SETUP.md](S2S%20files/SETUP.md) section 6 explains why: it's what keeps
