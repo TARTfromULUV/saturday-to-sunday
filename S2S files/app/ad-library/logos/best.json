@@ -1,0 +1,3202 @@
+{
+"about": "The best cut on file for each brand and the backdrop it needs (tools/ad-logo-best.py). bg dark: a light logo, shown on a dark tile; bg light: a dark logo, shown on a light tile.",
+"audit": {
+"brands": 354,
+"withLogo": 354,
+"light": 117,
+"dark": 237,
+"small": 333,
+"longSideMedian": 92,
+"longSideMax": 512,
+"atLeast400": 3,
+"atLeast800": 0
+},
+"brands": {
+"3B Outdoor Equipment": {
+"file": "3b-outdoor-equipment/1.png",
+"w": 114,
+"h": 45,
+"bg": "light",
+"lum": 89,
+"keyed": true,
+"small": true
+},
+"76": {
+"file": "76/1.png",
+"w": 22,
+"h": 21,
+"bg": "dark",
+"lum": 131,
+"keyed": true,
+"small": true
+},
+"AAA": {
+"file": "aaa/1.png",
+"w": 46,
+"h": 29,
+"bg": "dark",
+"lum": 140,
+"keyed": true,
+"small": true
+},
+"Ace Hardware": {
+"file": "ace-hardware/1.png",
+"w": 95,
+"h": 52,
+"bg": "light",
+"lum": 73,
+"keyed": true,
+"small": true
+},
+"Acrisure Stadium": {
+"file": "acrisure-stadium/1.png",
+"w": 133,
+"h": 76,
+"bg": "dark",
+"lum": 147,
+"keyed": true,
+"small": true
+},
+"adidas": {
+"file": "adidas/1.png",
+"w": 160,
+"h": 108,
+"bg": "dark",
+"lum": 239,
+"keyed": true,
+"small": true
+},
+"Advantage Specialties": {
+"file": "advantage-specialties/1.png",
+"w": 84,
+"h": 42,
+"bg": "dark",
+"lum": 134,
+"keyed": true,
+"small": true
+},
+"AdventHealth": {
+"file": "adventhealth/1.png",
+"w": 192,
+"h": 55,
+"bg": "light",
+"lum": 125,
+"keyed": true,
+"small": true
+},
+"AECOM": {
+"file": "aecom/1.png",
+"w": 145,
+"h": 37,
+"bg": "dark",
+"lum": 228,
+"keyed": true,
+"small": true
+},
+"Aflac": {
+"file": "aflac/1.png",
+"w": 66,
+"h": 23,
+"bg": "dark",
+"lum": 188,
+"keyed": true,
+"small": true
+},
+"Air National Guard": {
+"file": "air-national-guard/1.png",
+"w": 210,
+"h": 51,
+"bg": "light",
+"lum": 117,
+"keyed": true,
+"small": false
+},
+"Aisling Hotel & Spa": {
+"file": "aisling-hotel-spa/1.png",
+"w": 102,
+"h": 27,
+"bg": "dark",
+"lum": 178,
+"keyed": true,
+"small": true
+},
+"Allstate": {
+"file": "allstate/1.png",
+"w": 72,
+"h": 15,
+"bg": "dark",
+"lum": 143,
+"keyed": true,
+"small": true
+},
+"Ambetter Health": {
+"file": "ambetter-health/1.png",
+"w": 136,
+"h": 49,
+"bg": "dark",
+"lum": 213,
+"keyed": true,
+"small": true
+},
+"America First Credit Union": {
+"file": "america-first-credit-union/1.png",
+"w": 64,
+"h": 22,
+"bg": "dark",
+"lum": 190,
+"keyed": true,
+"small": true
+},
+"America's Mattress": {
+"file": "america-s-mattress/1.png",
+"w": 100,
+"h": 36,
+"bg": "light",
+"lum": 48,
+"keyed": true,
+"small": true
+},
+"America's Thrift Stores": {
+"file": "america-s-thrift-stores/1.png",
+"w": 93,
+"h": 30,
+"bg": "light",
+"lum": 82,
+"keyed": true,
+"small": true
+},
+"Anchor Fence of Delmarva": {
+"file": "anchor-fence-of-delmarva/1.png",
+"w": 69,
+"h": 20,
+"bg": "dark",
+"lum": 196,
+"keyed": true,
+"small": true
+},
+"Anduril": {
+"file": "anduril/1.png",
+"w": 112,
+"h": 33,
+"bg": "dark",
+"lum": 231,
+"keyed": true,
+"small": true
+},
+"Anidjar & Levine": {
+"file": "anidjar-levine/1.png",
+"w": 35,
+"h": 26,
+"bg": "dark",
+"lum": 159,
+"keyed": true,
+"small": true
+},
+"Anthem": {
+"file": "anthem/1.png",
+"w": 100,
+"h": 25,
+"bg": "dark",
+"lum": 184,
+"keyed": true,
+"small": true
+},
+"Aquafina": {
+"file": "aquafina/1.png",
+"w": 153,
+"h": 73,
+"bg": "dark",
+"lum": 219,
+"keyed": true,
+"small": true
+},
+"Arbor": {
+"file": "arbor/1.png",
+"w": 135,
+"h": 35,
+"bg": "dark",
+"lum": 193,
+"keyed": true,
+"small": true
+},
+"Ascend Federal Credit Union": {
+"file": "ascend-federal-credit-union/1.png",
+"w": 65,
+"h": 31,
+"bg": "dark",
+"lum": 154,
+"keyed": true,
+"small": true
+},
+"Ascension": {
+"file": "ascension/1.png",
+"w": 80,
+"h": 18,
+"bg": "dark",
+"lum": 154,
+"keyed": true,
+"small": true
+},
+"AT&T": {
+"file": "at-t/1.png",
+"w": 112,
+"h": 34,
+"bg": "light",
+"lum": 126,
+"keyed": false,
+"small": true
+},
+"AutoNation DRV PNK": {
+"file": "autonation-drv-pnk/1.png",
+"w": 65,
+"h": 55,
+"bg": "dark",
+"lum": 200,
+"keyed": false,
+"small": true
+},
+"Bacardi": {
+"file": "bacardi/1.png",
+"w": 49,
+"h": 12,
+"bg": "dark",
+"lum": 192,
+"keyed": true,
+"small": true
+},
+"Baptist Health": {
+"file": "baptist-health/1.png",
+"w": 131,
+"h": 46,
+"bg": "dark",
+"lum": 130,
+"keyed": true,
+"small": true
+},
+"Barton's": {
+"file": "barton-s/1.png",
+"w": 105,
+"h": 26,
+"bg": "dark",
+"lum": 135,
+"keyed": true,
+"small": true
+},
+"Bayou Outdoor": {
+"file": "bayou-outdoor/1.png",
+"w": 36,
+"h": 26,
+"bg": "light",
+"lum": 114,
+"keyed": false,
+"small": true
+},
+"BECU": {
+"file": "becu/1.png",
+"w": 57,
+"h": 21,
+"bg": "light",
+"lum": 93,
+"keyed": false,
+"small": true
+},
+"Belfor Property Restoration": {
+"file": "belfor-property-restoration/1.png",
+"w": 80,
+"h": 23,
+"bg": "dark",
+"lum": 132,
+"keyed": true,
+"small": true
+},
+"Benjamin Moore": {
+"file": "benjamin-moore/1.png",
+"w": 101,
+"h": 39,
+"bg": "dark",
+"lum": 148,
+"keyed": true,
+"small": true
+},
+"Best in Texas": {
+"file": "best-in-texas/1.png",
+"w": 51,
+"h": 25,
+"bg": "light",
+"lum": 49,
+"keyed": false,
+"small": true
+},
+"BJ's Trophy": {
+"file": "bj-s-trophy/1.png",
+"w": 52,
+"h": 28,
+"bg": "dark",
+"lum": 175,
+"keyed": true,
+"small": true
+},
+"Blue Cross Blue Shield of Arkansas": {
+"file": "blue-cross-blue-shield-of-arkansas/1.png",
+"w": 38,
+"h": 31,
+"bg": "light",
+"lum": 119,
+"keyed": true,
+"small": true
+},
+"Blue Cross Blue Shield of Wyoming": {
+"file": "blue-cross-blue-shield-of-wyoming/1.png",
+"w": 127,
+"h": 78,
+"bg": "dark",
+"lum": 160,
+"keyed": true,
+"small": true
+},
+"BMO": {
+"file": "bmo/1.png",
+"w": 150,
+"h": 53,
+"bg": "dark",
+"lum": 144,
+"keyed": true,
+"small": true
+},
+"Bojangles": {
+"file": "bojangles/1.png",
+"w": 66,
+"h": 20,
+"bg": "light",
+"lum": 103,
+"keyed": false,
+"small": true
+},
+"Boost Mobile": {
+"file": "boost-mobile/1.png",
+"w": 68,
+"h": 27,
+"bg": "dark",
+"lum": 174,
+"keyed": true,
+"small": true
+},
+"Boston Landing": {
+"file": "boston-landing/1.png",
+"w": 47,
+"h": 15,
+"bg": "dark",
+"lum": 168,
+"keyed": true,
+"small": true
+},
+"Boston Scientific": {
+"file": "boston-scientific/1.png",
+"w": 163,
+"h": 56,
+"bg": "dark",
+"lum": 203,
+"keyed": true,
+"small": true
+},
+"Bromberg's": {
+"file": "bromberg-s/1.png",
+"w": 59,
+"h": 14,
+"bg": "dark",
+"lum": 167,
+"keyed": true,
+"small": true
+},
+"Bryant Heating & Cooling": {
+"file": "bryant-heating-cooling/1.png",
+"w": 61,
+"h": 46,
+"bg": "light",
+"lum": 115,
+"keyed": true,
+"small": true
+},
+"Buckeye Vodka": {
+"file": "buckeye-vodka/1.png",
+"w": 55,
+"h": 32,
+"bg": "dark",
+"lum": 168,
+"keyed": true,
+"small": true
+},
+"Bud Light": {
+"file": "bud-light/3.png",
+"w": 143,
+"h": 102,
+"bg": "dark",
+"lum": 244,
+"keyed": true,
+"small": true
+},
+"Buffalo Wild Wings": {
+"file": "buffalo-wild-wings/1.png",
+"w": 216,
+"h": 61,
+"bg": "dark",
+"lum": 148,
+"keyed": false,
+"small": false
+},
+"Cadence Bank": {
+"file": "cadence-bank/2.png",
+"w": 103,
+"h": 103,
+"bg": "light",
+"lum": 81,
+"keyed": false,
+"small": true
+},
+"Calabrese": {
+"file": "calabrese/1.png",
+"w": 105,
+"h": 45,
+"bg": "dark",
+"lum": 157,
+"keyed": true,
+"small": true
+},
+"CalHOPE": {
+"file": "calhope/1.png",
+"w": 136,
+"h": 36,
+"bg": "dark",
+"lum": 151,
+"keyed": true,
+"small": true
+},
+"Caliente": {
+"file": "caliente/1.png",
+"w": 113,
+"h": 41,
+"bg": "light",
+"lum": 12,
+"keyed": false,
+"small": true
+},
+"Cavender's": {
+"file": "cavender-s/1.png",
+"w": 82,
+"h": 20,
+"bg": "dark",
+"lum": 178,
+"keyed": true,
+"small": true
+},
+"CEFCU": {
+"file": "cefcu/1.png",
+"w": 71,
+"h": 15,
+"bg": "dark",
+"lum": 199,
+"keyed": true,
+"small": true
+},
+"Centennial Bank": {
+"file": "centennial-bank/1.png",
+"w": 53,
+"h": 34,
+"bg": "dark",
+"lum": 128,
+"keyed": true,
+"small": true
+},
+"Central Bank": {
+"file": "central-bank/1.png",
+"w": 301,
+"h": 86,
+"bg": "light",
+"lum": 76,
+"keyed": true,
+"small": false
+},
+"CGS Imaging": {
+"file": "cgs-imaging/1.png",
+"w": 104,
+"h": 39,
+"bg": "dark",
+"lum": 143,
+"keyed": true,
+"small": true
+},
+"Champion Chevrolet": {
+"file": "champion-chevrolet/1.png",
+"w": 93,
+"h": 27,
+"bg": "dark",
+"lum": 177,
+"keyed": true,
+"small": true
+},
+"Chestnut Hill": {
+"file": "chestnut-hill/1.png",
+"w": 42,
+"h": 14,
+"bg": "dark",
+"lum": 149,
+"keyed": true,
+"small": true
+},
+"Chevrolet": {
+"file": "chevrolet/1.png",
+"w": 48,
+"h": 23,
+"bg": "dark",
+"lum": 146,
+"keyed": true,
+"small": true
+},
+"Chevron": {
+"file": "chevron/1.png",
+"w": 160,
+"h": 41,
+"bg": "light",
+"lum": 80,
+"keyed": true,
+"small": true
+},
+"Chick-fil-A": {
+"file": "chick-fil-a/1.png",
+"w": 176,
+"h": 74,
+"bg": "light",
+"lum": 42,
+"keyed": true,
+"small": true
+},
+"Cintas": {
+"file": "cintas/1.png",
+"w": 57,
+"h": 14,
+"bg": "dark",
+"lum": 205,
+"keyed": true,
+"small": true
+},
+"Circle K": {
+"file": "circle-k/1.png",
+"w": 120,
+"h": 46,
+"bg": "light",
+"lum": 114,
+"keyed": false,
+"small": true
+},
+"Cleveland Hopkins International Airport": {
+"file": "cleveland-hopkins-international-airport/1.png",
+"w": 83,
+"h": 32,
+"bg": "dark",
+"lum": 161,
+"keyed": true,
+"small": true
+},
+"Coca-Cola": {
+"file": "coca-cola/1.png",
+"w": 219,
+"h": 83,
+"bg": "dark",
+"lum": 209,
+"keyed": true,
+"small": false
+},
+"Coldwell Banker Select": {
+"file": "coldwell-banker-select/1.png",
+"w": 63,
+"h": 34,
+"bg": "dark",
+"lum": 168,
+"keyed": true,
+"small": true
+},
+"Colossus Burgers": {
+"file": "colossus-burgers/1.png",
+"w": 214,
+"h": 110,
+"bg": "light",
+"lum": 108,
+"keyed": false,
+"small": false
+},
+"Columbia Regional Airport": {
+"file": "columbia-regional-airport/1.png",
+"w": 76,
+"h": 40,
+"bg": "dark",
+"lum": 153,
+"keyed": true,
+"small": true
+},
+"Coors Light": {
+"file": "coors-light/1.png",
+"w": 86,
+"h": 72,
+"bg": "light",
+"lum": 90,
+"keyed": true,
+"small": true
+},
+"Costco Wholesale": {
+"file": "costco-wholesale/1.png",
+"w": 120,
+"h": 30,
+"bg": "light",
+"lum": 110,
+"keyed": true,
+"small": true
+},
+"Cotality": {
+"file": "cotality/1.png",
+"w": 338,
+"h": 95,
+"bg": "dark",
+"lum": 195,
+"keyed": true,
+"small": false
+},
+"Cotton": {
+"file": "cotton/1.png",
+"w": 43,
+"h": 26,
+"bg": "light",
+"lum": 118,
+"keyed": false,
+"small": true
+},
+"CPG Playbook": {
+"file": "cpg-playbook/1.png",
+"w": 468,
+"h": 431,
+"bg": "light",
+"lum": 88,
+"keyed": true,
+"small": false
+},
+"Crowe Law, LLC": {
+"file": "crowe-law-llc/1.png",
+"w": 77,
+"h": 41,
+"bg": "dark",
+"lum": 164,
+"keyed": true,
+"small": true
+},
+"Crystal Clinic Orthopaedic Center": {
+"file": "crystal-clinic-orthopaedic-center/1.png",
+"w": 133,
+"h": 44,
+"bg": "dark",
+"lum": 154,
+"keyed": true,
+"small": true
+},
+"Daddy's Dogs": {
+"file": "daddy-s-dogs/1.png",
+"w": 47,
+"h": 27,
+"bg": "dark",
+"lum": 152,
+"keyed": true,
+"small": true
+},
+"Dasani": {
+"file": "dasani/2.png",
+"w": 164,
+"h": 77,
+"bg": "light",
+"lum": 78,
+"keyed": false,
+"small": true
+},
+"Daspit Law Firm": {
+"file": "daspit-law-firm/1.png",
+"w": 33,
+"h": 17,
+"bg": "dark",
+"lum": 142,
+"keyed": true,
+"small": true
+},
+"DATCU": {
+"file": "datcu/1.png",
+"w": 108,
+"h": 35,
+"bg": "dark",
+"lum": 157,
+"keyed": true,
+"small": true
+},
+"Dave's Hot Chicken": {
+"file": "dave-s-hot-chicken/1.png",
+"w": 63,
+"h": 64,
+"bg": "dark",
+"lum": 182,
+"keyed": true,
+"small": true
+},
+"Delray Hyundai": {
+"file": "delray-hyundai/1.png",
+"w": 102,
+"h": 53,
+"bg": "dark",
+"lum": 153,
+"keyed": true,
+"small": true
+},
+"Delta": {
+"file": "delta/1.png",
+"w": 100,
+"h": 25,
+"bg": "dark",
+"lum": 197,
+"keyed": true,
+"small": true
+},
+"Dialpad": {
+"file": "dialpad/1.png",
+"w": 46,
+"h": 16,
+"bg": "light",
+"lum": 87,
+"keyed": false,
+"small": true
+},
+"DirecTV": {
+"file": "directv/1.png",
+"w": 108,
+"h": 31,
+"bg": "dark",
+"lum": 171,
+"keyed": true,
+"small": true
+},
+"Documation": {
+"file": "documation/1.png",
+"w": 100,
+"h": 22,
+"bg": "dark",
+"lum": 240,
+"keyed": true,
+"small": true
+},
+"Dolan Auto Group": {
+"file": "dolan-auto-group/1.png",
+"w": 40,
+"h": 18,
+"bg": "dark",
+"lum": 172,
+"keyed": true,
+"small": true
+},
+"Domino's": {
+"file": "domino-s/2.png",
+"w": 106,
+"h": 44,
+"bg": "dark",
+"lum": 191,
+"keyed": true,
+"small": true
+},
+"Don Franklin": {
+"file": "don-franklin/1.png",
+"w": 75,
+"h": 25,
+"bg": "dark",
+"lum": 166,
+"keyed": true,
+"small": true
+},
+"Double Dip Donuts": {
+"file": "double-dip-donuts/1.png",
+"w": 149,
+"h": 96,
+"bg": "dark",
+"lum": 212,
+"keyed": false,
+"small": true
+},
+"DoubleDave's Pizzaworks": {
+"file": "doubledave-s-pizzaworks/1.png",
+"w": 58,
+"h": 22,
+"bg": "dark",
+"lum": 143,
+"keyed": true,
+"small": true
+},
+"DoubleTree by Hilton": {
+"file": "doubletree-by-hilton/1.png",
+"w": 33,
+"h": 27,
+"bg": "dark",
+"lum": 136,
+"keyed": true,
+"small": true
+},
+"Doug Smith": {
+"file": "doug-smith/1.png",
+"w": 48,
+"h": 26,
+"bg": "dark",
+"lum": 161,
+"keyed": false,
+"small": true
+},
+"Downtown": {
+"file": "downtown/1.png",
+"w": 102,
+"h": 36,
+"bg": "dark",
+"lum": 134,
+"keyed": false,
+"small": true
+},
+"Dragonfly Health": {
+"file": "dragonfly-health/1.png",
+"w": 91,
+"h": 24,
+"bg": "dark",
+"lum": 154,
+"keyed": true,
+"small": true
+},
+"Drive Sober or Get Pulled Over": {
+"file": "drive-sober-or-get-pulled-over/1.png",
+"w": 136,
+"h": 100,
+"bg": "light",
+"lum": 81,
+"keyed": true,
+"small": true
+},
+"Dunkin'": {
+"file": "dunkin/1.png",
+"w": 75,
+"h": 19,
+"bg": "dark",
+"lum": 208,
+"keyed": true,
+"small": true
+},
+"El Camino Health": {
+"file": "el-camino-health/1.png",
+"w": 79,
+"h": 24,
+"bg": "dark",
+"lum": 140,
+"keyed": true,
+"small": true
+},
+"Electronic Caregiver": {
+"file": "electronic-caregiver/1.png",
+"w": 148,
+"h": 34,
+"bg": "light",
+"lum": 115,
+"keyed": true,
+"small": true
+},
+"Embassy Suites": {
+"file": "embassy-suites/1.png",
+"w": 53,
+"h": 40,
+"bg": "dark",
+"lum": 145,
+"keyed": true,
+"small": true
+},
+"Emblem Properties Group": {
+"file": "emblem-properties-group/1.png",
+"w": 89,
+"h": 34,
+"bg": "light",
+"lum": 83,
+"keyed": true,
+"small": true
+},
+"EMC2": {
+"file": "emc2/1.png",
+"w": 125,
+"h": 43,
+"bg": "light",
+"lum": 83,
+"keyed": true,
+"small": true
+},
+"Emory Healthcare": {
+"file": "emory-healthcare/1.png",
+"w": 83,
+"h": 30,
+"bg": "dark",
+"lum": 168,
+"keyed": true,
+"small": true
+},
+"Empower": {
+"file": "empower/1.png",
+"w": 42,
+"h": 19,
+"bg": "dark",
+"lum": 177,
+"keyed": true,
+"small": true
+},
+"Equinox Wireless": {
+"file": "equinox-wireless/1.png",
+"w": 60,
+"h": 20,
+"bg": "light",
+"lum": 114,
+"keyed": true,
+"small": true
+},
+"Expedition Truck and Car Rental": {
+"file": "expedition-truck-and-car-rental/1.png",
+"w": 104,
+"h": 22,
+"bg": "dark",
+"lum": 188,
+"keyed": true,
+"small": true
+},
+"Extra": {
+"file": "extra/1.png",
+"w": 53,
+"h": 27,
+"bg": "dark",
+"lum": 146,
+"keyed": true,
+"small": true
+},
+"Fanatics": {
+"file": "fanatics/1.png",
+"w": 60,
+"h": 16,
+"bg": "dark",
+"lum": 204,
+"keyed": false,
+"small": true
+},
+"Farm Bureau Insurance": {
+"file": "farm-bureau-insurance/1.png",
+"w": 97,
+"h": 68,
+"bg": "light",
+"lum": 108,
+"keyed": true,
+"small": true
+},
+"Fifth Third Bank": {
+"file": "fifth-third-bank/1.png",
+"w": 189,
+"h": 77,
+"bg": "light",
+"lum": 119,
+"keyed": true,
+"small": true
+},
+"First Bank": {
+"file": "first-bank/1.png",
+"w": 64,
+"h": 20,
+"bg": "light",
+"lum": 104,
+"keyed": true,
+"small": true
+},
+"First Financial Bank": {
+"file": "first-financial-bank/1.png",
+"w": 72,
+"h": 33,
+"bg": "light",
+"lum": 86,
+"keyed": true,
+"small": true
+},
+"First Horizon Bank": {
+"file": "first-horizon-bank/1.png",
+"w": 107,
+"h": 32,
+"bg": "dark",
+"lum": 197,
+"keyed": true,
+"small": true
+},
+"First Interstate Bank": {
+"file": "first-interstate-bank/1.png",
+"w": 63,
+"h": 27,
+"bg": "light",
+"lum": 123,
+"keyed": true,
+"small": true
+},
+"First National Bank": {
+"file": "first-national-bank/1.png",
+"w": 130,
+"h": 68,
+"bg": "dark",
+"lum": 206,
+"keyed": true,
+"small": true
+},
+"First State Bank": {
+"file": "first-state-bank/1.png",
+"w": 68,
+"h": 27,
+"bg": "light",
+"lum": 124,
+"keyed": true,
+"small": true
+},
+"FNBO": {
+"file": "fnbo/1.png",
+"w": 188,
+"h": 56,
+"bg": "dark",
+"lum": 224,
+"keyed": true,
+"small": true
+},
+"Ford": {
+"file": "ford/1.png",
+"w": 169,
+"h": 64,
+"bg": "light",
+"lum": 110,
+"keyed": true,
+"small": true
+},
+"Founders Federal Credit Union": {
+"file": "founders-federal-credit-union/1.png",
+"w": 62,
+"h": 17,
+"bg": "dark",
+"lum": 151,
+"keyed": true,
+"small": true
+},
+"Frost": {
+"file": "frost/1.png",
+"w": 100,
+"h": 26,
+"bg": "light",
+"lum": 98,
+"keyed": true,
+"small": true
+},
+"FYZICAL": {
+"file": "fyzical/1.png",
+"w": 130,
+"h": 29,
+"bg": "dark",
+"lum": 193,
+"keyed": true,
+"small": true
+},
+"Gatorade": {
+"file": "gatorade/1.png",
+"w": 89,
+"h": 86,
+"bg": "dark",
+"lum": 216,
+"keyed": true,
+"small": true
+},
+"GBU Life": {
+"file": "gbu-life/1.png",
+"w": 61,
+"h": 14,
+"bg": "dark",
+"lum": 185,
+"keyed": true,
+"small": true
+},
+"GECU": {
+"file": "gecu/1.png",
+"w": 95,
+"h": 22,
+"bg": "dark",
+"lum": 201,
+"keyed": true,
+"small": true
+},
+"GEICO": {
+"file": "geico/1.png",
+"w": 219,
+"h": 55,
+"bg": "dark",
+"lum": 227,
+"keyed": true,
+"small": false
+},
+"Georgia Natural Gas": {
+"file": "georgia-natural-gas/1.png",
+"w": 122,
+"h": 79,
+"bg": "dark",
+"lum": 225,
+"keyed": true,
+"small": true
+},
+"Georgia Power": {
+"file": "georgia-power/1.png",
+"w": 78,
+"h": 89,
+"bg": "dark",
+"lum": 205,
+"keyed": true,
+"small": true
+},
+"Glasshouse Insurance": {
+"file": "glasshouse-insurance/2.png",
+"w": 148,
+"h": 96,
+"bg": "dark",
+"lum": 208,
+"keyed": false,
+"small": true
+},
+"Graves Gilbert Clinic": {
+"file": "graves-gilbert-clinic/1.png",
+"w": 250,
+"h": 91,
+"bg": "dark",
+"lum": 160,
+"keyed": true,
+"small": false
+},
+"Greasy Biscuit": {
+"file": "greasy-biscuit/1.png",
+"w": 127,
+"h": 122,
+"bg": "light",
+"lum": 42,
+"keyed": true,
+"small": true
+},
+"Great Southern Bank": {
+"file": "great-southern-bank/1.png",
+"w": 112,
+"h": 53,
+"bg": "dark",
+"lum": 175,
+"keyed": true,
+"small": true
+},
+"Gregg's Home & Garden Warehouse": {
+"file": "gregg-s-home-garden-warehouse/1.png",
+"w": 101,
+"h": 62,
+"bg": "light",
+"lum": 115,
+"keyed": true,
+"small": true
+},
+"Grotto Pizza": {
+"file": "grotto-pizza/1.png",
+"w": 90,
+"h": 33,
+"bg": "light",
+"lum": 110,
+"keyed": true,
+"small": true
+},
+"GSL": {
+"file": "gsl/1.png",
+"w": 59,
+"h": 44,
+"bg": "dark",
+"lum": 178,
+"keyed": true,
+"small": true
+},
+"H-E-B": {
+"file": "h-e-b/2.png",
+"w": 189,
+"h": 56,
+"bg": "dark",
+"lum": 172,
+"keyed": false,
+"small": true
+},
+"Habbas Law": {
+"file": "habbas-law/1.png",
+"w": 78,
+"h": 15,
+"bg": "light",
+"lum": 117,
+"keyed": true,
+"small": true
+},
+"Hancock Whitney": {
+"file": "hancock-whitney/1.png",
+"w": 229,
+"h": 59,
+"bg": "dark",
+"lum": 204,
+"keyed": true,
+"small": false
+},
+"Hattie B's": {
+"file": "hattie-b-s/1.png",
+"w": 63,
+"h": 25,
+"bg": "dark",
+"lum": 140,
+"keyed": true,
+"small": true
+},
+"Heineken": {
+"file": "heineken/1.png",
+"w": 52,
+"h": 23,
+"bg": "light",
+"lum": 103,
+"keyed": true,
+"small": true
+},
+"High Noon": {
+"file": "high-noon/1.png",
+"w": 109,
+"h": 108,
+"bg": "dark",
+"lum": 179,
+"keyed": true,
+"small": true
+},
+"Highmark Blue Cross Blue Shield": {
+"file": "highmark-blue-cross-blue-shield/1.png",
+"w": 88,
+"h": 35,
+"bg": "dark",
+"lum": 139,
+"keyed": true,
+"small": true
+},
+"Homeland Bank": {
+"file": "homeland-bank/1.png",
+"w": 115,
+"h": 52,
+"bg": "light",
+"lum": 116,
+"keyed": true,
+"small": true
+},
+"HoneyBaked Ham": {
+"file": "honeybaked-ham/1.png",
+"w": 65,
+"h": 29,
+"bg": "dark",
+"lum": 156,
+"keyed": true,
+"small": true
+},
+"Honolulu Ford": {
+"file": "honolulu-ford/1.png",
+"w": 27,
+"h": 24,
+"bg": "dark",
+"lum": 158,
+"keyed": true,
+"small": true
+},
+"Horizon Blue Cross Blue Shield": {
+"file": "horizon-blue-cross-blue-shield/1.png",
+"w": 53,
+"h": 20,
+"bg": "dark",
+"lum": 209,
+"keyed": true,
+"small": true
+},
+"Houlihan's": {
+"file": "houlihan-s/1.png",
+"w": 73,
+"h": 32,
+"bg": "dark",
+"lum": 186,
+"keyed": true,
+"small": true
+},
+"Houston Methodist": {
+"file": "houston-methodist/1.png",
+"w": 92,
+"h": 43,
+"bg": "dark",
+"lum": 159,
+"keyed": true,
+"small": true
+},
+"Hungry Howie's": {
+"file": "hungry-howie-s/1.png",
+"w": 61,
+"h": 61,
+"bg": "dark",
+"lum": 129,
+"keyed": true,
+"small": true
+},
+"Huntington Bank Stadium": {
+"file": "huntington-bank-stadium/1.png",
+"w": 153,
+"h": 85,
+"bg": "dark",
+"lum": 143,
+"keyed": true,
+"small": true
+},
+"Hy-Vee": {
+"file": "hy-vee/1.png",
+"w": 72,
+"h": 25,
+"bg": "light",
+"lum": 118,
+"keyed": false,
+"small": true
+},
+"Hyundai": {
+"file": "hyundai/1.png",
+"w": 62,
+"h": 64,
+"bg": "light",
+"lum": 94,
+"keyed": true,
+"small": true
+},
+"IBEW": {
+"file": "ibew/1.png",
+"w": 101,
+"h": 33,
+"bg": "light",
+"lum": 42,
+"keyed": true,
+"small": true
+},
+"Intermountain Healthcare": {
+"file": "intermountain-healthcare/1.png",
+"w": 129,
+"h": 54,
+"bg": "dark",
+"lum": 185,
+"keyed": true,
+"small": true
+},
+"J.B. Hunt": {
+"file": "j-b-hunt/1.png",
+"w": 71,
+"h": 246,
+"bg": "dark",
+"lum": 157,
+"keyed": false,
+"small": false
+},
+"J.T.M.": {
+"file": "j-t-m/1.png",
+"w": 82,
+"h": 26,
+"bg": "light",
+"lum": 103,
+"keyed": false,
+"small": true
+},
+"Jack's": {
+"file": "jack-s/1.png",
+"w": 138,
+"h": 87,
+"bg": "dark",
+"lum": 133,
+"keyed": false,
+"small": true
+},
+"Jacksons": {
+"file": "jacksons/1.png",
+"w": 103,
+"h": 21,
+"bg": "light",
+"lum": 105,
+"keyed": true,
+"small": true
+},
+"Jersey Mike's": {
+"file": "jersey-mike-s/1.png",
+"w": 75,
+"h": 71,
+"bg": "light",
+"lum": 114,
+"keyed": true,
+"small": true
+},
+"Jewelers Mutual": {
+"file": "jewelers-mutual/1.png",
+"w": 63,
+"h": 14,
+"bg": "dark",
+"lum": 162,
+"keyed": true,
+"small": true
+},
+"John Deere": {
+"file": "john-deere/1.png",
+"w": 16,
+"h": 29,
+"bg": "light",
+"lum": 64,
+"keyed": true,
+"small": true
+},
+"John Morrell": {
+"file": "john-morrell/1.png",
+"w": 62,
+"h": 31,
+"bg": "light",
+"lum": 117,
+"keyed": true,
+"small": true
+},
+"Johnny's Pizza House": {
+"file": "johnny-s-pizza-house/1.png",
+"w": 94,
+"h": 46,
+"bg": "dark",
+"lum": 195,
+"keyed": true,
+"small": true
+},
+"Jordan": {
+"file": "jordan/1.png",
+"w": 94,
+"h": 99,
+"bg": "dark",
+"lum": 194,
+"keyed": true,
+"small": true
+},
+"Katachi": {
+"file": "katachi/1.png",
+"w": 145,
+"h": 122,
+"bg": "dark",
+"lum": 182,
+"keyed": true,
+"small": true
+},
+"KBTX": {
+"file": "kbtx/1.png",
+"w": 81,
+"h": 24,
+"bg": "dark",
+"lum": 136,
+"keyed": true,
+"small": true
+},
+"Kenyon": {
+"file": "kenyon/1.png",
+"w": 150,
+"h": 39,
+"bg": "dark",
+"lum": 165,
+"keyed": true,
+"small": true
+},
+"Kia": {
+"file": "kia/1.png",
+"w": 74,
+"h": 19,
+"bg": "dark",
+"lum": 226,
+"keyed": true,
+"small": true
+},
+"Krazy Bins": {
+"file": "krazy-bins/1.png",
+"w": 67,
+"h": 39,
+"bg": "light",
+"lum": 52,
+"keyed": true,
+"small": true
+},
+"Kroger": {
+"file": "kroger/3.png",
+"w": 90,
+"h": 30,
+"bg": "dark",
+"lum": 192,
+"keyed": true,
+"small": true
+},
+"LAZ Fly Airport Parking": {
+"file": "laz-fly-airport-parking/1.png",
+"w": 80,
+"h": 27,
+"bg": "dark",
+"lum": 187,
+"keyed": true,
+"small": true
+},
+"LAZ Parking": {
+"file": "laz-parking/1.png",
+"w": 41,
+"h": 18,
+"bg": "dark",
+"lum": 200,
+"keyed": true,
+"small": true
+},
+"Legacy Community Federal Credit Union": {
+"file": "legacy-community-federal-credit-union/1.png",
+"w": 77,
+"h": 21,
+"bg": "dark",
+"lum": 178,
+"keyed": true,
+"small": true
+},
+"Lenovo": {
+"file": "lenovo/1.png",
+"w": 52,
+"h": 21,
+"bg": "light",
+"lum": 99,
+"keyed": false,
+"small": true
+},
+"Liberty Federal Credit Union": {
+"file": "liberty-federal-credit-union/1.png",
+"w": 104,
+"h": 25,
+"bg": "dark",
+"lum": 191,
+"keyed": true,
+"small": true
+},
+"Little Caesars": {
+"file": "little-caesars/1.png",
+"w": 117,
+"h": 60,
+"bg": "dark",
+"lum": 152,
+"keyed": true,
+"small": true
+},
+"Lockstop Self Storage": {
+"file": "lockstop-self-storage/1.png",
+"w": 118,
+"h": 72,
+"bg": "light",
+"lum": 86,
+"keyed": true,
+"small": true
+},
+"Logan Aluminum": {
+"file": "logan-aluminum/1.png",
+"w": 96,
+"h": 30,
+"bg": "dark",
+"lum": 148,
+"keyed": false,
+"small": true
+},
+"Louisiana National Bank": {
+"file": "louisiana-national-bank/1.png",
+"w": 101,
+"h": 60,
+"bg": "dark",
+"lum": 130,
+"keyed": true,
+"small": true
+},
+"Lucchese": {
+"file": "lucchese/1.png",
+"w": 67,
+"h": 16,
+"bg": "dark",
+"lum": 170,
+"keyed": true,
+"small": true
+},
+"Marco's Pizza": {
+"file": "marco-s-pizza/1.png",
+"w": 112,
+"h": 74,
+"bg": "light",
+"lum": 116,
+"keyed": true,
+"small": true
+},
+"Marriott Bonvoy": {
+"file": "marriott-bonvoy/1.png",
+"w": 76,
+"h": 46,
+"bg": "dark",
+"lum": 176,
+"keyed": true,
+"small": true
+},
+"Marshall Health Network": {
+"file": "marshall-health-network/1.png",
+"w": 93,
+"h": 24,
+"bg": "dark",
+"lum": 204,
+"keyed": true,
+"small": true
+},
+"Mayan Spring": {
+"file": "mayan-spring/1.png",
+"w": 113,
+"h": 80,
+"bg": "light",
+"lum": 124,
+"keyed": true,
+"small": true
+},
+"Medicone": {
+"file": "medicone/1.png",
+"w": 62,
+"h": 27,
+"bg": "dark",
+"lum": 146,
+"keyed": true,
+"small": true
+},
+"MegaVault": {
+"file": "megavault/1.png",
+"w": 76,
+"h": 62,
+"bg": "light",
+"lum": 109,
+"keyed": true,
+"small": true
+},
+"MegaVault Self Storage": {
+"file": "megavault-self-storage/1.png",
+"w": 117,
+"h": 28,
+"bg": "dark",
+"lum": 175,
+"keyed": true,
+"small": true
+},
+"Meijer": {
+"file": "meijer/1.png",
+"w": 163,
+"h": 46,
+"bg": "dark",
+"lum": 231,
+"keyed": true,
+"small": true
+},
+"Memorial Hermann": {
+"file": "memorial-hermann/1.png",
+"w": 81,
+"h": 38,
+"bg": "dark",
+"lum": 175,
+"keyed": true,
+"small": true
+},
+"Memorial Medical Center": {
+"file": "memorial-medical-center/1.png",
+"w": 61,
+"h": 146,
+"bg": "light",
+"lum": 121,
+"keyed": true,
+"small": true
+},
+"Mercedes-Benz": {
+"file": "mercedes-benz/1.png",
+"w": 489,
+"h": 476,
+"bg": "light",
+"lum": 89,
+"keyed": true,
+"small": false
+},
+"Mercedes-Benz Stadium": {
+"file": "mercedes-benz-stadium/1.png",
+"w": 165,
+"h": 83,
+"bg": "light",
+"lum": 93,
+"keyed": true,
+"small": true
+},
+"Mercy": {
+"file": "mercy/1.png",
+"w": 102,
+"h": 48,
+"bg": "dark",
+"lum": 216,
+"keyed": true,
+"small": true
+},
+"Mint Mobile": {
+"file": "mint-mobile/1.png",
+"w": 88,
+"h": 19,
+"bg": "dark",
+"lum": 229,
+"keyed": true,
+"small": true
+},
+"MMC Spine, Joint and Pain Center": {
+"file": "mmc-spine-joint-and-pain-center/1.png",
+"w": 54,
+"h": 37,
+"bg": "dark",
+"lum": 191,
+"keyed": true,
+"small": true
+},
+"Modelo Especial": {
+"file": "modelo-especial/1.png",
+"w": 38,
+"h": 24,
+"bg": "dark",
+"lum": 161,
+"keyed": true,
+"small": true
+},
+"Mohr Air Conditioning": {
+"file": "mohr-air-conditioning/1.png",
+"w": 42,
+"h": 26,
+"bg": "dark",
+"lum": 168,
+"keyed": true,
+"small": true
+},
+"Moreton & Company": {
+"file": "moreton-company/1.png",
+"w": 50,
+"h": 31,
+"bg": "dark",
+"lum": 157,
+"keyed": true,
+"small": true
+},
+"Motorola": {
+"file": "motorola/1.png",
+"w": 34,
+"h": 33,
+"bg": "dark",
+"lum": 219,
+"keyed": true,
+"small": true
+},
+"Mountain America Credit Union": {
+"file": "mountain-america-credit-union/1.png",
+"w": 101,
+"h": 46,
+"bg": "dark",
+"lum": 202,
+"keyed": true,
+"small": true
+},
+"Mr Fizz": {
+"file": "mr-fizz/1.png",
+"w": 104,
+"h": 96,
+"bg": "light",
+"lum": 125,
+"keyed": true,
+"small": true
+},
+"Much Burger": {
+"file": "much-burger/1.png",
+"w": 133,
+"h": 96,
+"bg": "dark",
+"lum": 186,
+"keyed": true,
+"small": true
+},
+"Multipli Credit Union": {
+"file": "multipli-credit-union/1.png",
+"w": 117,
+"h": 41,
+"bg": "dark",
+"lum": 200,
+"keyed": true,
+"small": true
+},
+"National Guard": {
+"file": "national-guard/1.png",
+"w": 70,
+"h": 34,
+"bg": "dark",
+"lum": 179,
+"keyed": false,
+"small": true
+},
+"NBC Boston 10": {
+"file": "nbc-boston-10/1.png",
+"w": 66,
+"h": 33,
+"bg": "dark",
+"lum": 129,
+"keyed": true,
+"small": true
+},
+"Neighborhood Ford Store": {
+"file": "neighborhood-ford-store/1.png",
+"w": 80,
+"h": 25,
+"bg": "light",
+"lum": 69,
+"keyed": true,
+"small": true
+},
+"NELA Dental": {
+"file": "nela-dental/1.png",
+"w": 76,
+"h": 20,
+"bg": "light",
+"lum": 96,
+"keyed": false,
+"small": true
+},
+"NetJets": {
+"file": "netjets/1.png",
+"w": 75,
+"h": 27,
+"bg": "dark",
+"lum": 185,
+"keyed": true,
+"small": true
+},
+"Nevada Donor Network": {
+"file": "nevada-donor-network/1.png",
+"w": 287,
+"h": 114,
+"bg": "dark",
+"lum": 147,
+"keyed": true,
+"small": false
+},
+"New Balance": {
+"file": "new-balance/1.png",
+"w": 30,
+"h": 17,
+"bg": "dark",
+"lum": 176,
+"keyed": true,
+"small": true
+},
+"New Belgium Brewing": {
+"file": "new-belgium-brewing/1.png",
+"w": 145,
+"h": 50,
+"bg": "dark",
+"lum": 207,
+"keyed": true,
+"small": true
+},
+"Nike": {
+"file": "nike/3.png",
+"w": 168,
+"h": 61,
+"bg": "light",
+"lum": 13,
+"keyed": true,
+"small": true
+},
+"Nissan": {
+"file": "nissan/1.png",
+"w": 150,
+"h": 32,
+"bg": "dark",
+"lum": 215,
+"keyed": true,
+"small": true
+},
+"Northside Hospital": {
+"file": "northside-hospital/1.png",
+"w": 286,
+"h": 102,
+"bg": "dark",
+"lum": 191,
+"keyed": true,
+"small": false
+},
+"NovaCare Rehabilitation": {
+"file": "novacare-rehabilitation/1.png",
+"w": 76,
+"h": 22,
+"bg": "dark",
+"lum": 150,
+"keyed": true,
+"small": true
+},
+"NTCE National Trust and Currency Exchange": {
+"file": "ntce-national-trust-and-currency-exchange/1.png",
+"w": 155,
+"h": 50,
+"bg": "light",
+"lum": 109,
+"keyed": true,
+"small": true
+},
+"Nu Skin": {
+"file": "nu-skin/1.png",
+"w": 156,
+"h": 55,
+"bg": "dark",
+"lum": 169,
+"keyed": true,
+"small": true
+},
+"Nusenda Credit Union": {
+"file": "nusenda-credit-union/1.png",
+"w": 148,
+"h": 37,
+"bg": "dark",
+"lum": 151,
+"keyed": true,
+"small": true
+},
+"NUTRL": {
+"file": "nutrl/1.png",
+"w": 32,
+"h": 10,
+"bg": "dark",
+"lum": 176,
+"keyed": true,
+"small": true
+},
+"Oak View Group": {
+"file": "oak-view-group/1.png",
+"w": 63,
+"h": 27,
+"bg": "dark",
+"lum": 150,
+"keyed": true,
+"small": true
+},
+"OCCU": {
+"file": "occu/1.png",
+"w": 87,
+"h": 41,
+"bg": "dark",
+"lum": 199,
+"keyed": true,
+"small": true
+},
+"Ochsner Lafayette General": {
+"file": "ochsner-lafayette-general/1.png",
+"w": 18,
+"h": 31,
+"bg": "dark",
+"lum": 145,
+"keyed": false,
+"small": true
+},
+"Old Dominion Freight Line": {
+"file": "old-dominion-freight-line/1.png",
+"w": 148,
+"h": 52,
+"bg": "dark",
+"lum": 132,
+"keyed": true,
+"small": true
+},
+"OnPoint": {
+"file": "onpoint/1.png",
+"w": 72,
+"h": 25,
+"bg": "light",
+"lum": 93,
+"keyed": true,
+"small": true
+},
+"OnPoint Community Credit Union": {
+"file": "onpoint-community-credit-union/1.png",
+"w": 72,
+"h": 23,
+"bg": "light",
+"lum": 94,
+"keyed": true,
+"small": true
+},
+"Optimum": {
+"file": "optimum/1.png",
+"w": 77,
+"h": 25,
+"bg": "light",
+"lum": 53,
+"keyed": true,
+"small": true
+},
+"Origin Bank": {
+"file": "origin-bank/1.png",
+"w": 116,
+"h": 64,
+"bg": "dark",
+"lum": 197,
+"keyed": true,
+"small": true
+},
+"Orlando Health Jewett Orthopedic Institute": {
+"file": "orlando-health-jewett-orthopedic-institute/1.png",
+"w": 267,
+"h": 222,
+"bg": "dark",
+"lum": 128,
+"keyed": true,
+"small": false
+},
+"Orlando International Airport": {
+"file": "orlando-international-airport/1.png",
+"w": 168,
+"h": 94,
+"bg": "dark",
+"lum": 149,
+"keyed": true,
+"small": true
+},
+"Oscar's Pizza": {
+"file": "oscar-s-pizza/1.png",
+"w": 82,
+"h": 78,
+"bg": "dark",
+"lum": 191,
+"keyed": false,
+"small": true
+},
+"Out of Sight": {
+"file": "out-of-sight/1.png",
+"w": 48,
+"h": 41,
+"bg": "dark",
+"lum": 137,
+"keyed": true,
+"small": true
+},
+"Out of Sight Travel Agency": {
+"file": "out-of-sight-travel-agency/1.png",
+"w": 215,
+"h": 96,
+"bg": "dark",
+"lum": 200,
+"keyed": false,
+"small": false
+},
+"OVP Health Care": {
+"file": "ovp-health-care/1.png",
+"w": 70,
+"h": 28,
+"bg": "dark",
+"lum": 185,
+"keyed": true,
+"small": true
+},
+"P3 Health Partners Oregon": {
+"file": "p3-health-partners-oregon/1.png",
+"w": 76,
+"h": 19,
+"bg": "dark",
+"lum": 154,
+"keyed": true,
+"small": true
+},
+"Papa John's": {
+"file": "papa-john-s/1.png",
+"w": 81,
+"h": 16,
+"bg": "dark",
+"lum": 193,
+"keyed": true,
+"small": true
+},
+"PayPal": {
+"file": "paypal/1.png",
+"w": 76,
+"h": 19,
+"bg": "dark",
+"lum": 211,
+"keyed": true,
+"small": true
+},
+"Penn State Health": {
+"file": "penn-state-health/1.png",
+"w": 71,
+"h": 85,
+"bg": "light",
+"lum": 106,
+"keyed": true,
+"small": true
+},
+"Pepsi": {
+"file": "pepsi/2.png",
+"w": 148,
+"h": 154,
+"bg": "light",
+"lum": 117,
+"keyed": true,
+"small": true
+},
+"Perfect Painters": {
+"file": "perfect-painters/1.png",
+"w": 83,
+"h": 33,
+"bg": "dark",
+"lum": 185,
+"keyed": true,
+"small": true
+},
+"Piedmont Healthcare": {
+"file": "piedmont-healthcare/1.png",
+"w": 149,
+"h": 40,
+"bg": "dark",
+"lum": 196,
+"keyed": true,
+"small": true
+},
+"Pitbull Stadium": {
+"file": "pitbull-stadium/1.png",
+"w": 62,
+"h": 18,
+"bg": "light",
+"lum": 106,
+"keyed": true,
+"small": true
+},
+"Planet Fitness": {
+"file": "planet-fitness/1.png",
+"w": 159,
+"h": 53,
+"bg": "light",
+"lum": 86,
+"keyed": true,
+"small": true
+},
+"PNC": {
+"file": "pnc/2.png",
+"w": 162,
+"h": 47,
+"bg": "light",
+"lum": 81,
+"keyed": true,
+"small": true
+},
+"PNC Bank": {
+"file": "pnc-bank/1.png",
+"w": 85,
+"h": 28,
+"bg": "dark",
+"lum": 145,
+"keyed": true,
+"small": true
+},
+"Porsche River Oaks": {
+"file": "porsche-river-oaks/1.png",
+"w": 139,
+"h": 34,
+"bg": "light",
+"lum": 90,
+"keyed": true,
+"small": true
+},
+"Powerade": {
+"file": "powerade/2.png",
+"w": 164,
+"h": 77,
+"bg": "light",
+"lum": 72,
+"keyed": false,
+"small": true
+},
+"Protective Stadium": {
+"file": "protective-stadium/1.png",
+"w": 119,
+"h": 83,
+"bg": "dark",
+"lum": 181,
+"keyed": true,
+"small": true
+},
+"Provident Bank": {
+"file": "provident-bank/1.png",
+"w": 82,
+"h": 12,
+"bg": "dark",
+"lum": 201,
+"keyed": true,
+"small": true
+},
+"PSECU": {
+"file": "psecu/1.png",
+"w": 76,
+"h": 33,
+"bg": "light",
+"lum": 118,
+"keyed": false,
+"small": true
+},
+"Publix": {
+"file": "publix/1.png",
+"w": 166,
+"h": 48,
+"bg": "light",
+"lum": 127,
+"keyed": true,
+"small": true
+},
+"Q105": {
+"file": "q105/1.png",
+"w": 103,
+"h": 28,
+"bg": "dark",
+"lum": 192,
+"keyed": false,
+"small": true
+},
+"QuikTrip": {
+"file": "quiktrip/1.png",
+"w": 134,
+"h": 45,
+"bg": "light",
+"lum": 89,
+"keyed": false,
+"small": true
+},
+"Radisson": {
+"file": "radisson/1.png",
+"w": 173,
+"h": 62,
+"bg": "light",
+"lum": 90,
+"keyed": true,
+"small": true
+},
+"Raising Cane's": {
+"file": "raising-cane-s/1.png",
+"w": 116,
+"h": 57,
+"bg": "dark",
+"lum": 132,
+"keyed": true,
+"small": true
+},
+"rapidSIGNS": {
+"file": "rapidsigns/1.png",
+"w": 120,
+"h": 56,
+"bg": "dark",
+"lum": 202,
+"keyed": true,
+"small": true
+},
+"Rebecca Creek": {
+"file": "rebecca-creek/1.png",
+"w": 73,
+"h": 24,
+"bg": "light",
+"lum": 89,
+"keyed": true,
+"small": true
+},
+"Regions Bank": {
+"file": "regions-bank/1.png",
+"w": 91,
+"h": 24,
+"bg": "dark",
+"lum": 186,
+"keyed": true,
+"small": true
+},
+"RelaySports": {
+"file": "relaysports/1.png",
+"w": 92,
+"h": 34,
+"bg": "dark",
+"lum": 138,
+"keyed": true,
+"small": true
+},
+"Reno Truckee Carson Paint Mart": {
+"file": "reno-truckee-carson-paint-mart/1.png",
+"w": 99,
+"h": 27,
+"bg": "dark",
+"lum": 208,
+"keyed": true,
+"small": true
+},
+"Renown Health": {
+"file": "renown-health/1.png",
+"w": 85,
+"h": 23,
+"bg": "dark",
+"lum": 182,
+"keyed": true,
+"small": true
+},
+"Ricky Slick's Barber Shop": {
+"file": "ricky-slick-s-barber-shop/1.png",
+"w": 390,
+"h": 97,
+"bg": "light",
+"lum": 118,
+"keyed": false,
+"small": false
+},
+"Rock Valley Credit Union": {
+"file": "rock-valley-credit-union/1.png",
+"w": 53,
+"h": 45,
+"bg": "light",
+"lum": 105,
+"keyed": false,
+"small": true
+},
+"Rocket Mortgage": {
+"file": "rocket-mortgage/1.png",
+"w": 59,
+"h": 19,
+"bg": "dark",
+"lum": 174,
+"keyed": true,
+"small": true
+},
+"Roscoe Brown": {
+"file": "roscoe-brown/1.png",
+"w": 84,
+"h": 28,
+"bg": "light",
+"lum": 115,
+"keyed": true,
+"small": true
+},
+"Rubenstein Supply Company": {
+"file": "rubenstein-supply-company/1.png",
+"w": 49,
+"h": 36,
+"bg": "dark",
+"lum": 147,
+"keyed": true,
+"small": true
+},
+"Safeway": {
+"file": "safeway/1.png",
+"w": 73,
+"h": 16,
+"bg": "dark",
+"lum": 155,
+"keyed": true,
+"small": true
+},
+"SCANA Energy": {
+"file": "scana-energy/1.png",
+"w": 63,
+"h": 18,
+"bg": "dark",
+"lum": 189,
+"keyed": true,
+"small": true
+},
+"SeatGeek": {
+"file": "seatgeek/2.png",
+"w": 71,
+"h": 51,
+"bg": "dark",
+"lum": 237,
+"keyed": true,
+"small": true
+},
+"Sentara": {
+"file": "sentara/1.png",
+"w": 134,
+"h": 24,
+"bg": "light",
+"lum": 122,
+"keyed": true,
+"small": true
+},
+"Servpro": {
+"file": "servpro/1.png",
+"w": 114,
+"h": 24,
+"bg": "dark",
+"lum": 159,
+"keyed": true,
+"small": true
+},
+"Shamrock Farms Rockin' Protein": {
+"file": "shamrock-farms-rockin-protein/1.png",
+"w": 97,
+"h": 25,
+"bg": "dark",
+"lum": 131,
+"keyed": false,
+"small": true
+},
+"Shelter Insurance": {
+"file": "shelter-insurance/1.png",
+"w": 41,
+"h": 46,
+"bg": "light",
+"lum": 77,
+"keyed": true,
+"small": true
+},
+"SHI": {
+"file": "shi/1.png",
+"w": 41,
+"h": 26,
+"bg": "dark",
+"lum": 193,
+"keyed": true,
+"small": true
+},
+"Shift": {
+"file": "shift/1.png",
+"w": 76,
+"h": 145,
+"bg": "light",
+"lum": 100,
+"keyed": true,
+"small": true
+},
+"Shiner Law Group": {
+"file": "shiner-law-group/1.png",
+"w": 91,
+"h": 47,
+"bg": "dark",
+"lum": 214,
+"keyed": true,
+"small": true
+},
+"Shula Burger": {
+"file": "shula-burger/1.png",
+"w": 66,
+"h": 31,
+"bg": "light",
+"lum": 81,
+"keyed": false,
+"small": true
+},
+"Sierra Neurosurgery Group": {
+"file": "sierra-neurosurgery-group/1.png",
+"w": 92,
+"h": 22,
+"bg": "dark",
+"lum": 162,
+"keyed": true,
+"small": true
+},
+"Signature Aspen": {
+"file": "signature-aspen/1.png",
+"w": 111,
+"h": 38,
+"bg": "dark",
+"lum": 181,
+"keyed": true,
+"small": true
+},
+"Simmons Bank": {
+"file": "simmons-bank/1.png",
+"w": 69,
+"h": 18,
+"bg": "dark",
+"lum": 191,
+"keyed": true,
+"small": true
+},
+"Simplot": {
+"file": "simplot/1.png",
+"w": 76,
+"h": 32,
+"bg": "light",
+"lum": 105,
+"keyed": true,
+"small": true
+},
+"SMITH": {
+"file": "smith/1.png",
+"w": 16,
+"h": 20,
+"bg": "dark",
+"lum": 179,
+"keyed": true,
+"small": true
+},
+"Someburros": {
+"file": "someburros/1.png",
+"w": 114,
+"h": 42,
+"bg": "dark",
+"lum": 184,
+"keyed": true,
+"small": true
+},
+"Sonic": {
+"file": "sonic/1.png",
+"w": 101,
+"h": 50,
+"bg": "dark",
+"lum": 189,
+"keyed": true,
+"small": true
+},
+"Sonwil": {
+"file": "sonwil/1.png",
+"w": 86,
+"h": 29,
+"bg": "light",
+"lum": 121,
+"keyed": true,
+"small": true
+},
+"Southeast Mortgage": {
+"file": "southeast-mortgage/1.png",
+"w": 107,
+"h": 41,
+"bg": "dark",
+"lum": 191,
+"keyed": true,
+"small": true
+},
+"Southern States Equipment": {
+"file": "southern-states-equipment/1.png",
+"w": 71,
+"h": 42,
+"bg": "dark",
+"lum": 200,
+"keyed": true,
+"small": true
+},
+"Sparks Toyota": {
+"file": "sparks-toyota/1.png",
+"w": 143,
+"h": 57,
+"bg": "light",
+"lum": 67,
+"keyed": false,
+"small": true
+},
+"SRM Concrete": {
+"file": "srm-concrete/1.png",
+"w": 41,
+"h": 27,
+"bg": "dark",
+"lum": 164,
+"keyed": true,
+"small": true
+},
+"SRS Distribution": {
+"file": "srs-distribution/1.png",
+"w": 54,
+"h": 26,
+"bg": "light",
+"lum": 121,
+"keyed": false,
+"small": true
+},
+"St. Bernards Healthcare": {
+"file": "st-bernards-healthcare/1.png",
+"w": 88,
+"h": 31,
+"bg": "light",
+"lum": 62,
+"keyed": false,
+"small": true
+},
+"St. Francis Health": {
+"file": "st-francis-health/1.png",
+"w": 100,
+"h": 40,
+"bg": "dark",
+"lum": 183,
+"keyed": true,
+"small": true
+},
+"StorageMart": {
+"file": "storagemart/1.png",
+"w": 144,
+"h": 37,
+"bg": "light",
+"lum": 123,
+"keyed": true,
+"small": true
+},
+"Sun Stop": {
+"file": "sun-stop/1.png",
+"w": 164,
+"h": 41,
+"bg": "dark",
+"lum": 145,
+"keyed": true,
+"small": true
+},
+"Sunnyside Chicken": {
+"file": "sunnyside-chicken/1.png",
+"w": 119,
+"h": 96,
+"bg": "dark",
+"lum": 146,
+"keyed": true,
+"small": true
+},
+"SunPeak": {
+"file": "sunpeak/1.png",
+"w": 70,
+"h": 58,
+"bg": "light",
+"lum": 49,
+"keyed": true,
+"small": true
+},
+"Sunshine": {
+"file": "sunshine/1.png",
+"w": 56,
+"h": 25,
+"bg": "dark",
+"lum": 237,
+"keyed": true,
+"small": true
+},
+"Super Home Surplus": {
+"file": "super-home-surplus/1.png",
+"w": 87,
+"h": 30,
+"bg": "light",
+"lum": 115,
+"keyed": true,
+"small": true
+},
+"Superior Plumbing": {
+"file": "superior-plumbing/1.png",
+"w": 21,
+"h": 23,
+"bg": "light",
+"lum": 122,
+"keyed": true,
+"small": true
+},
+"T4 Tire": {
+"file": "t4-tire/1.png",
+"w": 149,
+"h": 96,
+"bg": "light",
+"lum": 99,
+"keyed": false,
+"small": true
+},
+"Taco Bell": {
+"file": "taco-bell/1.png",
+"w": 111,
+"h": 36,
+"bg": "dark",
+"lum": 243,
+"keyed": true,
+"small": true
+},
+"Tamarack Resort": {
+"file": "tamarack-resort/1.png",
+"w": 74,
+"h": 18,
+"bg": "dark",
+"lum": 162,
+"keyed": true,
+"small": true
+},
+"Tampa General Hospital": {
+"file": "tampa-general-hospital/1.png",
+"w": 94,
+"h": 26,
+"bg": "dark",
+"lum": 196,
+"keyed": true,
+"small": true
+},
+"Tedford Insurance": {
+"file": "tedford-insurance/1.png",
+"w": 96,
+"h": 258,
+"bg": "light",
+"lum": 33,
+"keyed": true,
+"small": false
+},
+"TEP": {
+"file": "tep/1.png",
+"w": 133,
+"h": 76,
+"bg": "dark",
+"lum": 225,
+"keyed": true,
+"small": true
+},
+"The Hair Brigade Barber Shop": {
+"file": "the-hair-brigade-barber-shop/1.png",
+"w": 101,
+"h": 54,
+"bg": "dark",
+"lum": 132,
+"keyed": true,
+"small": true
+},
+"The Honey Baked Ham Co.": {
+"file": "the-honey-baked-ham-co/1.png",
+"w": 65,
+"h": 29,
+"bg": "dark",
+"lum": 156,
+"keyed": true,
+"small": true
+},
+"Tidelands Health": {
+"file": "tidelands-health/1.png",
+"w": 170,
+"h": 66,
+"bg": "dark",
+"lum": 150,
+"keyed": true,
+"small": true
+},
+"Tobacco Free Louisiana": {
+"file": "tobacco-free-louisiana/1.png",
+"w": 72,
+"h": 39,
+"bg": "dark",
+"lum": 186,
+"keyed": true,
+"small": true
+},
+"Toyota": {
+"file": "toyota/1.png",
+"w": 230,
+"h": 82,
+"bg": "light",
+"lum": 72,
+"keyed": false,
+"small": false
+},
+"Triple Tacos": {
+"file": "triple-tacos/1.png",
+"w": 150,
+"h": 124,
+"bg": "dark",
+"lum": 146,
+"keyed": true,
+"small": true
+},
+"Truist": {
+"file": "truist/1.png",
+"w": 155,
+"h": 40,
+"bg": "light",
+"lum": 88,
+"keyed": false,
+"small": true
+},
+"U-LUV Foods": {
+"file": "u-luv-foods/1.png",
+"w": 512,
+"h": 234,
+"bg": "dark",
+"lum": 133,
+"keyed": true,
+"small": false
+},
+"U.S. Bank": {
+"file": "u-s-bank/1.png",
+"w": 138,
+"h": 36,
+"bg": "dark",
+"lum": 154,
+"keyed": true,
+"small": true
+},
+"UC Health": {
+"file": "uc-health/1.png",
+"w": 94,
+"h": 23,
+"bg": "dark",
+"lum": 173,
+"keyed": true,
+"small": true
+},
+"UCHealth": {
+"file": "uchealth/1.png",
+"w": 102,
+"h": 25,
+"bg": "dark",
+"lum": 168,
+"keyed": true,
+"small": true
+},
+"UF Health": {
+"file": "uf-health/1.png",
+"w": 133,
+"h": 43,
+"bg": "light",
+"lum": 123,
+"keyed": true,
+"small": true
+},
+"UHealth University of Miami Health System": {
+"file": "uhealth-university-of-miami-health-system/1.png",
+"w": 54,
+"h": 19,
+"bg": "dark",
+"lum": 172,
+"keyed": true,
+"small": true
+},
+"UMCU": {
+"file": "umcu/1.png",
+"w": 168,
+"h": 43,
+"bg": "light",
+"lum": 91,
+"keyed": true,
+"small": true
+},
+"Under Armour": {
+"file": "under-armour/4.png",
+"w": 143,
+"h": 101,
+"bg": "dark",
+"lum": 217,
+"keyed": true,
+"small": true
+},
+"Union Bank": {
+"file": "union-bank/1.png",
+"w": 64,
+"h": 14,
+"bg": "dark",
+"lum": 156,
+"keyed": true,
+"small": true
+},
+"United Bank": {
+"file": "united-bank/1.png",
+"w": 126,
+"h": 43,
+"bg": "light",
+"lum": 85,
+"keyed": true,
+"small": true
+},
+"United Rentals": {
+"file": "united-rentals/2.png",
+"w": 97,
+"h": 103,
+"bg": "dark",
+"lum": 185,
+"keyed": false,
+"small": true
+},
+"UnitedHealthcare": {
+"file": "unitedhealthcare/1.png",
+"w": 100,
+"h": 30,
+"bg": "dark",
+"lum": 166,
+"keyed": true,
+"small": true
+},
+"University Ford": {
+"file": "university-ford/1.png",
+"w": 72,
+"h": 28,
+"bg": "light",
+"lum": 76,
+"keyed": false,
+"small": true
+},
+"University of Colorado Hospital": {
+"file": "university-of-colorado-hospital/1.png",
+"w": 42,
+"h": 13,
+"bg": "dark",
+"lum": 146,
+"keyed": true,
+"small": true
+},
+"UniWyo Credit Union": {
+"file": "uniwyo-credit-union/1.png",
+"w": 161,
+"h": 51,
+"bg": "dark",
+"lum": 191,
+"keyed": true,
+"small": true
+},
+"UofL Health": {
+"file": "uofl-health/1.png",
+"w": 112,
+"h": 23,
+"bg": "dark",
+"lum": 134,
+"keyed": true,
+"small": true
+},
+"UPMC": {
+"file": "upmc/2.png",
+"w": 58,
+"h": 155,
+"bg": "light",
+"lum": 42,
+"keyed": true,
+"small": true
+},
+"UPS": {
+"file": "ups/3.png",
+"w": 125,
+"h": 150,
+"bg": "dark",
+"lum": 149,
+"keyed": true,
+"small": true
+},
+"USAA": {
+"file": "usaa/1.png",
+"w": 36,
+"h": 36,
+"bg": "dark",
+"lum": 183,
+"keyed": false,
+"small": true
+},
+"USF Credit Union": {
+"file": "usf-credit-union/1.png",
+"w": 58,
+"h": 31,
+"bg": "dark",
+"lum": 189,
+"keyed": true,
+"small": true
+},
+"UT Health San Antonio": {
+"file": "ut-health-san-antonio/1.png",
+"w": 65,
+"h": 21,
+"bg": "light",
+"lum": 119,
+"keyed": true,
+"small": true
+},
+"Utz Brands": {
+"file": "utz-brands/1.png",
+"w": 69,
+"h": 34,
+"bg": "light",
+"lum": 79,
+"keyed": true,
+"small": true
+},
+"Van Wagner": {
+"file": "van-wagner/1.png",
+"w": 89,
+"h": 20,
+"bg": "light",
+"lum": 112,
+"keyed": true,
+"small": true
+},
+"VCOM": {
+"file": "vcom/1.png",
+"w": 35,
+"h": 40,
+"bg": "dark",
+"lum": 161,
+"keyed": true,
+"small": true
+},
+"Venmo": {
+"file": "venmo/1.png",
+"w": 102,
+"h": 43,
+"bg": "dark",
+"lum": 220,
+"keyed": true,
+"small": true
+},
+"Verratti": {
+"file": "verratti/1.png",
+"w": 97,
+"h": 113,
+"bg": "dark",
+"lum": 135,
+"keyed": true,
+"small": true
+},
+"Verratti Club": {
+"file": "verratti-club/1.png",
+"w": 102,
+"h": 103,
+"bg": "dark",
+"lum": 135,
+"keyed": false,
+"small": true
+},
+"Visa": {
+"file": "visa/1.png",
+"w": 111,
+"h": 33,
+"bg": "dark",
+"lum": 189,
+"keyed": true,
+"small": true
+},
+"Voyles Automotive": {
+"file": "voyles-automotive/1.png",
+"w": 74,
+"h": 28,
+"bg": "dark",
+"lum": 180,
+"keyed": true,
+"small": true
+},
+"Walmart": {
+"file": "walmart/1.png",
+"w": 18,
+"h": 16,
+"bg": "dark",
+"lum": 187,
+"keyed": true,
+"small": true
+},
+"Wells Fargo": {
+"file": "wells-fargo/1.png",
+"w": 40,
+"h": 41,
+"bg": "light",
+"lum": 76,
+"keyed": false,
+"small": true
+},
+"Wendy's": {
+"file": "wendy-s/1.png",
+"w": 70,
+"h": 29,
+"bg": "dark",
+"lum": 211,
+"keyed": true,
+"small": true
+},
+"Wescom Financial": {
+"file": "wescom-financial/1.png",
+"w": 162,
+"h": 42,
+"bg": "light",
+"lum": 56,
+"keyed": true,
+"small": true
+},
+"Whataburger": {
+"file": "whataburger/1.png",
+"w": 38,
+"h": 42,
+"bg": "light",
+"lum": 122,
+"keyed": true,
+"small": true
+},
+"Wilson Equipment Rentals & Sales": {
+"file": "wilson-equipment-rentals-sales/1.png",
+"w": 82,
+"h": 21,
+"bg": "light",
+"lum": 99,
+"keyed": false,
+"small": true
+},
+"Window Nation": {
+"file": "window-nation/1.png",
+"w": 67,
+"h": 36,
+"bg": "light",
+"lum": 58,
+"keyed": false,
+"small": true
+},
+"Window World": {
+"file": "window-world/1.png",
+"w": 76,
+"h": 30,
+"bg": "dark",
+"lum": 208,
+"keyed": true,
+"small": true
+},
+"WVU Medicine": {
+"file": "wvu-medicine/1.png",
+"w": 75,
+"h": 19,
+"bg": "light",
+"lum": 116,
+"keyed": true,
+"small": true
+},
+"Xerox": {
+"file": "xerox/1.png",
+"w": 114,
+"h": 26,
+"bg": "dark",
+"lum": 204,
+"keyed": true,
+"small": true
+},
+"Xfinity Live!": {
+"file": "xfinity-live/1.png",
+"w": 66,
+"h": 51,
+"bg": "dark",
+"lum": 192,
+"keyed": true,
+"small": true
+},
+"YellaWood": {
+"file": "yellawood/1.png",
+"w": 71,
+"h": 14,
+"bg": "dark",
+"lum": 216,
+"keyed": true,
+"small": true
+},
+"YETI": {
+"file": "yeti/1.png",
+"w": 102,
+"h": 34,
+"bg": "dark",
+"lum": 236,
+"keyed": true,
+"small": true
+},
+"Yuengling": {
+"file": "yuengling/1.png",
+"w": 52,
+"h": 30,
+"bg": "dark",
+"lum": 161,
+"keyed": true,
+"small": true
+},
+"Zippy's": {
+"file": "zippy-s/1.png",
+"w": 215,
+"h": 96,
+"bg": "light",
+"lum": 126,
+"keyed": false,
+"small": false
+}
+}
+}

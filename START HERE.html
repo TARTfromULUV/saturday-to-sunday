@@ -208,7 +208,7 @@ footer { font-size: 12.5px; color: var(--muted); border-top: 1px solid var(--lin
     save: function () {
       return '<div class="view appv fade">' + head('Your save', 'S2S reads your dynasty and writes the paper from it.', 2) + '<div class="body">' + pill('save', 'Your save is in', 'No save yet') +
         '<div class="card"><span class="k">In S2S</span><ol><li>S2S looks for your College Football and Madden saves on its own.</li><li>Pick the <b>AUTOSAVE</b> of the dynasty you play. It\'s marked Recommended.</li><li>Got the other game too? Add it. S2S links the two into one universe: your college players turn pro in your Madden league.</li></ol></div>' +
-        '<div class="card"><span class="k">Good to know</span><span>S2S reads the save after you play and save in the game. It only writes when you Send from AD mode, and it backs the save up first.</span></div>' +
+        '<div class="card"><span class="k">Good to know</span><span>S2S reads the save after you play and save in the game. It only writes when AD mode\'s Send says it will, and it backs the save up first.</span></div>' +
         openBtn('Pick my save in S2S', '#setup') + nextBtn('save') + '</div></div>';
     },
     writer: function () {
@@ -225,14 +225,14 @@ footer { font-size: 12.5px; color: var(--muted); border-top: 1px solid var(--lin
     },
     program: function () {
       return '<div class="view appv fade">' + head('AD mode', 'Run the program between games. Optional.', 5) + '<div class="body">' + pill('program', 'Your choice is in', 'Not chosen yet') +
-        '<div class="card"><span class="k">How a week goes</span><ol><li>Your staff text you a few things that need a call.</li><li>Answer them: NIL, staff, the facility, boosters, the money.</li><li>Tap <b>Send</b> before you load the game.</li></ol></div>' +
-        '<div class="card"><span class="k">What Send does</span><ul><li><b>Send</b> writes into your save: pay, staff, facility upgrades. A backup first, every change read back.</li><li><b>Profit</b> is S2S\'s own money, added as points at the Recap.</li><li><b>Orders</b> wait for the editor or another tool.</li></ul></div>' +
+        '<div class="card"><span class="k">How a week goes</span><ol><li><b>Marketplace:</b> sell your sponsorships. Reach out, call, sit down.</li><li><b>Game Day</b> and <b>Coach:</b> set Saturday, answer the paper.</li><li>Tap <b>Send</b>, then play your game.</li></ol></div>' +
+        '<div class="card"><span class="k">What Send does</span><ul><li><b>Send</b> closes the week and says what goes into your save. Most weeks, nothing.</li><li>Once a year it writes <b>program points</b>: the part of last year\'s raise you put into the game.</li><li>A backup first, every change read back.</li></ul></div>' +
         openBtn('Turn on AD mode in S2S', '#setup') + nextBtn('program') + '</div></div>';
     },
     done: function () {
       var all = nDone() === 5;
       return '<div class="view appv fade">' + head(all ? 'You\'re in' : 'After setup', all ? 'S2S is set up. Here\'s your week from now on.' : 'What happens once the five steps are done.', null) + '<div class="body">' +
-        '<div class="card"><span class="k">Every week</span><ol><li>Play your week in the game and save.</li><li>On your phone: <b>Up to date</b> reads it and writes the paper.</li><li>AD mode: answer your staff, then <b>Send</b> before you play the next game.</li></ol></div>' +
+        '<div class="card"><span class="k">Every week</span><ol><li>Play your week in the game and save.</li><li>On your phone: <b>Up to date</b> reads it and writes the paper.</li><li>AD mode: work your week, then <b>Send</b> before you play the next game.</li></ol></div>' +
         '<div class="card"><span class="k">Where it lives</span><ul><li>An <b>S2S</b> icon on your desktop opens it.</li><li>Settings ▸ <b>Start with Windows</b> keeps it running for your phone.</li><li>S2S updates itself. A red dot on Settings means a new version: tap <b>Update now</b>.</li></ul></div>' +
         openBtn('Open S2S', '') + '</div></div>';
     }

@@ -30,24 +30,28 @@ It's all free: **ChatGPT Free** does the writing. One full season uses about
 
 ---
 
-## The Front Office (beta)
+## AD mode (beta)
 
-### What are AD mode and Coach mode?
+### What is AD mode?
 
-The Front Office, in a beta download: **Office** in the bottom bar. AD mode is
-the athletic director's week (a few calls before kickoff, the paper covers what
-you decide). Coach mode is the head coach's: recruiting hours, pitches,
-visits, offers, the talent tree. College only, for now.
-[BETA-TESTERS.md](BETA-TESTERS.md) is the tour.
+In a beta download: **Office** in the bottom bar. You run your school's
+athletic department. A week is four stops (Marketplace, Game Day, Coach, Send):
+you sell sponsorships, set game day, answer the paper's writers and raise next
+year's budget, and the paper covers what you decide. The coaching still happens
+in the game. College only. [BETA-TESTERS.md](BETA-TESTERS.md) is the tour.
 
 ### Does S2S write to my save?
 
-Only the Front Office, and only what you Send from it: AD mode's pay, budget
-and staff moves, and Coach mode's recruiting moves. It refuses while
-the game runs, backs the save up first (the last five, in an `S2S` folder next
-to it) and reads every change back, restoring the backup if one doesn't stick.
-Everything else S2S
-only reads.
+Only AD mode, and only what its Send says it will: once a year, the game's
+part of last year's raise as program points; and the league's grades, only if
+you turn that switch on. Most weeks Send writes nothing. It refuses while the
+game runs, backs the save up first and reads every change back, restoring the
+backup if one doesn't stick. Everything else S2S only reads.
+
+### Why is a sponsorship's value a range?
+
+It is your market analyst's estimate. The real number is inside the range. A
+better analyst, hired at the Winter Meetings, gives a tighter one.
 
 ### How do I report a bug?
 

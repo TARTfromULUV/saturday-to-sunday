@@ -617,6 +617,9 @@ They are FACT, stated as owner news. Use one only where it bears on the piece
 (a result for a team the owner has money in, a business move, a stadium); most
 pieces will not mention them, and none repeats them wholesale. Never add to
 them: no figures, quotes, dates or people they do not give.
+The first one may carry `lead: true` and `stands`: the storyline the owner
+leads with, and where it stands this week, in facts. The paper writes toward
+it: where it bears on the piece, say where it stands, from `stands` only.
 
 ## The era
 

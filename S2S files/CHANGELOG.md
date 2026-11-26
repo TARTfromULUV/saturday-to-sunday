@@ -3,6 +3,23 @@
 What changed in each version, newest first. The app shows this in
 **Settings ▸ Update log**.
 
+## 2.1.0 — The AD mode beta
+
+- **AD mode, built fresh (beta).** You run the business side of your program from your phone: you spend what you raised last year, and you raise next year's. The coaching stays in the game. It opens from **Office** in a beta download, once S2S has read a college week. College only.
+- **A week is four stops.** Marketplace, Game Day, Coach and Send, the first row of apps on the office's home. The one that's next pulses, and each hands you to the next. About ten minutes a week.
+- **Marketplace.** Ten sponsorships to sell, from the jersey patch and the field to pouring rights and the radio broadcast. Reach out to a company, call to warm them up, and sit down once their interest reaches 80. A star saves a company to a sponsorship. A sit-down is a negotiation: nothing tells you what a choice will do, so read what they say and shake before their patience runs out.
+- **Game Day.** The ticket, parking, food, the crews, a promotion, and who sits in your box. You get your staff's guess before the game and what really happened after it.
+- **Coach.** The paper's writers ask you questions each week. What you say moves something, and it shows up in the next issue.
+- **Send, and what it writes.** Send closes the week and says what goes into your save before you tap it. Most weeks, nothing does. Once a year it writes the part of last year's raise you chose to put into the game, as program points. And, only if you turn them on (a switch on the Arc's screen, off to start), the league's grades. S2S refuses while the game is running, backs the save up first and reads every change back.
+- **Hours, and the board's goal.** You have 100 hours a week in your first year and 60 after it. The board sets a goal each year from what you could sell; beat it and next year's budget is bigger.
+- **Your staff.** Theo, your account manager, gives the advice and is sometimes wrong. A market analyst and a game day director give none: they set how tight a number is. You hire them at the Winter Meetings, and a better hire costs more.
+- **Discover.** What fans, your partners, other schools and the paper's writers are saying about your program this week, each line from your save and from what you did.
+- **The year.** Bowl weeks, the Recap that grades your year, and the Winter Meetings: the conference's votes, the TV deal, your hires, a job at another school.
+- **The new bar.** The bottom bar is a small floating strip, with **Learn more** on a line under it (Money, the Arc, Your staff, Your storyline, How it works). The NFL side of a linked pair wears the same bar, with **Up to date** at the top.
+- **Built for the phone.** The office's screens are laid out for a phone first.
+- **The guides are rewritten** for this AD mode: the README, the FAQ, START HERE, the website, the tour cards and BETA-TESTERS.md.
+- **Known gaps in the beta:** Discover is written from templates and repeats over a season; about a third of the companies have no logo; Meet on the Coach screen is a card marked beta; the other schools' athletic directors don't run budgets of their own yet.
+
 ## 2.0.1 — The League, the AD loop, game day
 
 - **The League.** A page for every school in your dynasty: five tabs, school against school, search any school or conference, and follow the ones you watch (they pin to Home with their week). Settings ▸ League view can hide the other schools.

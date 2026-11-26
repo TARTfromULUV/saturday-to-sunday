@@ -1,0 +1,10 @@
+{
+  "note": "S2S's own list: who makes each real school's uniforms, by the school's name in the game. A school on S2S's map that is not listed here is with `default`. Keys are the brand library's company keys (lib/ad/companies.mjs). Edit freely: AD mode reads it when an office starts at a school.",
+  "default": "nike",
+  "schools": {
+    "Notre Dame": "under_armour", "Wisconsin": "under_armour", "Maryland": "under_armour", "South Carolina": "under_armour", "Northwestern": "under_armour", "Utah": "under_armour", "Navy": "under_armour", "Colorado State": "under_armour", "Temple": "under_armour", "Old Dominion": "under_armour", "Kent State": "under_armour",
+    "Arizona State": "adidas", "Georgia Tech": "adidas", "Indiana": "adidas", "Kansas": "adidas", "Louisville": "adidas", "Miami": "adidas", "Mississippi St": "adidas", "NC State": "adidas", "Nebraska": "adidas", "Texas A&M": "adidas", "Washington": "adidas", "Rutgers": "adidas", "Texas Tech": "adidas", "FLA Atlantic": "adidas", "Arkansas State": "adidas", "NIU": "adidas", "E. Michigan": "adidas", "UMass": "adidas", "South Alabama": "adidas", "Troy": "adidas", "Louisiana": "adidas", "FIU": "adidas", "W. Michigan": "adidas", "Miami (OH)": "adidas", "USF": "adidas", "Tennessee": "adidas", "Penn State": "adidas", "Delaware": "adidas", "Kennesaw St.": "adidas",
+    "Michigan": "jordan", "North Carolina": "jordan", "Oklahoma": "jordan", "Florida": "jordan", "UCLA": "jordan", "Houston": "jordan",
+    "Boston College": "new_balance"
+  }
+}

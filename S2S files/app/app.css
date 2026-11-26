@@ -3957,13 +3957,29 @@ main .secblock:has(> .scoregrid) > .secblock-head { border: 0; padding: 0; margi
 .sg-tag[data-k="upset"] { --c: #ff8a5c; color: #ff8a5c; background: rgba(255,107,53,.14); }
 .sg-tag[data-k="thriller"], .sg-tag[data-k="back"] { --c: #e0b04a; color: #c9952b; background: rgba(224,176,74,.14); }
 .sg-tag[data-k="runaway"] { --c: var(--shell-faint); }
-/* [madden] Scores ▸ Picks in the Scores layout (the owner, November 14: "Have the picks tab have same layout as the scores
-   one"): the called side's row wears PICK (and the margin), the line sits in the foot, and a final says if it hit. */
-.sg-pk { flex: none; font: 700 .56rem var(--nar); letter-spacing: .1em; text-transform: uppercase; color: #fff; background: var(--shell-accent, #c8102e); border-radius: 3px; padding: .08rem .3rem; }
-.sg-line { font-variant-numeric: tabular-nums; color: var(--shell-soft); }
 .sgame-foot .sg-tag + .sg-tag { margin-left: 0; }
-.sg-tag[data-k="pk-hit"] { --c: #2e9e5b; color: #2e9e5b; background: rgba(46,158,91,.14); }
-.sg-tag[data-k="pk-miss"] { --c: #c8102e; color: #e0485e; background: rgba(200,16,46,.14); }
+/* [madden] Scores ▸ Picks as a schedule with the line (the owner, November 23): one row a game: when and where to watch,
+   the two teams, the spread and the over/under. No score, no pick, nothing under the row. */
+.pklist { background: var(--shell-card); border: 1px solid var(--shell-rule); border-radius: 6px; margin-bottom: .5rem; }
+main .secblock:has(> .pklist) { background: none; border: 0; padding: 0; max-width: 46rem; }
+main .secblock:has(> .pklist) > .secblock-head { border: 0; padding: 0; margin: .9rem 0 .25rem; font: 700 .64rem var(--nar); letter-spacing: .14em; color: var(--shell-faint); flex-wrap: nowrap; }
+main .secblock:has(> .pklist) > .secblock-head i { flex-basis: auto; margin: 0; font-size: .64rem; }
+.pkrow { display: grid; grid-template-columns: 5.4rem minmax(0, 1fr) auto; align-items: center; gap: .15rem .6rem; padding: .5rem .7rem; border-top: 1px solid var(--shell-hair); }
+.pkrow:first-child { border-top: 0; }
+.pkrow.linked { cursor: pointer; }
+.pkrow.linked:hover { background: var(--shell-hair); }
+.pkrow.you { box-shadow: inset 3px 0 0 var(--shell-accent, #c8102e); }
+.pk-when { display: flex; flex-direction: column; align-items: flex-start; gap: .25rem; min-width: 0; }
+.pk-when b { font: 700 .74rem var(--nar); letter-spacing: .04em; text-transform: uppercase; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.pk-when b.pk-tba { color: var(--shell-faint); font-weight: 600; }
+.pk-teams { display: flex; flex-direction: column; gap: .2rem; min-width: 0; }
+.pk-t { display: flex; align-items: center; gap: .45rem; min-width: 0; min-height: 24px; }
+.pk-name { font: 700 .95rem var(--nar); text-transform: uppercase; letter-spacing: .02em; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.pk-line { display: flex; flex-direction: column; align-items: flex-end; gap: .25rem; font-family: var(--nar); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.pk-line b { font-size: .88rem; font-weight: 700; }
+.pk-line i { font-style: normal; font-size: .76rem; color: var(--shell-soft); }
+.pk-line.none { font-size: .72rem; color: var(--shell-faint); }
+@media (min-width: 48rem) { .pkrow { grid-template-columns: 7rem minmax(0, 1fr) auto; padding: .55rem .9rem; } }
 main .secblock:has(> .scoregrid) > .secblock-head { flex-wrap: nowrap; } main .secblock:has(> .scoregrid) > .secblock-head i { flex-basis: auto; margin: 0; font-size: .64rem; }
 
 /* Team pages: the team's plate (its colour, its logo, record, streak and
@@ -6649,6 +6665,12 @@ html[data-bare] main.bare { background: transparent; }
 .cxl-top span { color: var(--shell-soft, #8e8e93); }
 .cxl-bar { height: 8px; border-radius: 99px; background: rgba(127,127,127,.2); overflow: hidden; margin-top: .3rem; }
 .cxl-bar i { display: block; height: 100%; border-radius: 99px; }
+.ph-codes { display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: .8rem; margin: .4rem 0 .6rem; } /* [madden] Settings: At home and Anywhere side by side (stacked on a phone) */
+.ph-card { border: 1px solid var(--shell-rule); border-radius: 12px; padding: .7rem .8rem; min-width: 0; }
+.ph-card .phone-qr { display: inline-block; margin: .3rem 0 .4rem; }
+.ph-h { display: flex; align-items: center; justify-content: space-between; gap: .5rem; margin-bottom: .2rem; }
+.ph-tag { font-size: .72rem; font-weight: 600; text-transform: uppercase; letter-spacing: .06em; color: #1f9d55; }
+.ph-tag.dim { color: inherit; opacity: .6; }
 .ph-seg { display: inline-flex; border-radius: 10px; background: rgba(127,127,127,.15); padding: 2px; margin: .2rem 0 .5rem; }
 .ph-seg button { border: 0; background: none; color: inherit; font: inherit; font-size: .85rem; padding: .35rem .8rem; border-radius: 8px; cursor: pointer; }
 .ph-seg button.on { background: var(--shell-card, #fff); box-shadow: 0 1px 3px rgba(0,0,0,.18); font-weight: 600; }
@@ -7813,3 +7835,40 @@ html[data-bare] main.bare:has(.s5) { max-width: none; width: 100%; margin: 0; pa
 .db-ladder i { font: 700 .6rem/1 var(--of-num); font-style: normal; letter-spacing: .04em; padding: .2rem .4rem; border-radius: 4px; background: var(--of-widget-2); color: var(--of-sub); }
 .db-ladder i.at { background: var(--ofm-gold); color: #111; }
 .bo-acts.four { grid-template-columns: repeat(2, 1fr); }
+/* [madden] the week you haven't sent (lib/office/late.mjs): the Generate sheet's ask */
+.gv-late{display:grid;gap:8px;margin:0 0 12px;padding:12px;border:1px solid var(--gold,#fdbb30);border-radius:14px;background:rgba(253,187,48,.08)}
+.gv-late>small{color:var(--muted,#9aa)}.gv-late .btn{display:grid;gap:2px;text-align:left;width:100%}.gv-late .btn small{font-weight:400;opacity:.8}
+
+/* [madden] Awards > Of the week: the filter above the cards (November 26) */
+.aw-scope { display: flex; margin: .2rem 0 .7rem; }
+
+/* [madden] THE SAME BAR THROUGHOUT (the owner, November 26): Office · Discover · Paper · Team · the switch, Learn more under them
+   (small, there, not loud), and Up to date as a pill in the top bar. */
+/* (the owner, November 26, on the first build: «you made the bottom box too big shrink it down, learn more can be outside of it too») */
+.tabbar.dock.bar2 { padding: 10px 12px calc(var(--safe-bottom) + 2px); display: block; background: linear-gradient(transparent, rgba(8, 9, 12, .82) 30%, rgba(8, 9, 12, .97) 72%); }
+.tabbar.dock.bar2 .dock-tray { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); justify-items: center; align-items: start; width: auto; max-width: 23rem; height: auto; margin: 0 auto; padding: 6px 6px 5px; border-radius: 22px; border: 1px solid color-mix(in srgb, currentColor 14%, transparent); box-shadow: 0 6px 18px rgba(0, 0, 0, .3); }
+.tabbar.dock.bar2 .tab.tile { width: 100%; max-width: 60px; gap: 3px; font-size: .56rem; }
+.tabbar.dock.bar2 .tab.tile .fp-ic { width: 42px !important; height: 42px !important; margin: 0 !important; border-radius: 12px; font-size: 20px; }
+.tabbar.dock.bar2 .tab.tile .fp-ic svg { width: 21px; height: 21px; }
+.tabbar.dock.bar2 .tab.tile .fp-ic.paper { overflow: hidden; }
+.tabbar.dock.bar2 .tab.tile .fp-ic.paper img { width: 100%; height: 100%; margin: 0; transform: none; border-radius: 12px; border: 0; box-shadow: none; object-fit: cover; }
+.tabbar.dock.bar2 .tab.tile.on > span { color: var(--shell-ink); }
+.dock-learn { pointer-events: auto; display: block; margin: 0 auto; min-height: 30px; padding: 0 16px; background: none; border: 0; cursor: pointer; text-align: center; font: 600 .66rem/1 var(--ui); letter-spacing: .04em; color: var(--shell-faint); }
+.dock-learn.on { color: var(--shell-ink); }
+:root[data-dock]:has(.bar2) { --nav-h: 7.2rem; }
+:root[data-dock]:has(.bar2-nfl) { --nav-h: 5.4rem; }
+.tabbar.dock.bar2.bar2-nfl { padding-bottom: calc(var(--safe-bottom) + 8px); }
+.up-pill { position: relative; display: inline-flex; align-items: center; gap: 6px; min-height: 32px; padding: 0 10px 0 9px; border-radius: 999px; border: 1px solid color-mix(in srgb, currentColor 22%, transparent); background: none; color: inherit; font: 600 .72rem/1 var(--ui); white-space: nowrap; cursor: pointer; overflow: hidden; }
+.up-pill > i { width: 8px; height: 8px; border-radius: 50%; background: #30d158; box-shadow: 0 0 0 3px rgba(48,209,88,.2); flex: none; }
+.up-pill.g-write > i, .up-pill.g-sync > i, .up-pill.lit > i { background: #ffd60a; box-shadow: 0 0 0 3px rgba(255,214,10,.25); }
+.up-pill.g-back > i, .up-pill.g-catch > i { background: #ff9f0a; box-shadow: 0 0 0 3px rgba(255,159,10,.25); }
+.up-pill.g-write, .up-pill.g-sync { border-color: #ffd60a; }
+.up-pill.lc-cfb > i { background: #c8102e; } .up-pill.lc-nfl > i { background: #1d4ed8; } .up-pill.lc-both > i { background: linear-gradient(135deg, #c8102e 0 50%, #1d4ed8 50% 100%); }
+.up-pill > b { min-width: 1.1rem; height: 1.1rem; padding: 0 .25rem; border-radius: 999px; background: #ff3b30; color: #fff; font: 800 .62rem/1.1rem system-ui, sans-serif; text-align: center; }
+.up-pill.prog::before { content: ""; position: absolute; inset: 0; width: calc(var(--p, 0) * 1%); background: color-mix(in srgb, currentColor 16%, transparent); transition: width .4s ease; }
+@media (prefers-reduced-motion: no-preference) { .up-pill.lit > i, .up-pill.spin > i { animation: up-pill-pulse 1.4s ease-in-out infinite; } }
+@keyframes up-pill-pulse { 50% { transform: scale(1.35); opacity: .7; } }
+.masthead .up-pill { flex: none; min-width: 32px; padding: 0 8px; justify-content: center; }
+.masthead .up-pill.g-up > span { display: none; } /* (nothing new: the light alone, like a notification; a tap still opens Up to date) */
+/* (a wide screen has no dock: the masthead's own button is there) */
+@media (min-width: 62rem) { .masthead .up-pill { display: none; } }

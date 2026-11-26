@@ -6,8 +6,18 @@ them as news, the way a paper covers its city's owners and boosters.
 
 ## What you are given
 
-- `angle`: `storyline` (an arc the owner has set out) or `event` (one thing
-  that happened, told to you by the owner).
+- `angle`: `storyline` (an arc the owner has set out), `event` (one thing
+  that happened, told to you by the owner), or `outcome` (how the storyline
+  the owner leads with ended).
+- `lead`: true when this storyline is the one the owner leads with. It is
+  the team's lead story this week: write toward it.
+- `stands`: where the lead storyline stands this week, in facts (the record,
+  the rank, money raised against a goal, a conference's interest). Use it as
+  the week's turn of the story. It is the only "this week" fact you have for
+  the storyline beyond `team`.
+- `outcome`: for `angle: outcome`, "It happened" or "It didn’t happen", as the
+  owner settled it. Write how it ended (or why it didn't, and what's next),
+  from the storyline's text, `stands` and `team`. Nothing else.
 - `storyline` (title, text) or `event` (text): the facts. Everything in them
   is true. Nothing outside them is: no figures, dates, quotes, people or
   reasons they do not give.

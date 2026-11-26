@@ -99,24 +99,24 @@
   const ICON = '../../docs/site/img/icon.png';
   const LOCK = `<div class="scr lock"><div class="date">Tuesday, November 10</div><div class="time">12:13</div>
     <div class="note"><img src="${ICON}" alt=""><div><b>S2S <small>now</small></b><span><strong>Week 7 is out.</strong> Kennesaw St. 31, Jacksonville St. 17: the column, the poll, the recap.</span></div></div>
-    <div class="note"><img src="${ICON}" alt=""><div><b>The Front Office <small>12m ago</small></b><span>Darnell: “Dante’s people have been calling around.” 2 calls before Saturday.</span></div></div>
-    <div class="note"><img src="${ICON}" alt=""><div><b>Recruiting <small>1h ago</small></b><span>40 hours left on the board this week. Your 4-star visits Saturday.</span></div></div></div>`;
+    <div class="note"><img src="${ICON}" alt=""><div><b>AD mode <small>12m ago</small></b><span>U-LUV Foods is ready to sit down about the field. 70 hours left this week.</span></div></div>
+    <div class="note"><img src="${ICON}" alt=""><div><b>Discover <small>1h ago</small></b><span>“Tickets for Saturday are cheaper than a movie. Bringing the whole street.”</span></div></div></div>`;
   const ok = (t, s) => `<div class="row"><span class="ck">✓</span><span><b>${t}</b>${s ? `<small>${s}</small>` : ''}</span></div>`;
   const SETUP = `<div class="scr setup"><div class="sh">Setting up S2S</div><h2>You’re ready.</h2><div class="steps"><i></i><i></i><i></i></div>
     <div class="gl">Three steps</div><div class="grp">${ok('ChatGPT connected', 'your free account writes the paper')}${ok('Phone added', 'scanned the code · on your Home Screen')}${ok('Your save picked', 'the autosave, found for you')}</div>
     <div class="gl">S2S found</div><div class="grp">${ok('Kennesaw St. · CFB 27', 'your dynasty, 2029, week 7')}${ok('New Orleans · Madden 27', 'your franchise, linked: one universe')}${ok('MyDynasty', 'faces, real drafts')}${ok('Zip’s All in One', 'the Booster Club and the mod’s economy')}</div>
 </div>`;
-  const AD = `<div class="snip" style="left:24px;top:40px;transform:rotate(-4deg)"><span class="lbl">Sponsors</span>${crop('img/office-market.jpg', 20, 270, 545, 340, 380)}</div>
-    <div class="snip" style="left:40px;top:430px;transform:rotate(3deg)"><span class="lbl">Booster Club</span>${crop('img/office-club.jpg', 20, 690, 545, 140, 380)}</div>
-    <div class="snip" style="right:24px;top:110px;transform:rotate(4deg)"><span class="lbl">Payroll</span>${crop('img/office-call.jpg', 20, 528, 545, 345, 380)}</div>
-    <div class="snip" style="right:40px;top:480px;transform:rotate(-3deg)"><span class="lbl">Your staff</span>${crop('img/office-staff.jpg', 20, 600, 545, 290, 380)}</div>`;
+  const AD = `<div class="snip" style="left:24px;top:40px;transform:rotate(-4deg)"><span class="lbl">Sponsorships</span>${crop('img/office-market.jpg', 30, 415, 525, 200, 380)}</div>
+    <div class="snip" style="left:40px;top:430px;transform:rotate(3deg)"><span class="lbl">Boosters</span>${crop('img/office-club.jpg', 30, 390, 525, 190, 380)}</div>
+    <div class="snip" style="right:24px;top:110px;transform:rotate(4deg)"><span class="lbl">Game day</span>${crop('img/office-gameday.jpg', 30, 345, 525, 300, 380)}</div>
+    <div class="snip" style="right:40px;top:480px;transform:rotate(-3deg)"><span class="lbl">Your staff</span>${crop('img/office-staff.jpg', 30, 645, 525, 300, 380)}</div>`;
   const CARDS = [
     { kick: 'In your pocket', h: 'Your dynasty.<br><em>In your pocket.</em>', p: '12:13 on a Tuesday. Set the recruiting board, answer the AD’s calls, read what your league is saying. Tonight, it’s all in your save.', screen: LOCK },
     { kick: 'Set up in minutes', h: 'Three steps.<br><em>That’s it.</em>', p: 'Connect your free ChatGPT and scan a code with your phone. S2S finds the rest: your dynasty, your franchise, MyDynasty, Zip’s economy.', screen: SETUP },
     { kick: 'The paper', h: 'Your league.<br><em>A paper</em> every week.', p: 'Play a week. S2S reads your save and writes the issue: the column, the scores, the polls, your team.', img: ['../../docs/site/img/cfb-front.jpg'] },
     { kick: 'One universe', h: 'Saturday’s recruit.<br><em>Sunday’s</em> rookie.', p: 'Add your dynasty and your franchise. They link up, and your players follow you to the NFL.', img: ['../../docs/site/img/cfb-draft.jpg', '../../docs/site/img/nfl-front.jpg'], tag: 'Saturday · Sunday' },
-    { kick: 'AD mode', beta: true, h: 'Run the<br><em>whole</em> program.', p: 'Sign the sponsors, work the Booster Club, pay your players, back your staff, price game day. A few calls after each game.', img: ['img/office.jpg'], around: AD, cls: 'ad' },
-    { kick: 'Into your save', beta: true, h: 'Send it<br><em>into</em> the game.', p: 'One Send writes your week into your dynasty file: a backup first, every change read back. Load up, and it’s there.', img: ['img/office-call.jpg', 'img/office-program.jpg'] },
+    { kick: 'AD mode', beta: true, h: 'Run the<br><em>business</em> side.', p: 'Sell the sponsorships, sit down and shake on it, price game day, answer the press. Four stops a week, on your phone.', img: ['img/office.jpg'], around: AD, cls: 'ad' },
+    { kick: 'Into your save', beta: true, h: 'Send it<br><em>into</em> the game.', p: 'Send says what goes into your dynasty file before you tap it. A backup first, every change read back. Most weeks, nothing is written.', img: ['img/office-call.jpg', 'img/office-program.jpg'] },
     { kick: 'The point', h: 'All while<br>doom-scrolling<br><em>on your lunch break.</em>', p: '', fan: ['../../docs/site/img/cfb-front.jpg', 'img/office.jpg', 'img/office-call.jpg'], cls: 'close',
       fine: '*S2S runs on your gaming PC, so leave it on. Your phone reaches it from anywhere with Tailscale (free). Recruiting in a meeting is between you and your boss.' },
     { kick: 'Coming soon', h: 'What’s<br><em>next.</em>', p: '', soon: [
