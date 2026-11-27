@@ -889,9 +889,9 @@ main { max-width: 42rem; }
    crushed under the status-bar strip above the pinned masthead. Now it holds one fixed height at the top and the masthead
    pins right under it, so the scores are whole or not there (week 0, the offseason). A wide screen is as it was. */
 @media (max-width: 61.99rem) {
-  :root { --tick-h: 2.5rem; }
+  :root { --tick-h: 3rem; } /* (2.5rem first: with team logos the two rows touched each other and the edges) */
   .ticker { position: sticky; top: 0; z-index: 31; box-sizing: border-box; height: calc(var(--safe-top) + var(--tick-h)); }
-  .ticker .tick { padding-top: 0; padding-bottom: 0; gap: 0; line-height: 1.15; }
+  .ticker .tick { padding-top: 0; padding-bottom: 0; gap: .22rem; line-height: 1.15; }
   .ticker + .chrome { top: calc(var(--safe-top) + var(--tick-h)); }
 }
 .masthead { position: static; }

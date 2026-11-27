@@ -3,6 +3,11 @@
 What changed in each version, newest first. The app shows this in
 **Settings ▸ Update log**.
 
+## 2.1.1 — Discover's pictures, and the ticker
+
+- **Discover's stories have pictures.** A signing shows the company's logo. Your program's other stories show your school's logo. The Paper's Business stories from around the league wear the Paper's own story art. Nothing is generated for them: it is art S2S already has.
+- **The score ticker has more room on a phone.** 2.1.0 pinned it and made it slimmer; with team logos the two rows touched. It is a little taller now, with space between the rows.
+
 ## 2.1.0 — The AD mode beta
 
 - **AD mode, built fresh (beta).** You run the business side of your program from your phone: you spend what you raised last year, and you raise next year's. The coaching stays in the game. It opens from **Office** in a beta download, once S2S has read a college week. College only.
