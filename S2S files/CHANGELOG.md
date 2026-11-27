@@ -18,6 +18,7 @@ What changed in each version, newest first. The app shows this in
 - **The year.** Bowl weeks, the Recap that grades your year, and the Winter Meetings: the conference's votes, the TV deal, your hires, a job at another school.
 - **The new bar.** The bottom bar is a small floating strip, with **Learn more** on a line under it (Money, the Arc, Your staff, Your storyline, How it works). The NFL side of a linked pair wears the same bar, with **Up to date** at the top.
 - **The paper's top headline isn't a question every week.** The weekly column's headline is a question about one week in three and the plain news line the rest.
+- **The score ticker stays whole on a phone.** It is slimmer and stays at the top with the masthead, so a short scroll no longer leaves a sliver of it under the phone's clock.
 - **Built for the phone.** The office's screens are laid out for a phone first.
 - **The guides are rewritten** for this AD mode: the README, the FAQ, START HERE, the website, the tour cards and BETA-TESTERS.md.
 - **Known gaps in the beta:** Discover is written from templates and repeats over a season; about a third of the companies have no logo; Meet on the Coach screen is a card marked beta; the other schools' athletic directors don't run budgets of their own yet.

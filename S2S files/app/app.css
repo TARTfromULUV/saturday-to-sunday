@@ -884,6 +884,16 @@ main { max-width: 42rem; }
    over that padding, so the pinned strip reads as one piece with the notch. */
 /* (the strip pins at the safe-area edge; the status-bar scrim covers above it) */
 #root > .chrome:first-child:has(.ticker) { margin-top: 0; }
+/* [madden] ON A PHONE THE TICKER PINS TOO, AND IT IS SLIMMER (the owner, November 27: «the score ticker is getting squished now
+   by the top of screen ... tighten the mobile experience»). It used to scroll away, and a short scroll left a sliver of it
+   crushed under the status-bar strip above the pinned masthead. Now it holds one fixed height at the top and the masthead
+   pins right under it, so the scores are whole or not there (week 0, the offseason). A wide screen is as it was. */
+@media (max-width: 61.99rem) {
+  :root { --tick-h: 2.5rem; }
+  .ticker { position: sticky; top: 0; z-index: 31; box-sizing: border-box; height: calc(var(--safe-top) + var(--tick-h)); }
+  .ticker .tick { padding-top: 0; padding-bottom: 0; gap: 0; line-height: 1.15; }
+  .ticker + .chrome { top: calc(var(--safe-top) + var(--tick-h)); }
+}
 .masthead { position: static; }
 
 @media (min-width: 62rem) {
@@ -5859,6 +5869,10 @@ button.mk-slot { cursor: pointer; }
 .sgame.lr.pre .sgame-row:not(.won) .sgame-team { color: var(--shell-ink); font-weight: 700; }
 /* [madden] Find a player */
 .mast-find { flex: none; }
+/* [madden] Search sits at the right end of the bar, after the week and the Up to date light (the owner, November 27: «just don't
+   like the search icon sitting in the middle of the bar»); Settings stays last on a wide screen. */
+.masthead .mast-find { order: 5; margin-left: .1rem; }
+.masthead .mast-gear { order: 6; }
 .mast-find.on { color: #fff; background: rgba(255,255,255,.14); border-radius: 50%; }
 .fnd-box { display: flex; align-items: center; gap: .5rem; padding: 0 .8rem; min-height: 48px; border-radius: 12px; background: var(--shell-card); border: 1px solid var(--shell-rule); margin-bottom: .9rem; }
 .fnd-box svg { width: 20px; height: 20px; flex: none; color: var(--shell-faint); }
@@ -6696,8 +6710,8 @@ html[data-bare] main.bare { background: transparent; }
   .masthead .mark-s2s img { width: 1.3rem; height: 1.3rem; }
   .masthead .mark-league { font-size: .6rem; letter-spacing: .08em; line-height: 1; text-align: justify; text-align-last: justify; white-space: nowrap; }
   .masthead .mark-sub { display: none; }
-  .masthead .mast-find { margin-left: auto; }
-  .masthead .mast-when { flex: 0 0 33%; max-width: 33%; margin-left: 0; white-space: normal; justify-items: end; text-align: right; letter-spacing: .06em; }
+  .masthead .mast-find { margin-left: 0; } /* (search is last now: the week takes the push to the right) */
+  .masthead .mast-when { flex: 0 0 33%; max-width: 33%; margin-left: auto; white-space: normal; justify-items: end; text-align: right; letter-spacing: .06em; }
   .masthead .mast-when b { font-size: .7rem; line-height: 1.1; white-space: normal; overflow: visible; text-overflow: clip; }
   .masthead .mast-when .mw-s { display: inline; }
   .masthead .mast-when .mw-t { display: none; }
