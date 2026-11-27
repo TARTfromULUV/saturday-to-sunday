@@ -41,7 +41,7 @@ Leave the S2S window open while you play. Closing it stops the app.
 2. **Start AD mode.** Tap **Office** in the bottom bar. It opens once S2S has read a college week. Three short cards explain it, then **Start AD mode**. AD mode is college only.
 3. **A week as the AD.** Follow the pulsing app: Marketplace, Game Day, Coach, Send. Then play your game and advance. The next week opens when the save moves on.
 4. **Sell something.** Your first deal takes a few weeks: reach out, call twice a week, sit down at 80. The two brands marked as the owner's own start well up the bar, if you want a quick one.
-5. **Look around.** Discover, and **Learn more** under the bar: Money, the Arc, Your staff, Your storyline, and How it works.
+5. **Look around.** Discover, and **Learn more** above the bar in the office: Money, the Arc, Your staff, Your storyline, and How it works.
 6. **Your phone.** Do a whole week from the couch.
 
 ## What AD mode writes into your save, and how to undo it

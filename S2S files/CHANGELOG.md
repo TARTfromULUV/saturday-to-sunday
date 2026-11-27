@@ -3,6 +3,12 @@
 What changed in each version, newest first. The app shows this in
 **Settings ▸ Update log**.
 
+## 2.1.2 — The phone's top and bottom
+
+- **The top of the paper sits a little lower in the installed app.** A phone fades the first strip of the screen under its clock, and the score ticker's first row sat in that fade. The ticker and the masthead under it now start a little lower.
+- **The paper's bottom bar sits lower,** just above the phone's home bar.
+- **Learn more is AD mode's.** It sits above AD mode's bar, and it is no longer on the paper's.
+
 ## 2.1.1 — Discover's pictures, and the ticker
 
 - **Discover's stories have pictures.** A signing shows the company's logo. Your program's other stories show your school's logo. The Paper's Business stories from around the league wear the Paper's own story art. Nothing is generated for them: it is art S2S already has.
