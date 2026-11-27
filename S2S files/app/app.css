@@ -7876,12 +7876,14 @@ html[data-bare] main.bare:has(.s5) { max-width: none; width: 100%; margin: 0; pa
 :root[data-dock]:has(.bar2-nfl) { --nav-h: 5.4rem; }
 /* [madden] THE PAPER'S BAR SITS LOWER (the owner, November 27): Learn more is no longer under it, so the tray rests just above
    the phone's home bar. */
-.tabbar.dock.bar2:not(.ap-navbar) { padding-bottom: calc(var(--safe-bottom) + 6px); }
+/* (the owner, November 27, on 2.1.2 with a screenshot: «see the gap at bottom with bottom bar? Can bring down a smudge and same w
+   top bar. Very small smudge»: the tray 8px lower, the top 6px lower) */
+.tabbar.dock.bar2:not(.ap-navbar) { padding-bottom: max(8px, calc(var(--safe-bottom) - 2px)); }
 /* [madden] THE TOP, A SMIDGE LOWER, in the installed app on a phone (the owner, November 27, with a screenshot: «Bring the espn
    S2s banner down a smidge and the score ticker too»). The phone fades the first strip of the page under its clock, and the
    ticker's first row sat in that fade. Everything that starts at the safe area (the ticker, the masthead, the status-bar
-   strip) starts 14px lower. A browser tab has no such strip and is as it was. */
-@media (max-width: 61.99rem) and (display-mode: standalone) { :root { --safe-top: calc(env(safe-area-inset-top, 0px) + 14px); } }
+   strip) starts 20px lower (14px first). A browser tab has no such strip and is as it was. */
+@media (max-width: 61.99rem) and (display-mode: standalone) { :root { --safe-top: calc(env(safe-area-inset-top, 0px) + 20px); } }
 .tabbar.dock.bar2.bar2-nfl { padding-bottom: calc(var(--safe-bottom) + 8px); }
 .up-pill { position: relative; display: inline-flex; align-items: center; gap: 6px; min-height: 32px; padding: 0 10px 0 9px; border-radius: 999px; border: 1px solid color-mix(in srgb, currentColor 22%, transparent); background: none; color: inherit; font: 600 .72rem/1 var(--ui); white-space: nowrap; cursor: pointer; overflow: hidden; }
 .up-pill > i { width: 8px; height: 8px; border-radius: 50%; background: #30d158; box-shadow: 0 0 0 3px rgba(48,209,88,.2); flex: none; }

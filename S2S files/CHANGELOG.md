@@ -3,6 +3,12 @@
 What changed in each version, newest first. The app shows this in
 **Settings ▸ Update log**.
 
+## 2.1.3 — A smidge lower
+
+- **In the installed app on a phone, the top of the paper and its bottom bar each sit a few pixels lower.**
+- **The Paper tile stays lit on every page of the paper,** not only the front page. Your team's tile lights on your team's page, and Wire on the NFL side's Wire.
+- **A player's card says which recruiting class he was in,** beside his stars: "Recruit, 2027 class". For a class S2S read it is that class's year; for an older one it is worked out from his year in school.
+
 ## 2.1.2 — The phone's top and bottom
 
 - **The top of the paper sits a little lower in the installed app.** A phone fades the first strip of the screen under its clock, and the score ticker's first row sat in that fade. The ticker and the masthead under it now start a little lower.
