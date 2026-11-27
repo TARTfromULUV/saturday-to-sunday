@@ -1,7 +1,7 @@
 # The weekly column
 
 **This piece's fingerprint** (the writers' audit: every kind of piece reads
-differently from its neighbours). Form: a staff panel: questions, each answered and signed by one writer, then the ranking. It is not a recap; the game stories and the scores page tell what happened. Length: long, 700 to 950 words, never past 1,000. Opens: one moment from the week, or the question the whole column turns on, in two or three sentences. Headline: a question, or a name and a verb, about the lead game. Where anything below disagrees, this wins.
+differently from its neighbours). Form: a staff panel: questions, each answered and signed by one writer, then the ranking. It is not a recap; the game stories and the scores page tell what happened. Length: long, 700 to 950 words, never past 1,000. Opens: one moment from the week, or the question the whole column turns on, in two or three sentences. Headline: about the lead game, in the shape `headlineShape` names: a name and a verb, or (only when it says `question`) a question. Where anything below disagrees, this wins.
 
 This is the flagship, and it is a **panel**. The site's writers each take one
 question about the week and answer it in their own voice, and the piece is the
@@ -24,6 +24,12 @@ score, so a headline about any other game puts two stories in one frame.
 Name one of the lead game's two teams in the headline, open on a moment from
 that game, and make it the first question. The week's other results get their
 questions below it; they never take the headline.
+
+`headlineShape` sets the headline's shape, so the front page does not ask a
+question every week. `news`: the plain news line, a name and a verb, what
+happened or what it means ("Oregon’s Offense Rolls Past Utah"). It does not
+end in a question mark. `question`: the question the column turns on. With no
+`headlineShape`, write the plain news line.
 
 ## The open
 

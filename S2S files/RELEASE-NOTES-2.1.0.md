@@ -11,8 +11,13 @@ The AD mode beta: a few friends get a new AD mode, built fresh. You run your sch
   * **Coach.** The paper's writers ask you questions. What you say shows up in the next issue.
   * **Send.** Closes the week.
 * **Your staff.** Theo, your account manager, gives the advice, and he is sometimes wrong. Your market analyst and your game day director give none: they set how tight a number is. You hire them at the Winter Meetings.
-* **Discover.** What fans, your partners, other schools and the paper's writers are saying about your program this week. Every line comes from your save and from what you did.
+* **Discover.** What fans, your partners, other schools and the paper's writers are saying about your program this week. Every line comes from your save and from what you did. Its Business tab also carries the Paper's Business stories from around the league.
+* **The Marketplace stays open to look at** in the preseason and once raising is locked: See the Marketplace, on the office's home.
 * **The new bar.** The bottom bar is a small floating strip, with **Learn more** under it: Money, the Arc, Your staff, Your storyline and How it works.
+
+## New for everyone
+
+* **The paper's top headline isn't a question every week.** About one week in three it asks; the rest it says what happened.
 
 ## What Send writes into your save
 
