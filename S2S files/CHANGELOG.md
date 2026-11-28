@@ -3,6 +3,16 @@
 What changed in each version, newest first. The app shows this in
 **Settings ▸ Update log**.
 
+## 2.1.5 — Discover's numbers
+
+- **The numbers, in Discover.** Five cards to swipe across, under the mood; tap one and it opens with its chart. Every figure is one AD mode already keeps.
+  - **The raise:** what you have raised week by week, against the pace the board wants.
+  - **Game day:** a bar a home game, the gate with its fan score.
+  - **Your partners:** every partner's bar, the lowest first, with this week's move.
+  - **Where it comes from:** the raise by source: sponsorships, the ad boards, game day, the postseason, the conference.
+  - **You and the field:** your conference's TV money a school against every other conference's, and how many of your sponsorships are sold.
+- **This week, in a line.** A row of updates above the cards: what you raised this week, how the fan score moved, a partner who moved, and what is still open.
+
 ## 2.1.4 — Discover is its own thing
 
 - **Discover is one feed, and it is about you.** The Paper says what happened; Discover is how people feel about what you did. The News, Business and wire tabs are gone. It is posts: fans, your partners, other schools and your board.
