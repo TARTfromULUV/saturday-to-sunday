@@ -3,6 +3,12 @@
 What changed in each version, newest first. The app shows this in
 **Settings ▸ Update log**.
 
+## 2.1.6 — The office in a week with nothing to do
+
+- **The office's home in the postseason and the offseason is laid out as the office.** It said "Raising is locked" twice and ended in two plain buttons. Now it is the year so far in one card, four places to look as a row of apps (Marketplace, Money, Discover, Your staff), the mood, then what is new: the Winter Meetings, the Recap, the news and your storyline.
+- **Money has a third tab: The numbers.** The five charts and the week's line of updates that 2.1.5 put in Discover live here now, every chart open, one under the other: the raise against the board's pace, game day, your partners, where the money comes from, and you and the field.
+- **Discover is the stories and the people.** The Paper's newest stories run through the feed as posts: the writer who filed it, the story's own art, its headline, and the top reader comment the Paper prints under it. It is the same story, drawn as a post; a tap opens it in the Paper. The fans, your partners, other schools and the board post between them, and the mood stays at the top.
+
 ## 2.1.5 — Discover's numbers
 
 - **The numbers, in Discover.** Five cards to swipe across, under the mood; tap one and it opens with its chart. Every figure is one AD mode already keeps.
