@@ -3,6 +3,10 @@
 What changed in each version, newest first. The app shows this in
 **Settings ▸ Update log**.
 
+## 2.1.7 — Connect ChatGPT, again
+
+- **Fixed: closing ChatGPT's sign-in window left Connect stuck.** S2S kept waiting on the window you had closed, for up to ten minutes, and Connect did nothing new. Now Connect ends the sign-in that is waiting and opens the window again, and the waiting message has its own "Closed that window? Open it again".
+
 ## 2.1.6 — The office in a week with nothing to do
 
 - **The office's home in the postseason and the offseason is laid out as the office.** It said "Raising is locked" twice and ended in two plain buttons. Now it is the year so far in one card, four places to look as a row of apps (Marketplace, Money, Discover, Your staff), the mood, then what is new: the Winter Meetings, the Recap, the news and your storyline.

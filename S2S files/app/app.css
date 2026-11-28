@@ -7899,3 +7899,6 @@ html[data-bare] main.bare:has(.s5) { max-width: none; width: 100%; margin: 0; pa
 .masthead .up-pill.g-up > span { display: none; } /* (nothing new: the light alone, like a notification; a tap still opens Up to date) */
 /* (a wide screen has no dock: the masthead's own button is there) */
 @media (min-width: 62rem) { .masthead .up-pill { display: none; } }
+
+/* [madden] "Closed that window? Open it again", in the sign-in's waiting line (app.js cxWaitHtml): a button that reads as a link. */
+.linkbtn { display: inline; padding: 0; background: none; border: 0; font: inherit; color: inherit; text-decoration: underline; cursor: pointer; }
