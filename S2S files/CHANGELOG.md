@@ -3,6 +3,14 @@
 What changed in each version, newest first. The app shows this in
 **Settings ▸ Update log**.
 
+## 2.1.4 — Discover is its own thing
+
+- **Discover is one feed, and it is about you.** The Paper says what happened; Discover is how people feel about what you did. The News, Business and wire tabs are gone. It is posts: fans, your partners, other schools and your board.
+- **The mood, at the top.** Fans, your partners and the board, each with a word and an arrow for this week, from numbers AD mode already keeps: the last home game's fan score, your partners' bars, and where you are against the board's goal.
+- **More of your choices get a reaction.** Parking, food prices, the crews, a promotion, and what you told the press now draw posts, as the ticket price and a signing already did. A partner you have let slide says so.
+- **A story is a share.** One of your stories is in the feed when somebody passes it on, and the Paper's Business stories from around the league are posted by the Paper; a tap opens the story there.
+- **A player's card reads his stars** whether the save gives them as a word or a plain number.
+
 ## 2.1.3 — A smidge lower
 
 - **In the installed app on a phone, the top of the paper and its bottom bar each sit a few pixels lower.**
